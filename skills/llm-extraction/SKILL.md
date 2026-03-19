@@ -37,3 +37,7 @@ Do not hard-code paper understanding in parsing scripts. Use scripts only to pre
 
 - Read `references/profiles.md` to pick the correct extraction level.
 - Read `references/output_contracts.md` to keep field behavior consistent.
+- Read the benchmark prompt template that matches the task:
+  - `references/prompt_nature.md`
+  - `references/prompt_science.md`
+  - `references/prompt_est_tfa.md`
