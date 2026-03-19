@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "S0097807818050202?error=cookies_not_supported&code=2a187b3c-9b3f-4ed6-ae49-b12e2aa1dfc9",
+      "paper_title": "Carcinogenic Risk Assessment of Trihalomethanes in Major Drinking Water Sources of Baghdad City",
+      "doi": "10.1134/s0097807818050202",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Resolved via direct HTTP HTML fetch. Extraction fallback because: Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_50c48scu/response.txt', '-']' timed out after 90 seconds"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1134_s0097807818050202.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

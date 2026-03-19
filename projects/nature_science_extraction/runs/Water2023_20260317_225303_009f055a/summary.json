@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-50532007000400012&lng=en&nrm=iso&tlng=en",
+      "paper_title": "Determination of Trihalomethanes in Drinking Water from Three Different Water Sources in Florianopolis–Brazil using Purge and Trap and Gas Chromatography",
+      "doi": "10.1590/s0103-50532007000400012",
+      "journal": "J Braz Chem Soc",
+      "year": 2007,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "提供的已解析网页文本仅为安全验证/反爬拦截页面（提示“Please enable JavaScript to continue”），未包含论文正文、表格或补充材料内容，因此无法提取任何饮用水THM监测浓度数据或相关采样元数据。",
+      "notes": "Resolved source type=web_html；page_title=“Establishing a secure connection ...”。当前源文本只有安全服务检查提示与Request ID，不包含可用于抽取的THM浓度（均值/中位数/范围/最小最大/样本量等）或采样时间地点信息。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1590_s0103-50532007000400012.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

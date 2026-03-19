@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_204426_cba89bb8",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T20:44:30",
+  "items": [
+    {
+      "row_id": "DOI0407",
+      "record_id": "REF0419",
+      "source_block": "Water2023",
+      "doi": "10.4236/jwarp.2018.106032",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.scirp.org/journal/paperinformation?paperid=85602",
+      "manual_intervention": false,
+      "status": "failed",
+      "failure_reason": "Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_iyuk5kcp/response.txt', '-']' timed out after 90 seconds",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.4236_jwarp.2018.106032.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "doi:https://doi.org/10.4236/jwarp.2018.106032"
+      ],
+      "notes": "Resolved via DOI landing page."
+    }
+  ]
+}

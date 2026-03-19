@@ -1,0 +1,32 @@
+{
+  "run_id": "Water2023_20260317_231844_deffd89c",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:18:48",
+  "items": [
+    {
+      "row_id": "DOI0479",
+      "record_id": "REF0498",
+      "source_block": "Water2023",
+      "doi": "10.1157/13046571",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0479. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=10.1157%2F13046571",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1157_13046571.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:http://db.doyma.es/cgi-bin/wdbcgi.exe/doyma/mrevista.fulltext?pident=13046571",
+        "seed_url_error_attempt_1:Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://db.doyma.es/cgi-bin/wdbcgi.exe/doyma/mrevista.fulltext?pident=13046571 Call log: - navigating to \"http://db.doyma.es/cgi-bin/wdbcgi.exe/doyma/mrevista.fulltext?pident=13046571\", waiting until \"domcontentloaded\"",
+        "seed_url_fallback:Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://db.doyma.es/cgi-bin/wdbcgi.exe/doyma/mrevista.fulltext?pident=13046571 Call log: - navigating to \"http://db.doyma.es/cgi-bin/wdbcgi.exe/doyma/mrevista.fulltext?pident=13046571\", waiting until \"domcontentloaded\"",
+        "doi:https://doi.org/10.1157/13046571",
+        "doi_error_attempt_1:Page.goto: Navigation to \"https://doi.org/10.1157/13046571\" is interrupted by another navigation to \"chrome-error://chromewebdata/\" Call log: - navigating to \"https://doi.org/10.1157/13046571\", waiting until \"domcontentloaded\"",
+        "doi_fallback:Page.goto: Navigation to \"https://doi.org/10.1157/13046571\" is interrupted by another navigation to \"chrome-error://chromewebdata/\" Call log: - navigating to \"https://doi.org/10.1157/13046571\", waiting until \"domcontentloaded\"",
+        "scholar:https://scholar.google.com/scholar?q=10.1157%2F13046571",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

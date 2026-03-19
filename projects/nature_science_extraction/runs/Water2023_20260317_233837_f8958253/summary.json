@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Decree 42-05 Establishes the Regulation of Water for Human Consumption, State Secretariat of Public Health and Social Assistance (SESPAS) 2005.] \"Decreto 42-05 Establece el Reglamento de Aguas Consumo Humano, Secretaría de Estado de Salud Pública y Asistencia Social (SESPAS) 2005\"",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0710. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BDecree+42-05+Establishes+the+Regulation+of+Water+for+Human+Consumption%2C+State+Secretariat+of+Public+Health+and+Social+Assistance+%28SESPAS%29+2005.%5D+%22Decreto+42-05+Establece+el+Reglamento+de+Aguas+Consumo+Humano%2C+Secretar%C3%ADa+de+Estado+de+Salud+P%C3%BAblica+y+Asistencia+Social+%28SESPAS%29+2005%22"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0555.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

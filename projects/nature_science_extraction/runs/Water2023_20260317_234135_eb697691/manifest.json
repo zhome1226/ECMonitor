@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234135_eb697691",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:41:38",
+  "items": [
+    {
+      "row_id": "DOI0742",
+      "record_id": "REF0591",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0742. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BNC+827%3A2017+Drinking+water+-+Sanitation+requirements%5D+%22NC+827%3A2017+Agua+potable+%E2%80%95+Requisitos+sanitarios%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0591.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BNC+827%3A2017+Drinking+water+-+Sanitation+requirements%5D+%22NC+827%3A2017+Agua+potable+%E2%80%95+Requisitos+sanitarios%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

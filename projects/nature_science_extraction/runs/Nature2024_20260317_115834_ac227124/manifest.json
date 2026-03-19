@@ -1,0 +1,39 @@
+{
+  "run_id": "Nature2024_20260317_115834_ac227124",
+  "source_block": "Nature2024",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T11:58:34",
+  "items": [
+    {
+      "row_id": "DOI0003",
+      "record_id": "REF0118",
+      "source_block": "Nature2024",
+      "doi": "10.1016/j.chemosphere.2008.05.034",
+      "selected_source_type": "local_pdf_excerpt",
+      "selected_source_path_or_url": "/mnt/d/paper_data/pdf/Nature/10.1016_j.chemosphere.2008.05.034__10.1016_j.chemosphere.2008.05.034.pdf",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.chemosphere.2008.05.034.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1016_j.chemosphere.2008.05.034__10.1016_j.chemosphere.2008.05.034.pdf",
+          "pages": 1,
+          "size_bytes": 166430,
+          "text_excerpt": "Chemosphere 72 (2008) 1409–1412 Contents lists available at ScienceDirect Chemosphere journal homepage: www.elsevier.com/locate/chemosphere Perﬂuorooctanesulfonate and perﬂuorooctanoate in raw and treated tap water from Osaka, Japan Sokichi Takagi a,*, Fumie Adachi a, Keiichi Miyano a, Yoshihiko Koizumi a, Hidetsugu Tanaka a, Mayumi Mimura a, Isao Watanabe a, Shinsuke Tanabe b, Kurunthachalam Kannan c a Osaka Prefectural Institute of Public Health, 1-3-69 Nakamichi, Higashinari-ku, Osaka 537-0025, Japan b Center for Marine Environmental Studies (CMES), Ehime University, Bunkyo-cho 2-5, Matsuyama 790-8577, Japan c Wadsworth Center, New York State Department of Health and Department of Environmental Health Sciences, State University of New York at Albany, D547 Empire State Plaza, P.O. Box 509, Albany, NY 12201-0509, USA a r t i c l e i n f o a b s t r a c t Article history: Perﬂuorooctanesulfonate (PFOS) and perﬂuorooctanoate (PFOA) have been recognized as emerging envi- Received 13 May 2008 ronmental pollutants because of their ubiquitous occurrence in the environment, biota, and humans. Accepted 16 May 2008 PFOS and PFOA have been detected in water in Japan. Nevertheless, occurrence of PFOS and PFOA in pota- Available online 7 July 2008 ble water from municipal water treatment plants is not clearly known. We analyzed PFOS and PFOA in raw and tap water samples collected from 14 drinking water treatment plants in winter and summer sea- Keywords: sons in Osaka to determine the concentrations of PFOS and PFOA in raw and potable tap water samples. PFOS PFOS and PFOA were detected in all raw water samples. Concentration ranges of PFOS and PFOA in raw PFOA Drinking water water were 0.26–22 ng/l and 5.2–92 ng/l, respectively. Whereas the concentrations PFOS in raw water Exposure from Osaka were similar to those in other areas in Japan, the concentrations of PFOA were higher than Perﬂuorinated acids in other areas. Concentration ranges of PFOS and PFOA in potable tap water were 0.16–22 ng/l and 2.3–84 ng/l, respectively. There were positive correlations between PFC concentrations in raw water and tap water samples. Therefore, the removal efﬁciency of PFCs by the present water treatment may be low. Based on the current action value reported by U.S. Environmental Protection Agency, PFOA con- centrations found in tap water in Osaka is not expected to pose health risks. Ó 2008 Elsevier Ltd. All rights reserved. 1. Introduction animal feeding studies, a no observed adverse effect level (NOAEL) of PFOS was estimated to be 0.1 mg/kg/day and the lowest Perﬂuorinated compounds (PFCs) such as perﬂuorooctanesulfo- observed adverse effect level (LOAEL) was estimated to be nate (PFOS) and perﬂuorooctanoate (PFOA) are halogenated hydro- 0.4 mg/kg/day (USEPA, 2000). The US EPA’s Science Advisory Board carbons, used in various consumer and industrial products. PFCs suggested that PFOA is a possible human carcinogen. However, a are used as surface protectors in carpets, leather, paper, packaging, ﬁnal risk assessment by the US EPA is not completed yet. fabrics, and upholstery and as surfactants in aqueous ﬁlm-forming Studies have reported widespread distribution of PFOS and foams (AFFF), acid mist suppressants, alkaline cleaners, ﬂoor polishes, PFOA in surface waters in Japan (Saito et al., 2003, 2004; Taniyasu photographic ﬁlm, denture cleaners, shampoos, etc. (USEPA, 2000; et al., 2003; Senthilkumar et al., 2007). In particular, PFOA concen- Giesy and Kannan, 2001, 2002). The total global production of PFCs trations in river water in the Kinki region (Osaka and its vicinity) is unknown. In 2000, the US production of PFOS – related com- were higher than the concentrations in other regions in Japan (Sai- pounds was approximately 6.5 million pounds (USEPA, 2000). to et al., 2004). In addition, PFOA concentrations in the serum of PFOS and PFOA are stable in the environment because of their humans living in the Kinki region were higher than the concentra- resistance to hydrolysis, photolysis, microbial degradation, and tions in other regions in Japan (Harada et al., 2007). The reasons for metabolism by vertebrates due to the strength of the carbon- the high concentrations of PFOA in people in the Kinki region are ﬂuorine bond (Giesy and Kannan, 2002). PFOS and PFOA have been unknown. Nevertheless, there is a great concern that the humans found in wildlife and human blood (Hansen et al., 2001; Giesy and in the Kinki region may be exposed to high levels of PFOA via Kannan, 2001; Kannan et al., 2001, 2002, 2004). PFOS has drinking water. Because PFOS and PFOA are water soluble (several been shown to be toxic in laboratory animals. Based on laboratory hundreds to thousands of ppm range), conventional water puriﬁca- tion/treatment systems may not completely eliminate these * Corresponding author. Tel.: +81 6 6972 1321; fax: +81 6 6972 2393. compounds. Although there are a few studies on PFOS and PFOA E-mail address: sktakagi@iph.pref.osaka.jp (S. Takagi). in tap water in Japan, a comprehensive survey of potable waters 0045-6535/$ - see front matter Ó 2008 Elsevier Ltd. All rights reserved. doi:10.1016/j.chemosphere.2008.05.034",
+          "text_length": 5190,
+          "body_hint_count": 2,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "local_pdf_excerpt"
+      ],
+      "notes": "Recovered extractable text from incomplete local PDF: 10.1016_j.chemosphere.2008.05.034__10.1016_j.chemosphere.2008.05.034.pdf"
+    }
+  ]
+}

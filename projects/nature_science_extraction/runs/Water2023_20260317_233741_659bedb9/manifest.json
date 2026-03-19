@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233741_659bedb9",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:37:44",
+  "items": [
+    {
+      "row_id": "DOI0700",
+      "record_id": "REF0545",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0700. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BCollection+of+laws+no.+496%2F2010+which+amends+the+regulation+of+the+Government+of+the+Slovak+Republic+no.+354%2F2006+Coll.%2C+establishing+requirements+for+water+int%2BE108ended+for+human+consumption+and+quality+control+of+water+intended+for+human+consumption%5D+Zbierka+z%C3%A1konov+%C4%8D.+496%2F2010+ktor%C3%BDm+sa+men%C3%AD+a+dop%C4%BA%C5%88a+nariadenie+vl%C3%A1dy+Slovenskej+republiky+%C4%8D.+354%2F2006+Z.+z.%2C+ktor%C3%BDm+sa+ustanovuj%C3%BA+po%C5%BEiadavky+na+vodu+ur%C4%8Den%C3%BA+na+%C4%BEudsk%C3%BA+spotrebu+a+kontrolu+kvality+vody+ur%C4%8Denej+na+%C4%BEudsk%C3%BA+spotrebu",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0545.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BCollection+of+laws+no.+496%2F2010+which+amends+the+regulation+of+the+Government+of+the+Slovak+Republic+no.+354%2F2006+Coll.%2C+establishing+requirements+for+water+int%2BE108ended+for+human+consumption+and+quality+control+of+water+intended+for+human+consumption%5D+Zbierka+z%C3%A1konov+%C4%8D.+496%2F2010+ktor%C3%BDm+sa+men%C3%AD+a+dop%C4%BA%C5%88a+nariadenie+vl%C3%A1dy+Slovenskej+republiky+%C4%8D.+354%2F2006+Z.+z.%2C+ktor%C3%BDm+sa+ustanovuj%C3%BA+po%C5%BEiadavky+na+vodu+ur%C4%8Den%C3%BA+na+%C4%BEudsk%C3%BA+spotrebu+a+kontrolu+kvality+vody+ur%C4%8Denej+na+%C4%BEudsk%C3%BA+spotrebu",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

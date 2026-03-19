@@ -1,0 +1,170 @@
+source_reference_short,chemical_name,medium,subcategory,location,country_or_region,sampling_year_or_period,time_period_group,min_concentration,max_concentration,mean_concentration,median_concentration,concentration_unit,notes
+"Jordan and Frank, 1999",TFA,precipitation,Rain,Germany,Germany,1995-1996,pre_2010,10,410,110,,ng/L,
+"Zhai, 2015",TFA,precipitation,Snow,China (Beijing),China,2012,post_2010,214,350,282,,ng/L,
+"Wujcik, 1999",TFA,precipitation,Rain,"California, USA",USA,1996-1997,pre_2010,20.7,463,,63.9,ng/L,
+"Yeung, 2017",TFA,precipitation,Rain,Canada,Canada,"2012, 2014",post_2010,19,261,140,,ng/L,multiple years
+"Wujcik, 1999",TFA,precipitation,Rain,"Nevada, USA",USA,1996-1997,pre_2010,108,763,,136,ng/L,
+"Chen, 2018",TFA,precipitation,Rain,China (Fuxin),China,2016,post_2010,580,800,696.7,,ng/L,
+"Wujcik, 1999",TFA,precipitation,Fog,"California, USA",USA,1996-1997,pre_2010,86.6,1390,,,ng/L,
+"Chen, 2019",TFA,precipitation,Rain,China,China,2016,post_2010,8.8,1800,154.5,,ng/L,
+"Berg, 2000",TFA,precipitation,Rain and snow,Switzerland,Switzerland,1996-1997,pre_2010,<3,1550,151,,ng/L,reported as <3
+"Freeling, 2020",TFA,precipitation,All precipitation,Germany,Germany,2018-2019,post_2010,<25,38000,335**,210,ng/L,reported as <25
+"von Sydow, 2000",TFA,precipitation,Rain,Ireland,Ireland,1996,pre_2010,2,92,31.75,,ng/L,
+"Pike, 2021",TFA,precipitation,Rain,"USA (Ohio/Indiana, Wyoming)",USA,2019,post_2010,4,1200,284.29,,ng/L,
+"von Sydow, 2000",TFA,precipitation,Rain,Poland,Poland,1996,pre_2010,26,1100,318,,ng/L,
+"Bjornsdotter, 2022",TFA,precipitation,Wet & dry deposition,Sweden,Sweden,2018-2019,post_2010,18,300,104.5,,ng/L,
+"von Sydow, 2000",TFA,precipitation,Snow,Sweden,Sweden,1997,pre_2010,9,18,12,,ng/L,
+"von Sydow, 2000",TFA,precipitation,Snow,Canada,Canada,"1994, 1996",pre_2010,1,32,8.6,,ng/L,multiple years
+"von Sydow, 2000",TFA,precipitation,Snow,New Zealand,New Zealand,1995,pre_2010,2,2,2,,ng/L,
+"Scheurer, 2017",TFA,surface water,"rivers, streams",Germany (Neckar river),Germany,"2016, 2017",post_2010,1000,140000,,,ng/L,multiple years
+"von Sydow, 2000",TFA,precipitation,Snow,Antarctica,Antarctica,1995-1996,pre_2010,1,110,40,,ng/L,
+"Yeung, 2017",TFA,surface water,"rivers, streams",Canada,Canada,"2012, 2014",post_2010,<10,11,,,ng/L,reported as <10; multiple years
+"Cahill, 2001",TFA,precipitation,Rain,"California, USA",USA,1998,pre_2010,27,302,168.75,,ng/L,
+"Chen, 2018",TFA,surface water,"rivers, streams",China (Fuxin),China,2016,post_2010,670,35000,5737.6,,ng/L,
+"Rompp, 2001",TFA,precipitation,Fog,Germany,Germany,1998-1999,pre_2010,20,1900,230,,ng/L,
+"Bjornsdotter, 2019",TFA,surface water,"rivers, streams",Sweden,Sweden,"2017, 2018",post_2010,<34,14000,,610,ng/L,reported as <34; multiple years
+"Zhang, 2005",TFA,precipitation,Rain,China (Beijing),China,"2000, 2001",pre_2010,25,235,117.9,,ng/L,multiple years
+"Bjornsdotter, 2019",TFA,surface water,"rivers, streams",Sweden,Sweden,"2017, 2018",post_2010,<34,2700,,,ng/L,reported as <34; multiple years
+"Zhang, 2005",TFA,precipitation,Snow,China (Beijing),China,2001,pre_2010,148,169,158.5,,ng/L,
+"Janda, 2019",TFA,surface water,"rivers, streams",Germany,Germany,2019,post_2010,480,17000,480-1200,,ng/L,
+"Zhang, 2005",TFA,precipitation,Snow,China (Changchun),China,2001,pre_2010,98,98,98,,ng/L,
+"Xie, 2020",TFA,surface water,"rivers, streams",China,China,2016,post_2010,488,1151,863,,ng/L,
+"Scott, 2005",TFA,precipitation,Rain,Chile (urban),Chile,1999,pre_2010,6,87,14,,ng/L,
+"Bjornsdotter, 2022",TFA,surface water,"rivers, streams",Sweden,Sweden,2019,post_2010,<0.1,820,160.5,101,ng/L,reported as <0.1
+"Scott, 2005",TFA,precipitation,Rain,Chile (rural),Chile,1999,pre_2010,5,21,12,,ng/L,
+"Cahill, 2022",TFA,surface water,"rivers, streams","USA (California, Alaska)",USA,2021,post_2010,23.1,2790,,180,ng/L,
+"Scott, 2005",TFA,precipitation,Rain,Malawi,Malawi,1999,pre_2010,4,15,8.8,,ng/L,
+"Neuwald, 2021",TFA,surface water,"rivers, streams",Germany,Germany,2020,post_2010,300,6000,1913,1150,ng/L,
+"Scott, 2005",TFA,precipitation,Rain,Canada (west),Canada,1999,pre_2010,3,37,21,,ng/L,
+"Neuwald, 2021",TFA,surface water,"rivers, streams",Germany,Germany,2020,post_2010,400,12400,1938,850,ng/L,
+"Scott, 2005",TFA,precipitation,Rain,Canada (Ontario),Canada,1999,pre_2010,12,350,94,,ng/L,
+"Scott, 2005",TFA,precipitation,Rain,Canada (Quebec),Canada,1999,pre_2010,n.d.,54,34,,ng/L,reported as n.d.
+"Scott, 2006",TFA,precipitation,Rain,USA (North-East),USA,"1998, 1999",pre_2010,3,2400,,,ng/L,multiple years
+"Zhai, 2015",TFA,surface water,"lakes, ponds",China (Beijing),China,2012,post_2010,474,812,643,,ng/L,
+"Scott, 2006",TFA,precipitation,Rain,Canada (rural),Canada,2002,pre_2010,4,220,,,ng/L,
+"Bjornsdotter, 2019",TFA,surface water,"lakes, ponds",Sweden,Sweden,"2017, 2018",post_2010,<34,74,,,ng/L,reported as <34; multiple years
+"Scott, 2006",TFA,precipitation,Rain,Canada (urban),Canada,"2003, 2004",pre_2010,43,270,,,ng/L,multiple years
+"Xie, 2020",TFA,surface water,"lakes, ponds",China,China,2016,post_2010,2571,2805,2688,,ng/L,
+"Taniyasu, 2008",TFA,precipitation,Rain,Japan,Japan,2007,pre_2010,39.3,75.9,61.05,,ng/L,
+"Bjornsdotter, 2022",TFA,surface water,"lakes, ponds",Sweden,Sweden,2019,post_2010,31,44,34,,ng/L,
+"Wang, 2014",TFA,precipitation,Rain,China (southern),China,2007-2008,pre_2010,45.8,974,152,166,ng/L,
+"Pickard, 2020",TFA,ice,,Canada (Devon Ice Cap),Canada,2014-2010,post_2010,40.3,128.69,77.704,,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,"rivers, streams",Germany,Germany,1995-1996,pre_2010,60,280,140,,ng/L,
+"Pickard, 2020",TFA,ice,,Canada (Mt. Oxford Icefield),Canada,2016-2010,post_2010,29,148,90.6,,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,"rivers, streams",Finland,Finland,1995-1996,pre_2010,210,210,210,,ng/L,
+"Pickard, 2020",TFA,ice,,Canada (Devon Ice Cap),Canada,1977-2009,post_2010,4.24,103.75,24.55,,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,"rivers, streams","Siberia, Russia",Russia,1995-1996,pre_2010,40,40,40,,ng/L,
+"Pickard, 2020",TFA,ice,,Canada (Mt. Oxford Icefield),Canada,1967-2009,post_2010,<0.37,104,16.16,,ng/L,reported as <0.37
+"Jordan and Frank, 1999",TFA,surface water,"rivers, streams",South Africa,South Africa,1995-1996,pre_2010,100,500,,,ng/L,
+"Wujcik, 1999",TFA,surface water,"rivers, streams","Nevada, USA",USA,1996-1997,pre_2010,12.8,154,,,ng/L,
+"Wujcik, 1999",TFA,surface water,"rivers, streams","Nevada, USA",USA,1996-1997,pre_2010,314,472,,,ng/L,
+"Bjornsdotter, 2019",TFA,groundwater,,Sweden,Sweden,"2017, 2018",post_2010,<34,120,,,ng/L,reported as <34; multiple years
+"Berg, 2000",TFA,surface water,"rivers, streams",Switzerland,Switzerland,1996-1997,pre_2010,12,328,87,,ng/L,
+"Janda, 2019",TFA,groundwater,,Germany,Germany,2019,post_2010,640,7500,640-2300,,ng/L,
+"Scott, 2002",TFA,surface water,"rivers, streams","USA, Canada (Great Lakes area)","USA, Canada",1998,pre_2010,51,99,77.25,,ng/L,
+"Neuwald, 2021",TFA,groundwater,,Germany,Germany,2020,post_2010,800,10700,5720,7000,ng/L,
+"Zhang, 2005",TFA,surface water,"rivers, streams",China (excluding Beijing),China,2001,pre_2010,10.2,221,56.6,,ng/L,
+"Zhai, 2015",TFA,drinking water,,China (Beijing),China,2012,post_2010,148,162,155,,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,"lakes, ponds",South Africa,South Africa,1995-1996,pre_2010,40,40,40,,ng/L,
+"Janda, 2019",TFA,drinking water,,Germany,Germany,2019,post_2010,430,11000,430-990,,ng/L,
+"Wujcik, 1999",TFA,surface water,"lakes, ponds","Nevada, USA",USA,1996-1997,pre_2010,77.1,95.1,,,ng/L,
+"Xie, 2020",TFA,drinking water,,China,China,2016,post_2010,341,355,348,,ng/L,
+"Wujcik, 1999",TFA,surface water,"lakes, ponds","California, USA",USA,1996-1997,pre_2010,50.1,227,,,ng/L,
+"Scheurer and Nodler, 2021",TFA,drinking water,,Germany,Germany,2020***,post_2010,,,,310,ng/L,
+"Berg, 2000",TFA,surface water,"lakes, ponds",Switzerland,Switzerland,1996-1997,pre_2010,37,204,119,,ng/L,
+"Scheurer and Nodler, 2021",TFA,drinking water,,Other countries (19),Other countries,2020***,post_2010,,,,230,ng/L,
+"Berg, 2000",TFA,surface water,"lakes, ponds",Switzerland,Switzerland,1996-1998,pre_2010,46,360,141,,ng/L,
+"Neuwald, 2021",TFA,drinking water,,Germany,Germany,2020,post_2010,400,12400,,900,ng/L,
+"Cahill, 2001",TFA,surface water,"lakes, ponds","California, USA",USA,1998,pre_2010,86,1043,257.25,,ng/L,
+"Neuwald, 2021",TFA,drinking water,,Germany,Germany,2020,post_2010,400,4200,1929,1500,ng/L,
+"Scott, 2002",TFA,surface water,"lakes, ponds","USA, Canada (Lake Superior)","USA, Canada","1998, 2000",pre_2010,,,18,,ng/L,
+"Zheng, 2023",TFA,drinking water,,USA (Indiana),USA,2020,post_2010,n.d.,210,,79,ng/L,reported as n.d.
+"Scott, 2002",TFA,surface water,"lakes, ponds","USA, Canada (Lake Ontario)","USA, Canada","1998, 2000",pre_2010,,,150,,ng/L,
+"Scott, 2002",TFA,surface water,"lakes, ponds",Malawi,Malawi,1998,pre_2010,1,5,,,ng/L,
+"Zhang, 2005",TFA,surface water,"lakes, ponds",China (Beijing),China,2001,pre_2010,23,138,111.3,,ng/L,
+"Scheurer and Nodler, 2021",TFA,beverages,,"Germany, other countries",other countries,2020**,post_2010,390,13000,,2400,ng/L,
+"Zhang, 2005",TFA,surface water,"lakes, ponds",China (excluding Beijing),China,2001,pre_2010,6.8,80,33.4,,ng/L,
+"Scheurer and Nodler, 2021",TFA,beverages,,"Germany, other countries (21)","Germany, other countries",2020**,post_2010,500,51000,,6100,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,oceans,1995-1996,1995-1996,1995-1996,pre_2010,70,70,70,,ng/L,
+"Scheurer, 2017",TFA,waste water,,Germany,Germany,"2016, 2017",post_2010,570,1300,,,ng/L,multiple years
+"Jordan and Frank, 1999",TFA,surface water,oceans,1995-1996,1995-1996,1995-1996,pre_2010,250,250,250,,ng/L,
+"Wang, 2020",TFA,waste water,,China (Tianjin),China,2016,post_2010,2600,38000,15867,,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,oceans,1995-1996,1995-1996,1995-1996,pre_2010,160,160,160,,ng/L,
+"Bjornsdotter, 2022",TFA,waste water,,Sweden,Sweden,2019,post_2010,110,200,155,,ng/L,
+"Jordan and Frank, 1999",TFA,surface water,oceans,1995-1996,1995-1996,1995-1996,pre_2010,200,200,200,,ng/L,
+"Bjornsdotter, 2022",TFA,waste water,,Sweden,Sweden,2019,post_2010,33,51,41,,ng/L,
+"Frank, 2002",TFA,surface water,oceans,1998,1998,1998,pre_2010,190,210,200,,ng/L,
+"Bjornsdotter, 2019",TFA,landfill leachate,,Sweden,Sweden,"2017, 2018",post_2010,<34,6900,2400,1200,ng/L,reported as <34; multiple years
+"von Sydow, 2000",TFA,ice,,1996,1996,1996,pre_2010,5,5,5,,ng/L,
+"Wang, 2020",TFA,landfill leachate,,China (Tianjin),China,2016,post_2010,3300,57000,25883,,ng/L,
+"von Sydow, 2000",TFA,ice,,1996-1997,1996-1997,1996-1997,pre_2010,6,56,25,,ng/L,
+"Tsou, 2023",TFA,landfill leachate,,USA (California),USA,2021,post_2010,43272,259554,95687.6,71150.3,ng/L,
+"Nielsen, 2001",TFA,ice,,pre-industrial (> 4000 years old),pre-industrial,pre-industrial (> 4000 years old),pre_2010,n.d.,n.d.,n.d.,,ng/L,reported as n.d.
+"Pickard, 2020",TFA,ice,,1977-2009,1977-2009,1977-2009,pre_2010,4.24,103.75,24.55,,ng/L,
+"Pickard, 2020",TFA,ice,,1967-2009,1967-2009,1967-2009,pre_2010,<0.37,104,16.16,,ng/L,reported as <0.37
+"Guo, 2017",TFA,air,gas and particles,China (Beijing),China,"2013, 2014",post_2010,,6317,1459,,pg/m3,
+"Chen, 2018",TFA,air,gas and particles,China (Fuxin),China,2016,post_2010,19000,170000,48875,,pg/m3,
+"Fang, 2018",TFA,air,gas and particles,Bohai and Yellow Seas,Bohai and Yellow Seas,2016,post_2010,11,270,120,,pg/m3,
+"Jordan and Frank, 1999",TFA,groundwater,,1995-1996,1995-1996,1995-1996,pre_2010,70,320,142,,ng/L,
+"Tian, 2018",TFA,air,gas and particles,China,China,2016,post_2010,1400,3000,,,pg/m3,
+"Nielsen, 2001",TFA,groundwater,,pre-industrial (> 2000 years old),pre-industrial,pre-industrial (> 2000 years old),pre_2010,n.d.,n.d.,n.d.,,ng/L,reported as n.d.
+"Zhang, 2018",TFA,air,gas and particles,China (Beijing),China,2013-2014,post_2010,,,1459,,pg/m3,
+"Zhang, 2018",TFA,air,gas and particles,China (Beijing),China,2014-2015,post_2010,,,1712,,pg/m3,
+"Zhang, 2018",TFA,air,gas and particles,China (Beijing),China,2015-2016,post_2010,,,1162,,pg/m3,
+"Berg, 2000",TFA,drinking water,,Switzerland,Switzerland,1996-1997,pre_2010,16,123,71,,ng/L,
+"Zhang, 2018",TFA,air,gas and particles,China (Beijing),China,2013-2016,post_2010,283,6317,,,pg/m3,
+"Zhang, 2005",TFA,drinking water,,China (Beijing),China,2001,pre_2010,72,74,73,,ng/L,
+"Xie, 2020",TFA,air,gas and particles,China,China,2016,post_2010,892,6816,3684.9,,pg/m3,
+"Berg, 2000",TFA,waste water,,Switzerland,Switzerland,1996-1997,pre_2010,90,600,230,,ng/L,
+"EURL-SRM – Residue Findings Report, 2017",TFA,plants,,Germany (different origin),Germany,"2016, 2017",post_2010,,48000,,,ng/gdw,
+"Berg, 2000",TFA,waste water,,Switzerland,Switzerland,1996-1997,pre_2010,<100,206000,47300,,ng/L,reported as <100
+"Chen, 2018",TFA,plants,,China (Fuxin),China,2016,post_2010,3900,3800000,448062.5,,ng/gdw,
+"Zhang, 2005",TFA,waste water,,China,China,2001,pre_2010,93.6,93.6,93.6,,ng/L,
+"Tian, 2018",TFA,plants,,China,China,2016,post_2010,560,3000,,,ng/gdw,
+"Lan, 2020",TFA,plants,,"China (northern, Beijing-Tianjin-Hebei)",China,"2016, 2017",post_2010,276,717,533,,ng/gdw,multiple years
+"Lan, 2020",TFA,plants,,"China (northern, Beijing-Tianjin-Hebei)",China,"2016, 2017",post_2010,274,748,516.8,,ng/gdw,multiple years
+"Jordan and Frank, 1999",TFA,air,gas and particles,Germany,Germany,1995-1996,pre_2010,10,125,44,,pg/m3,
+"Lan, 2020",TFA,plants,,"China (northern, Beijing-Tianjin-Hebei)",China,"2016, 2017",post_2010,11.8,149,74.8,,ng/gdw,multiple years
+"Martin, 2003",TFA,air,gas and particles,Canada,Canada,2000,pre_2010,,,760,,pg/m3,
+"Lan, 2020",TFA,plants,,"China (northern, Beijing-Tianjin-Hebei)",China,"2016, 2017",post_2010,15.8,102,62.1,,ng/gdw,multiple years
+"Freeling, 2022",TFA,plants,,Germany,Germany,2019,post_2010,,,312,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,2020,post_2010,,,1060,,ng/gdw,
+"Cahill, 2001",TFA,plants,,"Califonia, USA",USA,1998,pre_2010,,,,33,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,2020,post_2010,,,538,,ng/gdw,
+"Cahill, 2001",TFA,plants,,"Califonia, USA",USA,1998,pre_2010,,,,279,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,2018,post_2010,,,453,,ng/gdw,
+"Scott, 2005",TFA,plants,,Canada (Alberta),Canada,2000,pre_2010,,893.6,161.7,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1989,post_2010,,,24.6,,ng/gdw,
+"Scott, 2005",TFA,plants,,UK,UK,1999,pre_2010,42.6,110.64,72.34,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1991,post_2010,,,156,,ng/gdw,
+"Scott, 2005",TFA,plants,,Chile,Chile,1999,pre_2010,,23.4,6.6,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1992,post_2010,,,42.8,,ng/gdw,
+"Scott, 2005",TFA,plants,,Malawi,Malawi,1999,pre_2010,10.64,27.66,21.28,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1992,post_2010,,,98.5,,ng/gdw,
+"Scott, 2005",TFA,plants,,Canada (Ontario),Canada,2000,pre_2010,212,276.6,244.68,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1989,pre_2010,,,24.6,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1991,pre_2010,,,156,,ng/gdw,
+"Lan, 2020",TFA,animals,,"China (northern, Beijing-Tianjin-Hebei)",China,"2016, 2017",post_2010,14.2,105,53.5,,ng/gdw,multiple years
+"Freeling, 2022",TFA,plants,,Germany,Germany,1992,pre_2010,,,42.8,,ng/gdw,
+"Freeling, 2022",TFA,plants,,Germany,Germany,1992,pre_2010,,,98.5,,ng/gdw,
+"Chen, 2018",TFA,soil,,China (Fuxin),China,2016,post_2010,13,2400,305.7,,ng/gdw,
+"Lan, 2020",TFA,soil,,"China (northern, Beijing-Tianjin-Hebei)",China,2017,post_2010,0.435,16.7,3.51,,ng/gdw,
+"Scott, 2005",TFA,soil,,Canada,Canada,2000,pre_2010,0.2,3.3,1.3,,ng/gdw,
+"Xie, 2020",TFA,soil,,China,China,2016,post_2010,0.059,2.081,0.79225,,ng/gdw,
+"Scott, 2005",TFA,soil,,Malawi,Malawi,1999,pre_2010,3,7.5,5.25,,ng/gdw,
+"Scott, 2005",TFA,soil,,UK,UK,1999,pre_2010,0.85,7,3.67,,ng/gdw,
+"Scott, 2005",TFA,soil,,Chile,Chile,1999,pre_2010,0.1,9.4,1.52,,ng/gdw,
+"Chen, 2018",TFA,sediments,,China (Fuxin),China,2016,post_2010,4.9,200,65.12,,ng/gdw,
+"Scott, 2005",TFA,soil,,UK,UK,"1865, 1881, 1956",pre_2010,0.35,0.55,0.47,,ng/gdw,multiple years
+"Li, 2010",TFA,soil,,China (Shanghai),China,2007,pre_2010,92.7,188,135.96,,ng/gdw,
+"Chen, 2018",TFA,dust (outdoor),,China (Fuxin),China,2016,post_2010,65,29000,4524.2,,ng/gdw,
+"Tian, 2018",TFA,dust (outdoor),,China,China,2016,post_2010,1100,3700,,,ng/gdw,
+"Li, 2010",TFA,sediments,,China (Shanghai),China,2007,pre_2010,44.9,127,63.43,,ng/gdw,
+"Lan, 2020",TFA,dust (outdoor),,China (northern Beijing-Tianjin-Hebei),China,"2016, 2017",post_2010,21.5,348,133.3,,ng/gdw,multiple years
+"Wang, 2021",TFA,dust (outdoor),,China,China,2017,post_2010,n.d.,827,123.5,100,ng/gdw,reported as n.d.
+"Wang, 2021",TFA,dust (outdoor),,China,China,2013,post_2010,n.d.,1136,28.25,21,ng/gdw,reported as n.d.
+"Li, 2010",TFA,sludge,,China (Shanghai),China,2008,pre_2010,233,352,279,,ng/gdw,
+"Wang, 2021",TFA,dust (indoor),,China,China,2017,post_2010,16,895,270.3,233.5,ng/gdw,
+"Zheng, 2023",TFA,dust (indoor),,USA (Indiana),USA,2020,post_2010,n.d.,1400,,220,ng/gdw,reported as n.d.
+"Duan, 2020",TFA,human serum,,China,China,2017,post_2010,6.18,17.98,7.21,8.46,ng/mL,
+"Zheng, 2023",TFA,human serum,,USA (Indiana),USA,2020,post_2010,n.d.,77,,6,ng/mL,reported as n.d.

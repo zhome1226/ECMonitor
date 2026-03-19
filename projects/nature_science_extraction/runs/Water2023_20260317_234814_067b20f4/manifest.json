@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234814_067b20f4",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:48:18",
+  "items": [
+    {
+      "row_id": "DOI0793",
+      "record_id": "REF0649",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0793. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Potable+Water+-+Specification.+Rwanda+Standard+RS435%3A2009+Rev+1%3A2011",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0649.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Potable+Water+-+Specification.+Rwanda+Standard+RS435%3A2009+Rev+1%3A2011",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

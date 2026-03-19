@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "s11356-015-4553-0?error=cookies_not_supported&code=852dd9a4-4473-4b6b-af64-757ba477afea",
+      "paper_title": "Modeling of trihalomethanes (THMs) in drinking water supplies: a case study of eastern part of India",
+      "doi": "10.1007/s11356-015-4553-0",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Fast exclusion: source appears to be preview or abstract-only text without extractable THM concentration values."
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1007_s11356-015-4553-0.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234752_fc29a2bd",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:47:55",
+  "items": [
+    {
+      "row_id": "DOI0790",
+      "record_id": "REF0646",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0790. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Modificacion+a+la+Norma+Oficial+Mexicana+NOM-127-SSA1-1994%2C+Salud+ambiental%3A+Agua+para+uso+y+consumo+humano.+L%C3%ADmites+permisibles+de+calidad+y+tratamientos+a+que+debe+someterse+el+agua+para+su+potabilizaci%C3%B3n+2000",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0646.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Modificacion+a+la+Norma+Oficial+Mexicana+NOM-127-SSA1-1994%2C+Salud+ambiental%3A+Agua+para+uso+y+consumo+humano.+L%C3%ADmites+permisibles+de+calidad+y+tratamientos+a+que+debe+someterse+el+agua+para+su+potabilizaci%C3%B3n+2000",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

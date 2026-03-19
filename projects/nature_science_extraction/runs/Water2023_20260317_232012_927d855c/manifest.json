@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_232012_927d855c",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:20:15",
+  "items": [
+    {
+      "row_id": "DOI0484",
+      "record_id": "REF0503",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0484. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Chlorinated+drinking+water%2C+cancers+and+adverse+health+outcomes+in+Gangtok%2C+Sikkim%2C+India",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0503.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Chlorinated+drinking+water%2C+cancers+and+adverse+health+outcomes+in+Gangtok%2C+Sikkim%2C+India",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://www.accesswater.org/publications/-288556/point-of-use-water-filtration-in-rural-haiti--trihalomethane-production-and-factors-for-program-success",
+      "paper_title": "Trihalomethane Formation in Rural Household Water Filtration Systems in Haiti",
+      "doi": "10.2175/193864701784293215",
+      "journal": "Massachusetts Institute of Technology (thesis/report)",
+      "year": 2001,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "Provided resolved web source text indicates the Access Water page is no longer available ('Page not found') and mentions login/feature gating; no THM monitoring concentration values, tables, or supplementary materials are present in the supplied text to extract source-level THM data.",
+      "notes": "Source text available for this task is only an Access Water 'Page not found' page with no extractable THM monitoring dataset or sampling metadata beyond the citation/metadata block."
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.2175_193864701784293215.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[MNS 0900:2005 Drinking water. Hygienic requirements and their control] MNS 0900:2005 Ундны ус. Эрүүл ахуйн шаардлага, түүнд тавих хяналт",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0705. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BMNS+0900%3A2005+Drinking+water.+Hygienic+requirements+and+their+control%5D+MNS+0900%3A2005+%D0%A3%D0%BD%D0%B4%D0%BD%D1%8B+%D1%83%D1%81.+%D0%AD%D1%80%D2%AF%D2%AF%D0%BB+%D0%B0%D1%85%D1%83%D0%B9%D0%BD+%D1%88%D0%B0%D0%B0%D1%80%D0%B4%D0%BB%D0%B0%D0%B3%D0%B0%2C+%D1%82%D2%AF%D2%AF%D0%BD%D0%B4+%D1%82%D0%B0%D0%B2%D0%B8%D1%85+%D1%85%D1%8F%D0%BD%D0%B0%D0%BB%D1%82"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0550.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "total_monitoring_records": 169,
+  "matched_full_references": 96,
+  "matched_doi_from_docx": 141,
+  "grey_literature_or_report_records": 1,
+  "unresolved_rows": 8,
+  "output_file": "/mnt/c/Users/Administrator/codex/projects/tfa_est_rebuild/tfa_literature_database_rebuilt.xlsx"
+}

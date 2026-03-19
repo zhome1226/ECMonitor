@@ -1,0 +1,29 @@
+{
+  "run_id": "Water2023_20260318_125440_e76f07f2",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-18T12:54:43",
+  "items": [
+    {
+      "row_id": "DOI0414",
+      "record_id": "REF0426",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.sciencedirect.com/science/article/pii/S0048969711006486",
+      "manual_intervention": true,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0426.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Trihalometanes+in+San+Juan+city+%28Argentina%29+drinking+water",
+        "scholar_auto_click:none",
+        "google:https://www.google.com/search?q=Trihalometanes+in+San+Juan+city+%28Argentina%29+drinking+water",
+        "google_auto_click:https://www.sciencedirect.com/science/article/abs/pii/S0048969711006486",
+        "google_candidate:https://www.sciencedirect.com/science/article/abs/pii/S0048969711006486"
+      ],
+      "notes": "Resolved via web fallback."
+    }
+  ]
+}

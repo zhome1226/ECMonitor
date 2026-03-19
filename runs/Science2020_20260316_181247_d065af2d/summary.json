@@ -1,0 +1,31 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 2,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Science/extracted_json/all_records.json",
+  "first_2_records": [
+    {
+      "source_pdf": "10.5194_nhess-12-2879-2012__Marohn 等 - 2012 - Impacts of soil and groundwater salinization on tree crop performance in post-tsunami Aceh Barat, In.pdf",
+      "paper_title": "Science 2020 - Global threat of arsenic in groundwater",
+      "doi": "10.5194/nhess-12-2879-2012",
+      "journal": "",
+      "year": null,
+      "study_country": null,
+      "study_region": null,
+      "watershed_or_city": null,
+      "site_count": null,
+      "sampling_period": null,
+      "sampling_period_original": null,
+      "matrix_types": [],
+      "target_pollutants": [],
+      "study_scope_summary": "",
+      "has_extractable_monitoring_results": false,
+      "results": [],
+      "notes": "Stub extraction only. Source status: local_pdf_ok. Notes: Selected local PDF: 10.5194_nhess-12-2879-2012__Marohn 等 - 2012 - Impacts of soil and groundwater salinization on tree crop performance in post-tsunami Aceh Barat, In.pdf"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Science/extracted_json/10.5194_nhess-12-2879-2012.json",
+    "/mnt/d/paper_data/pdf/Science/extracted_json/all_records.json"
+  ]
+}

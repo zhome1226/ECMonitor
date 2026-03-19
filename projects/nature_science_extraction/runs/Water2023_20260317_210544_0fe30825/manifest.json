@@ -1,0 +1,30 @@
+{
+  "run_id": "Water2023_20260317_210544_0fe30825",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T21:05:49",
+  "items": [
+    {
+      "row_id": "DOI0411",
+      "record_id": "REF0423",
+      "source_block": "Water2023",
+      "doi": "10.2166/wh.2015.211",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0411. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=10.2166%2Fwh.2015.211",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.2166_wh.2015.211.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://iwaponline.com/jwh/article/13/3/859/28424/Trihalomethanes-formation-in-Iranian-water-supply",
+        "seed_url_fallback:Manual browser intervention required for DOI0411 on publisher_page. Open the article page and resume: https://iwaponline.com/jwh/article/13/3/859/28424/Trihalomethanes-formation-in-Iranian-water-supply",
+        "doi:https://doi.org/10.2166/wh.2015.211",
+        "doi_fallback:Manual browser intervention required for DOI landing page of DOI0411 on publisher_page. Open the article page and resume: https://iwaponline.com/jwh/article/13/3/859/28424/Trihalomethanes-formation-in-Iranian-water-supply",
+        "scholar:https://scholar.google.com/scholar?q=10.2166%2Fwh.2015.211",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

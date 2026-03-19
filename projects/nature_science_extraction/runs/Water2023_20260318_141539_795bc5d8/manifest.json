@@ -1,0 +1,29 @@
+{
+  "run_id": "Water2023_20260318_141539_795bc5d8",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-18T14:15:43",
+  "items": [
+    {
+      "row_id": "DOI0481",
+      "record_id": "REF0500",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://pdfs.semanticscholar.org/bdc1/28b44a8c32ef5b62169bbeef9a90895d671c.pdf",
+      "manual_intervention": true,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0500.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Monitoramento+das+concentra%C3%A7%C3%B5es+de+trihalometanos+na+%C3%A1gua+para+consumo+humano",
+        "scholar_auto_click:none",
+        "google:https://www.google.com/search?q=Monitoramento+das+concentra%C3%A7%C3%B5es+de+trihalometanos+na+%C3%A1gua+para+consumo+humano",
+        "google_auto_click:https://pdfs.semanticscholar.org/bdc1/28b44a8c32ef5b62169bbeef9a90895d671c.pdf",
+        "google_candidate:https://pdfs.semanticscholar.org/bdc1/28b44a8c32ef5b62169bbeef9a90895d671c.pdf"
+      ],
+      "notes": "Resolved via web fallback."
+    }
+  ]
+}

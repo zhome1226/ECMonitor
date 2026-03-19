@@ -1,0 +1,7 @@
+2026/03/18-14:15:19.369 4d00 Reusing MANIFEST C:\Users\Administrator\codex\projects\nature_science_extraction\.chrome_cdp_profile\Default\IndexedDB\https_www.sciencedirect.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/18-14:15:19.369 4d00 Recovering log #3
+2026/03/18-14:15:19.369 4d00 Reusing old log C:\Users\Administrator\codex\projects\nature_science_extraction\.chrome_cdp_profile\Default\IndexedDB\https_www.sciencedirect.com_0.indexeddb.leveldb/000003.log 
+2026/03/18-14:15:49.109 4d00 Level-0 table #5: started
+2026/03/18-14:15:49.111 4d00 Level-0 table #5: 77978 bytes OK
+2026/03/18-14:15:49.112 4d00 Delete type=0 #3
+2026/03/18-14:15:49.113 4d00 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

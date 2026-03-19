@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Order of 11 January 2007 on the quality limits and references of raw water and water intended for human consumption mentioned in Articles R. 1321-2, R. 1321-3, R. 1321-7 and R. 1321-38 of the Public Health Code] Arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine mentionnées aux articles R. 1321-2, R. 1321-3, R. 1321-7 et R. 1321-38 du code de la santé publique",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0777. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BOrder+of+11+January+2007+on+the+quality+limits+and+references+of+raw+water+and+water+intended+for+human+consumption+mentioned+in+Articles+R.+1321-2%2C+R.+1321-3%2C+R.+1321-7+and+R.+1321-38+of+the+Public+Health+Code%5D+Arr%C3%AAt%C3%A9+du+11+janvier+2007+relatif+aux+limites+et+r%C3%A9f%C3%A9rences+de+qualit%C3%A9+des+eaux+brutes+et+des+eaux+destin%C3%A9es+%C3%A0+la+consommation+humaine+mentionn%C3%A9es+aux+articles+R.+1321-2%2C+R.+1321-3%2C+R.+1321-7+et+R.+1321-38+du+code+de+la+sant%C3%A9+publique"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0630.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

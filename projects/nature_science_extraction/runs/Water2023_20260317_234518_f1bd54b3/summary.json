@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://knowledge.bsigroup.com/products/water-quality-water-safety-plans-code-of-practice",
+      "paper_title": "BS 8680:2020 Water quality. Water safety plans. Code of practice",
+      "doi": "10.3403/30364472",
+      "journal": "British Standards Institution (BSI)",
+      "year": 2020,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "提供的 web_html 源文本仅包含 BS 8680:2020 的检索/出版元数据（如发布时间、ISBN、ICS 分类、出版社等），未出现任何饮用水三卤甲烷（THM）监测浓度数据、采样统计（均值/中位数/范围/n）或可用于国家/地区层面汇总的监测表格/附表；因此无法按要求提取 source-level THM concentration rows。",
+      "notes": "已使用 Resolved source metadata 指定的 BSI Knowledge 页面文本（仅含 Overview/Preview/References/History/Product Details 等栏目标题与出版信息片段）。如需提取 THM 监测数据，需要该标准正文或其附录/表格的可访问文本或 PDF 内容。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.3403_30364472.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

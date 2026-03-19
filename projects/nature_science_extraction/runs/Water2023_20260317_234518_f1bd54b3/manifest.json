@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_234518_f1bd54b3",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:45:20",
+  "items": [
+    {
+      "row_id": "DOI0781",
+      "record_id": "REF0634",
+      "source_block": "Water2023",
+      "doi": "10.3403/30364472",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://knowledge.bsigroup.com/products/water-quality-water-safety-plans-code-of-practice",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.3403_30364472.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://linkresolver.bsigroup.com/junction/resolve/000000000030364472?restype=standard"
+      ],
+      "notes": "Resolved via seed source page."
+    }
+  ]
+}

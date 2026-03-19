@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Ministerial Ordinance Concerning Drinking Water Quality Standards - 2010] ○水質基準に関する省令",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0723. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BMinisterial+Ordinance+Concerning+Drinking+Water+Quality+Standards+-+2010%5D+%E2%97%8B%E6%B0%B4%E8%B3%AA%E5%9F%BA%E6%BA%96%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%9C%81%E4%BB%A4"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0571.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

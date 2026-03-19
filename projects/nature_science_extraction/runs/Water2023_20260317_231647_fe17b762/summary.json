@@ -1,0 +1,53 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://www.ijesd.org/index.php?m=content&c=index&a=show&catid=46&id=701",
+      "paper_title": "Cancer Risk Assessment from Trihalomethanes in Community Water Supply at Northeastern Thailand",
+      "doi": "10.7763/ijesd.2013.v4.410",
+      "journal": "International Journal of Environmental Science and Development",
+      "year": 2013,
+      "rows": [
+        {
+          "source_database": "Water Research 2023",
+          "benchmark_paper": "Global assessment of chemical quality of drinking water: The case of trihalomethanes",
+          "full_title": "Cancer Risk Assessment from Trihalomethanes in Community Water Supply at Northeastern Thailand",
+          "doi": "10.7763/ijesd.2013.v4.410",
+          "first_author": "Pentamwa",
+          "year": 2013,
+          "country": "Thailand",
+          "region": "Northeastern Thailand; Chaiyaphum province",
+          "location_name": "Chongsammoe water treatment plant (Chaiyaphum province)",
+          "water_type": "tap water (community water treatment plants)",
+          "sampling_time": "",
+          "chemical_name": "Total THMs (TTHMs)",
+          "mean_value": null,
+          "median_value": null,
+          "min_value": null,
+          "max_value": 48.46,
+          "sd_value": null,
+          "range_text": "",
+          "unit": "μg/L",
+          "n_samples": null,
+          "instrumentation": "",
+          "sample_notes": "来源仅为网页摘要文本；文中表述为“highest levels”，可理解为17个社区水厂中该厂总THMs最高值，但未明确标注为max/mean等统计口径；采样时间、样本量、分析方法在该摘录中均未给出。",
+          "original_excerpt": "\"the Chongsammoe water treatment plant in Chaiyaphum province was found in the highest levels of 48.46 μg/L for total THMs\"",
+          "page_or_table": "Abstract (web page)",
+          "extraction_confidence": "medium"
+        }
+      ],
+      "has_extractable_thm_data": true,
+      "reason_for_exclusion": null,
+      "notes": "仅提供了IJESD网页HTML的摘要片段，未包含全文或补充材料表格；因此只能提取到摘要中明确给出的1条总THMs浓度数据（地点=Chongsammoe水厂，Chaiyaphum省）。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.7763_ijesd.2013.v4.410.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

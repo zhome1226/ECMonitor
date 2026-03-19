@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "Hollow-fiber solvent bar microextraction with gas chromatography and electron capture detection determination of disinfection byproducts in water samples",
+      "doi": "10.1002/jssc.201500324",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0424. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=10.1002%2Fjssc.201500324"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1002_jssc.201500324.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

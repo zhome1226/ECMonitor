@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260318_112837_1e90eb86",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-18T11:28:41",
+  "items": [
+    {
+      "row_id": "DOI0411",
+      "record_id": "REF0423",
+      "source_block": "Water2023",
+      "doi": "10.2166/wh.2015.211",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://iwaponline.com/jwh/article/13/3/859/28424/Trihalomethanes-formation-in-Iranian-water-supply",
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_5o2x6k4e/response.txt', '-']' timed out after 90 seconds",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.2166_wh.2015.211.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://iwaponline.com/jwh/article/13/3/859/28424/Trihalomethanes-formation-in-Iranian-water-supply"
+      ],
+      "notes": "Resolved via seed source page."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Amendment of the Sanitary Provision common ministerial decision Y2/2600/2001 \"Quality of water intended for human consumption\", in compliance with Directive 98/83/EC of the Council of the European Union of 3 November 1998] Τροποποίηση της Υγειονομικής Διάταξης κοινής υπουργικής απόφασης Υ2/2600/2001 «Ποιότητα του νερού ανθρώπινης κατανάλωσης», σε συμμόρφωση προς την οδηγία 98/83/ΕΚ του Συμβουλίου της Ευρωπαϊκής Ένωσης της 3ης Νοεμβρίου 1998",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0766. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BAmendment+of+the+Sanitary+Provision+common+ministerial+decision+Y2%2F2600%2F2001+%22Quality+of+water+intended+for+human+consumption%22%2C+in+compliance+with+Directive+98%2F83%2FEC+of+the+Council+of+the+European+Union+of+3+November+1998%5D+%CE%A4%CF%81%CE%BF%CF%80%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7+%CF%84%CE%B7%CF%82+%CE%A5%CE%B3%CE%B5%CE%B9%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE%CF%82+%CE%94%CE%B9%CE%AC%CF%84%CE%B1%CE%BE%CE%B7%CF%82+%CE%BA%CE%BF%CE%B9%CE%BD%CE%AE%CF%82+%CF%85%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE%CF%82+%CE%B1%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%CF%82+%CE%A52%2F2600%2F2001+%C2%AB%CE%A0%CE%BF%CE%B9%CF%8C%CF%84%CE%B7%CF%84%CE%B1+%CF%84%CE%BF%CF%85+%CE%BD%CE%B5%CF%81%CE%BF%CF%8D+%CE%B1%CE%BD%CE%B8%CF%81%CF%8E%CF%80%CE%B9%CE%BD%CE%B7%CF%82+%CE%BA%CE%B1%CF%84%CE%B1%CE%BD%CE%AC%CE%BB%CF%89%CF%83%CE%B7%CF%82%C2%BB%2C+%CF%83%CE%B5+%CF%83%CF%85%CE%BC%CE%BC%CF%8C%CF%81%CF%86%CF%89%CF%83%CE%B7+%CF%80%CF%81%CE%BF%CF%82+%CF%84%CE%B7%CE%BD+%CE%BF%CE%B4%CE%B7%CE%B3%CE%AF%CE%B1+98%2F83%2F%CE%95%CE%9A+%CF%84%CE%BF%CF%85+%CE%A3%CF%85%CE%BC%CE%B2%CE%BF%CF%85%CE%BB%CE%AF%CE%BF%CF%85+%CF%84%CE%B7%CF%82+%CE%95%CF%85%CF%81%CF%89%CF%80%CE%B1%CF%8A%CE%BA%CE%AE%CF%82+%CE%88%CE%BD%CF%89%CF%83%CE%B7%CF%82+%CF%84%CE%B7%CF%82+3%CE%B7%CF%82+%CE%9D%CE%BF%CE%B5%CE%BC%CE%B2%CF%81%CE%AF%CE%BF%CF%85+1998"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0619.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

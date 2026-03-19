@@ -1,0 +1,30 @@
+{
+  "run_id": "Water2023_20260317_232953_298c2416",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:29:56",
+  "items": [
+    {
+      "row_id": "DOI0500",
+      "record_id": "REF0521",
+      "source_block": "Water2023",
+      "doi": "10.1016/s0160-4120(99)00033-1",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0500. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=10.1016%2Fs0160-4120%2899%2900033-1",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1016_s0160-4120_99_00033-1.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://linkinghub.elsevier.com/retrieve/pii/S0160412099000331",
+        "seed_url_fallback:Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+        "doi:https://doi.org/10.1016/s0160-4120(99)00033-1",
+        "doi_fallback:Manual browser intervention required for DOI landing page of DOI0500 on publisher_elsevier. Open the article page and resume: https://www.sciencedirect.com/science/article/pii/S0160412099000331?via%3Dihub",
+        "scholar:https://scholar.google.com/scholar?q=10.1016%2Fs0160-4120%2899%2900033-1",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

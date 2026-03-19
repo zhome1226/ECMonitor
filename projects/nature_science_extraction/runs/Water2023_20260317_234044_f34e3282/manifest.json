@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234044_f34e3282",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:40:46",
+  "items": [
+    {
+      "row_id": "DOI0733",
+      "record_id": "REF0582",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0733. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Notification+of+the+Ministry+of+Industry%2C+No.+322%2C+B.E.+2521+%281978%29%2C+issued+under+the+Industrial+Products+Standards+Act+B.E.+2511+%281968%29",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0582.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Notification+of+the+Ministry+of+Industry%2C+No.+322%2C+B.E.+2521+%281978%29%2C+issued+under+the+Industrial+Products+Standards+Act+B.E.+2511+%281968%29",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_210457_eeb004b9",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T21:05:02",
+  "items": [
+    {
+      "row_id": "DOI0408",
+      "record_id": "REF0420",
+      "source_block": "Water2023",
+      "doi": "10.1201/9781351124140-92",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781351124140-92/assessment-trihalomethanes-drinking-water-using-gas-chromatography-aravind-soloman",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1201_9781351124140-92.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://www.taylorfrancis.com/books/9781351124133/chapters/10.1201/9781351124140-92"
+      ],
+      "notes": "Resolved via seed source page."
+    }
+  ]
+}

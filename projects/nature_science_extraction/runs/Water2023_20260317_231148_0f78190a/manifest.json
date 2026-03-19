@@ -1,0 +1,30 @@
+{
+  "run_id": "Water2023_20260317_231148_0f78190a",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:11:51",
+  "items": [
+    {
+      "row_id": "DOI0460",
+      "record_id": "REF0476",
+      "source_block": "Water2023",
+      "doi": "10.1016/j.mex.2019.03.030",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0460. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=10.1016%2Fj.mex.2019.03.030",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1016_j.mex.2019.03.030.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://linkinghub.elsevier.com/retrieve/pii/S2215016119300809",
+        "seed_url_fallback:Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+        "doi:https://doi.org/10.1016/j.mex.2019.03.030",
+        "doi_fallback:Manual browser intervention required for DOI landing page of DOI0460 on publisher_elsevier. Open the article page and resume: https://www.sciencedirect.com/science/article/pii/S2215016119300809?via%3Dihub",
+        "scholar:https://scholar.google.com/scholar?q=10.1016%2Fj.mex.2019.03.030",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

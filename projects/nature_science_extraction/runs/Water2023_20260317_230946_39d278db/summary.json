@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://link.springer.com/article/10.1186/2052-336X-12-73?error=cookies_not_supported&code=be1149a3-25c0-4e62-8fba-ca945a4ef858",
+      "paper_title": "Human health risk analysis from disinfection by-products (DBPs) in drinking and bathing water of some Indian cities",
+      "doi": "10.1186/2052-336x-12-73",
+      "journal": "Journal of Environmental Health Science and Engineering",
+      "year": 2014,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "提供的解析网页文本仅包含摘要性质段落（Background/Methods/Results/Conclusions）与风险评估结果（如终生致癌风险 8.99E-04、8.92E-04 等），未给出任何可作为监测数据的THM浓度值（均值/中位数/最小/最大/范围/单位）或按城市/地点的测量表格/补充表，因此无法提取用于国家/地区层面浓度汇总的THM监测浓度数据。",
+      "notes": "文本中仅提到“selected water treatment plant of the eastern part of India”的THMs暴露风险结论，但未包含THM监测浓度或采样明细；如需提取，请提供全文或补充材料中的浓度表/数据表。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1186_2052-336x-12-73.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

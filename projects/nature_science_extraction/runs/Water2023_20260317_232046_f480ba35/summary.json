@@ -1,0 +1,53 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://link.springer.com/article/10.1007/s10661-006-9207-8?error=cookies_not_supported&code=ef2cc1fb-29dd-4ff0-a2ef-77ee10cadcba",
+      "paper_title": "Determination of volatile organic compounds pollution sources in malaysian drinking water using multivariate analysis",
+      "doi": "10.1007/s10661-006-9207-8",
+      "journal": "Environmental Monitoring and Assessment",
+      "year": 2007,
+      "rows": [
+        {
+          "source_database": "Water Research 2023",
+          "benchmark_paper": "Global assessment of chemical quality of drinking water: The case of trihalomethanes",
+          "full_title": "Determination of volatile organic compounds pollution sources in malaysian drinking water using multivariate analysis",
+          "doi": "10.1007/s10661-006-9207-8",
+          "first_author": "Soh",
+          "year": 2007,
+          "country": "Malaysia",
+          "region": "Peninsular Malaysia (11 states + Federal Territory)",
+          "location_name": "Multiple water treatment plants across 11 states and Federal Territory (Peninsular Malaysia)",
+          "water_type": "Drinking water",
+          "sampling_time": "",
+          "chemical_name": "Total trihalomethanes (THMs)",
+          "mean_value": null,
+          "median_value": null,
+          "min_value": 28.4,
+          "max_value": 33,
+          "sd_value": null,
+          "range_text": "28.4–33.0 μg/l",
+          "unit": "μg/L",
+          "n_samples": null,
+          "instrumentation": "Solid phase micro-extraction (SPME) with 100 μm polydimethylsiloxane fibre; gas chromatography–mass spectrometry (GC–MS).",
+          "sample_notes": "网页预览文本仅给出“各州的总THMs平均浓度范围”为28.4–33.0 μg/l；未提供各州/各采样点的具体数值、采样日期或样本量。采样点包括处理厂运行点、服务水库出口及管网辅助出口点。",
+          "original_excerpt": "Average concentrations of total trihalomethanes (THMs) were almost similar among all states which were in the range of 28.4--33.0 μg/l.",
+          "page_or_table": "Springer Nature Link HTML preview (no page numbers), main text",
+          "extraction_confidence": "low"
+        }
+      ],
+      "has_extractable_thm_data": true,
+      "reason_for_exclusion": null,
+      "notes": "来源为Springer页面的订阅预览文本（未能访问全文/补充材料表格）。当前仅能提取到总THMs的州际平均浓度范围（28.4–33.0 μg/L）这一条聚合信息；无法可靠拆分到“具体州/城市/采样时间”。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1007_s10661-006-9207-8.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

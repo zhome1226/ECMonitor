@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "SỬ DỤNG KỸ THUẬT KHÔNG GIAN HƠI KẾT HỢP GC-ECD (HS/GC/ECD) ĐỂ XÁC ĐNNH TRIHALOMETHANES TRONG NƯỚC MÁY TẠI THỪA THIÊN HUẾ [USING GC-ECD COMBINED SPACE TECHNIQUE (HS/GC/ECD) FOR CONFIRMING TRIHALOMETHANES IN TAKING WATER AT THUA THIEN HUE]",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0492. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=S%E1%BB%AC+D%E1%BB%A4NG+K%E1%BB%B8+THU%E1%BA%ACT+KH%C3%94NG+GIAN+H%C6%A0I+K%E1%BA%BET+H%E1%BB%A2P+GC-ECD+%28HS%2FGC%2FECD%29+%C4%90%E1%BB%82+X%C3%81C+%C4%90NNH+TRIHALOMETHANES+TRONG+N%C6%AF%E1%BB%9AC+M%C3%81Y+T%E1%BA%A0I+TH%E1%BB%AAA+THI%C3%8AN+HU%E1%BA%BE+%5BUSING+GC-ECD+COMBINED+SPACE+TECHNIQUE+%28HS%2FGC%2FECD%29+FOR+CONFIRMING+TRIHALOMETHANES+IN+TAKING+WATER+AT+THUA+THIEN+HUE%5D"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0511.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

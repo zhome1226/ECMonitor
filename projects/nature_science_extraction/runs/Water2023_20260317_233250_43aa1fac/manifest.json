@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233250_43aa1fac",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:32:53",
+  "items": [
+    {
+      "row_id": "DOI0509",
+      "record_id": "REF0575",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0509. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Available+from%3A+http%3A%2F%2Fwww.ppwsa.com.kh%2FAdministration%2Fdownloads%2Fsystem%2Fwater-quality%2FCocaCola_Water_Analysis_2013.pdf",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0575.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Available+from%3A+http%3A%2F%2Fwww.ppwsa.com.kh%2FAdministration%2Fdownloads%2Fsystem%2Fwater-quality%2FCocaCola_Water_Analysis_2013.pdf",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "?lang=en",
+      "paper_title": "Comparison of two validated gas-chromatographic methods for the determination of trihalomethanes in drinking water",
+      "doi": "10.1590/s1516-93322003000200010",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Resolved via seed source page. Extraction fallback because: Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_4f8syrfk/response.txt', '-']' timed out after 90 seconds"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1590_s1516-93322003000200010.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

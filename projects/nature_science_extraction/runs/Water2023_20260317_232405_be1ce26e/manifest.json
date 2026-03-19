@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_232405_be1ce26e",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:24:08",
+  "items": [
+    {
+      "row_id": "DOI0492",
+      "record_id": "REF0511",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0492. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=S%E1%BB%AC+D%E1%BB%A4NG+K%E1%BB%B8+THU%E1%BA%ACT+KH%C3%94NG+GIAN+H%C6%A0I+K%E1%BA%BET+H%E1%BB%A2P+GC-ECD+%28HS%2FGC%2FECD%29+%C4%90%E1%BB%82+X%C3%81C+%C4%90NNH+TRIHALOMETHANES+TRONG+N%C6%AF%E1%BB%9AC+M%C3%81Y+T%E1%BA%A0I+TH%E1%BB%AAA+THI%C3%8AN+HU%E1%BA%BE+%5BUSING+GC-ECD+COMBINED+SPACE+TECHNIQUE+%28HS%2FGC%2FECD%29+FOR+CONFIRMING+TRIHALOMETHANES+IN+TAKING+WATER+AT+THUA+THIEN+HUE%5D",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0511.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=S%E1%BB%AC+D%E1%BB%A4NG+K%E1%BB%B8+THU%E1%BA%ACT+KH%C3%94NG+GIAN+H%C6%A0I+K%E1%BA%BET+H%E1%BB%A2P+GC-ECD+%28HS%2FGC%2FECD%29+%C4%90%E1%BB%82+X%C3%81C+%C4%90NNH+TRIHALOMETHANES+TRONG+N%C6%AF%E1%BB%9AC+M%C3%81Y+T%E1%BA%A0I+TH%E1%BB%AAA+THI%C3%8AN+HU%E1%BA%BE+%5BUSING+GC-ECD+COMBINED+SPACE+TECHNIQUE+%28HS%2FGC%2FECD%29+FOR+CONFIRMING+TRIHALOMETHANES+IN+TAKING+WATER+AT+THUA+THIEN+HUE%5D",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234454_1db38585",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:44:56",
+  "items": [
+    {
+      "row_id": "DOI0777",
+      "record_id": "REF0630",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0777. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BOrder+of+11+January+2007+on+the+quality+limits+and+references+of+raw+water+and+water+intended+for+human+consumption+mentioned+in+Articles+R.+1321-2%2C+R.+1321-3%2C+R.+1321-7+and+R.+1321-38+of+the+Public+Health+Code%5D+Arr%C3%AAt%C3%A9+du+11+janvier+2007+relatif+aux+limites+et+r%C3%A9f%C3%A9rences+de+qualit%C3%A9+des+eaux+brutes+et+des+eaux+destin%C3%A9es+%C3%A0+la+consommation+humaine+mentionn%C3%A9es+aux+articles+R.+1321-2%2C+R.+1321-3%2C+R.+1321-7+et+R.+1321-38+du+code+de+la+sant%C3%A9+publique",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0630.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BOrder+of+11+January+2007+on+the+quality+limits+and+references+of+raw+water+and+water+intended+for+human+consumption+mentioned+in+Articles+R.+1321-2%2C+R.+1321-3%2C+R.+1321-7+and+R.+1321-38+of+the+Public+Health+Code%5D+Arr%C3%AAt%C3%A9+du+11+janvier+2007+relatif+aux+limites+et+r%C3%A9f%C3%A9rences+de+qualit%C3%A9+des+eaux+brutes+et+des+eaux+destin%C3%A9es+%C3%A0+la+consommation+humaine+mentionn%C3%A9es+aux+articles+R.+1321-2%2C+R.+1321-3%2C+R.+1321-7+et+R.+1321-38+du+code+de+la+sant%C3%A9+publique",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

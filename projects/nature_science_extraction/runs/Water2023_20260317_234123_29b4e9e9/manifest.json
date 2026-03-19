@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234123_29b4e9e9",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:41:25",
+  "items": [
+    {
+      "row_id": "DOI0740",
+      "record_id": "REF0589",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0740. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BDrinking+water+-+Requirements.+Official+Chilean+Standard+NCh409%2F1.Of2005.%5D+%22Agua+potable+-+Requisitos.+Norma+Chilena+Oficial+NCh409%2F1.Of2005%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0589.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BDrinking+water+-+Requirements.+Official+Chilean+Standard+NCh409%2F1.Of2005.%5D+%22Agua+potable+-+Requisitos.+Norma+Chilena+Oficial+NCh409%2F1.Of2005%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

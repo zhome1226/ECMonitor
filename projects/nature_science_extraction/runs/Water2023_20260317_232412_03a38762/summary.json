@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "54041",
+      "paper_title": "Determinación de trihalometanos en aguas de consumo humano por microextracción en fase sólida- cromatografía de gases en Pereira, Colombia",
+      "doi": "10.15446/rev.colomb.quim.v44n1.54041",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Resolved via direct HTTP HTML fetch. Extraction fallback because: Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_o6fv_82t/response.txt', '-']' timed out after 90 seconds"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.15446_rev.colomb.quim.v44n1.54041.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

@@ -1,0 +1,1333 @@
+This article is licensed under CC-BY 4.0
+
+pubs.acs.org/est
+
+Perspective
+
+The Global Threat from the Irreversible Accumulation of
+Trifluoroacetic Acid (TFA)
+Hans Peter H. Arp,*,§ Andrea Gredelj,§ Juliane Glüge, Martin Scheringer, and Ian T. Cousins
+Cite This: Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Downloaded via 40.65.88.222 on March 18, 2026 at 01:03:54 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+ACCESS
+
+Metrics & More
+
+Read Online
+
+Article Recommendations
+
+sı Supporting Information
+*
+
+ABSTRACT: Trifluoroacetic acid (TFA) is a persistent and mobile substance
+that has been increasing in concentration within diverse environmental media,
+including rain, soils, human serum, plants, plant-based foods, and drinking water.
+Currently, TFA concentrations are orders of magnitude higher than those of
+other per- and polyfluoroalkyl substances (PFAS). This accumulation is due to
+many PFAS having TFA as a transformation product, including several
+fluorinated gases (F-gases), pesticides, pharmaceuticals, and industrial chemicals,
+in addition to direct release of industrially produced TFA. Due to TFA’s extreme
+persistence and ongoing emissions, concentrations are increasing irreversibly.
+What remains less clear are the thresholds where irreversible effects on local or
+global scales occur. There are indications from mammalian toxicity studies that
+TFA is toxic to reproduction and that it exhibits liver toxicity. Ecotoxicity data are scarce, with most data being for aquatic systems;
+fewer data are available for terrestrial plants, where TFA bioaccumulates most readily. Collectively, these trends imply that TFA
+meets the criteria of a planetary boundary threat for novel entities because of increasing planetary-scale exposure, where potential
+irreversible disruptive impacts on vital earth system processes could occur. The rational response to this is to instigate binding
+actions to reduce the emissions of TFA and its many precursors.
+KEYWORDS: trifluoroacetic acid, multigenerational exposure, PFAS, PMT, vPvM, environmental monitoring
+
+■
+
+INTRODUCTION
+Trifluoroacetic acid (TFA) belongs to the subclass of per- and
+polyfluoroalkyl substances (PFAS) known as ultrashort-chain
+perfluoroalkyl acids (PFAAs). TFA is by far the most abundant
+PFAS in the environment.1−6 Neuwald et al. demonstrated that
+TFA accounted for more than 90% of the total PFAS mass (of
+46 individual PFAS analyzed) in various drinking water sources
+in Germany.2 Tian et al. observed that concentrations of TFA
+and perfluoropropionic acid (PFPrA) in air, dry-deposition
+particles, and plant leaves surrounding two landfills in China
+were an order of magnitude higher than those of the 21 other
+PFAS analyzed.4 Chen et al. measured 25 PFAS around two
+fluorochemical manufacturing plants in China, covering 8
+different media (air, various water, soil, dust, plant leaves,
+sediment), with TFA concentrations being consistently 1−2
+orders of magnitude higher than those of other PFAS.5
+An initial wave of scientific interest in the environmental fate
+and effects of TFA started around the mid-1990s, due to novel
+fluorinated refrigerants (hydrofluorocarbons (HFCs) and
+hydrochlorofluorocarbons (HCFCs)) being introduced to
+the market after the ozone-depleting chlorofluorocarbons
+(CFCs) were phased out under the 1987 Montreal Protocol
+on Substances that Deplete the Ozone Layer.7−12 Many of the
+fluorinated refrigerants are referred to as F-gases (encompassing gases with an R−CF3 moiety, R−CF2−R moiety, or
+inorganic fluorides). When F-gases or other fluorinated organic
+© 2024 The Authors. Published by
+American Chemical Society
+
+substances contain a C−CF3 moiety that is resistant to
+biochemical or photochemical degradation, TFA will commonly be a terminal degradation product. In recent years,
+interest in TFA has been re-established due to rapidly
+increasing concentrations observed in remote locations, as
+well as its ubiquity in drinking water sources and human
+blood.2,13−15
+Since the 1990s, it has been suggested that hazard-related
+concerns of TFA and other short-chain PFAAs are much lower
+than those of PFAAs with longer perfluoroalkyl chains, which
+are more bioaccumulative and generally more toxic.8,9,16−23
+However, these early reports did not consider TFA’s
+ubiquitous accumulation in the environment, in particular its
+observed accumulation in water resources and bioaccumulation in various plants, including crops. Although there are
+fewer toxicological data compared to long-chain PFAAs, we
+maintain that there are more than sufficient data to conclude
+that TFA poses a risk to humans and the environment and
+meets the criteria of a planetary boundary threat for novel
+Received: June 19, 2024
+Revised: October 13, 2024
+Accepted: October 14, 2024
+Published: October 30, 2024
+
+19925
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+Perspective
+
+Figure 1. Comparison of TFA concentrations detected in different media summarized as before 2010 (green) and after 2010 (in red). Reported
+values of maximum concentrations found in the literature review are shown as vertical bars and mean values of reported monitoring means and
+medians are shown with overlapping dots. Numbers indicating the number of summarized individual data points are shown above the
+corresponding bars. In cases of either green or red bars and dots missing, data were not available for the given media and/or time frame. For air
+concentrations before 2010 only two studies were available, one of which reported only mean measured concentrations (see Table S1 for the full
+data set and Figure S3 for air data presented as concentrations from individual studies).
+
+entities.24−27 We will present evidence for this based on TFA’s
+(1) increasing planetary exposure, which is (2) irreversible and
+increasing due to emissions from many sources and could
+thereby cause (3) long-lasting disruptive effects on human
+health and vital earth system processes. Our analysis leads to
+the conclusion that policy, industry initiatives, and innovation
+actions should be enacted globally to reduce TFA emissions as
+soon as possible to protect future generations from potential
+irreversible effects of TFA accumulation.
+
+PFAS being TFA.32 A Swiss study reported detecting TFA in
+560 out of 564 drinking water samples in 2023, with 69% of
+the concentrations above 0.5 μg/L, among which were 2
+samples with TFA concentrations above 9 μg/L and 75
+between 1 and 9 μg/L.33
+If there is TFA contamination in soil or water, short and
+ultrashort PFAAs undergo rapid uptake and bioaccumulation
+in crops and other plants, particularly in their aerial
+compartments.34−37 Chen et al.5 detected concentrations of
+up to 3800 mg/kgdw of TFA in plants in the vicinity of a
+fluorochemical industrial site in China with an average field
+bioaccumulation factor of 13,000. In general, TFA has been
+enriching in conifer needles,5,38 maize,5,39 leaves of various tree
+species,4,5 and some wetland species.40 Consequently, high
+concentrations of TFA in plant-based foods41 and plant-based
+beverages such as juice,42 beer, and tea30 were reported,
+indicating that the ingestion of plant-based foods and
+beverages could be a substantial route for human (and animal)
+exposure.
+TFA was detected in human blood from China43 with
+median concentrations of 8.46 μg/L, similar to the levels of
+long-chain PFAAs, although TFA is not considered bioaccumulative according to regulatory criteria (which typically
+refer to bioaccumulation in aquatic species entering the food
+chain and not to bioaccumulation in plants).44 A similar study
+in the USA reported a median of 6 μg/L and a maximum of 77
+μg/L,18 where TFA alone had a 57% contribution to the total
+mass of 39 detected PFAS in human serum. Thus, the
+concentrations of TFA in nonoccupationally exposed US
+citizens are similar to the concentrations of bioaccumulative
+legacy long-chain PFAAs (e.g., PFOS, PFHxS, PFNA, PFDA)
+measured in the serum of occupationally exposed workers.45
+Because of high uptake, TFA reaches levels in human serum
+
+■
+
+INCREASING PLANETARY EXPOSURE
+A review of the scientific literature was conducted to obtain an
+overview of average and maximum concentrations in diverse
+environmental media (see the Supporting Information (SI) for
+a full methodology and collected data). In brief, 43 studies
+reporting on TFA concentrations spanning from the late 1990s
+to the 2020s were selected, and monitoring data were analyzed.
+Collectively, these data indicate that TFA exposure is
+widespread and is increasing.
+Recent median concentrations of TFA in precipitation were
+measured at 0.29 μg/L in the USA,28 0.21 μg/L in Germany,29
+and 0.70 μg/L in Fuxin, China.5 The median drinking water
+concentrations reported in the recent peer-reviewed literature
+vary from 0.08 μg/L in the USA (Indiana)18 to 1.5 μg/L in
+Germany,2 and 0.23 μg/L in samples from 19 different
+countries other than Germany.30 This has relevance to TFA
+being included within regulatory definitions of “total PFAS”.
+These median concentrations are either similar to or higher
+than the proposed limits of total PFAS in drinking water in the
+EU draft recast Drinking Water Directive,31 which places a
+threshold of 0.5 μg/L for total PFAS.32 A recent report
+measuring TFA in European surface water and groundwater
+recorded an exceedance of the 0.5 μg/L threshold in 79% of
+the samples, with more than 98% of the detected mass of total
+19926
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+that are much higher than its low bioaccumulation potential in
+aquatic species would indicate.
+To demonstrate the change in concentrations and trends
+over the years, Figure 1 presents a comparison of pre-2010 and
+post-2010 data (by the reported year of sampling, not the year
+of publication). This cutoff year of 2010 was chosen because
+there was a slump of interest in TFA in the peer-reviewed
+literature between the years 2008 to 2012. Prior to this time,
+research on TFA attracted attention in relation to the
+introduction of F-gases around the late 1990s to replace
+CFCs. In more recent years, TFA has attracted increased
+attention due to it more commonly being included and
+detected during PFAS monitoring campaigns. The first of
+January 2010 also coincides with the final deadline for stopping
+the last remaining production of CFCs;46 even though the
+transition to F-gases occurred much before this time.15
+When pre- and post-2010 concentration data are available in
+a specific medium (Figure 1), an increase in TFA by over an
+order of magnitude in both maximum and mean concentrations in several environmental compartments is evident,
+including for precipitation, rivers and streams, groundwater,
+drinking water, soil, and plants. While atmospheric media were
+the main focus of monitoring studies dated pre-2010
+(especially precipitation), more data from other media became
+available after this cutoff year�with new media relevant to
+human exposure (e.g., plant-based beverages, crops, indoor and
+outdoor dust, human serum), ecosystem exposure (e.g.,
+animals such as locusts, autochthonous tree species), as well
+as other media that were rarely measured before (e.g., drinking
+water). Comprehensive figures with concentrations across
+different media are available in the SI (Figures S1−S4).
+More detailed time trends are available at specific locations.
+Urban surface waters around Beijing were sampled in 200247
+and were resampled in 2012,48 showing up to a 17-fold
+increase in TFA concentrations over 10 years, while tap water
+detections went from nondetection to 0.16 μg/L in 2012.48
+Freeling et al. reported an increase in wet deposition in
+Germany from 22 to 30 t/year during 1995−1996 to 68 to 98
+t/year in 2019.29 Pickard et al. used dated Arctic ice cores to
+show a rapid increase in deposited TFA after the entry-intoforce of the Montreal Protocol, from nondetection or a few
+ng/L in segments before 1989 to 0.13 and 0.15 μg/L in
+segments dated 2015 and 2017, respectively.15 In 2021, Cahill
+et al. reported a 6-fold increase in TFA in a stream transect in
+California since 1998.49 Freeling et al. analyzed archived leaf
+samples of different tree species for TFA and observed
+increases by factors of up to 12.5 in TFA concentrations in
+some species from 1989 to 2020.50 A study in indoor and
+outdoor dust found a 4-fold increase in TFA between 2013 and
+2017.51
+
+Perspective
+
+(no biotransformation) and its lack of volatility (as it is a
+strong acid in water and fully ionized), constant passive uptake
+from soil pore water via the transpiration stream can be
+expected for the lifetime of the plant as long as there is an
+input of TFA available. This theory is supported by findings for
+other short- and ultrashort-chain PFAAs36 and is in agreement
+with the results by Zhang et al.,56 who did not observe a
+steady-state concentration being reached for TFA in their
+wheat experiments.
+Exposure of TFA within agricultural and other ecosystems
+has not been assessed to the same extent as it has for other,
+longer-chain PFAAs;57−62 however, it is inevitable that with
+increasing emissions on the global scale, the mean TFA
+concentrations in humans (serum), animals and plants will
+increase. The only potential environmentally relevant pathways
+of TFA degradation are overtone photodissociation in the
+troposphere and biologically catalyzed conversion processes
+that convert TFA to fluoroform (CF3H).63 This is likely
+negligible in terms of TFA mass loss, as TFA is readily
+scavenged from the atmosphere by wet (and to a lower extent,
+dry) deposition, before it spreads rapidly in the terrestrial
+hydrosphere.12,48,64 Nevertheless, considering the high TFA
+concentrations, even a low conversion of TFA to fluoroform
+may have an observable impact on atmospheric fluoroform
+concentrations.63 Methods to remove TFA from water are
+expensive and often inefficient due to TFA’s persistence and
+mobility.53,65−67 In some cases, water purification methods as
+common as ozonation and chlorination are also a source of
+TFA, depending on the presence of TFA-precursors.53 The
+most effective solution would be reverse osmosis (RO) to
+upconcentrate TFA, followed by some intensive destruction
+techniques. However, RO treatment of water, particularly
+wastewater, compared to other forms of water treatment is
+expensive,68,69 requires a substantial amount of energy70 and
+typically results in 50% water loss.71 The necessity of RO for
+water treatment is also in contradiction to Article 7(3) of the
+EU’s Water Framework Directive, which states “Member
+States shall ensure the necessary protection for the bodies of
+water identified with the aim of avoiding deterioration in their
+quality in order to reduce the level of purification treatment
+required in the production of drinking water”.72 Destructive
+techniques for concentrated TFA, such as incinerating RO
+concentrates or even biomass containing TFA, may lead to
+harmful byproducts, including fluoroform (a potent greenhouse gas with a GWP of 14,800 times that of CO2 over 100
+years).63,73
+We mentioned above that one source of increasing TFA
+concentrations is the increased use of F-gases used as
+refrigerant chemicals; it is worth looking into this in more
+detail. Refrigerant chemicals have a history of being problematic. CFCs were originally introduced as “safer”, alternative
+refrigerants to ammonia, sulfur dioxide and methyl chloride,
+until it was discovered that CFCs were volatile enough to reach
+the stratosphere and release Cl radicals that lead to the
+decomposition of stratospheric ozone, particularly over
+Antarctica.74−76 In this manner, CFCs were a planetary
+boundary threat associated with severe impacts.77 To protect
+the ozone layer from poorly reversible depletion, the Montreal
+Protocol78 required CFCs used in refrigeration and air
+conditioning systems to be substituted with HCFCs and
+HFCs79 or natural refrigerants. HCFCs have lower ozone
+depletion potential than CFCs, and HFCs have no ozone
+depletion potential; however, HFCs have a high global
+
+■
+
+AN IRREVERSIBLE BURDEN FROM MULTIPLE
+SOURCES OF EMISSIONS
+Based on its persistence and high mobility due to lack of
+sorption,13,52 TFA’s ultimate recipient is the Earth’s hydrosphere. As TFA is omnipresent in all water bodies, from
+groundwater, oceanic water, ice cores, drinking water to
+bottled water,1,2,15,30,48,53−55 dilution in many ways has already
+occurred, with the only substantial remaining dilution medium
+being the deep ocean. Similarly, enrichment in plants will
+follow constantly increasing TFA concentrations as water and
+soil concentrations increase. With limited processes for
+elimination from plant tissues because of TFA’s persistence
+19927
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+warming potential (GWP).79 Further amendments to the
+Montreal Protocol and the European F-gas Regulation aimed
+to replace the high-GWP F-gases with low-GWP alternatives.80
+Nevertheless, the substances proposed as replacements−
+hydrofluoroolefins (HFOs) and even currently applied
+HFCs−add to the problem because many HFOs and HFCs
+can be either partially (e.g., HFC-134a, HFC-143a, HFC1234ze, HCFO-1233zd) or completely (e.g., HFC-227ea,
+HFO-1225ye(E), HFO-1225ye(Z), u-HCFC-1224yd(Z), and
+HFO-1234yf) transformed to TFA.81,82 The use of HFO1234yf was estimated to be responsible for 6900 t/year
+emissions of TFA in 2020 in the EU alone, with a potential
+increase in emissions up to 47,650 t/year by 2050.81 This shift
+in F-gases could cause emissions of TFA to increase by orders
+of magnitude in the coming years, 81 along with a
+corresponding contribution to climate impacts due to the
+formation of more fluoroform from TFA in the troposphere.63
+Another major source of TFA is direct emissions from
+industrial production and processes. For example, TFA is
+registered under EU’s Regulation 1907/2006 on the
+Registration, Evaluation, Authorisation and Restriction of
+Chemicals (REACH) as manufactured and/or imported into
+the EU in volumes ranging from 100 to 1000 tons per year.52
+Additionally, TFA is used as an intermediate, but this usage
+does not require the registration of production volumes. Xie et
+al. measured TFA in the surrounding environment (surface
+water, groundwater, air, dust, soil) of three fluorochemical
+plants near Jinan, China, that manufacture inorganic fluorine
+products, TFA and fluoride-containing intermediates.83
+Whereas Xie et al. reported surface water concentrations up
+to a maximum of 2.6 μg/L,83 concentrations up to 7500 μg/L
+were recently reported in surface water of the river Arias in the
+vicinity of a production plant producing TFA and related PFAS
+in Southern France.84,85
+In addition to F-gases and direct TFA production,83−85 there
+are several other precursors contributing to the accumulation
+of TFA in the environment, including a variety of groups of
+chemicals containing the C−CF3 moiety, such as agrochemicals,53,86−88 pharmaceuticals,53 (fluoro)polymers,89−91
+and other PFAS.13,53,92 TFA and its precursors can be emitted
+from point sources such as the (fluoro)chemical industry,5,53
+wastewater treatment plants, landfills,4,93,94 and sites with a
+history of the use of aqueous film-forming foams (AFFFs).93,95
+The German Environment Agency (Umweltbundesamt, UBA)
+published estimates for TFA emissions from sources in
+Germany.96 The available data indicate that refrigerants and
+blowing agents were the largest quantifiable source of TFA
+with emissions at ∼2000 t/year in Germany, followed by
+pesticides at ∼457 t/year (mainly flufenacet, diflufenican, and
+fluazinam), and human pharmaceuticals at ∼29 t/year.
+Emissions from other sources, such as direct production of
+TFA, biocides, veterinary pharmaceuticals, and fluorochemicals
+in products could not be quantified in that study.96 There have
+been speculations about natural sources of TFA, but these have
+been discredited by Joudan et al.,97 who demonstrated that
+only increasing anthropogenic sources of TFA can explain its
+exponential increase in recent decades. A source of TFA that
+has been recognized since the 1990s and is garnering
+increasing attention is the transformation products from the
+thermal destruction of fluoropolymers,98 as well as treatment
+of PFAS by destruction methods.53,99,100 TFA formation yields
+of diverse PFAS destruction methods are often unknown and
+this should therefore be investigated when developing new
+
+Perspective
+
+destruction methods for PFAS.16 TFA has been dubbed a
+“Substance from Multiple Sources” by Nödler and Scheurer,101
+highlighting the difficulty in ascertaining the main sources of
+TFA in monitoring studies of water resources.14,19
+
+■
+
+DISRUPTIVE EFFECTS ON HUMAN HEALTH AND
+EARTH SYSTEM PROCESSES
+There may be disruptive effects of TFA on human health or on
+Earth system processes that are currently unknown, similar to
+how the effects of longer-chain PFAAs on human health and
+CFCs on the ozone layer were initially unknown by the
+broader scientific and regulatory community. Overcoming this
+ignorance is the hardest part of understanding that a certain
+novel entity that is irreversibly increasing in concentrations
+globally may pose a planetary boundary threat.25 Such effects
+cannot be fully described or anticipated by established
+paradigms of hazard and risk assessment. However, as those
+paradigms are commonly used in defining regulatory human
+and ecosystem health thresholds for chemicals, this is where we
+start our analysis of TFA potentially causing a disruptive
+impact on a planetary scale.
+Known Health and Environmental Thresholds. A
+recent review by Dekant and Dekant17 summarized the
+mammalian toxicity of TFA, referring specifically to human
+toxicity. Most toxicity tests on which human health risk
+assessments were based are rat studies, which found mild liver
+hypertrophy (increased size of the liver) as the lead effect at
+daily doses of > 1000 mg/kgbw in a 90-day feeding study. More
+human-relevant tests directed toward a mechanistic understanding and not only toward filling regulatory apical end
+points should be conducted in the future. Currently, there is an
+intention under EU Regulation 1272/2008 on the Classification, Labeling and Packaging of Substances and Mixtures
+(CLP) to classify TFA and its salts under Category 1B:
+Presumed human reproductive toxicant, based on new
+evidence of embryo-fetal developmental toxicity in rabbits,
+submitted to the European Chemicals Agency (ECHA) by
+Germany.52,102,103 If TFA were to be classified as toxic for
+reproduction, this could have an impact on future threshold
+values in food and drinking water. In 2020, Germany
+established a human-health guideline value for TFA in drinking
+water at 60 μg/L, which is based on a chronic rat toxicity
+(feeding) study, but emphasized that the concentration in
+drinking water should be kept as low as reasonably possible
+and a value of 10 μg/L should be targeted.104 In 2023, The
+Netherlands derived an indicative drinking water value for
+TFA at 2.2 μg/L, based on the potency factor relative to
+perfluorooctanoic acid (PFOA) and its threshold for drinking
+water.105 Considering that the mean and maximum TFA
+concentrations in German drinking water sources were
+recently measured at 0.9 and 12.4 μg/L,2 respectively, it is
+plausible that drinking water concentrations in many areas
+have or will exceed the 2.2 μg/L threshold in the near future.
+Under the EU’s CLP Regulation, TFA is classified as
+harmful to aquatic life with long-lasting effects (H412).106
+Under REACH, the toxicological threshold for the general
+population (Derived No Effect Level, DNEL) is derived only
+for the oral route and set to 0.042 mg/kgbw/day, while for
+other routes of exposure, no hazard has been assumed and
+concluded. The threshold for the oral route was derived based
+on the observed effects from a 90-day rat-feeding study.52
+Human toxicokinetic evaluation of TFA showed rapid oral
+absorption, submission to enterohepatic circulation, and body
+19928
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+Perspective
+
+36 days in crop plants52 (Table S2, SI), which are insufficient
+in their extrapolation to potential impacts from lifetime
+exposure to TFA. Hence, none of the current studies
+considered actual long-term exposure to TFA, which would
+be more relevant given its ubiquitous and increasing presence
+over long time scales.
+In contrast to the analysis above, other authors109,110
+recently concluded the risk of TFA to humans and the
+environment is de minimis (i.e., negligible) based on examples
+like a projected concentration of TFA in the ocean of 0.2 μg/L
+by 2100 compared to the NOEC in the algae R. subcapitata of
+2500 μg/L,109,110 as well as the median human serum levels of
+8.46 μg/L in the serum of staff of Nankai University being 4
+orders of magnitude below effect doses in rats. However, we
+disagree that these are sufficient data to conclude negligible
+risk, considering that the conclusion ignores terrestrial
+environments, assumes that the lowest measured environmental effect levels are known despite the lack of long-term
+chronic exposure data for other species, and does not consider
+diverse human exposure pathways in the context of increasing
+TFA concentration in diet and potential unknown adverse
+effects, such as on embryo development. Given the persistence
+and accumulation of TFA, there could be other, unknown
+environmental and health impacts for which the current
+science is ignorant.
+Unknown Environmental and Health Impacts. As TFA
+is accumulating in diverse ecosystems, researchers should focus
+on nontraditional exposure and impact pathways that affect
+biogeochemical processes. Despite the extremely high plant
+uptake of TFA, controlled uptake experiments have rarely been
+performed and reported for TFA. Zhang et al.56 performed a
+set of hydroponic experiments with TFA and other ultrashort
+and short PFCAs. Here, the root uptake was exceptionally high
+for TFA when compared to other PFCAs, e.g., the root
+concentration factor of TFA was >1600 L/kg,56 2 orders of
+magnitude higher than usually determined for PFCAs with 3−
+5 perfluorinated carbons in similar experiments.111−113 Chen et
+al.5 found a similar pattern for chain length dependence across
+PFCAs and the field-based soil-water distribution coefficients
+(Kd). They determined Kd values that were higher than
+expected for TFA (and PFPrA), demonstrating the opposite to
+the commonly observed trend of Kd decreasing as the
+perfluoroalkyl chain length decreases from 11 to 3 perfluorinated carbons for PFCAs and PFSAs.114−117 This indicates
+that the interface partitioning of TFA and interactions with
+soils and plants need to be further researched and accounted
+for in assessing its environmental fate and behavior properties,
+particularly its (bio)accumulation potential. Such research
+needs to be extended to agricultural systems, such as the
+transfer from crops containing elevated levels of TFA to
+livestock (meat and milk) and human diets, as well as a transfer
+of TFA from plants through diverse food webs, similar to
+previous research on other PFAS.58−61
+Direct effects of TFA on soil quality were only recently
+investigated.118 Effects on the soil pH, microbial respiration,
+bacterial abundance and litter decomposition were reported,
+the latter being affected at concentrations similar to current
+TFA concentrations in soil for contamination hotspots as
+described in Chen et al.5 (0.0013−2.4 mg/kgdw). Effects other
+than litter decomposition were statistically significant only at
+high TFA concentrations (≥10 mg/kg) which could be a result
+of acidity-related effects, as the pH significantly decreased at
+concentrations of 10 mg/kg and higher (TFA in the acid form
+
+distribution via blood, which included passing through the
+placenta barrier. The main excretion routes are considered to
+be via urine and bile.52 Although TFA is not bioaccumulative
+according to regulatory criteria referring to aquatic organisms,52 internal concentrations may increase due to continuous
+accumulation in exposure media, such as drinking water and
+plant-based food and beverages.
+Contrary to the most recent human toxicological review,17 a
+similar recent review is not available for (eco)toxicity data. We
+conducted a search of the USEPA ECOTOX database107 and
+ECHA registration dossiers52 and found that most efforts
+toward the determination of (eco)toxicity of TFA are from the
+1990s. Algae are considered the most sensitive trophic level,
+with S. capricornutum the most sensitive species and 120 μg/L
+the lowest determined No-Observed Effect Concentration
+(NOEC), which was determined for the TFA sodium salt
+(Solvay data, ECOTOX database extracted for TFA/NaTFA
+and reported in Berends et al.8,107). Selected ecotoxicity end
+points (acute and chronic) for other organisms are reported in
+Table S2 of the Supporting Information, with listed
+ecotoxicological thresholds and their abbreviations. Overall,
+most of the testing was performed for acute toxicity with only a
+few studies investigating the chronic toxicity of TFA.
+Predicted no-effect concentrations (PNECs) are concentration thresholds commonly derived in environmental risk
+assessment that should be protective of the whole ecosystem.
+They are based on ecotoxicity data and extrapolation factors
+based on data abundance, test duration (acute/chronic), and
+data quality/uncertainty.108 For TFA, the lowest PNEC of 0.12
+μg/L was derived by Xie et al.83 and was based on algae that
+were previously shown as the most sensitive trophic level. The
+PNEC of 0.12 μg/L was derived from a NOEC of 120 μg/L by
+using an uncertainty factor of 1000, chosen because of the
+scarcity of (eco)toxicity data in the peer-reviewed literature
+and because extrapolation to the marine environment requires
+extra precaution (typically by a factor of 10 compared to
+freshwater). The ECHA REACH dossier reports a freshwater
+PNEC of 560 μg/L and a marine water PNEC of 56 μg/L,
+both based on the algal study reporting the 72 h ErC10 (EC10
+based on growth rate) of 5600 μg/L.52 Almost all surface water
+median and/or mean concentrations from peer-reviewed
+studies reported as post-2010 already exceed the precautionary
+PNEC of 0.12 μg/L as derived by Xie et al.83 (Table S1, Figure
+S2), while the NOEC of 120 μg/L and ECHA’s PNEC of 560
+μg/L are exceeded by some recently detected maximum
+freshwater/surface water values.84,85
+Among terrestrial organisms (ecotoxicity studies), only crop
+plants were tested for TFA toxicity in the REACH dossier. The
+EC50 was 4.7 mg/kg soil dry weight, and a long-term NOEC
+was 0.83 mg/kg soil dry weight. It was mostly the plant shoot
+growth that was affected.52 Further testing of TFA plant
+toxicity is needed, due to the scarcity of plant toxicity studies
+with sufficiently high internal plant concentrations, and for
+including other vascular plants than crops.13 However, the
+long-term NOEC determined in crops52 is already similar to
+soil TFA background concentrations and is several orders of
+magnitude lower than TFA soil concentrations in contamination hotspots (Figure 1, Figure S4).5,39
+Given the persistence of TFA, exposure to TFA should be
+considered chronic and lifelong for all species. However,
+chronic studies are still relatively scarce, with chronic data from
+standardized tests being limited in time of exposure to, for
+example, 35 days in fish, 21 days in Daphnia, 90 days in rats, or
+19929
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+was directly used in the testing).118 Bott and Standley observed
+the incorporation of TFA into cells by microbial communities
+in freshwater surface sediments119 after also demonstrating
+TFA incorporation in biomolecules such as proteins in aquatic
+organisms spanning a range of trophic levels.11 Concentrations
+that were used in these ∼1.5 to 2.5-year experiments overlap
+with those currently observed in waters worldwide, ranging
+from 2.2 to 43 μg/L (Table S1, Figure S2, SI), and resulted in
+significant cell incorporation of TFA.119 It was also indicated
+that at elevated concentrations, the presence of TFA in the
+atmosphere may influence aerosols and cloud formation,
+boosting the formation of atmospheric clusters involved in new
+aerosol particle formation.120,121 As concentrations of TFA will
+likely increase by at least an order of magnitude in the coming
+decade, further investigations of TFA on biogeochemical
+processes are warranted.
+
+■
+
+Perspective
+
+sources should be used as a rationale to start immediately
+discussing policy, industry, and innovation actions toward the
+phase-out of high-volume substances that lead to increasing
+TFA accumulation. Obvious places to start would be to limit
+the direct production of TFA, and more importantly, of TFAprecursors, such as HFOs (like HFO-1234yf) and pesticides
+such as flufenacet.13,53,96 Other pharmaceuticals, veterinary
+products and industrial chemicals that release TFA via
+transformation processes7 should also be considered for
+phase-out or substitutions, following the principles of safeand-sustainable by design124 and essential use125 to avoid
+regrettable substitution126 to more hazardous substances. As
+discussions and policy mechanisms to phase out the sources of
+TFA could take some time, the rational response to the global
+threat posed by accumulating TFA is to act swiftly before
+irreversible impacts are manifested at a global scale to humans
+and the environment. Transitioning away from TFA and its
+precursors is the most effective way of safeguarding future
+generations from this planetary boundary threat.
+
+ENVIRONMENTAL IMPLICATIONS
+
+Based on the evidence presented above, the increasing
+accumulation of TFA can be considered to meet the three
+conditions of a planetary boundary threat122,123 for novel
+entities as defined by Persson et al.:25 “Condition 1 (C1) − the
+pollution has a disruptive ef fect on a vital earth system process of
+which we are ignorant; Condition 2 (C2) − the disruptive ef fect is
+not discovered until the associated impacts are, or inevitably will
+be, manifested at a global scale; and Condition 3 (C3) the impacts
+are poorly reversible because the level of pollution in the global
+environment cannot be readily reduced...” Condition 1 (C1) is
+fulfilled based on the many thresholds that could be exceeded
+of which we are ignorant; including surface water concentrations84,85 that exceed83 ECHA’s PNEC of 560 μg/L; soil
+concentrations that exceed the lowest established NOEC (0.83
+mg/kg soil);52 and, indications of human toxicity that have led
+to precautionary thresholds in drinking water.104 The existence
+of such health advisory and regulatory values has been used as
+the basis for establishing C1 in relation to four PFAAs in a
+previous study.27 The possibility of other long-term disruptive
+effects, which may be already occurring but of which we are
+ignorant, further supports the C1 being fulfilled, particularly
+considering the absence of studies of TFA exposure in
+agricultural systems and diverse food webs. Condition 2
+(C2) is fulfilled as TFA is already present globally in all
+environmental media, such as its ongoing bioaccumulation in
+vascular plants, the accumulation in arctic regions, its ubiquity
+in groundwater, and the global occurrence of industrial sites
+that are TFA hotspots where impacts are most likely; therefore,
+when impacts are discovered, they would be global. Since
+effects are realized globally and will be irreversible for the
+foreseeable future, condition 3 (C3) is fulfilled due to TFA’s
+extreme persistence and mobility coupled with emissions from
+multiple sources.
+Although, currently, TFA does not have as well-established
+health advisories or regulatory limits as other PFAA,27 it is
+likely that new advisories/limits will be introduced in the
+coming years when more research on the impacts of TFA
+emerges. With the projected exponential increase in TFA
+concentrations in the environment,81 food and in humans, the
+question is not if TFA can exceed a planetary boundary, but
+which irreversible health or Earth system impacts would be
+first observed at a planetary scale, and where thresholds of TFA
+emissions should be set to limit the severity of such impacts.
+The potential long-term, irreversible impacts from the
+rapidly increasing emissions of TFA from anthropogenic
+
+■
+
+ASSOCIATED CONTENT
+
+* Supporting Information
+sı
+
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acs.est.4c06189.
+The monitoring data collection and methodology (PDF)
+A full set of collected monitoring data with individual
+graphics and an overview of selected ecotoxicity values
+referred to in this study(XLSX)
+
+■
+
+AUTHOR INFORMATION
+
+Corresponding Author
+
+Hans Peter H. Arp − Norwegian Geotechnical Institute
+(NGI), 0484 Oslo, Norway; Department of Chemistry,
+Norwegian University of Science and Technology (NTNU),
+7491 Trondheim, Norway; orcid.org/0000-0002-07478838; Email: hans.peter.arp@ngi.no
+Authors
+
+Andrea Gredelj − Norwegian Geotechnical Institute (NGI),
+0484 Oslo, Norway; orcid.org/0000-0001-7766-871X
+Juliane Glüge − Institute of Biogeochemistry and Pollutant
+Dynamics, ETH Zürich, 8092 Zürich, Switzerland;
+orcid.org/0000-0003-1997-2750
+Martin Scheringer − Institute of Biogeochemistry and
+Pollutant Dynamics, ETH Zürich, 8092 Zürich, Switzerland;
+RECETOX, Masaryk University, 625 00 Brno, Czech
+Republic; orcid.org/0000-0002-0809-7826
+Ian T. Cousins − Department of Environmental Science,
+Stockholm University, SE-10691 Stockholm, Sweden;
+orcid.org/0000-0002-7035-8660
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acs.est.4c06189
+Author Contributions
+§
+
+H.P.H.A and A.G. contributed equally to this paper.
+
+Notes
+
+The authors declare no competing financial interest.
+19930
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+Biography
+
+(6) Fang, X.; Wang, Q.; Zhao, Z.; Tang, J.; Tian, C.; Yao, Y.; Yu, J.;
+Sun, H. Distribution and Dry Deposition of Alternative and Legacy
+Perfluoroalkyl and Polyfluoroalkyl Substances in the Air above the
+Bohai and Yellow Seas, China. Atmos. Environ. 2018, 192, 128−135.
+(7) Jordan, A.; Frank, H. Trifluoroacetate in the Environment.
+Evidence for Sources Other than HFC/HCFCs. Environ. Sci. Technol.
+1999, 33 (4), 522−527.
+(8) Berends, A. G.; Boutonnet, J. C.; De Rooij, C. G.; Thompson, R.
+S. Toxicity of Trifluoroacetate to Aquatic Organisms. Environ. Toxicol.
+Chem. 1999, 18 (5), 1053−1059.
+(9) Boutonnet, J. C.; Bingham, P.; Calamari, D.; Rooij, C. de;
+Franklin, J.; Kawano, T.; Libre, J.-M.; McCul-loch, A.; Malinverno, G.;
+Odom, J. M.; Rusch, G. M.; Smythe, K.; Sobolev, I.; Thompson, R.;
+Tiedje, J. M. Environmental Risk Assessment of Trifluoroacetic Acid.
+Human and Ecological Risk Assessment: An International Journal 1999,
+5 (1), 59−124.
+(10) Likens, G. E.; Tartowski, S. L.; Berger, T. W.; Richey, D. G.;
+Driscoll, C. T.; Frank, H. G.; Klein, A. Transport and Fate of
+Trifluoroacetate in Upland Forest and Wetland Ecosystems. Proc.
+Natl. Acad. Sci. U.S.A. 1997, 94 (9), 4499−4503.
+(11) Standley, L. J.; Bott, T. L. Trifluoroacetate, an Atmospheric
+Breakdown Product of Hydrofluorocarbon Refrigerants: Biomolecular
+Fate in Aquatic Organisms. Environ. Sci. Technol. 1998, 32 (4), 469−
+475.
+(12) Wujcik, C. E.; Cahill, T. M.; Seiber, J. N. Determination of
+Trifluoroacetic Acid in 1996−1997 Precipitation and Surface Waters
+in California and Nevada. Environ. Sci. Technol. 1999, 33 (10), 1747−
+1751.
+(13) Freeling, F.; Björnsdotter, M. K. Assessing the Environmental
+Occurrence of the Anthropogenic Contaminant Trifluoroacetic Acid
+(TFA). Current Opinion in Green and Sustainable Chemistry 2023, 41,
+No. 100807.
+(14) Zhang, W.; Liang, Y. The Wide Presence of Fluorinated
+Compounds in Common Chemical Products and the Environment: A
+Review. Environmental Science and Pollution Research 2023, 30 (50),
+108393−108410.
+(15) Pickard, H. M.; Criscitiello, A. S.; Persaud, D.; Spencer, C.;
+Muir, D. C. G.; Lehnherr, I.; Sharp, M. J.; De Silva, A. O.; Young, C. J.
+Ice Core Record of Persistent Short-Chain Fluorinated Alkyl Acids:
+Evidence of the Impact From Global Environmental Regulations.
+Geophys. Res. Lett. 2020, 47 (10). DOI: 10.1029/2020GL087535.
+(16) Brunn, H.; Arnold, G.; Körner, W.; Rippen, G.; Steinhäuser, K.
+G.; Valentin, I. PFAS: Forever Chemicals�Persistent, Bioaccumulative and Mobile. Reviewing the Status and the Need for Their Phase
+out and Remediation of Contaminated Sites. Environmental Sciences
+Europe 2023, 35 (1), 20.
+(17) Dekant, W.; Dekant, R. Mammalian Toxicity of Trifluoroacetate and Assessment of Human Health Risks Due to Environmental Exposures. Arch. Toxicol. 2023, 97 (4), 1069−1077.
+(18) Zheng, G.; Eick, S. M.; Salamova, A. Elevated Levels of
+Ultrashort- and Short-Chain Perfluoroalkyl Acids in US Homes and
+People. Environ. Sci. Technol. 2023, 57 (42), 15782−15793.
+(19) Solomon, K. R.; Velders, G. J. M.; Wilson, S. R.; Madronich, S.;
+Longstreth, J.; Aucamp, P. J.; Bornman, J. F. Sources, Fates, Toxicity,
+and Risks of Trifluoroacetic Acid and Its Salts: Relevance to
+Substances Regulated under the Montreal and Kyoto Protocols.
+Journal of Toxicology and Environmental Health - Part B: Critical
+Reviews 2016, 19 (7), 289−304.
+(20) Garavagno, M. d. l. A.; Holland, R.; Khan, M. A. H.; Orr-Ewing,
+A. J.; Shallcross, D. E. Trifluoroacetic Acid: Toxicity, Sources, Sinks
+and Future Prospects. Sustainability 2024, 16 (6), 2382.
+(21) Hanson, M. L.; Solomon, K. R. Haloacetic Acids in the Aquatic
+Environment. Part I: Macrophyte Toxicity. Environ. Pollut. 2004, 130
+(3), 371−383.
+(22) Kwiatkowski, C. F.; Andrews, D. Q.; Birnbaum, L. S.; Bruton,
+T. A.; DeWitt, J. C.; Knappe, D. R. U.; Maffini, M. V.; Miller, M. F.;
+Pelch, K. E.; Reade, A.; Soehl, A.; Trier, X.; Venier, M.; Wagner, C.
+C.; Wang, Z.; Blum, A. Response to “Comment on Scientific Basis for
+
+Hans Peter H. Arp, NGI, is an environmental chemist interested in
+how fundamental aspects of physical chemistry can be utilized as
+applied tools for understanding and preventing pollution exposure.
+His projects focus on designing solutions through policy mechanisms,
+chemical properties, interdisciplinary collaboration, and sustainable
+technologies to enable the circular economy and help create a zeropollution society. He holds a PhD from ETH Zürich (2008) and a
+professorship at the Norwegian University of Science and Technology
+(since 2018). He is an Associate Editor for the journal Environmental
+Science: Processes and Impacts (since 2024).
+
+■
+
+ACKNOWLEDGMENTS
+
+■
+
+REFERENCES
+
+Perspective
+
+Funding is acknowledged under the European Union’s
+Horizon 2020 research and innovation program project
+ZeroPM, under grant agreement No 101036756, and the
+Horizon Europe project ARAGORN under grant agreement
+101112723. M. Scheringer acknowledges financial support by
+the RECETOX Research Infrastructure (LM2023069) financed by the Ministry of Education, Youth and Sports of
+the Czech Republic. Gabriel Salierno, Gretta Goldenman,
+Rainer Lohmann, and Cora Young are thanked for providing
+comments on a preprint version.
+
+(1) Janda, J.; Nödler, K.; Brauch, H. J.; Zwiener, C.; Lange, F. T.
+Robust Trace Analysis of Polar (C2-C8) Perfluorinated Carboxylic
+Acids by Liquid Chromatography-Tandem Mass Spectrometry:
+Method Development and Application to Surface Water, Groundwater and Drinking Water. Environmental Science and Pollution
+Research 2019, 26 (8), 7326−7336.
+(2) Neuwald, I. J.; Hübner, D.; Wiegand, H. L.; Valkov, V.; Borchers,
+U.; Nödler, K.; Scheurer, M.; Hale, S. E.; Arp, H. P. H.; Zahn, D.
+Ultra-Short-Chain PFASs in the Sources of German Drinking Water:
+Prevalent, Overlooked, Difficult to Remove, and Unregulated.
+Environ. Sci. Technol. 2022, 56, 6380.
+(3) Liang, S. H.; Steimling, J. A.; Chang, M. Analysis of UltrashortChain and Short-Chain (C1 to C4) per- and Polyfluorinated
+Substances in Potable and Non-Potable Waters. Journal of
+Chromatography Open 2023, 4, 100098.
+(4) Tian, Y.; Yao, Y.; Chang, S.; Zhao, Z.; Zhao, Y.; Yuan, X.; Wu,
+F.; Sun, H. Occurrence and Phase Distribution of Neutral and
+Ionizable Per- and Polyfluoroalkyl Substances (PFASs) in the
+Atmosphere and Plant Leaves around Landfills: A Case Study in
+Tianjin, China. Environ. Sci. Technol. 2018, 52 (3), 1301−1310.
+(5) Chen, H.; Yao, Y.; Zhao, Z.; Wang, Y.; Wang, Q.; Ren, C.; Wang,
+B.; Sun, H.; Alder, A. C.; Kannan, K. Multimedia Distribution and
+Transfer of Per- and Polyfluoroalkyl Substances (PFASs) Surrounding
+Two Fluorochemical Manufacturing Facilities in Fuxin, China.
+Environ. Sci. Technol. 2018, 52 (15), 8263−8271.
+19931
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+Managing PFAS as a Chemical Class. Environ. Sci. Technol. Lett. 2021,
+8 (2), 195−197.
+(23) Singh, R. R.; Papanastasiou, D. K. Comment on “Scientific
+Basis for Managing PFAS as a Chemical Class. Environmental Science
+and Technology Letters 2021, 8 (2), 192−194.
+(24) Arp, H. P. H.; Kühnel, D.; Rummel, C.; MacLeod, M.; Potthoff,
+A.; Reichelt, S.; Rojo-Nieto, E.; Schmitt-Jansen, M.; Sonnenberg, J.;
+Toorman, E.; Jahnke, A. Weathering Plastics as a Planetary Boundary
+Threat: Exposure, Fate, and Hazards. Environ. Sci. Technol. 2021, 55
+(11), 7246−7255.
+(25) Persson, L. M.; Breitholtz, M.; Cousins, I. T.; De Wit, C. A.;
+MacLeod, M.; McLachlan, M. S. Confronting Unknown Planetary
+Boundary Threats from Chemical Pollution. Environ. Sci. Technol.
+2013, 47 (22), 12619−12622.
+(26) MacLeod, M.; Breitholtz, M.; Cousins, I. T.; De Wit, C. A.;
+Persson, L. M.; Rudén, C.; McLachlan, M. S. Identifying Chemicals
+That Are Planetary Boundary Threats. Environ. Sci. Technol. 2014, 48
+(19), 11057−11063.
+(27) Cousins, I. T.; Johansson, J. H.; Salter, M. E.; Sha, B.;
+Scheringer, M. Outside the Safe Operating Space of a New Planetary
+Boundary for Per- and Polyfluoroalkyl Substances (PFAS). Environ.
+Sci. Technol. 2022, 56 (16), 11172−11179.
+(28) Pike, K. A.; Edmiston, P. L.; Morrison, J. J.; Faust, J. A.
+Correlation Analysis of Perfluoroalkyl Substances in Regional U.S.
+Precipitation Events. Water Res. 2021, 190, No. 116685.
+(29) Freeling, F.; Behringer, D.; Heydel, F.; Scheurer, M.; Ternes, T.
+A.; Nödler, K. Trifluoroacetate in Precipitation: Deriving a Benchmark Data Set. Environ. Sci. Technol. 2020, 54 (18), 11210−11219.
+(30) Scheurer, M.; Nödler, K. Ultrashort-Chain Perfluoroalkyl
+Substance Trifluoroacetate (TFA) in Beer and Tea − An Unintended
+Aqueous Extraction. Food Chem. 2021, 351, No. 129304.
+(31) The European Parliament and the Council of the European
+Union. Directive (EU) 2020/2184 of the European Parliament and of
+the Council of 16 December 2020 on the Quality of Water Intended for
+Human Consumption (Recast) (Text with EEA Relevance); EU, 2020;
+pp 1−62. https://eur-lex.europa.eu/eli/dir/2020/2184/oj (accessed
+2024−05−22).
+(32) GLOBAL 2000; Friends of the Earth Austria; Pesticide Action
+Network Europe (PAN Europe); Generations Futures. TFA in Water,
+Dirty PFAS Legacy Under the Radar; 2024; pp 1−23 https://www.
+pan-europe.info/resources/reports/2024/05/tfa-water-dirty-pfaslegacy-under-radar (accessed 2024−05−31).
+(33) Meier, S.; Brodmann, P.; Weber, S.; Moschet, C.; Gelmi, T.;
+Lacour, W.; Steinmann, J.. TRINKWASSERQUALITÄ T BEZÜ GLICH
+DER PFAS-RÜ CKSTÄ NDE, 2024; pp 6 https://www.aquaetgas.ch/
+wasser/trinkwasser/20240228_ag3_trinkwasserqualit%C3%A4tbez%C3%BCglich-der-pfas-r%C3%BCckst%C3%A4nde/ (accessed
+2024−08−20).
+(34) Wang, W.; Rhodes, G.; Ge, J.; Yu, X.; Li, H. Uptake and
+Accumulation of Per- and Polyfluoroalkyl Substances in Plants.
+Chemosphere 2020, 261, No. 127584.
+(35) Ghisi, R.; Vamerali, T.; Manzetti, S. Accumulation of
+Perfluorinated Alkyl Substances (PFAS) in Agricultural Plants: A
+Review. Environ. Res. 2019, 169, 326−341.
+(36) Gredelj, A.; Polesel, F.; Trapp, S. Model-Based Analysis of the
+Uptake of Perfluoroalkyl Acids (PFAAs) from Soil into Plants.
+Chemosphere 2020, 244, No. 125534.
+(37) Lesmeister, L.; Lange, F. T.; Breuer, J.; Biegel-Engler, A.; Giese,
+E.; Scheurer, M. Extending the Knowledge about PFAS Bioaccumulation Factors for Agricultural Plants − A Review. Sci. Total Environ.
+2021, 766, No. 142640.
+(38) Scott, B. F.; Spencer, C.; Martin, J. W.; Barra, R.; Bootsma, H.
+A.; Jones, K. C.; Johnston, A. E.; Muir, D. C. G. Comparison of
+Haloacetic Acids in the Environment of the Northern and Southern
+Hemispheres. Environ. Sci. Technol. 2005, 39 (22), 8664−8670.
+(39) Lan, Z.; Yao, Y.; Xu, J. Y.; Chen, H.; Ren, C.; Fang, X.; Zhang,
+K.; Jin, L.; Hua, X.; Alder, A. C.; Wu, F.; Sun, H. Novel and Legacy
+Per- and Polyfluoroalkyl Substances (PFASs) in a Farmland
+
+Perspective
+
+Environment: Soil Distribution and Biomonitoring with Plant Leaves
+and Locusts. Environ. Pollut. 2020, 263, No. 114487.
+(40) Cahill, T. M.; Thomas, C. M.; Schwarzbach, S. E.; Seiber, J. N.
+Accumulation of Trifluoroacetate in Seasonal Wetlands in California.
+Environ. Sci. Technol. 2001, 35 (5), 820−825.
+(41) EU Reference Laboratories for Residues of Pesticides. EURLSRM-Residue Findings Report, 2017; pp 1−10. https://www.eurlpesticides.eu/userfiles/file/eurlsrm/eurlsrm_residue-observation_tfadfa.pdf (accessed 2023−12−08).
+(42) van Hees, P.; Karlsson, P.; Bucuricova, L.; Olsman, H.; Yeung,
+L.. Trifluoroacetic Acid (TFA) and Trifluoromethane Sulphonic Acid
+(TFMS) in Juice and Fruit/Vegetable Purees, 2024; pp 1−8. https://
+cdnmedia.eurofins.com/european-east/media/uxcnaa2c/eurofins_
+tfa_tfms_juice_24_final.pdf (accessed 2024−08−27).
+(43) Duan, Y.; Sun, H.; Yao, Y.; Meng, Y.; Li, Y. Distribution of
+Novel and Legacy Per-/Polyfluoroalkyl Substances in Serum and Its
+Associations with Two Glycemic Biomarkers among Chinese Adult
+Men and Women with Normal Blood Glucose Levels. Environ. Int.
+2020, 134, No. 105295.
+(44) Arnot, J. A.; Gobas, F. A. A Review of Bioconcentration Factor
+(BCF) and Bioaccumulation Factor (BAF) Assessments for Organic
+Chemicals in Aquatic Organisms. Environmental Reviews 2006, 14 (4),
+257−297.
+(45) Lucas, K.; Gaines, L. G. T.; Paris-Davila, T.; Nylander-French,
+L. A. Occupational Exposure and Serum Levels of Per- and
+Polyfluoroalkyl Substances (PFAS): A Review. American Journal of
+Industrial Medicine 2023, 66 (5), 379−392.
+(46) Woodcock, A. The Montreal Protocol: Getting over the
+Finishing Line? Lancet. 2009, 373 (9665), 705−706.
+(47) Zhang, J.; Zhang, Y.; Li, J.; Hu, J.; Ye, P.; Zeng, Z. Monitoring
+of Trifluoroacetic Acid Concentration in Environmental Waters in
+China. Water Res. 2005, 39 (7), 1331−1339.
+(48) Zhai, Z.; Wu, J.; Hu, X.; Li, L.; Guo, J.; Zhang, B.; Hu, J.;
+Zhang, J. A 17-Fold Increase of Trifluoroacetic Acid in Landscape
+Waters of Beijing, China during the Last Decade. Chemosphere 2015,
+129, 110−117.
+(49) Cahill, T. M. Increases in Trifluoroacetate Concentrations in
+Surface Waters over Two Decades. Environ. Sci. Technol. 2022, 56
+(13), 9428−9434.
+(50) Freeling, F.; Scheurer, M.; Koschorreck, J.; Hoffmann, G.;
+Ternes, T. A.; Nödler, K. Levels and Temporal Trends of
+Trifluoroacetate (TFA) in Archived Plants: Evidence for Increasing
+Emissions of Gaseous TFA Precursors over the Last Decades. Environ.
+Sci. Technol. Lett. 2022, 9 (5), 400−405.
+(51) Wang, B.; Yao, Y.; Wang, Y.; Chen, H.; Sun, H. Per- and
+Polyfluoroalkyl Substances in Outdoor and Indoor Dust from
+Mainland China: Contributions of Unknown Precursors and
+Implications for Human Exposure. Environ. Sci. Technol. 2022, 56
+(10), 6036−6045.
+(52) European Chemicals Agency (ECHA). ECHA Registration
+Dossier for Trifluoroacetic Acid. https://echa.europa.eu/de/
+registration-dossier/-/registered-dossier/5203/7/1 (accessed 2023−
+12−15).
+(53) Scheurer, M.; Nödler, K.; Freeling, F.; Janda, J.; Happel, O.;
+Riegel, M.; Müller, U.; Storck, F. R.; Fleig, M.; Lange, F. T.; Brunsch,
+A.; Brauch, H. J. Small, Mobile, Persistent: Trifluoroacetate in the
+Water Cycle − Overlooked Sources, Pathways, and Consequences for
+Drinking Water Supply. Water Res. 2017, 126, 460−471.
+(54) Scott, B. F.; Macdonald, R. W.; Kannan, K.; Fisk, A.; Witter, A.;
+Yamashita, N.; Durham, L.; Spencer, C.; Muir, D. C. G.
+Trifluoroacetate Profiles in the Arctic, Atlantic, and Pacific Oceans.
+Environ. Sci. Technol. 2005, 39 (17), 6555−6560.
+(55) Frank, H.; Christoph, E. H.; Holm-Hansen, O.; Bullister, J. L.
+Trifluoroacetate in Ocean Waters. Environ. Sci. Technol. 2002, 36 (1),
+12−15.
+(56) Zhang, L.; Sun, H.; Wang, Q.; Chen, H.; Yao, Y.; Zhao, Z.;
+Alder, A. C. Uptake Mechanisms of Perfluoroalkyl Acids with
+Different Carbon Chain Lengths (C2-C8) by Wheat (Triticum
+Acstivnm L.). Sci. Total Environ. 2019, 654, 19−27.
+19932
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+(57) Costello, M. C. S.; Lee, L. S. Sources, Fate, and Plant Uptake in
+Agricultural Systems of Per- and Polyfluoroalkyl Substances. Curr.
+Pollut Rep 2024, 10, 799−819.
+(58) Munoz, G.; Mercier, L.; Duy, S. V.; Liu, J.; Sauvé, S.; Houde,
+M. Bioaccumulation and Trophic Magnification of Emerging and
+Legacy Per- and Polyfluoroalkyl Substances (PFAS) in a St. Lawrence
+River Food Web. Environ. Pollut. 2022, 309, No. 119739.
+(59) Haukås, M.; Berger, U.; Hop, H.; Gulliksen, B.; Gabrielsen, G.
+W. Bioaccumulation of Per- and Polyfluorinated Alkyl Substances
+(PFAS) in Selected Species from the Barents Sea Food Web. Environ.
+Pollut. 2007, 148 (1), 360−371.
+(60) Drew, R.; Hagen, T. G.; Champness, D. Accumulation of PFAS
+by Livestock − Determination of Transfer Factors from Water to
+Serum for Cattle and Sheep in Australia. Food Additives &
+Contaminants: Part A 2021, 38 (11), 1897−1913.
+(61) Ghisi, R.; Vamerali, T.; Manzetti, S. Accumulation of
+Perfluorinated Alkyl Substances (PFAS) in Agricultural Plants: A
+Review. Environ. Res. 2019, 169, 326−341.
+(62) Mikkonen, A. T.; Martin, J.; Upton, R. N.; Moenning, J.-L.;
+Numata, J.; Taylor, M. P.; Roberts, M. S.; Mackenzie, L. Dynamic
+Exposure and Body Burden Models for Per- and Polyfluoroalkyl
+Substances (PFAS) Enable Management of Food Safety Risks in
+Cattle. Environ. Int. 2023, 180, No. 108218.
+(63) Salierno, G. On the Chemical Pathways Influencing the
+Effective Global Warming Potential of Commercial Hydrofluoroolefin
+Gases. ChemSusChem 2024, 1−20.
+(64) Russell, M. H.; Hoogeweg, G.; Webster, E. M.; Ellis, D. A.;
+Waterland, R. L.; Hoke, R. A. TFA from HFO-1234yf: Accumulation
+and Aquatic Risk in Terminal Water Bodies. Environ. Toxicol. Chem.
+2012, 31 (9), 1957−1965.
+(65) Arp, H. P. H.; Hale, S. E.; Borchers, U.; Valkov, V.; Wiegand,
+L.; Zahn, D.; Neuwald, I.; Nödler, K.; Scheurer, M. A Prioritization
+Framework for PMT/VPvM Substances under REACH for Registrants,
+Regulators, Researchers and the Water Sector, UBA TEXTE 22/2023.
+Neumann, M., Schliebner, I. Eds.; German Environment Agency
+(UBA): Dessau-Roßlau, Germany, pp 1−238. https://www.
+umweltbundesamt.de/publikationen/a-prioritization-framework-forpmtvpvm-substances (accessed 2024−06−03).
+(66) Hale, S. E.; Neumann, M.; Schliebner, I.; Schulze, J.; Averbeck,
+F. S.; Castell-Exner, C.; Collard, M.; Drmač, D.; Hartmann, J.;
+Hofman-Caris, R.; Hollender, J.; de Jonge, M.; Kullick, T.; Lennquist,
+A.; Letzel, T.; Nödler, K.; Pawlowski, S.; Reineke, N.; Rorije, E.;
+Scheurer, M.; Sigmund, G.; Timmer, H.; Trier, X.; Verbruggen, E.;
+Arp, H. P. H. Getting in Control of Persistent, Mobile and Toxic
+(PMT) and Very Persistent and Very Mobile (VPvM) Substances to
+Protect Water Resources: Strategies from Diverse Perspectives.
+Environ. Sci. Eur. 2022, 34 (1), 22.
+(67) Zhou, J.; Saeidi, N.; Wick, L. Y.; Xie, Y.; Kopinke, F. D.; Georgi,
+A. Efficient Removal of Trifluoroacetic Acid from Water Using
+Surface-Modified Activated Carbon and Electro-Assisted Desorption.
+J. Hazard Mater. 2022, 436, No. 129051.
+(68) Zhang, Z.; Wu, Y.; Luo, L.; Li, G.; Li, Y.; Hu, H. Application of
+Disk Tube Reverse Osmosis in Wastewater Treatment: A Review.
+Science of The Total Environment 2021, 792, No. 148291.
+(69) Bartholomew, T. V.; Siefert, N. S.; Mauter, M. S. Cost
+Optimization of Osmotically Assisted Reverse Osmosis. Environ. Sci.
+Technol. 2018, 52 (20), 11813−11821.
+(70) Kim, J.; Park, K.; Yang, D. R.; Hong, S. A Comprehensive
+Review of Energy Consumption of Seawater Reverse Osmosis
+Desalination Plants. Appl. Energy 2019, 254, No. 113652.
+(71) Elimelech, M.; Phillip, W. A. The Future of Seawater
+Desalination: Energy, Technology, and the Environment. Science
+(1979) 2011, 333 (6043), 712−717.
+(72) European Parliament and the Council. Directive 2000/60/EC of
+the European Parliament and of the Council of 23 October 2000
+Establishing a Framework for Community Action in the Field of Water
+Policy; 2000; pp 1−73. https://eur-lex.europa.eu/eli/dir/2000/60/oj
+(accessed 2024−08−20).
+
+Perspective
+
+(73) Austin, C.; Purohit, A. L.; Thomsen, C.; Pinkard, B. R.;
+Strathmann, T. J.; Novosselov, I. V. Hydrothermal Destruction and
+Defluorination of Trifluoroacetic Acid (TFA). Environ. Sci. Technol.
+2024, 58 (18), 8076−8085.
+(74) ATMOsphere. The Rising Threat of HFOs and TFA to Health
+and the Environment.; 2022. https://issuu.com/shecco/docs/2022_
+atmo_hfo_tfa_report (accessed 2023−12−06).
+(75) Molina, M. J.; Rowland, F. S. Stratospheric Sink for
+Chlorofluoromethanes: Chlorine Atom-Catalysed Destruction of
+Ozone. Nature 1974, 249 (5460), 810−812.
+(76) Farman, J. C.; Gardiner, B. G.; Shanklin, J. D. Large Losses of
+Total Ozone in Antarctica Reveal Seasonal ClOx/NOx Interaction.
+Nature 1985, 315 (6016), 207−210.
+(77) Allen, M. Planetary Boundaries: Tangible Targets Are Critical.
+Nat. Clim Chang 2009, 1 (910), 114−115.
+(78) Ozone Secretariat. Handbook for the Montreal Protocol on
+Substances That Deplete the Ozone Layer, 14th ed.; 2020; pp 1−960.
+https://ozone.unep.org/sites/default/files/Handbooks/MPHandbook-2020-English.pdf (accessed 2024−10−13).
+(79) Falkner, R. The Business of Ozone Layer Protection: Corporate
+Power in Regime Evolution. In The Business of Global Environmental
+Governance. Global environmental accord: strategies for sustainability and
+institutional innovation; Levy, D. L., Newell, P. J., Eds.; MIT Press:
+Cambridge, MA, 2005; pp 105−134.
+(80) Regulation (EU) No 517/2014 of the European Parliament and of
+the Council of 16 April 2014 on Fluorinated Greenhouse Gases and
+Repealing Regulation (EC) No 842/2006; European Parliament,
+Council of the European Union, 2014; pp 195−230. https://eurlex.europa.eu/legal-content/en/ALL/?uri=CELEX:32014R0517 (accessed 2023−12−06).
+(81) Behringer, D.; Heydel, F.; Gschrey, B.; Osterheld, S.; Schwarz,
+W.; Warncke, K.; Freeling, F.; Nödler, K.; Wasser, T.; Henne, S.;
+Reimann Empa, S.; Blepp, M.; Jörß, W.; Liu, R.; Ludig, S.; Rüdenauer,
+I.; Gartiser, S. Persistent Degradation Products of Halogenated
+Refrigerants and Blowing Agents in the Environment: Type, Environmental Concentrations, and Fate with Particular Regard to New
+Halogenated Substitutes with Low Global Warming Potential; UBA
+TEXTE 73/2021, 2021; pp 1−259. https://www.umweltbundesamt.
+de/sites/default/files/medien/5750/publikationen/2021-05-06_
+texte_73-2021_persistent_degradation_products.pdf (accessed
+2023−12−06).
+(82) Holland, R.; Khan, M. A. H.; Driscoll, I.; Chhantyal-Pun, R.;
+Derwent, R. G.; Taatjes, C. A.; Orr-Ewing, A. J.; Percival, C. J.;
+Shallcross, D. E. Investigation of the Production of Trifluoroacetic
+Acid from Two Halocarbons, HFC-134a and HFO-1234yf and Its
+Fates Using a Global Three-Dimensional Chemical Transport Model.
+ACS Earth Space Chem. 2021, 5 (4), 849−857.
+(83) Xie, G.; Cui, J.; Zhai, Z.; Zhang, J. Distribution Characteristics
+of Trifluoroacetic Acid in the Environments Surrounding Fluorochemical Production Plants in Jinan, China. Environmental Science
+and Pollution Research 2020, 27 (1), 983−991.
+(84) Horel, S.. Record Levels of “forever Chemicals” Found in One
+French Village’s Water. Le Monde. Paris February 7, 2024. https://
+www.lemonde.fr/en/les-decodeurs/article/2024/02/07/recordlevels-of-forever-chemicals-found-in-one-french-village-s-watersupply_6502237_8.html (accessed 2024−05−31).
+(85) Générations Futures. PFAS Contamination Des Eaux Par Des
+“Polluants É ternels” à Salindres, 2024. https://www.generationsfutures.fr/wp-content/uploads/2024/02/rapport-salindres-pfas.pdf
+(accessed 2024−08−27).
+(86) Ellis, D. A.; Mabury, S. A. The Aqueous Photolysis of TFM and
+Related Trifluoromethylphenols. An Alternate Source of Trifluoroacetic Acid in the Environment. Environ. Sci. Technol. 2000, 34 (4),
+632−637.
+(87) EFSA. Peer Review of the Pesticide Risk Assessment of the
+Active Substance Flurtamone. EFSA Journal 2016, 14 (6), e04498
+DOI: 10.2903/j.efsa.2016.4498.
+(88) EFSA. Reasoned Opinion on the Setting of MRLs for
+Saflufenacil in Various Crops, Considering the Risk Related to the
+19933
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+Metabolite Trifluoroacetic Acid (TFA). EFSA Journal 2014, 12 (2),
+3585 DOI: 10.2903/j.efsa.2014.3585.
+(89) Joudan, S.; Gauthier, J.; Mabury, S. A.; Young, C. J. Aqueous
+Leaching of Ultrashort-Chain PFAS from (Fluoro)Polymers:
+Targeted and Nontargeted Analysis. Environ. Sci. Technol. Lett.
+2024, 11 (3), 237−242.
+(90) Cui, J.; Guo, J.; Zhai, Z.; Zhang, J. The Contribution of
+Fluoropolymer Thermolysis to Trifluoroacetic Acid (TFA) in
+Environmental Media. Chemosphere 2019, 222, 637−644.
+(91) Martin, J. W.; Franklin, J.; Hanson, M. L.; Solomon, K. R.;
+Mabury, S. A.; Ellis, D. A.; Scott, B. F.; Muir, D. C. G. Detection of
+Chlorodifluoroacetic Acid in Precipitation: A Possible Product of
+Fluorocarbon Degradation. Environ. Sci. Technol. 2000, 34 (2), 274−
+281.
+(92) Sun, M.; Cui, J.; Guo, J.; Zhai, Z.; Zuo, P.; Zhang, J.
+Fluorochemicals Biodegradation as a Potential Source of Trifluoroacetic Acid (TFA) to the Environment. Chemosphere 2020, 254,
+No. 126894.
+(93) Björnsdotter, M. K.; Yeung, L. W. Y.; Kärrman, A.; Jogsten, I. E.
+Ultra-Short-Chain Perfluoroalkyl Acids Including Trifluoromethane
+Sulfonic Acid in Water Connected to Known and Suspected Point
+Sources in Sweden. Environ. Sci. Technol. 2019, 53 (19), 11093−
+11101.
+(94) Wang, B.; Yao, Y.; Chen, H.; Chang, S.; Tian, Y.; Sun, H. Perand Polyfluoroalkyl Substances and the Contribution of Unknown
+Precursors and Short-Chain (C2−C3) Perfluoroalkyl Carboxylic
+Acids at Solid Waste Disposal Facilities. Sci. Total Environ. 2020,
+705, No. 135832.
+(95) Tsou, K.; Antell, E.; Duan, Y.; Olivares, C. I.; Yi, S.; AlvarezCohen, L.; Sedlak, D. L. Improved Total Oxidizable Precursor Assay
+for Quantifying Polyfluorinated Compounds Amenable to Oxidative
+Conversion to Perfluoroalkyl Carboxylic Acids. ACS ES&T Water
+2023, 3 (9), 2996−3003.
+(96) Adlunger, K.; Anke, J. M.; Bachem, G.; Banning, H.; BiegelEngler, A.; Blondzik, K.; Braun, U.; Eckhardt, A.; Gildemeister, D.;
+Hilliges, F.; Hoffmann, G.; Jentzsch, F.; Klitzke, S.; Kuckelkorn, J.;
+Martens, K.; Müller, A.; Pickl, C.; Pirntke, U.; Rechenberg, J.; Sättler,
+D.; Schmidt, U.; Speichert, G.; Warnke, I.; Wehner, J.; Wischer, R.
+Reducing the Input of Chemicals into Waters: Trifluoroacetate (TFA) as
+a Persistent and Mobile Substance with Many Sources; Dessau-Roßlau,
+Germany, 2022; pp 1−52. https://www.umweltbundesamt.de/en/
+publikationen/reducing-the-input-of-chemicals-into-waters (accessed
+2024−06−03).
+(97) Joudan, S.; De Silva, A. O.; Young, C. J. Insufficient Evidence
+for the Existence of Natural Trifluoroacetic Acid. Environ. Sci. Process
+Impacts 2021, 23 (11), 1641−1649.
+(98) Ellis, D. A.; Mabury, S. A.; Martin, J. W.; Muir, D. C. G.
+Thermolysis of Fluoropolymers as a Potential Source of Halogenated
+Organic Acids in the Environment. Nature 2001, 412 (6844), 321−
+324.
+(99) Duchesne, A. L.; Brown, J. K.; Patch, D. J.; Major, D.; Weber,
+K. P.; Gerhard, J. I. Remediation of PFAS-Contaminated Soil and
+Granular Activated Carbon by Smoldering Combustion. Environ. Sci.
+Technol. 2020, 54 (19), 12631−12640.
+(100) Trang, B.; Li, Y.; Xue, X.-S.; Ateia, M.; Houk, K. N.; Dichtel,
+W. R. Low-Temperature Mineralization of Perfluorocarboxylic Acids.
+Science (1979) 2022, 377 (6608), 839−845.
+(101) Nödler, K.; Scheurer, M. Substances from Multiple Sources
+(SMS): The Presence of Multiple Primary and Secondary Sources of
+Persistent and Mobile Organic Contaminants Is an Upcoming
+Challenge for the Drinking Water Sector and Regulatory Frameworks.
+Environ. Sci. Technol. 2019, 53 (19), 11061−11062.
+(102) ECHA. Registry of CLH intentions until outcome - Trifluoroacetic
+acid. https://echa.europa.eu/de/registry-of-clh-intentions-untiloutcome/-/dislist/details/0b0236e188e6e587 (accessed 2024−05−
+15).
+(103) ECHA. Registry of CLH intentions until outcome - sodium
+trifluoroacetate and other inorganic salts of trifluoroacetic acid. https://
+
+Perspective
+
+echa.europa.eu/registry-of-clh-intentions-until-outcome/-/dislist/
+details/0b0236e188e8d4b8 (accessed 2024−08−12).
+(104) Umweltbundesamt (UBA). Ableitung Eines Gesundheitlichen
+Leitwertes Für Trifluoressigsäure (TFA); 2020; pp 1−6. https://www.
+umweltbundesamt.de/sites/default/files/medien/421/dokumente/
+ableitung_eines_gesundheitlichen_leitwertes_fuer_
+trifluoressigsaeure_fuer_uba-homepage.pdf (accessed 2023−12−20).
+(105) RIVM. RIVM-VSP Advies 14434A02 − Drinkwaterrichtwaarde
+Voor Trifluorazijnzuur; 2023; pp 1−47. https://www.rivm.nl/
+documenten/bijlage-bij-rivm-brief-aan-ilt-indicatievedrinkwaterrichtwaarde-trifluorazijnzuur-tfa (accessed 2024−08−30).
+(106) CLP. Harmonised classification - Annex VI of Regulation (EC)
+No 1272/2008 (CLP Regulation) - Trifluoroacetic acid. https://echa.
+europa.eu/de/information-on-chemicals/cl-inventory-database/-/
+discli/details/47316 (accessed 2023−12−19).
+(107) U.S. EPA. USEPA ECOTOX database. https://cfpub.epa.gov/
+ecotox/ (accessed 2023−12−15).
+(108) European Chemicals Bureau. Technical Guidance Document on
+Risk Assessment, Part II; Ispra, Italy, 2023; pp 1−337. https://echa.
+europa.eu/documents/10162/987906/tgdpart2_2ed_en.pdf/
+138b7b71-a069-428e-9036-62f4300b752f (accessed 2024−05−14).
+(109) Hanson, M. L.; Madronich, S.; Solomon, K.; Sulbaek
+Andersen, M. P.; Wallington, T. J. Trifluoroacetic Acid in the
+Environment: Consensus, Gaps, and Next Steps. Environ. Toxicol.
+Chem. 2024, 43 (10), 2091−2093.
+(110) Madronich, S.; Sulzberger, B.; Longstreth, J. D.; Schikowski,
+T.; Andersen, M. P. S.; Solomon, K. R.; Wilson, S. R. Changes in
+Tropospheric Air Quality Related to the Protection of Stratospheric
+Ozone in a Changing Climate. Photochemical & Photobiological
+Sciences 2023, 22 (5), 1129−1176.
+(111) Felizeter, S.; McLachlan, M. S.; De Voogt, P. Root Uptake and
+Translocation of Perfluorinated Alkyl Acids by Three Hydroponically
+Grown Crops. J. Agric. Food Chem. 2014, 62 (15), 3334−3342.
+(112) Felizeter, S.; McLachlan, M. S.; De Voogt, P. Uptake of
+Perfluorinated Alkyl Acids by Hydroponically Grown Lettuce
+(Lactuca Sativa). Environ. Sci. Technol. 2012, 46 (21), 11735−11743.
+(113) Gredelj, A.; Nicoletto, C.; Polesello, S.; Ferrario, C.; Valsecchi,
+S.; Lava, R.; Barausse, A.; Zanon, F.; Palmeri, L.; Guidolin, L.; Bonato,
+M. Uptake and Translocation of Perfluoroalkyl Acids (PFAAs) in
+Hydroponically Grown Red Chicory (Cichorium Intybus L.): Growth
+and Developmental Toxicity, Comparison with Growth in Soil and
+Bioavailability Implications. Science of The Total Environment 2020,
+720, No. 137333.
+(114) Hubert, M.; Arp, H. P. H.; Hansen, M. C.; Castro, G.; Meyn,
+T.; Asimakopoulos, A. G.; Hale, S. E. Influence of Grain Size, Organic
+Carbon and Organic Matter Residue Content on the Sorption of perand Polyfluoroalkyl Substances in Aqueous Film Forming Foam
+Contaminated Soils - Implications for Remediation Using Soil
+Washing. Science of The Total Environment 2023, 875, No. 162668.
+(115) Nguyen, T. M. H.; Bräunig, J.; Thompson, K.; Thompson, J.;
+Kabiri, S.; Navarro, D. A.; Kookana, R. S.; Grimison, C.; Barnes, C.
+M.; Higgins, C. P.; Mclaughlin, M. J.; Mueller, J. F. Influences of
+Chemical Properties, Soil Properties, and Solution PH on Soil-Water
+Partitioning Coefficients of Per- And Polyfluoroalkyl Substances
+(PFASs). Environ. Sci. Technol. 2020, 54 (24), 15883−15892.
+(116) McLachlan, M. S.; Felizeter, S.; Klein, M.; Kotthoff, M.; De
+Voogt, P. Fate of a Perfluoroalkyl Acid Mixture in an Agricultural Soil
+Studied in Lysimeters. Chemosphere 2019, 223, 180−187.
+(117) Gredelj, A.; Nicoletto, C.; Valsecchi, S.; Ferrario, C.; Polesello,
+S.; Lava, R.; Zanon, F.; Barausse, A.; Palmeri, L.; Guidolin, L.; Bonato,
+M. Uptake and Translocation of Perfluoroalkyl Acids (PFAA) in Red
+Chicory (Cichorium Intybus L.) under Various Treatments with PreContaminated Soil and Irrigation Water. Science of The Total
+Environment 2020, 708, No. 134766.
+(118) Xu, B.; Alizray, R.; Lammel, D. R.; Riedel, S.; Rillig, M. C.
+Concentration-Dependent Response of Soil Parameters and Functions to Trifluoroacetic Acid. Eur. J. Soil Sci. 2022, 73 (4),
+No. e13266.
+19934
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+Environmental Science & Technology
+
+pubs.acs.org/est
+
+Perspective
+
+(119) Bott, T. L.; Standley, L. J. Incorporation of Trifluoroacetate, a
+Hydrofluorocarbon Decomposition Byproduct, by Freshwater
+Benthic Microbial Communities. Water Res. 1999, 33 (6), 1538−
+1544.
+(120) Lu, Y.; Liu, L.; Ning, A.; Yang, G.; Liu, Y.; Kurtén, T.;
+Vehkamäki, H.; Zhang, X.; Wang, L. Atmospheric Sulfuric AcidDimethylamine Nucleation Enhanced by Trifluoroacetic Acid.
+Geophys. Res. Lett. 2020, 47 (2), No. e2019GL085627.
+(121) Liu, L.; Yu, F.; Tu, K.; Yang, Z.; Zhang, X. Influence of
+Atmospheric Conditions on the Role of Trifluoroacetic Acid in
+Atmospheric Sulfuric Acid-Dimethylamine Nucleation. Atmos Chem.
+Phys. 2021, 21 (8), 6221−6230.
+(122) Rockström, J.; Steffen, W.; Noone, K.; Persson, Å.; Chapin, F.
+S.; Lambin, E. F.; Lenton, T. M.; Scheffer, M.; Folke, C.;
+Schellnhuber, H. J.; Nykvist, B.; de Wit, C. A.; Hughes, T.; van der
+Leeuw, S.; Rodhe, H.; Sörlin, S.; Snyder, P. K.; Costanza, R.; Svedin,
+U.; Falkenmark, M.; Karlberg, L.; Corell, R. W.; Fabry, V. J.; Hansen,
+J.; Walker, B.; Liverman, D.; Richardson, K.; Crutzen, P.; Foley, J. A.
+A Safe Operating Space for Humanity. Nature 2009, 461 (7263),
+472−475.
+(123) Steffen, W.; Richardson, K.; Rockström, J.; Cornell, S. E.;
+Fetzer, I.; Bennett, E. M.; Biggs, R.; Carpenter, S. R.; De Vries, W.; De
+Wit, C. A.; Folke, C.; Gerten, D.; Heinke, J.; Mace, G. M.; Persson, L.
+M.; Ramanathan, V.; Reyers, B.; Sörlin, S. Planetary Boundaries:
+Guiding Human Development on a Changing Planet. Science (1979)
+2015, 347 (6223), No. 1259855.
+(124) Caldeira, C.; Farcal, R.; Garmendia Aguirre, I.; Mancini, L.;
+Tosches, D.; Amelio, A.; Rasmussen, K.; Rauscher, H.; Riego Sintes,
+J.; Sala, S. Safe and Sustainable by Design Chemicals and Materials Framework for the Definition of Criteria and Evaluation Procedure for
+Chemicals and Materials; Publications Office of the European Union,
+2022; pp 1−124. DOI: 10.2760/487955.
+(125) Roy, M. A.; Cousins, I.; Harriman, E.; Scheringer, M.;
+Tickner, J. A.; Wang, Z. Combined Application of the Essential-Use
+and Functional Substitution Concepts: Accelerating Safer Alternatives. Environ. Sci. Technol. 2022, 56 (14), 9842−9846.
+(126) Chirsir, P.; Palm, E. H.; Baskaran, S.; Schymanski, E. L.;
+Wang, Z.; Wolf, R.; Hale, S. E.; Arp, H. P. H. Grouping Strategies for
+Assessing and Managing Persistent and Mobile Substances. Environ.
+Sci. Eur. 2024, 36 (1), 102.
+
+19935
+
+https://doi.org/10.1021/acs.est.4c06189
+Environ. Sci. Technol. 2024, 58, 19925−19935
+
+

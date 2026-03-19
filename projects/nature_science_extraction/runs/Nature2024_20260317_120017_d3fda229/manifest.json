@@ -1,0 +1,39 @@
+{
+  "run_id": "Nature2024_20260317_120017_d3fda229",
+  "source_block": "Nature2024",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T12:00:17",
+  "items": [
+    {
+      "row_id": "DOI0004",
+      "record_id": "REF0119",
+      "source_block": "Nature2024",
+      "doi": "10.1016/j.chemosphere.2008.08.029",
+      "selected_source_type": "local_pdf_excerpt",
+      "selected_source_path_or_url": "/mnt/d/paper_data/pdf/Nature/10.1016_j.chemosphere.2008.08.029__10.1016_j.chemosphere.2008.08.029.pdf",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.chemosphere.2008.08.029.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1016_j.chemosphere.2008.08.029__10.1016_j.chemosphere.2008.08.029.pdf",
+          "pages": 1,
+          "size_bytes": 323344,
+          "text_excerpt": "Chemosphere 74 (2009) 467–472 Contents lists available at ScienceDirect Chemosphere journal homepage: www.elsevier.com/locate/chemosphere Polyﬂuorinated telomers in precipitation and surface water in an urban area of Japan Manal A.M. Mahmoud a,b, Anna Kärrman a,c, Sayoko Oono a, Kouji H. Harada a, Akio Koizumi a,* a Department of Health and Environmental Sciences, Kyoto University, Graduate School of Medicine, Yoshida Konoe, Sakyo, Kyoto 606-8501, Japan b Department of Animal and Poultry Hygiene, Faculty of Veterinary Medicine, Assiut University, Assiut, Egypt c MTM Research Centre, Örebro University, 701 82 Örebro, Sweden a r t i c l e i n f o a b s t r a c t Article history: Although ﬂuorotelomer alcohols (FTOHs) have been detected in various environmental matrices world- Received 23 June 2008 wide, no studies have been conducted to evaluate their concentrations in surface water or precipitation. Received in revised form 26 August 2008 Therefore, we developed a sensitive and reliable method to analyze various environmental aqueous sam- Accepted 26 August 2008 ples for the presence of trace levels of 6:2 FTOH, 8:2 FTOH, 10:2 FTOH, 8:2 FTOAcr, and 8:2 FTOMethacr Available online 10 December 2008 FTOleﬁn using gas-chromatography/mass-spectrometry. The recoveries obtained using this method ran- ged from 57.8% to 78.2% and the detection limits were 0.5, 0.2, 0.2, 0.05 and 0.1 ng L 1 for 6:2 FTOH, 8:2 Keywords: FTOH, 10:2 FTOH, 8:2 FTOAcr and 8:2 FTOMethacr, respectively. Liquid and suspended phases of the Rivers Rainwater examined samples were analyzed. The analysis revealed presence of telomer alcohols from the liquid Fluorotelomer phase only. Of the FTOHs evaluated, 6:2 FTOH and 8:2 FTOMethacr FTOleﬁn were not found in any of GC/MS the environmental samples. The average concentrations of 8:2 FTOH, 10:2 FTOH and 8:2 FTOAcr of the Japan precipitation samples were 1.97, 0.82 and 0.21 ng L 1, respectively. In surface water samples, the highest concentrations of 8:2 FTOH, 10:2 FTOH and 8:2 FTOAcr were 3.38, 4.06 and 0.16 ng L 1, which were observed in samples from the Daini-Neyagawa, Yamato and Kanzaki rivers, respectively. The total con- centration of FTOHs in wastewater treatment plant efﬂuents (23.2 ng L 1) was much higher than that of surface water (10.8 ng L 1). Taken together, the results of this study indicate that FTOHs released into the air contaminate rain and that those released from water disposal sites contaminate surface water. Ó 2008 Elsevier Ltd. All rights reserved. 1. Introduction FTOHs during production (Ellis et al., 2003). Therefore, it is possible that FTOHs are a precursor of ﬂuorotelomer acids (FTCA) and/or Fluorotelomer alcohols (FTOHs) are a major type of polyﬂuori- PFCAs in rainwater and surface water (Saito et al., 2004; Loewen nated alcohol that have attracted attention as an environmental et al., 2005; Taniyasu et al., 2005; Scott et al., 2006; So et al., pollutant because of their ubiquitous occurrence in the air in many 2007). Telomer alcohols can contaminate surface waters either industrial countries including the US, UK, Germany, Canada and Ja- via precipitation in the form of wet deposition of FTOHs from the pan (Stock et al., 2004; Shoeib et al., 2006; Barber et al., 2007; Jah- air or via disposal from production centers or treatment facilities. nke et al., 2007; Oono et al., 2008a). FTOHs are typically precursor This study was conducted to investigate the ecological fate(s) of compounds that are used in various ﬂuoropolymers and ﬂuorosurf- FTOHs in the aqueous urban environment. To accomplish this, a actants due to their ability to impart stain, oil and water repellency simple and convenient method to identify and quantify FTOHs (Kissa, 2001). In addition, they are also used as intermediates for (6:2 FTOH, 8:2 FTOH, 10:2 FTOH, 8:2 FTOAcr and 8:2 FTOMethacr the synthesis of inks, paints and coatings, polymers, adhesives, FTOleﬁn) in different environmental aqueous samples using gas waxes and polishes, caulks, paper and carpet treatments (Kissa, chromatography/mass spectrometry (GC/MS) was developed. Dif- 2001; DuPont, 2002; Prevedouros et al., 2006). The annual global ferent aqueous environmental samples were then collected and production of FTOHs is estimated to be 11–14 million kg (Ellis analyzed to investigate the source(s) of the FTOHs. The results of et al., 2003; DuPont, 2005). the present study provide insight into the ecological fate of FTOHs Recent analysis of ﬂuorotelomer alcohols has revealed that they in the urban environment. degrade to perﬂuoroalkyl carboxylic acids (PFCAs) via oxidation in the environment (Dinglasan et al., 2004; Wallington et al., 2006). 2. Materials and methods FTOHs can be released to surface water as a result of decomposi- tion of polymeric or nonpolymeric materials that incorporate 2.1. The test materials * Corresponding author. Tel.: +81 75 753 4456; fax: +81 75 753 4458. 1H,1H,2H,2H-Perﬂuorooctanol (6:2 FTOH; purity >98%), E-mail address: koizumi@pbh.med.kyoto-u.ac.jp (A. Koizumi). 1H,1H,2H,2H-perﬂuorodecanol (8:2 FTOH; >97%) and 1H, 0045-6535/$ - see front matter Ó 2008 Elsevier Ltd. All rights reserved. doi:10.1016/j.chemosphere.2008.08.029",
+          "text_length": 5207,
+          "body_hint_count": 2,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "local_pdf_excerpt"
+      ],
+      "notes": "Recovered extractable text from incomplete local PDF: 10.1016_j.chemosphere.2008.08.029__10.1016_j.chemosphere.2008.08.029.pdf"
+    }
+  ]
+}

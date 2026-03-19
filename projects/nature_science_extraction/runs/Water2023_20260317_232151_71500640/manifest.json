@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_232151_71500640",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:21:55",
+  "items": [
+    {
+      "row_id": "DOI0488",
+      "record_id": "REF0507",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0488. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=An+analysis+of+trihalomethane+levels+in+the+distribution+networks+of+three+Romanian+cities",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0507.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=An+analysis+of+trihalomethane+levels+in+the+distribution+networks+of+three+Romanian+cities",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

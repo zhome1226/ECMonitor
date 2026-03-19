@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Governmental Decree No. 201 of 2001 (X.25.) Korm. on quality standards for potable water and on rules of quality control.] 201/2001. (X. 25.) Korm. Rendelet az ivóvíz minőségi követelményeiről és az ellenőrzés rendjéről",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0704. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BGovernmental+Decree+No.+201+of+2001+%28X.25.%29+Korm.+on+quality+standards+for+potable+water+and+on+rules+of+quality+control.%5D+201%2F2001.+%28X.+25.%29+Korm.+Rendelet+az+iv%C3%B3v%C3%ADz+min%C5%91s%C3%A9gi+k%C3%B6vetelm%C3%A9nyeir%C5%91l+%C3%A9s+az+ellen%C5%91rz%C3%A9s+rendj%C3%A9r%C5%91l"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0549.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

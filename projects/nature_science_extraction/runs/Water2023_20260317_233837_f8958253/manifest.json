@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233837_f8958253",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:38:39",
+  "items": [
+    {
+      "row_id": "DOI0710",
+      "record_id": "REF0555",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0710. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BDecree+42-05+Establishes+the+Regulation+of+Water+for+Human+Consumption%2C+State+Secretariat+of+Public+Health+and+Social+Assistance+%28SESPAS%29+2005.%5D+%22Decreto+42-05+Establece+el+Reglamento+de+Aguas+Consumo+Humano%2C+Secretar%C3%ADa+de+Estado+de+Salud+P%C3%BAblica+y+Asistencia+Social+%28SESPAS%29+2005%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0555.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BDecree+42-05+Establishes+the+Regulation+of+Water+for+Human+Consumption%2C+State+Secretariat+of+Public+Health+and+Social+Assistance+%28SESPAS%29+2005.%5D+%22Decreto+42-05+Establece+el+Reglamento+de+Aguas+Consumo+Humano%2C+Secretar%C3%ADa+de+Estado+de+Salud+P%C3%BAblica+y+Asistencia+Social+%28SESPAS%29+2005%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

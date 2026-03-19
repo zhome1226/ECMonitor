@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_231647_fe17b762",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:16:51",
+  "items": [
+    {
+      "row_id": "DOI0473",
+      "record_id": "REF0490",
+      "source_block": "Water2023",
+      "doi": "10.7763/ijesd.2013.v4.410",
+      "selected_source_type": "web_http_html",
+      "selected_source_path_or_url": "https://www.ijesd.org/index.php?m=content&c=index&a=show&catid=46&id=701",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.7763_ijesd.2013.v4.410.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "crossref_http_html"
+      ],
+      "notes": "Resolved via direct HTTP HTML fetch."
+    }
+  ]
+}

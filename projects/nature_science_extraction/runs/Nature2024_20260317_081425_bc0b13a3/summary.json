@@ -1,0 +1,22 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 2,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json",
+  "first_2_records": [
+    {
+      "source_pdf": "S0048969714005762",
+      "paper_title": "TOKYO_2014",
+      "doi": "10.1016/j.scitotenv.2014.04.066",
+      "journal": "",
+      "year": null,
+      "records": [],
+      "no_extractable_records": true,
+      "notes": "Stub extraction only. Source status: local_pdf_incomplete. Notes: Local PDF fallback triggered because: pdf has one page or less. Elsevier API returned metadata or abstract only. Resolved via seed source page."
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.scitotenv.2014.04.066.json",
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json"
+  ]
+}

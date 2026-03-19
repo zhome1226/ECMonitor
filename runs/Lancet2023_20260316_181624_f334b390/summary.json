@@ -1,0 +1,36 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 2,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Lancet/extracted_json/merged_summary.json",
+  "first_2_records": [
+    {
+      "source_pdf": "10.1007_s11356-019-06060-7__Li 等 - 2019 - Occurrence and distribution of selected antibiotics in the surface waters and ecological risk assess.pdf",
+      "paper_title": "Occurrence, Distribution, and Risk Assessment of Antibiotics in a Subtropical River-Reservoir System",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "study_region": "",
+      "country_or_countries": [],
+      "specific_location": null,
+      "water_compartment": "",
+      "matrix_original": "",
+      "target_pollutants": [],
+      "pollutant_group": null,
+      "sampling_period": null,
+      "sampling_period_original": null,
+      "sample_size": null,
+      "number_of_sites": null,
+      "study_design_summary": "",
+      "reported_statistics": [],
+      "provides_extractable_primary_data": false,
+      "data_usability_for_database_matching": "low",
+      "reason_if_low_usability": null,
+      "notes": "Stub extraction only. Source status: local_pdf_ok. Notes: Selected local PDF: 10.1007_s11356-019-06060-7__Li 等 - 2019 - Occurrence and distribution of selected antibiotics in the surface waters and ecological risk assess.pdf"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Lancet/extracted_json/REF0653.json",
+    "/mnt/d/paper_data/pdf/Lancet/extracted_json/merged_summary.json"
+  ]
+}

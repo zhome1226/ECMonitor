@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234112_3e533ae6",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:41:15",
+  "items": [
+    {
+      "row_id": "DOI0738",
+      "record_id": "REF0587",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0738. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BORDINANCE+GM%2FMS+No.+888%2C+OF+MAY+4%2C+2021+on+procedures+for+the+control+and+surveillance+of+the+quality+of+water+for+human+consumption+and+its+potability+standard%5D.+%22PORTARIA+GM%2FMS+N%C2%BA+888%2C+DE+4+DE+MAIO+DE+2021+sobre+os+procedimentos+de+controle+e+de+vigil%C3%A2ncia+da+qualidade+da+%C3%A1gua+para+consumo+humano+e+seu+padr%C3%A3o+de+potabilidade%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0587.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BORDINANCE+GM%2FMS+No.+888%2C+OF+MAY+4%2C+2021+on+procedures+for+the+control+and+surveillance+of+the+quality+of+water+for+human+consumption+and+its+potability+standard%5D.+%22PORTARIA+GM%2FMS+N%C2%BA+888%2C+DE+4+DE+MAIO+DE+2021+sobre+os+procedimentos+de+controle+e+de+vigil%C3%A2ncia+da+qualidade+da+%C3%A1gua+para+consumo+humano+e+seu+padr%C3%A3o+de+potabilidade%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

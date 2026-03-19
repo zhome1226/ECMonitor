@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234237_838c4886",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:42:39",
+  "items": [
+    {
+      "row_id": "DOI0753",
+      "record_id": "REF0603",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0753. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=GOST+2874-82+%2A+%22Drinking+water.+Hygienic+requirements+and+quality+control+%C2%BB+%5B%D0%93%D0%9E%D0%A1%D0%A2+2874-82%2A+%C2%AB%D0%92%D0%BE%D0%B4%D0%B0+%D0%BF%D0%B8%D1%82%D1%8C%D0%B5%D0%B2%D0%B0%D1%8F.+%D0%93%D0%B8%D0%B3%D0%B8%D0%B5%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C+%D0%B7%D0%B0+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%BC%C2%BB%5D",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0603.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=GOST+2874-82+%2A+%22Drinking+water.+Hygienic+requirements+and+quality+control+%C2%BB+%5B%D0%93%D0%9E%D0%A1%D0%A2+2874-82%2A+%C2%AB%D0%92%D0%BE%D0%B4%D0%B0+%D0%BF%D0%B8%D1%82%D1%8C%D0%B5%D0%B2%D0%B0%D1%8F.+%D0%93%D0%B8%D0%B3%D0%B8%D0%B5%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%B8+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C+%D0%B7%D0%B0+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%BC%C2%BB%5D",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

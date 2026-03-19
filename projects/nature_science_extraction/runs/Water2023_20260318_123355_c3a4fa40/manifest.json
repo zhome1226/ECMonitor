@@ -1,0 +1,27 @@
+{
+  "run_id": "Water2023_20260318_123355_c3a4fa40",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-18T12:33:57",
+  "items": [
+    {
+      "row_id": "DOI0428",
+      "record_id": "REF0440",
+      "source_block": "Water2023",
+      "doi": "10.1016/s0043-1354(03)00138-6",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.sciencedirect.com/science/article/pii/S0043135403001386",
+      "manual_intervention": true,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1016_s0043-1354_03_00138-6.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://linkinghub.elsevier.com/retrieve/pii/S0043135403001386",
+        "seed_url_fallback:Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+        "doi:https://doi.org/10.1016/s0043-1354(03)00138-6"
+      ],
+      "notes": "Resolved via DOI landing page."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 2,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json",
+  "first_2_records": [
+    {
+      "source_pdf": "/mnt/d/paper_data/pdf/Nature/10.1007_s11356-018-1608-z__10.1007_s11356-018-1608-z.pdf",
+      "paper_title": "Correction to: Risk exposure assessment of per- and polyfluoroalkyl substances (PFASs) in drinking water and atmosphere in central eastern China",
+      "doi": "10.1007/s11356-018-1608-z",
+      "journal": "Environmental Science and Pollution Research",
+      "year": 2018,
+      "records": [],
+      "no_extractable_records": true,
+      "notes": "所给源文本仅为更正声明（作者信息更正），未包含任何可读的环境样品实测浓度数据（无表/补充表/正文数值/图中可读数值）。文本提及原文 DOI 10.1007/s11356-017-0950-x；需要原文内容才能提取监测浓度记录。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1007_s11356-018-1608-z.json",
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json"
+  ]
+}

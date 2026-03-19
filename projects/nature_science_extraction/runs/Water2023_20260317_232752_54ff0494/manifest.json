@@ -1,0 +1,27 @@
+{
+  "run_id": "Water2023_20260317_232752_54ff0494",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:27:55",
+  "items": [
+    {
+      "row_id": "DOI0497",
+      "record_id": "REF0517",
+      "source_block": "Water2023",
+      "doi": "10.1016/j.scitotenv.2010.06.053",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.sciencedirect.com/science/article/pii/S0048969710006583?via%3Dihub",
+      "manual_intervention": false,
+      "status": "failed",
+      "failure_reason": "Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_fxi8kx_p/response.txt', '-']' timed out after 90 seconds",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1016_j.scitotenv.2010.06.053.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://linkinghub.elsevier.com/retrieve/pii/S0048969710006583",
+        "seed_url_fallback:Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+        "doi:https://doi.org/10.1016/j.scitotenv.2010.06.053"
+      ],
+      "notes": "Resolved via DOI landing page."
+    }
+  ]
+}

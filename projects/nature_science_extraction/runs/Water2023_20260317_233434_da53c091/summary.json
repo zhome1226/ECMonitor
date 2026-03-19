@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://revuema.fr/articles/7047",
+      "paper_title": "ATMOSPHERIC water: AN ALTERNATIVE WATER RESOURCE FOR HUMAN CONSUMPTION?",
+      "doi": "10.17184/eac.7047",
+      "journal": "",
+      "year": 2014,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "No THM (trihalomethanes) monitoring concentration data or directly related sampling metadata is present in the provided resolved web_html text; it discusses atmospheric water condensation as an alternative water resource and includes only general narrative plus publication dates.",
+      "notes": "Resolved source type: web_html (https://revuema.fr/articles/7047). No THM measurements, sampling locations, or quantitative concentration summaries/tables were found in the provided text. Any standards/guideline values (e.g., NC 207:2014) would be regulatory limits rather than monitoring concentrations and are out of scope per extraction rules."
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.17184_eac.7047.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

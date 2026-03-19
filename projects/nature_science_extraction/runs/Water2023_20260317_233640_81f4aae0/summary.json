@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[24 JANUARY 2002. - Decree of the Government of the Brussels-Capital Region concerning the\nquality of water distributed by network]. \"24 JANVIER 2002. - Arrêté du Gouvernement de la Région de Bruxelles-Capitale relatif à la qualité de l'eau distribuée par réseau\"  \"Le décret du 12.12.2002 (MB 14.01.2003 – err 20.05.2003) – relatif à la qualité de l’eau\ndestinée à la consommation humaine.\" \"Het besluit van de Vlaamse regering van 13 december 2002 houdende reglementeringen inzake\nde kwaliteit en levering van water bestemd voor menselijke consumptie\"",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0689. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5B24+JANUARY+2002.+-+Decree+of+the+Government+of+the+Brussels-Capital+Region+concerning+the%0Aquality+of+water+distributed+by+network%5D.+%2224+JANVIER+2002.+-+Arr%C3%AAt%C3%A9+du+Gouvernement+de+la+R%C3%A9gion+de+Bruxelles-Capitale+relatif+%C3%A0+la+qualit%C3%A9+de+l%27eau+distribu%C3%A9e+par+r%C3%A9seau%22++%22Le+d%C3%A9cret+du+12.12.2002+%28MB+14.01.2003+%E2%80%93+err+20.05.2003%29+%E2%80%93+relatif+%C3%A0+la+qualit%C3%A9+de+l%E2%80%99eau%0Adestin%C3%A9e+%C3%A0+la+consommation+humaine.%22+%22Het+besluit+van+de+Vlaamse+regering+van+13+december+2002+houdende+reglementeringen+inzake%0Ade+kwaliteit+en+levering+van+water+bestemd+voor+menselijke+consumptie%22"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0534.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

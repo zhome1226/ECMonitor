@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "90879",
+      "paper_title": "Evaluation of Levels of Regulated Trihalomethanes (THMS) in a Community Drinking Water Supply in Nigeria",
+      "doi": "10.4314/ejesm.v6i4.9",
+      "journal": "Niger J Engigneering",
+      "year": 2013,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "所提供的已解析来源为web_html，但页面内容仅显示“403 Forbidden”，未提供论文正文/表格/补充材料或任何可核验的THM监测浓度数据与采样元数据，无法按要求提取。",
+      "notes": "Paper metadata来源：Shaibu-Imodagbe E, Okuofu C, Unyimadu J, Williams A, Omenesa H. 2013;19(2):63–72. Resolved source URL: http://www.ajol.info/index.php/ejesm/article/view/90879；page_title标注为“403 Forbidden”，当前source text仅包含“403 Forbidden 403 Forbidden”。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.4314_ejesm.v6i4.9.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

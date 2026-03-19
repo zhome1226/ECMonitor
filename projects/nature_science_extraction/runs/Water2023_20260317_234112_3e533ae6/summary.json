@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[ORDINANCE GM/MS No. 888, OF MAY 4, 2021 on procedures for the control and surveillance of the quality of water for human consumption and its potability standard]. \"PORTARIA GM/MS Nº 888, DE 4 DE MAIO DE 2021 sobre os procedimentos de controle e de vigilância da qualidade da água para consumo humano e seu padrão de potabilidade\"",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0738. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BORDINANCE+GM%2FMS+No.+888%2C+OF+MAY+4%2C+2021+on+procedures+for+the+control+and+surveillance+of+the+quality+of+water+for+human+consumption+and+its+potability+standard%5D.+%22PORTARIA+GM%2FMS+N%C2%BA+888%2C+DE+4+DE+MAIO+DE+2021+sobre+os+procedimentos+de+controle+e+de+vigil%C3%A2ncia+da+qualidade+da+%C3%A1gua+para+consumo+humano+e+seu+padr%C3%A3o+de+potabilidade%22"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0587.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

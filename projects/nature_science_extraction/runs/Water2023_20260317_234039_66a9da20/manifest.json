@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234039_66a9da20",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:40:41",
+  "items": [
+    {
+      "row_id": "DOI0732",
+      "record_id": "REF0581",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0732. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BImplementation+of+Directive+98%2F83+%2F+EC+relating+to+the+quality+of+water+intended+for+human+consumption%5D+Attuazione+della+direttiva+98%2F83%2FCE+relativa+alla+qualit%C3%A0+delle+acque+destinate+al+consumo+umano",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0581.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BImplementation+of+Directive+98%2F83+%2F+EC+relating+to+the+quality+of+water+intended+for+human+consumption%5D+Attuazione+della+direttiva+98%2F83%2FCE+relativa+alla+qualit%C3%A0+delle+acque+destinate+al+consumo+umano",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

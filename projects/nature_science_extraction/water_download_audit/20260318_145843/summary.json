@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-03-18T15:10:54",
+  "total_records": 243,
+  "download_status_counts": {
+    "download_failed": 27,
+    "downloaded": 15,
+    "no_resolved_doi": 201
+  },
+  "downloaded_records": 15,
+  "one_page_pdfs": 8,
+  "report_csv": "/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/water_download_audit/20260318_145843/water2023_download_report.csv",
+  "report_json": "/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/water_download_audit/20260318_145843/water2023_download_report.json"
+}

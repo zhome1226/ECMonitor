@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234311_9bbea8bb",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:43:14",
+  "items": [
+    {
+      "row_id": "DOI0759",
+      "record_id": "REF0612",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0759. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Reglamento+T%C3%A9cnico+DGNT-COPANIT+23-395-99+Agua%2C+Agua+Potable+Definiciones+y+Requistos+Generales",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0612.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Reglamento+T%C3%A9cnico+DGNT-COPANIT+23-395-99+Agua%2C+Agua+Potable+Definiciones+y+Requistos+Generales",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

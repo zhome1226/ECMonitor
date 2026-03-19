@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[On the approval of the State sanitary norms and rules \"Hygienic requirements for drinking water intended for human consumption\". Order 12.05.2010 No. 400]. Про затвердження Державних санітарних норм та правил \"Гігієнічні вимоги до води питної, призначеної для споживання людиною\". НАКАЗ 12.05.2010 No. 400.",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0734. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BOn+the+approval+of+the+State+sanitary+norms+and+rules+%22Hygienic+requirements+for+drinking+water+intended+for+human+consumption%22.+Order+12.05.2010+No.+400%5D.+%D0%9F%D1%80%D0%BE+%D0%B7%D0%B0%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%B8%D1%85+%D1%81%D0%B0%D0%BD%D1%96%D1%82%D0%B0%D1%80%D0%BD%D0%B8%D1%85+%D0%BD%D0%BE%D1%80%D0%BC+%D1%82%D0%B0+%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB+%22%D0%93%D1%96%D0%B3%D1%96%D1%94%D0%BD%D1%96%D1%87%D0%BD%D1%96+%D0%B2%D0%B8%D0%BC%D0%BE%D0%B3%D0%B8+%D0%B4%D0%BE+%D0%B2%D0%BE%D0%B4%D0%B8+%D0%BF%D0%B8%D1%82%D0%BD%D0%BE%D1%97%2C+%D0%BF%D1%80%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BE%D1%97+%D0%B4%D0%BB%D1%8F+%D1%81%D0%BF%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%BE%D1%8E%22.+%D0%9D%D0%90%D0%9A%D0%90%D0%97+12.05.2010+No.+400."
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0583.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

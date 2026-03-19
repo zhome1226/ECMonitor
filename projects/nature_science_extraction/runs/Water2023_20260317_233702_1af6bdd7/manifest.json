@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233702_1af6bdd7",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:37:04",
+  "items": [
+    {
+      "row_id": "DOI0693",
+      "record_id": "REF0538",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0693. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BRoyal+Decree+No+1310+of+25%2F11%2F2015.+Order+on+water+quality+and+monitoring+of+water+supply+plants%5D+%22BEK+nr+1310+af+25%2F11%2F2015.+Bekendtg%C3%B8relse+om+vandkvalitet+og+tilsyn+med+vandforsyningsanl%C3%A6g%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0538.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BRoyal+Decree+No+1310+of+25%2F11%2F2015.+Order+on+water+quality+and+monitoring+of+water+supply+plants%5D+%22BEK+nr+1310+af+25%2F11%2F2015.+Bekendtg%C3%B8relse+om+vandkvalitet+og+tilsyn+med+vandforsyningsanl%C3%A6g%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

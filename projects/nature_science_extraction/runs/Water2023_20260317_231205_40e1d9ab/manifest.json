@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_231205_40e1d9ab",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:12:08",
+  "items": [
+    {
+      "row_id": "DOI0461",
+      "record_id": "REF0477",
+      "source_block": "Water2023",
+      "doi": "10.4136/ambi-agua.1292",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "http://www.scielo.br/j/ambiagua/a/LgK9fq3kCF8kbWJzpsNwHrD/abstract/?lang=en",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.4136_ambi-agua.1292.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:http://www.scielo.br/scielo.php?script=sci_abstract&pid=S1980-993X2014000100002&lng=en&nrm=iso&tlng=en"
+      ],
+      "notes": "Resolved via seed source page."
+    }
+  ]
+}

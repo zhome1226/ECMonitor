@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234718_90d57880",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:47:20",
+  "items": [
+    {
+      "row_id": "DOI0785",
+      "record_id": "REF0638",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0785. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BDrinking+water+quality+standards+currently+%282010%29+in+force+in+Haiti.%5D+Normes+de+qualit%C3%A9+de+l%E2%80%99eau+de+boisson+actuellement+%282010%29++en+vigueur+en+Haiti",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0638.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BDrinking+water+quality+standards+currently+%282010%29+in+force+in+Haiti.%5D+Normes+de+qualit%C3%A9+de+l%E2%80%99eau+de+boisson+actuellement+%282010%29++en+vigueur+en+Haiti",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

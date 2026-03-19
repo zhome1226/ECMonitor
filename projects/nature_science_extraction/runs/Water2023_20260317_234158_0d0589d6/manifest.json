@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234158_0d0589d6",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:42:00",
+  "items": [
+    {
+      "row_id": "DOI0746",
+      "record_id": "REF0596",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0746. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BExecutive+Decree+No.+11-125+of+17+Rabie+Ethani+1432+corresponding+to+22+March+2011+relating+to+the+quality+of+water+for+human+consumption.%5D+%22D%C3%A8cret+ex%C3%A8cutif+n+11-125+du+17+Rabie+Ethani+1432+correspondant+au+22+mars+2011+relatif+%C3%A0+la+qualit%C3%A8+de+l%27eau+de+consommation+humaine%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0596.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BExecutive+Decree+No.+11-125+of+17+Rabie+Ethani+1432+corresponding+to+22+March+2011+relating+to+the+quality+of+water+for+human+consumption.%5D+%22D%C3%A8cret+ex%C3%A8cutif+n+11-125+du+17+Rabie+Ethani+1432+correspondant+au+22+mars+2011+relatif+%C3%A0+la+qualit%C3%A8+de+l%27eau+de+consommation+humaine%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

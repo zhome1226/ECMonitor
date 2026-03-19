@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Resolution n°458 of 2007 defining the maximum limits and necessary requirements for drinking water and its domestic use] \"قرار رقم ٤٥٨ لسنة ٢٠٠٧\nبشأن الحدود القصوى للمعايير والمواصفات الواجب توافرها في المياه الصالحة للشرب والإستخدام المنزلي\"",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0694. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BResolution+n%C2%B0458+of+2007+defining+the+maximum+limits+and+necessary+requirements+for+drinking+water+and+its+domestic+use%5D+%22%D9%82%D8%B1%D8%A7%D8%B1+%D8%B1%D9%82%D9%85+%D9%A4%D9%A5%D9%A8+%D9%84%D8%B3%D9%86%D8%A9+%D9%A2%D9%A0%D9%A0%D9%A7%0A%D8%A8%D8%B4%D8%A3%D9%86+%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF+%D8%A7%D9%84%D9%82%D8%B5%D9%88%D9%89+%D9%84%D9%84%D9%85%D8%B9%D8%A7%D9%8A%D9%8A%D8%B1+%D9%88%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA+%D8%A7%D9%84%D9%88%D8%A7%D8%AC%D8%A8+%D8%AA%D9%88%D8%A7%D9%81%D8%B1%D9%87%D8%A7+%D9%81%D9%8A+%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87+%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D8%A9+%D9%84%D9%84%D8%B4%D8%B1%D8%A8+%D9%88%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85+%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84%D9%8A%22"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0539.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

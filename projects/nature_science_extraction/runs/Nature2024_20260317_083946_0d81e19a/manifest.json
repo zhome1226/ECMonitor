@@ -1,0 +1,40 @@
+{
+  "run_id": "Nature2024_20260317_083946_0d81e19a",
+  "source_block": "Nature2024",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T08:39:49",
+  "items": [
+    {
+      "row_id": "DOI0001",
+      "record_id": "REF0084",
+      "source_block": "Nature2024",
+      "doi": "10.1016/j.scitotenv.2014.04.066",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.sciencedirect.com/science/article/pii/S0048969714005762",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.scitotenv.2014.04.066.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1016_j.scitotenv.2014.04.066__10.1016_j.scitotenv.2014.04.066.pdf",
+          "pages": 1,
+          "size_bytes": 1158845,
+          "text_excerpt": "Science of the Total Environment 488–489 (2014) 51–60 Contents lists available at ScienceDirect Science of the Total Environment journal homepage: www.elsevier.com/locate/scitotenv Investigating sources and pathways of perﬂuoroalkyl acids (PFAAs) in aquifers in Tokyo using multiple tracers Keisuke Kuroda a,⁎, Michio Murakami b, Kumiko Oguma a, Hideshige Takada c, Satoshi Takizawa a a Department of Urban Engineering, Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyo, Tokyo 113-8656, Japan b Institute of Industrial Science, The University of Tokyo, 4-6-1 Komaba, Meguro, Tokyo 153-8505, Japan c Laboratory of Organic Geochemistry (LOG), Institute of Symbiotic Science and Technology, Tokyo University of Agriculture and Technology, Fuchu, Tokyo 183-8509, Japan H I G H L I G H T S G R A P H I C A L A B S T R A C T • Aquifers in Tokyo had high levels of perﬂuoroalkyl acids (up to 1800 ng/L). • PFAAs were more frequently detected than sewage-tracer pharmaceuticals. • Sources of severe PFAA pollution were inferred as sewage and point sources. • Both young groundwater and old groundwater were contaminated by PFAAs. • Multiple tracers and multiple source apportionment methods were useful. a r t i c l e i n f o a b s t r a c t Article history: We employed a multi-tracer approach to investigate sources and pathways of perﬂuoroalkyl acids (PFAAs) in Received 3 February 2014 urban groundwater, based on 53 groundwater samples taken from conﬁned aquifers and unconﬁned aquifers in Received in revised form 16 April 2014 Tokyo. While the median concentrations of groundwater PFAAs were several ng/L, the maximum concentrations Accepted 16 April 2014 of perﬂuorooctane sulfonate (PFOS, 990 ng/L), perﬂuorooctanoate (PFOA, 1800 ng/L) and perﬂuorononanoate Available online 9 May 2014 (PFNA, 620 ng/L) in groundwater were several times higher than those of wastewater and street runoff reported Editor: Damia Barcelo in the literature. PFAAs were more frequently detected than sewage tracers (carbamazepine and crotamiton), presumably owing to the higher persistence of PFAAs, the multiple sources of PFAAs beyond sewage (e.g., surface Keywords: runoff, point sources) and the formation of PFAAs from their precursors. Use of multiple methods of source appor- Perﬂuoroalkyl acids (PFAAs) tionment including principal component analysis–multiple linear regression (PCA–MLR) and perﬂuoroalkyl Groundwater carboxylic acid ratio analysis highlighted sewage and point sources as the primary sources of PFAAs in the most Pharmaceuticals and personal care products severely polluted groundwater samples, with street runoff being a minor source (44.6% sewage, 45.7% point (PPCPs) sources and 9.7% street runoff, by PCA–MLR). Tritium analysis indicated that, while young groundwater (recharged Tritium during or after the 1970s, when PFAAs were already in commercial use) in shallow aquifers (b 50 m depth) was Sewage naturally highly vulnerable to PFAA pollution, PFAAs were also found in old groundwater (recharged before the Source apportionment Abbreviations: PFAAs, perﬂuoroalkyl acids; PFSAs, perﬂuorinated sulfonic acids; PFCAs, perﬂuoroalkyl carboxylic acids; PFHxS, perﬂuorohexane sulfonate; PFHpS, perﬂuoroheptane sulfonate; PFOS, perﬂuorooctane sulfonate; PFDS, perﬂuorodecane sulfonate; PFHpA, perﬂuoroheptanoate; PFOA, perﬂuorooctanoate; PFNA, perﬂuorononanoate; PFDA, perﬂuorodecanoate; PFUnDA, perﬂuoroundecanoate; PFDoDA, perﬂuorododecanoate; PFTrDA, perﬂuorotridecanoate; PFTeDA, perﬂuorotetradecanoate; PFAA, Perﬂuoroalkyl acids; FOSA, perﬂuorooctane sulfonamide; AFFF, aqueous ﬁlm-forming foams; PCA, principal component analysis; PC, principal component; MLR, multiple linear regression; FS, PCA factor score; PFCAR, perﬂuoroalkyl carboxylic acid ratio analysis; L-PFCAR, long/(long + short) PFCAR; E-PFCAR, even/(even + odd) PFCAR; PPCPs, pharmaceuticals and personal care products; TU, tritium unit; BGL, below ground level. ⁎ Corresponding author at: Center for Environmental Risk Research, National Institute for Environmental Studies (NIES), 16-2 Onogawa, Tsukuba, Ibaraki 305-8506 Japan. Tel.: +81 29 850 2843; fax: +81 29 850 2920. E-mail address: keisukekr@gmail.com (K. Kuroda). http://dx.doi.org/10.1016/j.scitotenv.2014.04.066 0048-9697/© 2014 Elsevier B.V. All rights reserved.",
+          "text_length": 4329,
+          "body_hint_count": 0,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "elsevier_api",
+        "seed_url:https://www.sciencedirect.com/science/article/pii/S0048969714005762"
+      ],
+      "notes": "Local PDF fallback triggered because: pdf has one page or less. Elsevier API returned metadata or abstract only. Resolved via seed source page."
+    }
+  ]
+}

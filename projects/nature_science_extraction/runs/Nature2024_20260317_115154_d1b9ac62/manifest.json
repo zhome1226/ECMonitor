@@ -1,0 +1,52 @@
+{
+  "run_id": "Nature2024_20260317_115154_d1b9ac62",
+  "source_block": "Nature2024",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T11:51:54",
+  "items": [
+    {
+      "row_id": "DOI0546",
+      "record_id": "REF0113",
+      "source_block": "Nature2024",
+      "doi": "10.1007/s11356-018-1608-z",
+      "selected_source_type": "local_pdf_excerpt",
+      "selected_source_path_or_url": "/mnt/d/paper_data/pdf/Nature/10.1007_s11356-018-1608-z__10.1007_s11356-018-1608-z.pdf",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1007_s11356-018-1608-z.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1007_s11356-018-1608-z__10.1007_s11356-018-1608-z.pdf",
+          "pages": 1,
+          "size_bytes": 275987,
+          "text_excerpt": "Environmental Science and Pollution Research (2018) 25:9321 https://doi.org/10.1007/s11356-018-1608-z CORRECTION Correction to: Risk exposure assessment of per- and polyfluoroalkyl substances (PFASs) in drinking water and atmosphere in central eastern China Zhibo Lu 1,2 & Rong Lu 1,2 & Hongyuan Zheng 1,2,3 & Jing Yan 1,2 & Luning Song 1,2 & Juan Wang 1,2 & Haizhen Yang 1,2 & Minghong Cai 3 Published online: 5 March 2018 # Springer-Verlag GmbH Germany, part of Springer Nature 2018 Correction to: Environ Sci Pollut Res https://doi.org/10.1007/s11356-017-0950-x The original publication of this paper contains a mistake. The correct presentation of the 7th Author is shown in this paper. The original article has been corrected. The online version of the original article can be found at https://doi.org/ 10.1007/s11356-017-0950-x * Minghong Cai caiminghong@pric.org.cn 1 College of Environmental Science and Engineering, Tongji University, Shanghai 200092, China 2 State Key Laboratory on Pollution Control and Resource Reuse, Tongji University, Shanghai 200092, China 3 SOA Key Laboratory for Polar Science, Polar Research Institute of China, Shanghai 200136, China",
+          "text_length": 1170,
+          "body_hint_count": 0,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        },
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1007_s11356-018-1608-z__s11356-018-1608-z.pdf",
+          "pages": 1,
+          "size_bytes": 275987,
+          "text_excerpt": "Environmental Science and Pollution Research (2018) 25:9321 https://doi.org/10.1007/s11356-018-1608-z CORRECTION Correction to: Risk exposure assessment of per- and polyfluoroalkyl substances (PFASs) in drinking water and atmosphere in central eastern China Zhibo Lu 1,2 & Rong Lu 1,2 & Hongyuan Zheng 1,2,3 & Jing Yan 1,2 & Luning Song 1,2 & Juan Wang 1,2 & Haizhen Yang 1,2 & Minghong Cai 3 Published online: 5 March 2018 # Springer-Verlag GmbH Germany, part of Springer Nature 2018 Correction to: Environ Sci Pollut Res https://doi.org/10.1007/s11356-017-0950-x The original publication of this paper contains a mistake. The correct presentation of the 7th Author is shown in this paper. The original article has been corrected. The online version of the original article can be found at https://doi.org/ 10.1007/s11356-017-0950-x * Minghong Cai caiminghong@pric.org.cn 1 College of Environmental Science and Engineering, Tongji University, Shanghai 200092, China 2 State Key Laboratory on Pollution Control and Resource Reuse, Tongji University, Shanghai 200092, China 3 SOA Key Laboratory for Polar Science, Polar Research Institute of China, Shanghai 200136, China",
+          "text_length": 1170,
+          "body_hint_count": 0,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "local_pdf_excerpt"
+      ],
+      "notes": "Recovered extractable text from incomplete local PDF: 10.1007_s11356-018-1608-z__10.1007_s11356-018-1608-z.pdf"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "Norma Regional de Calidad del Agua. Comite Coordinador Regional de Instituciones de Agua Potable y Saneamiento de Centroamerica, Panama y Republica Dominicana – Capre 1994",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0774. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Norma+Regional+de+Calidad+del+Agua.+Comite+Coordinador+Regional+de+Instituciones+de+Agua+Potable+y+Saneamiento+de+Centroamerica%2C+Panama+y+Republica+Dominicana+%E2%80%93+Capre+1994"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0627.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[ARGENTINE FOOD CODE Joint Resolution 68/2007 and 196/2007 Amendment.] \"CODIGO ALIMENTARIO ARGENTINO Resolución Conjunta 68/2007 y 196/2007 Modificación.\"",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0711. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BARGENTINE+FOOD+CODE+Joint+Resolution+68%2F2007+and+196%2F2007+Amendment.%5D+%22CODIGO+ALIMENTARIO+ARGENTINO+Resoluci%C3%B3n+Conjunta+68%2F2007+y+196%2F2007+Modificaci%C3%B3n.%22"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0556.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

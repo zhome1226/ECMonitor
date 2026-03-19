@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_232412_03a38762",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:24:15",
+  "items": [
+    {
+      "row_id": "DOI0493",
+      "record_id": "REF0512",
+      "source_block": "Water2023",
+      "doi": "10.15446/rev.colomb.quim.v44n1.54041",
+      "selected_source_type": "web_http_html",
+      "selected_source_path_or_url": "https://revistas.unal.edu.co/index.php/rcolquim/article/view/54041",
+      "manual_intervention": false,
+      "status": "failed",
+      "failure_reason": "Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_o6fv_82t/response.txt', '-']' timed out after 90 seconds",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.15446_rev.colomb.quim.v44n1.54041.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "crossref_http_html"
+      ],
+      "notes": "Resolved via direct HTTP HTML fetch."
+    }
+  ]
+}

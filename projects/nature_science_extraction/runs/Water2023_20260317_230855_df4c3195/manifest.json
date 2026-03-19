@@ -1,0 +1,28 @@
+{
+  "run_id": "Water2023_20260317_230855_df4c3195",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:08:59",
+  "items": [
+    {
+      "row_id": "DOI0452",
+      "record_id": "REF0468",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0452. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Surveillance+of+chlorinated+disinfection+by-products+in+township+waterworks+in+Xiamen",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0468.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Surveillance+of+chlorinated+disinfection+by-products+in+township+waterworks+in+Xiamen",
+        "scholar_error_attempt_1:Page.goto: net::ERR_NETWORK_CHANGED at https://scholar.google.com/scholar?q=Surveillance+of+chlorinated+disinfection+by-products+in+township+waterworks+in+Xiamen Call log: - navigating to \"https://scholar.google.com/scholar?q=Surveillance+of+chlorinated+disinfection+by-products+in+township+waterworks+in+Xiamen\", waiting until \"domcontentloaded\"",
+        "scholar:https://scholar.google.com/scholar?q=Surveillance+of+chlorinated+disinfection+by-products+in+township+waterworks+in+Xiamen",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

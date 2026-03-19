@@ -1,0 +1,39 @@
+{
+  "run_id": "Water2023_20260318_153047_c7c79563",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-18T15:30:50",
+  "items": [
+    {
+      "row_id": "DOI0407",
+      "record_id": "REF0419",
+      "source_block": "Water2023",
+      "doi": "10.4236/jwarp.2018.106032",
+      "selected_source_type": "local_pdf",
+      "selected_source_path_or_url": "/mnt/d/paper_data/pdf/Water/10.4236_jwarp.2018.106032.pdf",
+      "manual_intervention": false,
+      "status": "failed",
+      "failure_reason": "Command '['codex', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--cd', '/mnt/c/Users/Administrator/codex/projects/nature_science_extraction', '--output-last-message', '/mnt/c/Users/Administrator/AppData/Local/Temp/codex_extract_w6vdgube/response.txt', '-']' timed out after 240 seconds",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.4236_jwarp.2018.106032.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Water/10.4236_jwarp.2018.106032.pdf",
+          "pages": 10,
+          "size_bytes": 422264,
+          "text_excerpt": "Journal of Water Resource and Protection, 2018, 10, 577-586 http://www.scirp.org/journal/jwarp ISSN Online: 1945-3108 ISSN Print: 1945-3094 Levels of Trihalomethanes in Stored Water from High and Fundamental Schools: Comparison between Two Temporal Data Sets Ricardo Andreola1, Anny Rosi Mannigel1, Graciene de Souza Bido1, Thaise Moser Teixeira1, Edison Schmidt Filho1, Jussara Ricardo de Oliveira1, André Ribeiro da Costa1, Rebecca Manesco Paixão2 Centro Universitário de Maringá (UNICESUMAR), Maringá, Brazil 1 Universidade Estadual de Maringá (UEM), Maringá, Brazil 2 How to cite this paper: Andreola, R., Abstract Mannigel, A.R., Bido, G. de S., Teixeira, T.M., Filho, E.S., de Oliveira, J.R., da Costa, Epidemiological studies have been investigating the relationship between A.R. and Paixão, R.M. (2018) Levels of chlorination byproducts exposure and cancer. Studies showed the incidence of Trihalomethanes in Stored Water from colon, rectum and bladder cancer in laboratory animals when halogenated High and Fundamental Schools: Compari- son between Two Temporal Data Sets. byproducts were administered to them, such as trihalomethanes. Based on Journal of Water Resource and Protection, this fact, in this work, two data sets of water quality parameters were analyzed 10, 577-586. with focus on total trihalomethanes (THMt). These two data sets are from two https://doi.org/10.4236/jwarp.2018.106032 different time periods (one in 2014 and other in 2017). All the samples were Received: February 17, 2018 collected in the same months, in both data sets. The samples were taken from Accepted: June 25, 2018 its same corresponding sampling points in both periods of time. Trihalome- Published: June 28, 2018 thanes (THMs) are undesired byproducts of chlorination and its formation occurs when the chlorine used in water treatment reacts with natural organic Copyright © 2018 by authors and Scientific Research Publishing Inc. matter, which is present in natural waters, during the disinfection process. This work is licensed under the Creative The aim of this research was to investigate the THMs levels in storage water Commons Attribution International from the chlorination performed by the Water Treatment Station (WTS) of License (CC BY 4.0). the Maringá-Parana-Brazil; also, to compare the results obtained with the http://creativecommons.org/licenses/by/4.0/ Open Access maximum allowable values (MAVs) established by the Consolidation Resolu- tion n.05/2017, current law of water quality in Brazil. Water samples were collected in eight high and fundamental schools of Maringá-Paraná-Brazil and analyzed through the gas chromatography method by the use of mass spec- trometry detector with purge-and-trap concentrator (GC-MS) for THM. Fur- thermore, parameters such as pH and residual chlorine were analyzed follow- ing the methodology proposed by the Standard Methods for the Examination of Water and Wastewater. The study results to THMt show that the maximum value of 21.5 µg/L obtained is within the MAV of 100 µg/L. Chloroform was DOI: 10.4236/jwarp.2018.106032 Jun. 28, 2018 577 Journal of Water Resource and Protection R. Andreola et al. the compound with higher concentrations in all samples in THMt analysis. Results of residual chlorine and pH also are within the MAVs. Studies like this are important to continuous monitoring of the water quality distributed to population. Keywords Water Treatment, Chlorination Byproducts, Cancer, Tap Water 1. Introduction According to Consolidation Resolution n.05/2017 [1], current law of water qual- ity in Brazil, which sets forth the procedures of control and surveillance of water quality for human consumption and potable water standards, the water has to pass by a disinfection process that will inactivate pathogenic microorganisms. During the process the water may receive different chemical disinfectants; how- ever, the chlorine is the most popular in the treatment of potable water and wastewater worldwide [2] [3]. The consequences of reactions between chlorine and natural organic com- pounds (NOCs) are the undesired byproducts of chlorination (as trihalome- thanes and haloacetic acids), which occur since the treatment beginning, when there is the pre-chlorination in the Water Treatment Station-WTS [4] [5]. The chlorination byproducts formation depends on several factors including the concentration of humic and fulvic acids, pH, temperature, contact time, concen- tration of chlorine and bromides dosage [6] [7] [8]. Although several are the by- products of chlorination, the principals are trihalomethanes, haloacetic acids, haloacetonitrile, haloketones, halonitromethanes [9] [10]. The trihalomethanes (THMs) are the most significant group of chlorination byproducts, and the total trihalomethanes (THMt) correspond to the algebraic sum of THMs most commonly found in tap water, named trichloromethane (CHCl3), bromodichloromethane (CHBrCl2), dibromochloromethane (CHBr2Cl), and tribromomethane (CHBr3) [6] [11]. According to the United States Environmental Protection Agency [12] since the discovery of chlorination byproducts presence in potable water in 1974, sev- eral are the epidemiological studies that have investigated the relationship be- tween exposure to disinfection byproducts and cancer. The International Agency for Research on Cancer (IARC) cites that THMt may cause diverse damages for human health, such as liver cancer, kidney cancer, effects on reproduction, and effects in the nervous system, according to the given classification. Trichloro- methane (TCM), bromodichloromethane (BDCM) and tribromomethane (TBM) are rated 2B, which mean possible carcinogenic chlorination byproducts to humans, while dibromochloromethane (DBCM) has a rating 2A, which is a byproduct of the chlorination probably carcinogenic to humans [13]. Another study cites THMs in the incidence of colon, rectum and bladder cancer in labor- DOI: 10.4236/jwarp.2018.106032 578 Journal of Water Resource and Protection R. ",
+          "text_length": 6000,
+          "body_hint_count": 4,
+          "usable": true,
+          "reason": "usable",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "local_pdf"
+      ],
+      "notes": "Selected local PDF: 10.4236_jwarp.2018.106032.pdf"
+    }
+  ]
+}

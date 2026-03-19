@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260318_125414_45019587",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-18T12:54:18",
+  "items": [
+    {
+      "row_id": "DOI0497",
+      "record_id": "REF0517",
+      "source_block": "Water2023",
+      "doi": "10.1016/j.scitotenv.2010.06.053",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.sciencedirect.com/science/article/pii/S0048969710006583?via%3Dihub",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1016_j.scitotenv.2010.06.053.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "seed_url:https://linkinghub.elsevier.com/retrieve/pii/S0048969710006583"
+      ],
+      "notes": "Resolved via seed source page."
+    }
+  ]
+}

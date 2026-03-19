@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233853_23433f09",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:38:55",
+  "items": [
+    {
+      "row_id": "DOI0713",
+      "record_id": "REF0559",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0713. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BBolivian+Standard+NB+512+Drinking+Water+Requirements%5D+2004.+%22Norma+Boliviana+NB+512+Agua+Potable+Requisitos%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0559.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BBolivian+Standard+NB+512+Drinking+Water+Requirements%5D+2004.+%22Norma+Boliviana+NB+512+Agua+Potable+Requisitos%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

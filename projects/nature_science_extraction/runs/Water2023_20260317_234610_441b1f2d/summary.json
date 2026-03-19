@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://www.journalimcms.org/special_issue/developing-technology-of-creating-wear-resistant-ceramic-coating-for-ice-cylinder/",
+      "paper_title": "DEVELOPING TECHNOLOGY OF CREATING WEAR-RESISTANT CERAMIC COATING FOR ICE CYLINDER – JOURNAL OF MECHANICS OF CONTINUA AND MATHEMATICAL SCIENCES",
+      "doi": "10.26782/jmcms.spl.10/2020.06.00048",
+      "journal": "Journal of Mechanics of Continua and Mathematical Sciences",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "提供的解析来源为发动机缸套耐磨陶瓷涂层工艺与磨损/摩擦测试内容，未包含饮用水三卤甲烷（THMs）监测浓度数据或相关采样信息；因此无法提取支持国家/地区层面THM浓度汇总的监测数据。",
+      "notes": "该解析网页与任务目标（饮用水THM监测数据/与基准论文对比）不匹配。给定源文本未出现THM/tri-halomethanes/饮用水监测相关表格或浓度统计，仅描述涂层制备、加速磨损试验与摩擦因数变化。DOI来自提供的paper metadata，未在给出的网页摘要文本中直接出现。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.26782_jmcms.spl.10_2020.06.00048.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

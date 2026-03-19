@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233953_4855306e",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:39:55",
+  "items": [
+    {
+      "row_id": "DOI0724",
+      "record_id": "REF0572",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0724. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BOmani+Standard+No+8%2F2012+Unbottled+Drinking+Water%5D+%D9%85%D9%8A%D8%A7%D9%87+%D8%A7%D9%84%D8%B4%D8%B1%D8%A8+%D8%BA%D9%8A%D8%B1+%D8%A7%D9%84%D9%85%D8%B9%D8%A8%D8%A3%D8%A9",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0572.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BOmani+Standard+No+8%2F2012+Unbottled+Drinking+Water%5D+%D9%85%D9%8A%D8%A7%D9%87+%D8%A7%D9%84%D8%B4%D8%B1%D8%A8+%D8%BA%D9%8A%D8%B1+%D8%A7%D9%84%D9%85%D8%B9%D8%A8%D8%A3%D8%A9",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

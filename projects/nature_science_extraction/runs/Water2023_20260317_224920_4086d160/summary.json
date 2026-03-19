@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "http://link.springer.com/10.1007/s12558-010-0092-2",
+      "paper_title": "L’hyperchloration de l’eau de robinet et cancer de la vessie dans la région de Mostaganem (Ouest algérien)Hyperchlorination of drinking tap water and bladder cancer in the region of Mostaganem (West Algeria)",
+      "doi": "10.1007/s12558-010-0092-2",
+      "journal": "J Africain du Cancer / African J Cancer",
+      "year": 2010,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "提供的已解析来源仅包含“Page Not Found / page not found”错误页面文本，未包含任何可用于提取的饮用水THM（或THMs/总THM、TTHM、单体THM）监测浓度数据、采样信息或补充表格；当前无法访问论文正文或补充材料以恢复源级监测数据。",
+      "notes": "Resolved source metadata显示 selected_source_type=web_html 且页面标题为“Page Not Found”。源文本仅为站点错误提示（链接可能失效/不存在），因此无法进行THM监测数据抽取。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1007_s12558-010-0092-2.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

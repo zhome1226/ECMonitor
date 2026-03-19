@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233210_f8764164",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:32:13",
+  "items": [
+    {
+      "row_id": "DOI0503",
+      "record_id": "REF0524",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0503. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Investigation+of+the+content+of+trihalomethanes+in+drinking+water+in+Nanjing%2C+2009-2013",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0524.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=Investigation+of+the+content+of+trihalomethanes+in+drinking+water+in+Nanjing%2C+2009-2013",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

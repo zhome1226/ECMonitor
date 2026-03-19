@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://link.springer.com/article/10.1007/s10661-014-4223-6?error=cookies_not_supported&code=cfcafcbb-a2ec-477e-b214-226bd1585661",
+      "paper_title": "Mutagenicity and genotoxicity of drinking water in Guelma region, Algeria",
+      "doi": "10.1007/s10661-014-4223-6",
+      "journal": "Environmental Monitoring and Assessment",
+      "year": 2015,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "当前提供的Springer网页源文本为“preview of subscription content”，仅包含摘要与元信息。摘要仅说明“trihalomethanes (THMs)…levels in water samples were also determined”，并列出CHCl3、CHBr3、CHBrCl2、CHBr2Cl等指标，但未给出任何可用于提取的监测浓度数值/统计量（均值、中位数、最小/最大、范围、样本量）或表格/补充材料内容；因此无法从该源文本恢复国家/地区层面的THM浓度监测数据。",
+      "notes": "摘要提供的可用采样元信息：样品类型包括原水(P1)、预加氯后(P2)、沉淀后(P3)、后加氯后(P4)、用户水龙头(P5–P12)；进行了2012–2013年间四季（summer, autumn, winter, spring）实验。但未包含任何THM浓度数据或表格编号可定位。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.1007_s10661-014-4223-6.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

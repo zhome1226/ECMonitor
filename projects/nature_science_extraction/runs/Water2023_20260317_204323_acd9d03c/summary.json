@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "https://jnsfsl.sljol.info/articles/10.4038/jnsfsr.v39i1.2930",
+      "paper_title": "Water pollution due to a harmful algal bloom: a preliminary study from two drinking water reservoirs in Kandy, Sri Lanka",
+      "doi": "10.4038/jnsfsr.v39i1.2930",
+      "journal": "Journal of the National Science Foundation of Sri Lanka",
+      "year": 2011,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "提供的来源文本与元数据中未出现任何三卤甲烷(THMs)或消毒副产物(DBPs)的监测浓度数据（如TTHM/CHCl3/BDCM/DBCM/Bromoform的均值/中位数/范围/最小-最大值/样本量/单位等），也未见相关补充表格或监测结果汇总；文本内容聚焦于2008年Kandy两座水库（Rosmith与Dunumadalawa）藻类暴发（Peridinium aciculiferum）与疑似毒素事件调查。且给定citation_text为2014年会议论文“Survey of Disinfection by-products in drinking water in Greater Kandy Water supply scheme”，与已解析DOI对应的2011年期刊文章主题不一致，无法从当前来源提取可用于国家/地区层面汇总的THM监测浓度数据。",
+      "notes": "当前解析来源（web_http_html）仅包含藻类与流行病事件描述、物种相对丰度范围等信息；未包含THM/DBP监测数据。若需提取THM监测数据，需提供与citation_text一致的2014会议论文全文或其补充材料/表格。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.4038_jnsfsr.v39i1.2930.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[DECREE No. 2003-941 relating to water monitoring,\ncontrol of water intended for human consumption and priorities for access to water resources] DECRET N° 2003- 941, relatif à la surveillance de l’eau, au contrôle des eaux destinées à la consommation humaine et aux priorités d’accès à la ressource en eau",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0697. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BDECREE+No.+2003-941+relating+to+water+monitoring%2C%0Acontrol+of+water+intended+for+human+consumption+and+priorities+for+access+to+water+resources%5D+DECRET+N%C2%B0+2003-+941%2C+relatif+%C3%A0+la+surveillance+de+l%E2%80%99eau%2C+au+contr%C3%B4le+des+eaux+destin%C3%A9es+%C3%A0+la+consommation+humaine+et+aux+priorit%C3%A9s+d%E2%80%99acc%C3%A8s+%C3%A0+la+ressource+en+eau"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0542.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

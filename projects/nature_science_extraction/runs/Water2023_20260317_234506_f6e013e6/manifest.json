@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_234506_f6e013e6",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:45:09",
+  "items": [
+    {
+      "row_id": "DOI0779",
+      "record_id": "REF0632",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0779. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BRegulations+on+changes+in+the+Swedish+Food+Agency+regulations+%28SLVFS+2001%3A30%29+on+drinking+water%5D+F%C3%B6reskrifter+om+%C3%A4ndring+i+Livsmedelsverkets+f%C3%B6reskrifter+%28SLVFS+2001%3A30%29+om+dricksvatten",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0632.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BRegulations+on+changes+in+the+Swedish+Food+Agency+regulations+%28SLVFS+2001%3A30%29+on+drinking+water%5D+F%C3%B6reskrifter+om+%C3%A4ndring+i+Livsmedelsverkets+f%C3%B6reskrifter+%28SLVFS+2001%3A30%29+om+dricksvatten",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "Water2023_20260317_233657_fa72818a",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T23:36:59",
+  "items": [
+    {
+      "row_id": "DOI0692",
+      "record_id": "REF0537",
+      "source_block": "Water2023",
+      "doi": null,
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": null,
+      "manual_intervention": true,
+      "status": "failed",
+      "failure_reason": "Scholar is still on scholar_search for DOI0692. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BCollection+of+Laws+of+the+Czech+Republic+Regulation+No.+83%2F2014+Coll.+Decree+amending+Decree+No+252%2F2004+Coll.+laying+down+the+sanitary+requirements+for+drinking+and+hot+water+and+the+frequency+and+scope+of+inspection+of+drinking+water%2C+as+amended+by+subsequent+regulations%5D+%22Sb%C3%ADrka+z%C3%A1kon%C5%AF+%C4%8CR+P%C5%99edpis+%C4%8D.+83%2F2014+Sb.+Vyhl%C3%A1%C5%A1ka%2C+kterou+se+m%C4%9Bn%C3%AD+vyhl%C3%A1%C5%A1ka+%C4%8D.+252%2F2004+Sb.%2C+kterou+se+stanov%C3%AD+hygienick%C3%A9+po%C5%BEadavky+na+pitnou+a+teplou+vodu+a%C4%8Detnost+a+rozsah+kontroly+pitn%C3%A9+vody%2C+ve+zn%C4%9Bn%C3%AD+pozd%C4%9Bj%C5%A1%C3%ADch+p%C5%99edpis%C5%AF%22",
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/REF0537.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "scholar:https://scholar.google.com/scholar?q=%5BCollection+of+Laws+of+the+Czech+Republic+Regulation+No.+83%2F2014+Coll.+Decree+amending+Decree+No+252%2F2004+Coll.+laying+down+the+sanitary+requirements+for+drinking+and+hot+water+and+the+frequency+and+scope+of+inspection+of+drinking+water%2C+as+amended+by+subsequent+regulations%5D+%22Sb%C3%ADrka+z%C3%A1kon%C5%AF+%C4%8CR+P%C5%99edpis+%C4%8D.+83%2F2014+Sb.+Vyhl%C3%A1%C5%A1ka%2C+kterou+se+m%C4%9Bn%C3%AD+vyhl%C3%A1%C5%A1ka+%C4%8D.+252%2F2004+Sb.%2C+kterou+se+stanov%C3%AD+hygienick%C3%A9+po%C5%BEadavky+na+pitnou+a+teplou+vodu+a%C4%8Detnost+a+rozsah+kontroly+pitn%C3%A9+vody%2C+ve+zn%C4%9Bn%C3%AD+pozd%C4%9Bj%C5%A1%C3%ADch+p%C5%99edpis%C5%AF%22",
+        "scholar_auto_click:none"
+      ],
+      "notes": "Web resolution failed."
+    }
+  ]
+}

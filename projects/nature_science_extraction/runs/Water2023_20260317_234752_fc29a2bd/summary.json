@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "Modificacion a la Norma Oficial Mexicana NOM-127-SSA1-1994, Salud ambiental: Agua para uso y consumo humano. Límites permisibles de calidad y tratamientos a que debe someterse el agua para su potabilización 2000",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0790. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=Modificacion+a+la+Norma+Oficial+Mexicana+NOM-127-SSA1-1994%2C+Salud+ambiental%3A+Agua+para+uso+y+consumo+humano.+L%C3%ADmites+permisibles+de+calidad+y+tratamientos+a+que+debe+someterse+el+agua+para+su+potabilizaci%C3%B3n+2000"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0646.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

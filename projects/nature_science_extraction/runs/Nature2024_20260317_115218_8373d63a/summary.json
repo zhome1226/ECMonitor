@@ -1,0 +1,22 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 2,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json",
+  "first_2_records": [
+    {
+      "source_pdf": "/mnt/d/paper_data/pdf/Nature/10.1016_j.watres.2020.115989__10.1016_j.watres.2020.115989.pdf",
+      "paper_title": "Non-target and suspect screening of per- and polyfluoroalkyl substances in Chinese municipal wastewater treatment plants",
+      "doi": "10.1016/j.watres.2020.115989",
+      "journal": "Water Research",
+      "year": 2020,
+      "records": [],
+      "no_extractable_records": true,
+      "notes": "本次提供的源文本仅包含论文首页题录信息与摘要/引言片段（如“17 WWTPs”“63 PFASs”“13 classes”等描述），未出现可直接读取的环境样品中污染物“浓度数值/范围 + 单位”（表格/补充表/正文/图中可读数值均未提供）。因此无法按监测记录粒度重建任何观测级浓度记录。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.watres.2020.115989.json",
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json"
+  ]
+}

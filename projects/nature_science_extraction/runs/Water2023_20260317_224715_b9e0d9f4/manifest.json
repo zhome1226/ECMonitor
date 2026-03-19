@@ -1,0 +1,25 @@
+{
+  "run_id": "Water2023_20260317_224715_b9e0d9f4",
+  "source_block": "Water2023",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T22:47:19",
+  "items": [
+    {
+      "row_id": "DOI0413",
+      "record_id": "REF0425",
+      "source_block": "Water2023",
+      "doi": "10.1007/s10661-010-1677-z",
+      "selected_source_type": "web_http_html",
+      "selected_source_path_or_url": "https://link.springer.com/article/10.1007/s10661-010-1677-z?error=cookies_not_supported&code=547a90fd-4d3b-4202-93f4-ca625437ab7c",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Water/extracted_json/10.1007_s10661-010-1677-z.json",
+      "pdf_candidates": [],
+      "search_strategy": [
+        "crossref_http_html"
+      ],
+      "notes": "Resolved via direct HTTP HTML fetch."
+    }
+  ]
+}

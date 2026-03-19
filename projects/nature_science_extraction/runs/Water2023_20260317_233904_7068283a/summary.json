@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[GUATEMALAN TECHNICAL STANDARD, COGUANOR NTG 29001. Water for human consumption (drinking water). Specs. (2013)] NORMA TÉCNICA GUATEMALTECA, COGUANOR NTG 29001. Agua para consumo humano (agua potable). Especificaciones. (2013)",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0715. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BGUATEMALAN+TECHNICAL+STANDARD%2C+COGUANOR+NTG+29001.+Water+for+human+consumption+%28drinking+water%29.+Specs.+%282013%29%5D+NORMA+T%C3%89CNICA+GUATEMALTECA%2C+COGUANOR+NTG+29001.+Agua+para+consumo+humano+%28agua+potable%29.+Especificaciones.+%282013%29"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0561.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

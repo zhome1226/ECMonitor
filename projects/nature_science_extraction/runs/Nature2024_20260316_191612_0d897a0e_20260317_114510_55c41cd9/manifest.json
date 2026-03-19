@@ -1,0 +1,84 @@
+{
+  "run_id": "Nature2024_20260316_191612_0d897a0e_20260317_114510_55c41cd9",
+  "source_block": "Nature2024",
+  "excel_path": "/mnt/c/Users/Administrator/Desktop/three_libraries_doi_table_filled.xlsx",
+  "created_at": "2026-03-17T11:45:22",
+  "items": [
+    {
+      "row_id": "DOI0546",
+      "record_id": "REF0113",
+      "source_block": "Nature2024",
+      "doi": "10.1007/s11356-018-1608-z",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://link.springer.com/article/10.1007/s11356-018-1608-z",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1007_s11356-018-1608-z.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1007_s11356-018-1608-z__10.1007_s11356-018-1608-z.pdf",
+          "pages": 1,
+          "size_bytes": 275987,
+          "text_excerpt": "Environmental Science and Pollution Research (2018) 25:9321 https://doi.org/10.1007/s11356-018-1608-z CORRECTION Correction to: Risk exposure assessment of per- and polyfluoroalkyl substances (PFASs) in drinking water and atmosphere in central eastern China Zhibo Lu 1,2 & Rong Lu 1,2 & Hongyuan Zheng 1,2,3 & Jing Yan 1,2 & Luning Song 1,2 & Juan Wang 1,2 & Haizhen Yang 1,2 & Minghong Cai 3 Published online: 5 March 2018 # Springer-Verlag GmbH Germany, part of Springer Nature 2018 Correction to: Environ Sci Pollut Res https://doi.org/10.1007/s11356-017-0950-x The original publication of this paper contains a mistake. The correct presentation of the 7th Author is shown in this paper. The original article has been corrected. The online version of the original article can be found at https://doi.org/ 10.1007/s11356-017-0950-x * Minghong Cai caiminghong@pric.org.cn 1 College of Environmental Science and Engineering, Tongji University, Shanghai 200092, China 2 State Key Laboratory on Pollution Control and Resource Reuse, Tongji University, Shanghai 200092, China 3 SOA Key Laboratory for Polar Science, Polar Research Institute of China, Shanghai 200136, China",
+          "text_length": 1170,
+          "body_hint_count": 0,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        },
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1007_s11356-018-1608-z__s11356-018-1608-z.pdf",
+          "pages": 1,
+          "size_bytes": 275987,
+          "text_excerpt": "Environmental Science and Pollution Research (2018) 25:9321 https://doi.org/10.1007/s11356-018-1608-z CORRECTION Correction to: Risk exposure assessment of per- and polyfluoroalkyl substances (PFASs) in drinking water and atmosphere in central eastern China Zhibo Lu 1,2 & Rong Lu 1,2 & Hongyuan Zheng 1,2,3 & Jing Yan 1,2 & Luning Song 1,2 & Juan Wang 1,2 & Haizhen Yang 1,2 & Minghong Cai 3 Published online: 5 March 2018 # Springer-Verlag GmbH Germany, part of Springer Nature 2018 Correction to: Environ Sci Pollut Res https://doi.org/10.1007/s11356-017-0950-x The original publication of this paper contains a mistake. The correct presentation of the 7th Author is shown in this paper. The original article has been corrected. The online version of the original article can be found at https://doi.org/ 10.1007/s11356-017-0950-x * Minghong Cai caiminghong@pric.org.cn 1 College of Environmental Science and Engineering, Tongji University, Shanghai 200092, China 2 State Key Laboratory on Pollution Control and Resource Reuse, Tongji University, Shanghai 200092, China 3 SOA Key Laboratory for Polar Science, Polar Research Institute of China, Shanghai 200136, China",
+          "text_length": 1170,
+          "body_hint_count": 0,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "doi:https://doi.org/10.1007/s11356-018-1608-z"
+      ],
+      "notes": "Local PDF fallback triggered because: pdf has one page or less. Resolved via DOI landing page."
+    },
+    {
+      "row_id": "DOI0170",
+      "record_id": "REF0285",
+      "source_block": "Nature2024",
+      "doi": "10.1016/j.watres.2020.115989",
+      "selected_source_type": "web_html",
+      "selected_source_path_or_url": "https://www.sciencedirect.com/science/article/pii/S0043135420305261",
+      "manual_intervention": false,
+      "status": "extracted",
+      "failure_reason": null,
+      "output_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.watres.2020.115989.json",
+      "pdf_candidates": [
+        {
+          "path": "/mnt/d/paper_data/pdf/Nature/10.1016_j.watres.2020.115989__10.1016_j.watres.2020.115989.pdf",
+          "pages": 1,
+          "size_bytes": 2669219,
+          "text_excerpt": "Water Research 183 (2020) 115989 Contents lists available at ScienceDirect Water Research journal homepage: www.elsevier.com/locate/watres Non-target and suspect screening of per- and polyﬂuoroalkyl substances in Chinese municipal wastewater treatment plants Xuebing Wang 1, Nanyang Yu 1, Yuli Qian, Wei Shi, Xiaowei Zhang, Jinju Geng, Hongxia Yu, Si Wei* State Key Laboratory of Pollution Control and Resource Reuse, School of the Environment, Nanjing University, Nanjing, People’s Republic of China a r t i c l e i n f o a b s t r a c t Article history: Wastewater treatment plant (WWTP) is one of the major sources of per- and polyﬂuoroalkyl substances Received 3 March 2020 (PFASs) to the aquatic environment. In this study, wastewater samples were collected from 17 WWTPs in Received in revised form 17 cities of China to investigate emerging PFASs in WWTPs. To comprehensively identify PFASs in the 25 May 2020 wastewater samples, an integrated suspect screening, homologue-based and fragment-based non-target Accepted 26 May 2020 Available online 19 June 2020 screening method is proposed. Sixty-three PFASs from 13 classes (25 subclasses) were identiﬁed, including 14 legacy and 49 emerging PFASs, and this study is the ﬁrst to report on 12 of these PFASs. We found that emerging PFASs concentration had a signiﬁcantly positive correlation with the gross domestic Keywords: Emerging PFASs product, indicating more substitution of legacy PFASs in the developed area of China. We also analyzed Non-target screening the removal of the 13 PFAS classes, and found that all discovered PFAS classes were not completely Spatial distribution removed after the treatment process, whereas the class of perﬂuoroalkyl ether alcohols signiﬁcantly GDP increased. All of these results imply that the release of emerging or unknown PFASs from WWTPs is a WWTP universal but not negligible problem in China. Removal © 2020 Elsevier Ltd. All rights reserved. 1. Introduction In recent years, China has increased its PFASs production owing to restriction in the production of PFOS/PFOA in North American Per- and polyﬂuoroalkyl substances (PFASs) are groups of syn- and Europe (Lim et al., 2011; Xie et al., 2013). Besides, the industry thetic organic compounds that contain the perﬂuoroalkyl moiety has increased the production of short chain PFASs and other e CnF2nþ1 (Buck et al., 2011). PFASs have been widely used as sur- replacement chemicals such as GenX to substitute for long chain factants and surface protectors since 1950s, but were ﬁrst reported PFOA (Gebbink et al., 2017; Gomis et al., 2015). There are over 3000 in the environment in 2001 (Giesy and Kannan, 2001). They were commercial PFASs worldwide, but less than 2% of these are regis- then extensively detected in water, sludge, organism and human tered in the REACH regulation (KEMI, 2015). Most research focused serum samples (Dauchy et al., 2017; Gao et al., 2019; Hu et al., 2016; on only well-known long chain PFASs, particularly PFOS and PFOA Langberg et al., 2019; Yeung et al., 2009). The persistence, bio- (Wang et al., 2017). Previous studies revealed additional unknown accumulation, toxicity and their ubiquity have led to the phase out PFASs in water or blood samples by carrying out total ﬂuorine of legacy perﬂuorooctane sulfonate (PFOS) and perﬂuorooctanoic measurement (Miyake et al., 2007; Yeung and Mabury, 2016; Yeung acid (PFOA) worldwide (Newton et al., 2017). From 2001, PFOS et al., 2009). Thus, to identify unknown PFASs in the environment related products were gradually phased out by the 3M company. samples is needed. Subsequently, PFOS related products were added to the Stockholm High resolution mass spectrum (HR-MS) has been introduced in Convention in 2009 for their worldwide elimination (Lam et al., recent studies to identify novel PFASs (Barzen-Hanson et al., 2017; 2016). Liu et al., 2015; Place and Field, 2012; Strynar et al., 2015; Wang et al., 2018). There are essentially three screening strategies for the identiﬁcation of PFASs. Suspect screening is the most conve- nient method to identify PFASs, particularly when the reference * Corresponding author. MS/MS spectra are available. Liu et al. reviewed the PFASs identiﬁed E-mail address: weisi@nju.edu.cn (S. Wei). 1 in recent years, and the suspect list, including MS and MS/MS in- These authors contributed equally to this work and should be considered co- ﬁrst authors. formation, was uploaded to the Norman Suspect List Exchange (Liu https://doi.org/10.1016/j.watres.2020.115989 0043-1354/© 2020 Elsevier Ltd. All rights reserved.",
+          "text_length": 4588,
+          "body_hint_count": 2,
+          "usable": false,
+          "reason": "pdf has one page or less",
+          "title_score": 0,
+          "doi_score": 1,
+          "dup_penalty": 0
+        }
+      ],
+      "search_strategy": [
+        "elsevier_api",
+        "seed_url:https://www.sciencedirect.com/science/article/pii/S0043135420305261"
+      ],
+      "notes": "Local PDF fallback triggered because: pdf has one page or less. Elsevier API returned metadata or abstract only. Resolved via seed source page."
+    }
+  ]
+}

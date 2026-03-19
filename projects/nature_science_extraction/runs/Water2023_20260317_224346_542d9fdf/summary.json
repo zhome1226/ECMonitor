@@ -1,0 +1,53 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "paperinformation?paperid=85602",
+      "paper_title": "Levels of Trihalomethanes in Stored Water from High and Fundamental Schools: Comparison between Two Temporal Data Sets",
+      "doi": "10.4236/jwarp.2018.106032",
+      "journal": "Journal of Water Resource and Protection",
+      "year": 2018,
+      "rows": [
+        {
+          "source_database": "Water Research 2023",
+          "benchmark_paper": "Global assessment of chemical quality of drinking water: The case of trihalomethanes",
+          "full_title": "Levels of Trihalomethanes in Stored Water from High and Fundamental Schools: Comparison between Two Temporal Data Sets",
+          "doi": "10.4236/jwarp.2018.106032",
+          "first_author": "Andreola",
+          "year": 2018,
+          "country": "Brazil",
+          "region": "Maringá, Paraná",
+          "location_name": "eight high and fundamental schools of Maringá-Paraná-Brazil（未提供具体学校名称）",
+          "water_type": "storage water（来自Maringá-Parana-Brazil的Water Treatment Station (WTS)氯化供水；具体储水设施/容器未说明）",
+          "sampling_time": "两期数据：2014与2017（两期采样月份相同、采样点对应相同；该最大值未注明对应年份/月份）",
+          "chemical_name": "THMt (total trihalomethanes)",
+          "mean_value": null,
+          "median_value": null,
+          "min_value": null,
+          "max_value": 21.5,
+          "sd_value": null,
+          "range_text": "",
+          "unit": "μg/L",
+          "n_samples": null,
+          "instrumentation": "GC-MS with purge-and-trap concentrator",
+          "sample_notes": "THMt为研究重点；样品来自巴西Maringá（Paraná）8所高中与基础学校；两期时间点为2014与2017，且两期在相同月份、相同对应采样点采集。文中同时提到MAV=100 μg/L为法规允许值，用于对比而非监测浓度。",
+          "original_excerpt": "These two data sets are from two different time periods (one in 2014 and other in 2017). All the samples were collected in the same months, in both data sets. The samples were taken from its same corresponding sampling points in both periods of time. ... Water samples were collected in eight high and fundamental schools of Maringá-Paraná-Brazil ... The study results to THMt show that the maximum value of 21.5 μg/L obtained is within the MAV of 100 μg/L.",
+          "page_or_table": "SCIRP网页文本（paperinformation页面摘要段落；未提供页码/表号）",
+          "extraction_confidence": "medium"
+        }
+      ],
+      "has_extractable_thm_data": true,
+      "reason_for_exclusion": null,
+      "notes": "仅从给定的web解析文本中可提取到THMt的最大值（21.5 μg/L）及采样地点/时间框架与方法信息；未提供各学校/各年份分组的THM统计量或单体THM（如chloroform）数值，无法按“地点×指标×时间”进一步拆分到更细粒度。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/10.4236_jwarp.2018.106032.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}

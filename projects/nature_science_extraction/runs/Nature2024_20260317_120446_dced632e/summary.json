@@ -1,0 +1,22 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 2,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json",
+  "first_2_records": [
+    {
+      "source_pdf": "/mnt/d/paper_data/pdf/Nature/10.1016_j.chemosphere.2008.10.018__10.1016_j.chemosphere.2008.10.018.pdf",
+      "paper_title": "Evaluation of wastewater and street runoff as sources of perfluorinated surfactants (PFSs)",
+      "doi": "10.1016/j.chemosphere.2008.10.018",
+      "journal": "Chemosphere",
+      "year": 2009,
+      "records": [],
+      "no_extractable_records": true,
+      "notes": "提供的源文本仅包含题录信息、摘要与引言段落描述（如“PFS concentrations were higher...”等），未出现可直接读取的环境样品监测浓度数值/范围，也未包含表格、补充表、图中可读数值，因此无可提取的环境浓度记录。"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/10.1016_j.chemosphere.2008.10.018.json",
+    "/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json"
+  ]
+}

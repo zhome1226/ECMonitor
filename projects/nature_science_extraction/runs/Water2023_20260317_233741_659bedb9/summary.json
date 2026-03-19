@@ -1,0 +1,25 @@
+{
+  "processed_pdfs": 1,
+  "output_json_files_created": 3,
+  "merged_file_created": true,
+  "merged_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+  "merged_csv_file": "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv",
+  "first_2_records": [
+    {
+      "source_pdf": "",
+      "paper_title": "[Collection of laws no. 496/2010 which amends the regulation of the Government of the Slovak Republic no. 354/2006 Coll., establishing requirements for water int+E108ended for human consumption and quality control of water intended for human consumption] Zbierka zákonov č. 496/2010 ktorým sa mení a dopĺňa nariadenie vlády Slovenskej republiky č. 354/2006 Z. z., ktorým sa ustanovujú požiadavky na vodu určenú na ľudskú spotrebu a kontrolu kvality vody určenej na ľudskú spotrebu",
+      "doi": "",
+      "journal": "",
+      "year": null,
+      "rows": [],
+      "has_extractable_thm_data": false,
+      "reason_for_exclusion": "no extractable THM concentration data",
+      "notes": "Stub extraction only. Source status: failed. Notes: Web resolution failed. Failure reason: Scholar is still on scholar_search for DOI0700. Prefer ScienceDirect, then PubMed/NIH, then resume: https://scholar.google.com/scholar?q=%5BCollection+of+laws+no.+496%2F2010+which+amends+the+regulation+of+the+Government+of+the+Slovak+Republic+no.+354%2F2006+Coll.%2C+establishing+requirements+for+water+int%2BE108ended+for+human+consumption+and+quality+control+of+water+intended+for+human+consumption%5D+Zbierka+z%C3%A1konov+%C4%8D.+496%2F2010+ktor%C3%BDm+sa+men%C3%AD+a+dop%C4%BA%C5%88a+nariadenie+vl%C3%A1dy+Slovenskej+republiky+%C4%8D.+354%2F2006+Z.+z.%2C+ktor%C3%BDm+sa+ustanovuj%C3%BA+po%C5%BEiadavky+na+vodu+ur%C4%8Den%C3%BA+na+%C4%BEudsk%C3%BA+spotrebu+a+kontrolu+kvality+vody+ur%C4%8Denej+na+%C4%BEudsk%C3%BA+spotrebu"
+    }
+  ],
+  "created_files": [
+    "/mnt/d/paper_data/pdf/Water/extracted_json/REF0545.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.json",
+    "/mnt/d/paper_data/pdf/Water/extracted_json/merged_records.csv"
+  ]
+}
