@@ -2,7 +2,9 @@
 
 This folder contains three worked examples for EcoScan's literature-database workflow.
 
-Each subfolder documents:
+Each subfolder documents a real benchmark that EcoScan has already been used to reconstruct.
+
+Each subfolder includes:
 
 - where the benchmark came from
 - why it was selected
@@ -14,23 +16,26 @@ Each subfolder documents:
 
 These three benchmarks were chosen because they represent three different extraction shapes that EcoScan already handled successfully:
 
-1. `Nature`
+1. `Nature Geoscience`
+   - benchmark: `Underestimated burden of per- and polyfluoroalkyl substances in global surface waters and groundwaters`
+   - DOI: `10.1038/s41561-024-01402-8`
    - best for record-level environmental monitoring reconstruction
-   - many rows need to be split very finely
 2. `Science`
+   - benchmark: `Global threat of arsenic in groundwater`
+   - DOI: `10.1126/science.aba1510`
    - best for study-level plus monitoring-summary reconstruction
-   - preserves context while extracting key quantitative results
-3. `EST_TFA`
+3. `EST`
+   - benchmark: `The global threat from the irreversible accumulation of trifluoroacetic acid (TFA)`
+   - DOI: `10.1021/acs.est.4c06189`
    - best for benchmark-table rebuilding with reference-resolution logic
-   - row-level truth comes from a benchmark source table, while DOI and reference metadata are resolved separately
 
 ## Current local source artifacts
 
 These example folders were derived from the following local outputs:
 
-- Nature:
+- Nature Geoscience PFAS benchmark:
   - `/mnt/d/paper_data/pdf/Nature/extracted_json/all_records.json`
-- Science:
+- Science arsenic benchmark:
   - `/mnt/d/paper_data/pdf/Science/extracted_json/all_records.json`
 - EST / TFA:
   - `/mnt/c/Users/Administrator/codex/projects/tfa_est_rebuild/tfa_literature_database_rebuilt.xlsx`

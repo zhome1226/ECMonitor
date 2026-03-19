@@ -1,8 +1,11 @@
-# Science 2020 Monitoring-Summary Example
+# Science Global Arsenic Groundwater Example
 
 ## Benchmark source
 
 - Benchmark family: `Science2020`
+- Benchmark paper:
+  - `Global threat of arsenic in groundwater`
+  - DOI: `10.1126/science.aba1510`
 - Extraction style: study-level plus monitoring-summary reconstruction
 - Example literature paper used here:
   - `Groundwater contamination with arsenic and other trace elements in an area of the pampa, province of Cordoba, Argentina`
@@ -10,7 +13,9 @@
 
 ## Why this example was chosen
 
-This paper is a good Science-style example because it preserves study context while reporting summary monitoring statistics rather than a massive raw observation table.
+The benchmark paper models and maps the global threat from arsenic in groundwater using a very large literature-derived measurement base. The worked example in this folder uses one source paper from that reconstructed literature set because it shows the intended Science-style balance between study metadata and monitoring summary statistics.
+
+This source paper is a good Science-style example because it preserves study context while reporting summary monitoring statistics rather than a massive raw observation table.
 
 It shows the middle ground between Nature-style record splitting and benchmark-table rebuilding:
 
@@ -24,7 +29,7 @@ The study examines arsenic and associated trace elements in groundwater in Cordo
 
 ## Demonstration scope
 
-This example comes from the full Science-style database rebuild, which currently contains:
+This example comes from the full Science-style database rebuild for the Science arsenic benchmark, which currently contains:
 
 - `82` source papers
 - `141` extracted result rows
