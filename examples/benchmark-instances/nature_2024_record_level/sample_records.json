@@ -1,0 +1,47 @@
+[
+  {
+    "paper_title": "Pilot Investigation of Perfluorinated Compounds in River Water, Sediment, Soil and Fish in Tianjin, China",
+    "doi": "10.1007/s00128-011-0313-0",
+    "record_id_within_paper": "T1_W1_PFBS",
+    "pollutant_original": "PFBS",
+    "matrix": "river water",
+    "location": "Haihe River | Tributary upstream | W1",
+    "country": "China",
+    "sampling_date_original": "Dec 29-30 2008",
+    "value_original": "0.82",
+    "unit_original": "ng/L",
+    "table_figure_id": "Table 1",
+    "evidence_page": "154",
+    "extraction_confidence": "high"
+  },
+  {
+    "paper_title": "Pilot Investigation of Perfluorinated Compounds in River Water, Sediment, Soil and Fish in Tianjin, China",
+    "doi": "10.1007/s00128-011-0313-0",
+    "record_id_within_paper": "T1_W1_PFHxS",
+    "pollutant_original": "PFHxS",
+    "matrix": "river water",
+    "location": "Haihe River | Tributary upstream | W1",
+    "country": "China",
+    "sampling_date_original": "Dec 29-30 2008",
+    "value_original": "0.21",
+    "unit_original": "ng/L",
+    "table_figure_id": "Table 1",
+    "evidence_page": "154",
+    "extraction_confidence": "high"
+  },
+  {
+    "paper_title": "Pilot Investigation of Perfluorinated Compounds in River Water, Sediment, Soil and Fish in Tianjin, China",
+    "doi": "10.1007/s00128-011-0313-0",
+    "record_id_within_paper": "T1_W1_PFHpA",
+    "pollutant_original": "PFHpA",
+    "matrix": "river water",
+    "location": "Haihe River | Tributary upstream | W1",
+    "country": "China",
+    "sampling_date_original": "Dec 29-30 2008",
+    "value_original": "1.49",
+    "unit_original": "ng/L",
+    "table_figure_id": "Table 1",
+    "evidence_page": "154",
+    "extraction_confidence": "high"
+  }
+]
