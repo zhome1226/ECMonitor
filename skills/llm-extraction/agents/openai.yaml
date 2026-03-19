@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Extraction"
+  short_description: "Extract benchmark-structured monitoring data from validated literature"
+  default_prompt: "Use a benchmark-specific schema and prompt to extract structured monitoring records from validated full text, tables, or supplements. Preserve evidence, provenance, unresolved notes, and confidence."
