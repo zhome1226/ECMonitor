@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fulltext Retrieval"
+  short_description: "Retrieve validated literature full text in a fixed priority order"
+  default_prompt: "Retrieve literature full text by trying open PDF, publisher API harvest, Zotero plus institutional access, then browser-assisted retrieval. Validate integrity before handing anything to extraction."

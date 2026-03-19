@@ -19,10 +19,20 @@ The repository is organized around one orchestration agent and two internal skil
 ```text
 agents/
   literature-db-builder/
+examples/
+  benchmark-instances/
 skills/
   fulltext-retrieval/
   llm-extraction/
 ```
+
+## Worked examples
+
+See `examples/benchmark-instances/` for three documented benchmark cases:
+
+- Nature-style record-level reconstruction
+- Science-style monitoring-summary reconstruction
+- EST / TFA benchmark-table rebuilding
 
 ## Retrieval policy
 
