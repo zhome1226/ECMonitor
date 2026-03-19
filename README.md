@@ -30,8 +30,8 @@ skills/
 
 See `examples/benchmark-instances/` for three documented benchmark cases:
 
-- Nature-style record-level reconstruction
-- Science-style monitoring-summary reconstruction
+- Nature Geoscience PFAS global waters reconstruction
+- Science global arsenic groundwater reconstruction
 - EST / TFA benchmark-table rebuilding
 
 ## Retrieval policy
