@@ -1,175 +1,207 @@
-# DOI and Web-Fallback Extraction Workflow
+# Nature / Science DOI-PDF Extraction Workflow
 
-This project contains a script-first workflow for extracting structured JSON from literature listed in `three_libraries_doi_table_filled.xlsx`.
+本项目负责 **Nature2024 / Science2020** 两个文献库的全文获取、PDF 完整性判断、网页回退、源文本准备以及结构化抽取入口。
 
-Project root:
+> 详细总说明见：[`../reference_extraction_audit/THREE_LIBRARY_EXECUTION_WORKFLOW_20260331.md`](../reference_extraction_audit/THREE_LIBRARY_EXECUTION_WORKFLOW_20260331.md)
 
-- `/mnt/c/Users/Administrator/codex/projects/nature_science_extraction`
+---
 
-It supports:
+## 1. 这个项目在三库工作中的定位
+
+三库工作这次被拆成三个项目：
+
+1. `nature_science_extraction`：负责 Nature / Science 的 DOI → PDF / source text → structured extraction
+2. `tfa_est_rebuild`：负责 EST / TFA 的原始文献库重建与 DOI 匹配
+3. `reference_extraction_audit`：负责人工基准 vs 模型输出的长表、覆盖率和误差审计
+
+本项目属于**上游工程层**，核心任务不是直接给出最终一致率，而是先确保：
+
+- 文献是否真的拿到本地 PDF
+- PDF 是否是完整正文，而不是只有首页 / 摘要 / metadata
+- DOI / 标题 / 本地 PDF / 网页回退是否能稳定落到一个可抽取 source
+- source text snapshot 是否保留，后续是否可复核
+
+如果没有这一层，后续 Nature / Science 的 manual-vs-model 比较会失去可解释性。
+
+---
+
+## 2. 当前与本轮任务直接相关的统计口径
+
+### Nature（benchmark 比较口径）
+
+来自 `four_studies_reference_database_with_doi.xlsx` 的 `Nature2024_Refs`，并且只保留：
+
+- DOI 可识别
+- 非 `PRODUCT*`
+- 水介质：`SW / GW / DW_RAW / WW / INFLUENT / EFFLUENT / LEACHATE`
+
+当前统计：
+
+- 原始 `Nature2024_Refs`：`504` 行
+- 有 DOI：`396` 行
+- 非 PRODUCT 且 water：`324` 行 / `240` 篇 DOI 文献
+- 其中已进入 `source_ready`：`239` 篇 / `323` 条记录
+
+另一个更宽的 PDF 工作流口径：
+
+- `reextract_runs/study_metric_reextract_20260327_refresh/Nature/manifest.json`
+- manifest 总 paper 数：`327`
+- `source_ready`：`276`
+- `no_source`：`51`
+
+> 注意：`327` 是 PDF 工作流 paper 数，不等于当前 benchmark 比较口径的 `240`。
+
+### Science（benchmark 比较口径）
+
+当前统计：
+
+- 总文献：`102`
+- 原始记录：`1894`
+- 已拿到本地 PDF 的文献：`95`
+- available95 记录：`1733`
+
+这套 `102 / 1894 -> 95 / 1733` 是后续 Science paired long table 的统一口径。
+
+---
+
+## 3. 这个项目实际做了什么
+
+### Step 1：读取 benchmark 输入并生成 paper inputs
+
+入口来自 Excel / DOI 表，按 `source_block` 选择：
 
 - `Nature2024`
-- `Water2023`
-- `Lancet2023`
 - `Science2020`
-- `NatComm2017`
+- 兼容：`Water2023`、`Lancet2023`、`NatComm2017`
 
-Current batch work has been focused on `Nature2024` and `Science2020`, but the workflow now also supports `Water2023` and `NatComm2017` profiles.
+核心字段包括：
 
-## What the workflow does
+- `row_id`
+- `record_id`
+- `study_title`
+- `citation_text`
+- `doi`
+- `retrieval_key`
 
-1. Reads the `All_Literature_DOI` sheet from the Excel workbook.
-2. Filters records by `source_block`, `row_id`, or `limit`.
-3. Looks for a matching local PDF in the corresponding library directory.
-4. Probes each candidate PDF with `pdfinfo` and `pdftotext`.
-5. Uses the local PDF only when it looks like a complete paper.
-6. Falls back to DOI or title-based web resolution when the local PDF is missing or incomplete.
-7. Runs extraction with `codex exec` or a stub extractor.
-8. Writes one JSON file per paper, a merged JSON file, a run manifest, and a run summary.
+### Step 2：本地 PDF 候选检索
 
-## Output locations
+脚本会优先在对应文献库目录中寻找本地 PDF，并对候选进行排序。
 
-- Nature: `/mnt/d/paper_data/pdf/Nature/extracted_json`
-- Water: `/mnt/d/paper_data/pdf/Water/extracted_json`
-- Lancet: `/mnt/d/paper_data/pdf/Lancet/extracted_json`
-- Science: `/mnt/d/paper_data/pdf/Science/extracted_json`
-- NatComm: `/mnt/d/paper_data/pdf/NatComm/extracted_json`
+### Step 3：PDF 完整性判断
 
-Run metadata is written under:
+不会因为“找到了一个 PDF 文件”就直接使用，而是继续检查：
 
-- `/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/runs/<run_id>`
+- 页数是否正常（`pdfinfo`）
+- `pdftotext` 能否抽出足够正文
+- 是否包含 `abstract / introduction / results / discussion / references / table / figure` 等 body hints
+- 是否像“只有一页 / 只有预览 / 只有摘要”
 
-## Main files
+### Step 4：网页回退（web fallback）
 
-- `/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/workflow.py`
-- `/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/profiles.py`
-- `/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/run_nature_science_batch.sh`
+当本地 PDF 缺失或被判定为不完整时，工作流会继续尝试：
 
-## Usage
+1. DOI landing page
+2. Scholar / Google
+3. 浏览器人工协助
+4. 保留 source snapshot，保证后续可追溯
 
-Print record counts:
+### Step 5：按 profile 生成结构化抽取结果
+
+- Nature 使用环境浓度记录型 schema
+- Science 使用 monitoring-summary / benchmark-parameter schema
+
+### Step 6：输出 run assets
+
+每次运行都会保留：
+
+- manifest
+- run summary
+- source text snapshot
+- 单篇 JSON
+- merged JSON / merged CSV（视 profile 而定）
+
+---
+
+## 4. 与本项目直接相关的关键文件
+
+### 核心脚本
+
+- `workflow.py`
+- `profiles.py`
+- `run_nature_science_batch.sh`
+
+### 关键运行结果
+
+- `runs/<run_id>/...`
+- `latest_status.json`
+
+### 本轮重点引用文件
+
+- Nature manifest：`/home/zhome/reextract_runs/study_metric_reextract_20260327_refresh/Nature/manifest.json`
+- Science manifest：`/home/zhome/reextract_runs/study_metric_reextract_20260327_refresh/Science/manifest.json`
+- Science available95 records：`/home/zhome/sciadv_2024_library/batch_outputs/sciadv_2024_seawater_records_available_pdfs.csv`
+
+---
+
+## 5. 为什么这个项目对三库闭环是必须的
+
+后续所有 manual-vs-model 分析都依赖本项目先回答下面几个问题：
+
+1. 某篇文献是否真的拿到了 source？
+2. 这个 source 是完整正文，还是只有一页？
+3. 抽取失败时，原因是 source 缺失、PDF 不完整、网页失败，还是模型本身失败？
+4. 现在看到的 model output，到底基于哪一个 source text？
+
+也就是说，本项目负责解决的是：
+
+> “我们到底有没有拿到足够好的 source，可以进入模型抽取和后续比较？”
+
+---
+
+## 6. 常用命令
+
+### 计数查看
 
 ```bash
 cd /mnt/c/Users/Administrator/codex/projects/nature_science_extraction
 python3 workflow.py --print-counts
 ```
 
-Pilot run, one Nature paper:
+### Nature 单篇试跑
 
 ```bash
 python3 workflow.py --source-block Nature2024 --limit 1
 ```
 
-Pilot run, one Lancet paper:
-
-```bash
-python3 workflow.py --source-block Lancet2023 --limit 1
-```
-
-Pilot run, one Water paper:
-
-```bash
-python3 workflow.py --source-block Water2023 --limit 1
-```
-
-Pilot run, one Science paper:
+### Science 单篇试跑
 
 ```bash
 python3 workflow.py --source-block Science2020 --limit 1
 ```
 
-Pilot run, one Nature Communications paper:
-
-```bash
-python3 workflow.py --source-block NatComm2017 --limit 1
-```
-
-Process one exact row:
+### 处理某一条特定记录
 
 ```bash
 python3 workflow.py --source-block Nature2024 --row-id DOI0001
 ```
 
-Retry one-page failures from a previous run with browser fallback enabled:
-
-```bash
-python3 workflow.py --from-run Nature2024_20260316_191612_0d897a0e --status-filter failed --failure-reason-contains "pdf has one page or less" --extractor codex --max-source-chars 12000 --codex-timeout-seconds 240
-```
-
-Enable the Elsevier API for ScienceDirect / Elsevier DOI fallback:
-
-```bash
-export ELSEVIER_API_KEY='your_key_here'
-```
-
-The browser session is now persistent by default and reuses cookies and verification state from:
-
-```bash
-/mnt/c/Users/Administrator/codex/projects/nature_science_extraction/.browser_profiles/default
-```
-
-Resume a previous run:
-
-```bash
-python3 workflow.py --resume-run <run_id>
-```
-
-Use the stub extractor instead of `codex exec`:
-
-```bash
-python3 workflow.py --source-block Nature2024 --limit 1 --extractor stub
-```
-
-Disable web fallback:
-
-```bash
-python3 workflow.py --source-block Nature2024 --limit 1 --no-browser
-```
-
-Batch run Nature and Science without overwriting existing JSON files:
-
-```bash
-bash run_nature_science_batch.sh
-```
-
-Manual batch commands:
+### 跳过已有 JSON 的批量运行
 
 ```bash
 python3 workflow.py --source-block Nature2024 --extractor codex --skip-existing-json --no-browser --max-source-chars 20000 --codex-timeout-seconds 300
 python3 workflow.py --source-block Science2020 --extractor codex --skip-existing-json --no-browser --max-source-chars 20000 --codex-timeout-seconds 300
 ```
 
-## Browser behavior
-
-- For Elsevier papers, the workflow first tries the Elsevier API using `ELSEVIER_API_KEY`.
-- If the Elsevier API only returns metadata or abstract text, the workflow keeps that snapshot and continues to browser fallback.
-- Browser fallback reuses one persistent profile for the whole run instead of launching a fresh browser per paper.
-- DOI resolution is attempted first when a DOI exists.
-- If DOI landing fails with a transient browser/network error, the workflow retries and then falls back to Scholar or Google instead of stopping immediately.
-- If DOI resolution does not land on a usable source page, the workflow opens Google Scholar.
-- Search-result pages are auto-resolved when possible. The Google preference order is `ScienceDirect` first, then `PubMed/NIH`, then `Semantic Scholar`, then `ResearchGate`.
-- When login, captcha, publisher access, or an unresolved search page needs help, the script pauses and waits for you to finish in the browser before continuing.
-- The workflow is intended for DOI landing pages, publisher pages, open-access mirrors, institutional access, and supplementary-material links. It does not integrate unauthorized full-text download sources.
-
-Override the browser profile location if needed:
+### 从旧 run 中重试 one-page / failed 论文
 
 ```bash
-python3 workflow.py --source-block Nature2024 --browser-profile-dir /tmp/nature-science-profile
+python3 workflow.py --from-run <run_id> --status-filter failed --failure-reason-contains "pdf has one page or less" --extractor codex --max-source-chars 12000 --codex-timeout-seconds 240
 ```
 
-Use `--headless-browser` only if you do not need manual intervention.
+---
 
-## Extraction notes
+## 7. 当前建议
 
-- `codex` extraction uses the prompt and schema rules defined in `profiles.py`.
-- The workflow stores compacted source text snapshots in the run directory before calling Codex.
-- If extraction fails, the script writes a schema-shaped stub JSON with failure notes instead of crashing the whole run.
-- `Water2023` and `NatComm2017` write one JSON per paper plus both a merged JSON file and a merged CSV file.
-
-## Tests
-
-Run the lightweight tests with:
-
-```bash
-python3 -m unittest discover -s tests -p 'test_*.py'
-```
+1. README 中固定保留 benchmark 口径数字，不要只保留 PDF 工作流数字。
+2. Nature / Science 后续所有一致率、paired long table、图复现，都应回链到本项目的 manifest/source snapshot。
+3. 不要把“找到 PDF”和“成功进入可比较提取流程”混为一谈。
