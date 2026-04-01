@@ -1,8 +1,8 @@
 # Benchmark Instances
 
-This folder contains three worked examples for EcoScan's literature-database workflow.
+This folder contains three worked examples for ECMonitor's literature-database workflow.
 
-Each subfolder documents a real benchmark that EcoScan has already been used to reconstruct.
+Each subfolder documents a real benchmark that ECMonitor has already been used to reconstruct.
 
 Each subfolder includes:
 
@@ -14,7 +14,7 @@ Each subfolder includes:
 
 ## Why these three examples
 
-These three benchmarks were chosen because they represent three different extraction shapes that EcoScan already handled successfully:
+These three benchmarks were chosen because they represent three different extraction shapes that ECMonitor already handled successfully:
 
 1. `Nature Geoscience`
    - benchmark: `Underestimated burden of per- and polyfluoroalkyl substances in global surface waters and groundwaters`

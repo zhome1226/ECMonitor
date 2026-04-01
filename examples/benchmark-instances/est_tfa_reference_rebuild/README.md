@@ -18,7 +18,7 @@ Here, the row-level truth does not come from many PDFs directly. Instead:
 - the main paper reference list resolves short citations into fuller references
 - a separate mapping document resolves title, DOI, and URL
 
-That makes it an ideal example for showing EcoScan's reference-resolution mode.
+That makes it an ideal example for showing ECMonitor's reference-resolution mode.
 
 ## What the benchmark is about
 

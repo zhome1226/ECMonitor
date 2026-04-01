@@ -1,6 +1,6 @@
-# EcoScan
+# ECMonitor
 
-EcoScan is a literature-database rebuilding workspace for environmental monitoring studies.
+ECMonitor is a literature-database rebuilding workspace for environmental monitoring studies.
 
 The repository is organized around one orchestration agent and two internal skills:
 
