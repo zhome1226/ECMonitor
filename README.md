@@ -29,6 +29,7 @@ agents/
   platform-specialist/
   literature-db-builder/
 docs/
+  agent-runtime-guide.md
   multi-agent-architecture.md
 examples/
   benchmark-instances/
@@ -44,6 +45,10 @@ See `examples/benchmark-instances/` for three documented benchmark cases:
 - Nature Geoscience PFAS global waters reconstruction
 - Science Advances legacy POPs global ocean synthesis reconstruction
 - EST / TFA benchmark-table rebuilding
+
+For a practical “how each part runs” explanation, see:
+
+- `docs/agent-runtime-guide.md`
 
 ## Agent handoff chain
 
