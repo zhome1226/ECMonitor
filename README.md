@@ -1,24 +1,35 @@
 # ECMonitor
 
-ECMonitor is a literature-database rebuilding workspace for environmental monitoring studies.
+ECMonitor is a multi-agent workspace for rebuilding literature-backed environmental monitoring databases and moving validated evidence all the way to analytics and publication.
 
-The repository is organized around one orchestration agent and two internal skills:
+The repository is organized around six specialist agents plus reusable retrieval and extraction skills:
 
-- `fulltext-retrieval`
-  - Acquire full text in a fixed order:
-    1. open/open-access PDF
-    2. publisher API harvest
-    3. Zotero + campus access
-    4. browser-assisted manual retrieval
-- `llm-extraction`
-  - Use an LLM to extract structured records from full text, supplementary files, or source tables.
-  - Preserve evidence, provenance, unresolved items, and benchmark-specific schema rules.
+- `ResearchManager`
+  - define benchmark scope, inclusion rules, release criteria, and handoff order
+- `RetrievalSpecialist`
+  - obtain validated full text with a fixed retrieval ladder
+- `ExtractionSpecialist`
+  - extract structured evidence from validated PDFs, HTML, supplements, or benchmark tables
+- `ValidationSpecialist`
+  - audit field completeness, provenance, duplicates, conflicts, and normalization decisions
+- `AnalyticsSpecialist`
+  - join validated outputs with external context layers and run benchmark-facing models
+- `PlatformSpecialist`
+  - package approved outputs for downstream database or website publishing
 
 ## Layout
 
 ```text
 agents/
+  research-manager/
+  retrieval-specialist/
+  extraction-specialist/
+  validation-specialist/
+  analytics-specialist/
+  platform-specialist/
   literature-db-builder/
+docs/
+  multi-agent-architecture.md
 examples/
   benchmark-instances/
 skills/
@@ -31,12 +42,25 @@ skills/
 See `examples/benchmark-instances/` for three documented benchmark cases:
 
 - Nature Geoscience PFAS global waters reconstruction
-- Science global arsenic groundwater reconstruction
+- Science Advances legacy POPs global ocean synthesis reconstruction
 - EST / TFA benchmark-table rebuilding
+
+## Agent handoff chain
+
+ECMonitor treats evidence flow as a gated pipeline:
+
+1. `ResearchManager` creates the task brief and benchmark rulebook
+2. `RetrievalSpecialist` produces a validated retrieval manifest and source snapshots
+3. `ExtractionSpecialist` emits structured candidate records with evidence locations
+4. `ValidationSpecialist` approves, corrects, or rejects candidate outputs
+5. `AnalyticsSpecialist` generates derived results from validated evidence only
+6. `PlatformSpecialist` publishes approved outputs
+
+See `docs/multi-agent-architecture.md` for artifacts and gates.
 
 ## Retrieval policy
 
-The retrieval skill always stops at the first successful source:
+`RetrievalSpecialist` and the `fulltext-retrieval` skill always stop at the first successful source:
 
 1. direct open PDF
 2. publisher API / harvest pipeline
@@ -53,9 +77,9 @@ Every downloaded file must pass integrity checks before extraction:
 
 ## Extraction policy
 
-Extraction is model-driven, not rule-heavy parsing.
+`ExtractionSpecialist` is model-driven, not rule-heavy parsing.
 
-The orchestrator should:
+The extraction flow should:
 
 1. gather the best source text and tables
 2. choose the benchmark profile
@@ -66,7 +90,13 @@ The orchestrator should:
 ## Current profiles
 
 - Nature-style monitoring reconstruction
-- Science-style monitoring summary reconstruction
+- Science-style synthesis and monitoring-summary reconstruction
 - EST / TFA literature rebuild
 
-Water-style workflows are paused and not treated as finished outputs.
+## Agent-to-skill mapping
+
+- `RetrievalSpecialist` uses `skills/fulltext-retrieval/`
+- `ExtractionSpecialist` uses `skills/llm-extraction/`
+- `ValidationSpecialist`, `AnalyticsSpecialist`, and `PlatformSpecialist` currently ship as operating contracts and review scaffolds in `agents/`
+
+Marine and water-style workflows are active, but only validated outputs should be treated as publishable.

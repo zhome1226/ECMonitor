@@ -20,15 +20,16 @@ Focus:
 
 Goal:
 
-- study-level plus monitoring-summary reconstruction
+- synthesis-level plus monitoring-summary reconstruction
 
 Focus:
 
 - study metadata
-- pollutant list
+- pollutant or pollutant-group list
 - matrix types
 - location context
-- key concentration statistics
+- temporal windows
+- key concentration statistics, trend signals, and ecological-risk notes
 
 ## EST / TFA-style profile
 

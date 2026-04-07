@@ -2,27 +2,31 @@
 
 ## Agent responsibilities
 
-The agent is responsible for sequencing work, not for replacing the two internal skills.
+The integration agent is responsible for sequencing work, not for replacing the six specialist agents.
 
 Use this order:
 
-1. load targets and benchmark profile
-2. call `fulltext-retrieval`
+1. define task brief and benchmark profile
+2. run retrieval over the target list
 3. keep only validated sources
-4. call `llm-extraction`
-5. merge outputs
-6. write unresolved and audit artifacts
-7. summarize the run
+4. run extraction over those validated sources
+5. perform QA and correction
+6. optionally run analytics on approved outputs
+7. package publishable outputs
+8. summarize the run
 
 ## Run artifacts
 
 Every run should preserve:
 
+- `task_brief.md` or equivalent scope definition
 - `targets.csv` or equivalent source list
 - `retrieval_manifest.csv/json`
 - `source_snapshots/`
-- `reference_audit.csv`
-- extracted outputs
+- `extraction_outputs/`
+- `validation_audit.csv`
+- `analytics_outputs/` when used
+- `publication_bundle/` when used
 - unresolved outputs
 - `summary.json`
 

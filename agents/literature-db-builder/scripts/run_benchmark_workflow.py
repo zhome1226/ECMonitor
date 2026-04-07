@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Create a run scaffold for an EcoScan benchmark workflow.")
+    parser = argparse.ArgumentParser(description="Create a run scaffold for an ECMonitor benchmark workflow.")
     parser.add_argument("--benchmark", required=True, help="Benchmark profile name, e.g. Nature, Science, EST_TFA")
     parser.add_argument("--targets", required=True, type=Path, help="Input target list file")
     parser.add_argument("--run-root", required=True, type=Path, help="Root directory for run outputs")
@@ -23,15 +23,27 @@ def main() -> int:
         "benchmark": args.benchmark,
         "targets": str(args.targets),
         "run_dir": str(run_dir),
+        "stages": [
+            "ResearchManager",
+            "RetrievalSpecialist",
+            "ExtractionSpecialist",
+            "ValidationSpecialist",
+            "AnalyticsSpecialist",
+            "PlatformSpecialist",
+        ],
         "next_steps": [
-            "1. Execute fulltext-retrieval over the target list.",
-            "2. Filter to validated fulltext_ready sources.",
-            "3. Execute llm-extraction with the correct profile prompt.",
-            "4. Merge outputs and unresolved items.",
+            "1. ResearchManager defines task brief and benchmark rules.",
+            "2. RetrievalSpecialist executes fulltext-retrieval over the target list.",
+            "3. ExtractionSpecialist runs llm-extraction on validated sources only.",
+            "4. ValidationSpecialist writes correction and audit outputs.",
+            "5. AnalyticsSpecialist and PlatformSpecialist operate only on validated outputs.",
         ],
         "artifacts_to_create": [
+            "task_brief.md",
             "retrieval_manifest.json",
-            "reference_audit.csv",
+            "validation_audit.csv",
+            "analytics_outputs/",
+            "publication_bundle/",
             "unresolved.csv",
             "summary.json",
         ],

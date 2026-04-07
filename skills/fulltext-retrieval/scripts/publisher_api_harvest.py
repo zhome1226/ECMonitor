@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-EcoScan publisher API harvester.
+ECMonitor publisher API harvester.
 
 This script is inspired by the DOI routing approach used in the upstream
-`auto-paper-harvester` project, but renamed and narrowed for EcoScan's
+`auto-paper-harvester` project, but renamed and narrowed for ECMonitor's
 literature-retrieval workflow.
 """
 

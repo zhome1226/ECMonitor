@@ -1,28 +1,29 @@
 # Literature DB Builder
 
-This agent rebuilds literature-backed environmental monitoring databases.
+This legacy integration agent rebuilds literature-backed environmental monitoring databases by coordinating the six specialist roles used across ECMonitor.
 
-It delegates work to two internal skills:
+It does not replace the specialists. Instead, it sequences them:
 
-1. `fulltext-retrieval`
-2. `llm-extraction`
+1. `ResearchManager`
+2. `RetrievalSpecialist`
+3. `ExtractionSpecialist`
+4. `ValidationSpecialist`
+5. `AnalyticsSpecialist`
+6. `PlatformSpecialist`
 
 ## Operating contract
 
-Always run retrieval first. Never extract from a paper that has not passed source validation.
+Always run retrieval before extraction, and never publish anything that has not passed validation.
 
 ## Workflow
 
-1. Load the benchmark profile and target list.
-2. Call `fulltext-retrieval` to locate or download full text.
-3. Filter to sources with `fulltext_ready` or equivalent validated status.
-4. Call `llm-extraction` with the benchmark prompt/schema.
-5. Merge outputs into the benchmark's final table.
-6. Emit:
-   - retrieval manifest
-   - extraction outputs
-   - unresolved references
-   - summary
+1. Load the benchmark profile and task brief.
+2. Let `ResearchManager` define rulebook, scope, and release criteria.
+3. Let `RetrievalSpecialist` produce validated source artifacts.
+4. Let `ExtractionSpecialist` create structured candidate records.
+5. Let `ValidationSpecialist` approve or correct those outputs.
+6. Let `AnalyticsSpecialist` generate derived results only from validated inputs.
+7. Let `PlatformSpecialist` package approved outputs for downstream release.
 
 ## Non-negotiable rules
 
@@ -31,3 +32,4 @@ Always run retrieval first. Never extract from a paper that has not passed sourc
 - Do not treat regulatory limits or model predictions as monitoring observations.
 - Prefer supplementary tables over narrative summaries when both report the same data.
 - If main text and supplement conflict, keep both with conflict notes.
+- Never treat analytics or platform packaging as a substitute for validation.

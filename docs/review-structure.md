@@ -6,13 +6,14 @@ This repository currently uses four branches with different review purposes.
 
 ### `main`
 
-Minimal base scaffold:
+Base scaffold for the six-agent ECMonitor layout:
 
 - repository root
 - top-level README
-- agent scaffold
+- multi-agent scaffold
+- benchmark examples
 
-This branch is intentionally light and acts as the base for review.
+This branch remains the base for review.
 
 ### `codex/fulltext-retrieval-skill`
 
@@ -42,7 +43,7 @@ Integration branch and recommended primary review target.
 
 This branch contains:
 
-- the agent scaffold
+- the multi-agent scaffold
 - both internal skills
 - benchmark prompt templates
 - benchmark example folders

@@ -1,0 +1,41 @@
+[
+  {
+    "paper_title": "Exploring global oceanic persistence and ecological effects of legacy persistent organic pollutants across five decades",
+    "doi": "10.1126/sciadv.ado5534",
+    "pollutant_group": "legacy persistent organic pollutants",
+    "matrix": "global ocean seawater",
+    "geographic_scope": "global marine environments",
+    "temporal_window": "1980-2023",
+    "value_original": "The study compiles more than 10,000 measurements of legacy POPs in global marine environments from 1980 to 2023.",
+    "measurement_record_count_min": 10000,
+    "trend_direction": "synthesis benchmark",
+    "evidence_location": "Abstract",
+    "extraction_confidence": "high"
+  },
+  {
+    "paper_title": "Exploring global oceanic persistence and ecological effects of legacy persistent organic pollutants across five decades",
+    "doi": "10.1126/sciadv.ado5534",
+    "pollutant_group": "legacy persistent organic pollutants",
+    "matrix": "ocean surface waters and marginal seas",
+    "geographic_scope": "Arctic Ocean and marginal seas",
+    "temporal_window": "five-decade synthesis",
+    "value_original": "The paper reports increasing POP trends in the Arctic Ocean and marginal seas, likely driven by northward migration from mid-latitude oceans via currents.",
+    "trend_direction": "increasing",
+    "ecological_effect_note": "Substantial ecological impacts may persist in these regions.",
+    "evidence_location": "Abstract",
+    "extraction_confidence": "high"
+  },
+  {
+    "paper_title": "Exploring global oceanic persistence and ecological effects of legacy persistent organic pollutants across five decades",
+    "doi": "10.1126/sciadv.ado5534",
+    "pollutant_group": "cumulative legacy POP risk",
+    "matrix": "marine ecoregion synthesis",
+    "geographic_scope": "regions highlighted in the cumulative risk map",
+    "temporal_window": "benchmark synthesis window",
+    "value_original": "Figure 5B marks regions where the cumulative risk probability of legacy POPs exceeds 0.1.",
+    "risk_threshold": 0.1,
+    "table_figure_id": "Fig. 5B",
+    "evidence_location": "Figure 5 caption",
+    "extraction_confidence": "high"
+  }
+]
