@@ -18,4 +18,5 @@ Recommended usage:
 1. run validation first
 2. create a request manifest without network
 3. fetch remote payloads only when needed
-4. preserve raw responses alongside derived analytics outputs
+4. preserve raw responses alongside normalized context outputs
+5. pass the resulting `context_manifest.json` into `run_analysis_skeleton.py`

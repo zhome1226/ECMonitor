@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 
+RULEBOOKS_DIR = Path(__file__).resolve().parent.parent / "references" / "rulebooks"
 DEFAULT_RULEBOOK = {
     "name": "generic_monitoring_rulebook",
     "required_fields": ["paper_title", "doi"],
@@ -28,6 +29,17 @@ DEFAULT_RULEBOOK = {
     "review_if_missing": ["matrix"],
     "reject_if_missing": ["paper_title", "doi"],
     "forbidden_fields": ["model_prediction", "toxicity_threshold", "regulatory_limit"],
+}
+
+RULEBOOK_ALIASES = {
+    "science": "science_synthesis_rulebook.json",
+    "science_synthesis": "science_synthesis_rulebook.json",
+    "scienceadv": "science_synthesis_rulebook.json",
+    "nature": "nature_record_rulebook.json",
+    "nature_record": "nature_record_rulebook.json",
+    "est": "est_reference_rebuild_rulebook.json",
+    "tfa": "est_reference_rebuild_rulebook.json",
+    "est_reference_rebuild": "est_reference_rebuild_rulebook.json",
 }
 
 
@@ -57,6 +69,13 @@ def load_rulebook(path: Path | None) -> dict[str, Any]:
     return merged
 
 
+def available_rulebooks() -> dict[str, Path]:
+    mapping = {path.stem: path for path in RULEBOOKS_DIR.glob("*.json")}
+    for alias, filename in RULEBOOK_ALIASES.items():
+        mapping[alias] = RULEBOOKS_DIR / filename
+    return mapping
+
+
 def expand_alias_group(group: str) -> list[str]:
     return [part.strip() for part in group.split("|") if part.strip()]
 
@@ -65,6 +84,36 @@ def get_field_value(row: dict[str, Any], field: str) -> Any:
     if "|" in field:
         return first_present(row, expand_alias_group(field))
     return row.get(field)
+
+
+def infer_rulebook(rows: list[dict[str, Any]], input_path: Path, benchmark: str | None = None) -> tuple[Path | None, str]:
+    registry = available_rulebooks()
+    probes = []
+    if benchmark:
+        probes.append(benchmark.strip().lower())
+    probes.extend(part.lower() for part in input_path.parts)
+    probes.append(input_path.stem.lower())
+
+    for probe in probes:
+        for alias, path in registry.items():
+            if alias in probe and path.exists():
+                return path, f"inferred from benchmark/path token '{probe}'"
+
+    all_keys = {key for row in rows for key in row.keys()}
+    if {"trend_direction", "risk_threshold", "measurement_record_count_min"} & all_keys:
+        path = registry.get("science")
+        if path and path.exists():
+            return path, "inferred from science synthesis fields"
+    if {"value_numeric", "value_min", "value_max"} & all_keys:
+        path = registry.get("nature")
+        if path and path.exists():
+            return path, "inferred from record-level numeric fields"
+    if {"reference_short_citation", "reference_resolution_status"} & all_keys:
+        path = registry.get("est")
+        if path and path.exists():
+            return path, "inferred from EST/TFA reference rebuild fields"
+
+    return None, "falling back to generic built-in rulebook"
 
 
 def normalize_identity(row: dict[str, Any], identity_fields: list[str]) -> tuple[str, ...]:
@@ -170,6 +219,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--input", required=True, type=Path, help="Input JSON file containing extracted rows.")
     parser.add_argument("--out-dir", required=True, type=Path, help="Directory for validation outputs.")
     parser.add_argument("--rulebook", default=None, type=Path, help="Optional benchmark-specific rulebook JSON.")
+    parser.add_argument("--benchmark", default=None, help="Optional benchmark label used for automatic rulebook selection.")
     return parser.parse_args()
 
 
@@ -178,7 +228,11 @@ def main() -> int:
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
     rows = load_rows(args.input)
-    rulebook = load_rulebook(args.rulebook)
+    selected_rulebook_path = args.rulebook
+    selection_reason = "explicit --rulebook"
+    if selected_rulebook_path is None:
+        selected_rulebook_path, selection_reason = infer_rulebook(rows, args.input, benchmark=args.benchmark)
+    rulebook = load_rulebook(selected_rulebook_path)
     audited, summary = validate_rows(rows, rulebook)
 
     approved = [row for row in audited if row["validation_status"] == "approved"]
@@ -196,7 +250,19 @@ def main() -> int:
             "input_path": str(args.input),
             "out_dir": str(args.out_dir),
             "rulebook_name": rulebook.get("name", DEFAULT_RULEBOOK["name"]),
-            "rulebook_path": str(args.rulebook) if args.rulebook else None,
+            "rulebook_path": str(selected_rulebook_path) if selected_rulebook_path else None,
+            "rulebook_selection_reason": selection_reason,
+            "benchmark": args.benchmark,
+        },
+    )
+    write_json(
+        args.out_dir / "rulebook_manifest.json",
+        {
+            "rulebook_name": rulebook.get("name", DEFAULT_RULEBOOK["name"]),
+            "rulebook_path": str(selected_rulebook_path) if selected_rulebook_path else None,
+            "selection_reason": selection_reason,
+            "benchmark": args.benchmark,
+            "available_rulebooks": {name: str(path) for name, path in available_rulebooks().items() if path.exists()},
         },
     )
 

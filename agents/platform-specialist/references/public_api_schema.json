@@ -1,0 +1,30 @@
+{
+  "api_version": "1.0",
+  "endpoints": {
+    "validated_rows": {
+      "path": "api/validated_rows.json",
+      "type": "array",
+      "required_fields": ["paper_title", "doi", "validation_status"]
+    },
+    "analytics_summary": {
+      "path": "api/analytics_summary.json",
+      "type": "object",
+      "required_fields": ["total_rows", "top_pollutants", "top_matrices", "top_geographies"]
+    },
+    "context_manifest": {
+      "path": "api/context_manifest.json",
+      "type": "object",
+      "optional": true
+    },
+    "enriched_rows": {
+      "path": "api/enriched_rows.json",
+      "type": "array",
+      "optional": true
+    },
+    "publication_payload": {
+      "path": "api/publication_payload.json",
+      "type": "object",
+      "required_fields": ["release_tag", "generated_at", "assets", "schemas"]
+    }
+  }
+}

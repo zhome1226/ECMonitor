@@ -110,5 +110,6 @@ The extraction flow should:
 - Platform:
   - `agents/platform-specialist/scripts/build_publication_bundle.py`
   - `agents/platform-specialist/references/publication_bundle_schema.json`
+  - `agents/platform-specialist/references/public_api_schema.json`
 
 Marine and water-style workflows are active, but only validated outputs should be treated as publishable.

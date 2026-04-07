@@ -15,5 +15,6 @@ PlatformSpecialist prepares approved outputs for publication.
 - bundle contract:
   - `references/publication_bundle_schema.json`
   - `references/api-contract.md`
+  - `references/public_api_schema.json`
 
 See `references/release-gate.md`.

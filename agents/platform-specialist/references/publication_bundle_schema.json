@@ -3,16 +3,19 @@
   "required_paths": [
     "api/validated_rows.json",
     "api/analytics_summary.json",
+    "api/publication_payload.json",
     "release_manifest.json",
     "README.md"
   ],
   "optional_paths": [
     "api/context_manifest.json",
+    "api/enriched_rows.json",
     "reports/pollutant_summary.csv",
     "reports/matrix_summary.csv",
     "reports/geography_summary.csv",
     "site_index.json",
-    "release_notes.md"
+    "release_notes.md",
+    "public_api_schema.json"
   ],
   "required_manifest_fields": [
     "release_tag",

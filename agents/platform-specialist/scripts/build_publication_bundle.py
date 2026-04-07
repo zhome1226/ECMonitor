@@ -9,6 +9,7 @@ from pathlib import Path
 
 
 SCHEMA_PATH = Path(__file__).resolve().parent.parent / "references" / "publication_bundle_schema.json"
+API_SCHEMA_PATH = Path(__file__).resolve().parent.parent / "references" / "public_api_schema.json"
 
 
 def copy_if_exists(src: Path, dest: Path) -> str | None:
@@ -42,6 +43,7 @@ def main() -> int:
         "validated_rows": copy_if_exists(args.validated, api_dir / "validated_rows.json"),
         "analytics_summary": copy_if_exists(args.analytics_dir / "analytics_summary.json", api_dir / "analytics_summary.json"),
         "context_manifest": copy_if_exists(args.context_manifest, api_dir / "context_manifest.json") if args.context_manifest else None,
+        "enriched_rows": copy_if_exists(args.analytics_dir / "enriched_rows.json", api_dir / "enriched_rows.json"),
         "pollutant_summary": copy_if_exists(args.analytics_dir / "pollutant_summary.csv", reports_dir / "pollutant_summary.csv"),
         "matrix_summary": copy_if_exists(args.analytics_dir / "matrix_summary.csv", reports_dir / "matrix_summary.csv"),
         "geography_summary": copy_if_exists(args.analytics_dir / "geography_summary.csv", reports_dir / "geography_summary.csv"),
@@ -50,6 +52,11 @@ def main() -> int:
     schema_payload = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     (args.out_dir / "publication_bundle_schema.json").write_text(
         json.dumps(schema_payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    api_schema_payload = json.loads(API_SCHEMA_PATH.read_text(encoding="utf-8"))
+    (args.out_dir / "public_api_schema.json").write_text(
+        json.dumps(api_schema_payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
@@ -65,6 +72,7 @@ def main() -> int:
             "validated_rows": "api/validated_rows.json",
             "analytics_summary": "api/analytics_summary.json",
             "context_manifest": "api/context_manifest.json" if copied["context_manifest"] else None,
+            "enriched_rows": "api/enriched_rows.json" if copied["enriched_rows"] else None,
         },
         "notes": [
             "This is a skeleton publication bundle.",
@@ -80,10 +88,30 @@ def main() -> int:
                 "release_tag": release_tag,
                 "title": "ECMonitor publication bundle",
                 "api": manifest["api_endpoints"],
+                "schemas": {
+                    "bundle": "publication_bundle_schema.json",
+                    "public_api": "public_api_schema.json",
+                },
                 "reports": {
                     "pollutants": "reports/pollutant_summary.csv" if copied["pollutant_summary"] else None,
                     "matrices": "reports/matrix_summary.csv" if copied["matrix_summary"] else None,
                     "geographies": "reports/geography_summary.csv" if copied["geography_summary"] else None,
+                },
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    (api_dir / "publication_payload.json").write_text(
+        json.dumps(
+            {
+                "release_tag": release_tag,
+                "generated_at": manifest["generated_at"],
+                "assets": manifest["api_endpoints"],
+                "schemas": {
+                    "bundle": "../publication_bundle_schema.json",
+                    "public_api": "../public_api_schema.json",
                 },
             },
             ensure_ascii=False,
@@ -116,6 +144,7 @@ def main() -> int:
                 "- `api/` for machine-readable outputs",
                 "- `reports/` for human-facing summaries",
                 "- `publication_bundle_schema.json` for the minimum contract",
+                "- `public_api_schema.json` for the API payload contract",
                 "- `site_index.json` for lightweight website adapters",
                 "",
                 "See `release_manifest.json` for provenance.",

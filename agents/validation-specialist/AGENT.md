@@ -16,5 +16,6 @@ ValidationSpecialist reviews extraction outputs before any analytics or publicat
   - `references/rulebooks/science_synthesis_rulebook.json`
   - `references/rulebooks/nature_record_rulebook.json`
   - `references/rulebooks/est_reference_rebuild_rulebook.json`
+- if `--rulebook` is omitted, the script will attempt automatic selection
 
 See `references/quality-gate.md`.
