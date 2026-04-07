@@ -9,4 +9,8 @@ PlatformSpecialist prepares approved outputs for publication.
 - prepare bundles for database, API, or website publication
 - block release if upstream gates are not satisfied
 
+## Starter script
+
+- `scripts/build_publication_bundle.py`
+
 See `references/release-gate.md`.

@@ -28,18 +28,21 @@ ECMonitor uses a gated specialist workflow so benchmark evidence can move from l
 - checks completeness, units, provenance, conflicts, and duplicates
 - approves or rejects candidate outputs
 - emits audit and correction artifacts
+- starter script: `agents/validation-specialist/scripts/validate_extraction_batch.py`
 
 ### AnalyticsSpecialist
 
 - joins validated outputs with external context data
 - runs benchmark-appropriate models or summary analytics
 - never backfills missing evidence by invention
+- starter script: `agents/analytics-specialist/scripts/run_analysis_skeleton.py`
 
 ### PlatformSpecialist
 
 - packages approved outputs for publication
 - prepares files for databases, APIs, dashboards, or websites
 - tracks release versions and provenance hashes
+- starter script: `agents/platform-specialist/scripts/build_publication_bundle.py`
 
 ## Core artifacts
 

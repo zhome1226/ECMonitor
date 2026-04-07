@@ -99,4 +99,13 @@ The extraction flow should:
 - `ExtractionSpecialist` uses `skills/llm-extraction/`
 - `ValidationSpecialist`, `AnalyticsSpecialist`, and `PlatformSpecialist` currently ship as operating contracts and review scaffolds in `agents/`
 
+## Starter scripts
+
+- Validation:
+  - `agents/validation-specialist/scripts/validate_extraction_batch.py`
+- Analytics:
+  - `agents/analytics-specialist/scripts/run_analysis_skeleton.py`
+- Platform:
+  - `agents/platform-specialist/scripts/build_publication_bundle.py`
+
 Marine and water-style workflows are active, but only validated outputs should be treated as publishable.
