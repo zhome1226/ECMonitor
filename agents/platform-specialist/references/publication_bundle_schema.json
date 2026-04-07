@@ -1,0 +1,23 @@
+{
+  "bundle_version": "1.0",
+  "required_paths": [
+    "api/validated_rows.json",
+    "api/analytics_summary.json",
+    "release_manifest.json",
+    "README.md"
+  ],
+  "optional_paths": [
+    "api/context_manifest.json",
+    "reports/pollutant_summary.csv",
+    "reports/matrix_summary.csv",
+    "reports/geography_summary.csv",
+    "site_index.json",
+    "release_notes.md"
+  ],
+  "required_manifest_fields": [
+    "release_tag",
+    "generated_at",
+    "bundle_root",
+    "copied_artifacts"
+  ]
+}

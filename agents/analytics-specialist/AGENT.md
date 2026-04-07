@@ -12,5 +12,6 @@ AnalyticsSpecialist generates derived insights from validated benchmark outputs.
 ## Starter script
 
 - `scripts/run_analysis_skeleton.py`
+- `scripts/fetch_context_adapters.py`
 
 See `references/context-and-models.md`.

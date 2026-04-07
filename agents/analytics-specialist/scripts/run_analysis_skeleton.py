@@ -49,6 +49,12 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         writer.writerows(rows)
 
 
+def load_context_manifest(path: Path | None) -> dict[str, Any] | None:
+    if path is None:
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
     pollutant_counts = Counter()
     matrix_counts = Counter()
@@ -129,6 +135,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Create lightweight analytics summaries from validated ECMonitor rows.")
     parser.add_argument("--input", required=True, type=Path, help="Validated rows JSON.")
     parser.add_argument("--out-dir", required=True, type=Path, help="Directory for analytics outputs.")
+    parser.add_argument("--context-manifest", default=None, type=Path, help="Optional context manifest from fetch_context_adapters.py")
     return parser.parse_args()
 
 
@@ -137,6 +144,7 @@ def main() -> int:
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
     rows = load_rows(args.input)
+    context_manifest = load_context_manifest(args.context_manifest)
     summary = summarize(rows)
     pollutant_table = build_group_table(rows, "pollutant", ["pollutant_group", "pollutant_original", "pollutant"])
     matrix_table = build_group_table(rows, "matrix", ["matrix"])
@@ -148,6 +156,12 @@ def main() -> int:
                 **summary,
                 "input_path": str(args.input),
                 "out_dir": str(args.out_dir),
+                "context_manifest_path": str(args.context_manifest) if args.context_manifest else None,
+                "context_overview": {
+                    "doi_count": len(context_manifest.get("dois", [])) if context_manifest else 0,
+                    "country_count": len(context_manifest.get("countries", [])) if context_manifest else 0,
+                    "fetched": bool(context_manifest.get("fetched")) if context_manifest else False,
+                },
             },
             ensure_ascii=False,
             indent=2,
@@ -157,6 +171,11 @@ def main() -> int:
     write_csv(args.out_dir / "pollutant_summary.csv", pollutant_table)
     write_csv(args.out_dir / "matrix_summary.csv", matrix_table)
     write_csv(args.out_dir / "geography_summary.csv", geography_table)
+    if context_manifest:
+        (args.out_dir / "context_manifest.json").write_text(
+            json.dumps(context_manifest, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
 
     print(json.dumps(summary, ensure_ascii=False))
     return 0

@@ -1,0 +1,17 @@
+{
+  "name": "est_reference_rebuild_rulebook",
+  "required_fields": ["paper_title", "doi"],
+  "required_any_groups": [
+    ["pollutant_group", "pollutant_original", "pollutant"],
+    ["evidence_location", "evidence_page", "table_figure_id"]
+  ],
+  "duplicate_identity_fields": [
+    "doi",
+    "pollutant_group|pollutant_original|pollutant",
+    "matrix",
+    "geographic_scope|location|country"
+  ],
+  "review_if_missing": ["matrix", "geographic_scope|location|country"],
+  "reject_if_missing": ["paper_title", "doi"],
+  "forbidden_fields": ["model_prediction", "toxicity_threshold", "regulatory_limit"]
+}

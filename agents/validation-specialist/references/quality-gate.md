@@ -8,3 +8,5 @@ ValidationSpecialist should verify:
 - duplicated rows are handled explicitly
 - conflicts between main text and supplement are annotated
 - rows failing these checks are excluded from analytics and publication
+
+When a benchmark-specific rulebook exists, apply it instead of the generic fallback.

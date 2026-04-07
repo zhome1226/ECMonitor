@@ -103,9 +103,12 @@ The extraction flow should:
 
 - Validation:
   - `agents/validation-specialist/scripts/validate_extraction_batch.py`
+  - `agents/validation-specialist/references/rulebooks/*.json`
 - Analytics:
   - `agents/analytics-specialist/scripts/run_analysis_skeleton.py`
+  - `agents/analytics-specialist/scripts/fetch_context_adapters.py`
 - Platform:
   - `agents/platform-specialist/scripts/build_publication_bundle.py`
+  - `agents/platform-specialist/references/publication_bundle_schema.json`
 
 Marine and water-style workflows are active, but only validated outputs should be treated as publishable.

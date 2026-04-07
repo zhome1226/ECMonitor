@@ -13,3 +13,5 @@ Every analytics run should preserve:
 - model family and parameters
 - output summaries
 - unresolved limitations
+
+If external APIs are needed, prepare a request manifest first and fetch only the required payloads.

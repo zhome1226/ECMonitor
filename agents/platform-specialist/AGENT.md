@@ -12,5 +12,8 @@ PlatformSpecialist prepares approved outputs for publication.
 ## Starter script
 
 - `scripts/build_publication_bundle.py`
+- bundle contract:
+  - `references/publication_bundle_schema.json`
+  - `references/api-contract.md`
 
 See `references/release-gate.md`.

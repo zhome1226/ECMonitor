@@ -8,6 +8,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
+SCHEMA_PATH = Path(__file__).resolve().parent.parent / "references" / "publication_bundle_schema.json"
+
+
 def copy_if_exists(src: Path, dest: Path) -> str | None:
     if not src.exists():
         return None
@@ -22,6 +25,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--analytics-dir", required=True, type=Path, help="Directory containing analytics outputs.")
     parser.add_argument("--out-dir", required=True, type=Path, help="Publication bundle output directory.")
     parser.add_argument("--release-tag", default=None, help="Optional release tag. Defaults to timestamp-based tag.")
+    parser.add_argument("--context-manifest", default=None, type=Path, help="Optional context manifest JSON to publish alongside analytics.")
     return parser.parse_args()
 
 
@@ -37,18 +41,31 @@ def main() -> int:
     copied = {
         "validated_rows": copy_if_exists(args.validated, api_dir / "validated_rows.json"),
         "analytics_summary": copy_if_exists(args.analytics_dir / "analytics_summary.json", api_dir / "analytics_summary.json"),
+        "context_manifest": copy_if_exists(args.context_manifest, api_dir / "context_manifest.json") if args.context_manifest else None,
         "pollutant_summary": copy_if_exists(args.analytics_dir / "pollutant_summary.csv", reports_dir / "pollutant_summary.csv"),
         "matrix_summary": copy_if_exists(args.analytics_dir / "matrix_summary.csv", reports_dir / "matrix_summary.csv"),
         "geography_summary": copy_if_exists(args.analytics_dir / "geography_summary.csv", reports_dir / "geography_summary.csv"),
     }
+
+    schema_payload = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+    (args.out_dir / "publication_bundle_schema.json").write_text(
+        json.dumps(schema_payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
     manifest = {
         "release_tag": release_tag,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "validated_input": str(args.validated),
         "analytics_dir": str(args.analytics_dir),
+        "context_manifest_input": str(args.context_manifest) if args.context_manifest else None,
         "bundle_root": str(args.out_dir),
         "copied_artifacts": copied,
+        "api_endpoints": {
+            "validated_rows": "api/validated_rows.json",
+            "analytics_summary": "api/analytics_summary.json",
+            "context_manifest": "api/context_manifest.json" if copied["context_manifest"] else None,
+        },
         "notes": [
             "This is a skeleton publication bundle.",
             "Only validated and analytics artifacts should be included.",
@@ -57,6 +74,37 @@ def main() -> int:
     }
 
     (args.out_dir / "release_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    (args.out_dir / "site_index.json").write_text(
+        json.dumps(
+            {
+                "release_tag": release_tag,
+                "title": "ECMonitor publication bundle",
+                "api": manifest["api_endpoints"],
+                "reports": {
+                    "pollutants": "reports/pollutant_summary.csv" if copied["pollutant_summary"] else None,
+                    "matrices": "reports/matrix_summary.csv" if copied["matrix_summary"] else None,
+                    "geographies": "reports/geography_summary.csv" if copied["geography_summary"] else None,
+                },
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    (args.out_dir / "release_notes.md").write_text(
+        "\n".join(
+            [
+                f"# Release Notes: {release_tag}",
+                "",
+                "- validated outputs included",
+                "- analytics summary included",
+                f"- context manifest included: {'yes' if copied['context_manifest'] else 'no'}",
+                "",
+                "See `release_manifest.json` and `publication_bundle_schema.json`.",
+            ]
+        ),
+        encoding="utf-8",
+    )
     (args.out_dir / "README.md").write_text(
         "\n".join(
             [
@@ -67,6 +115,8 @@ def main() -> int:
                 "Included folders:",
                 "- `api/` for machine-readable outputs",
                 "- `reports/` for human-facing summaries",
+                "- `publication_bundle_schema.json` for the minimum contract",
+                "- `site_index.json` for lightweight website adapters",
                 "",
                 "See `release_manifest.json` for provenance.",
             ]

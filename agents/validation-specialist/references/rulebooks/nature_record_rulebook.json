@@ -1,0 +1,21 @@
+{
+  "name": "nature_record_rulebook",
+  "required_fields": ["paper_title", "doi", "matrix"],
+  "required_any_groups": [
+    ["pollutant_group", "pollutant_original", "pollutant"],
+    ["geographic_scope", "location", "country"],
+    ["value_numeric", "value_min", "value_max"],
+    ["evidence_location", "evidence_page", "table_figure_id"]
+  ],
+  "duplicate_identity_fields": [
+    "doi",
+    "pollutant_group|pollutant_original|pollutant",
+    "matrix",
+    "geographic_scope|location|country",
+    "temporal_window|sampling_period|sampling_period_label",
+    "value_numeric|value_min|value_max"
+  ],
+  "review_if_missing": ["unit_original", "unit_standardized"],
+  "reject_if_missing": ["paper_title", "doi", "matrix"],
+  "forbidden_fields": ["model_prediction", "toxicity_threshold", "regulatory_limit"]
+}
