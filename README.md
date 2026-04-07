@@ -30,6 +30,7 @@ agents/
   literature-db-builder/
 docs/
   agent-runtime-guide.md
+  agent-runtime-guide.zh-CN.md
   multi-agent-architecture.md
 examples/
   benchmark-instances/
@@ -46,9 +47,10 @@ See `examples/benchmark-instances/` for three documented benchmark cases:
 - Science Advances legacy POPs global ocean synthesis reconstruction
 - EST / TFA benchmark-table rebuilding
 
-For a practical “how each part runs” explanation, see:
+For a practical runtime guide, see:
 
-- `docs/agent-runtime-guide.md`
+- English: `docs/agent-runtime-guide.md`
+- 中文: `docs/agent-runtime-guide.zh-CN.md`
 
 ## Agent handoff chain
 
