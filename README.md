@@ -43,11 +43,13 @@ skills/
 
 ## Worked examples
 
-See `examples/benchmark-instances/` for three documented benchmark cases:
+See [`examples/benchmark-instances/`](examples/benchmark-instances/) for background on three published studies:
 
-- Nature Geoscience PFAS global waters reconstruction
-- Science Advances legacy POPs global ocean synthesis reconstruction
-- EST / TFA benchmark-table rebuilding
+- *Nature Geoscience*: global surface-water and groundwater PFAS data
+- *Science Advances*: legacy POPs in the global ocean
+- *Environmental Science & Technology*: trifluoroacetic acid (TFA) in the environment
+
+ECMonitor has been used to reconstruct literature-linked data from these three sources. The work covers concentration records associated with the PFAS study, marine POP evidence represented in the *Science Advances* study, and monitoring entries with source references in the TFA study's supporting information. The example files illustrate data formats; they are not the complete reconstructed datasets or a quantitative performance report. Detailed evaluation results will be reported with the manuscript.
 
 For a practical runtime guide, see:
 
