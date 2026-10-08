@@ -1,0 +1,12 @@
+model_config_version: "0.1.0"
+llm:
+  enabled: false
+  model_env: ECMONITOR_MODEL
+  temperature: 0
+  seed: 1226
+  structured_output_required: true
+  prompts:
+    query_planner: "prompts/retrieval/query_planner.md"
+    title_abstract_screener: "prompts/retrieval/title_abstract_screener.md"
+    term_miner: "prompts/retrieval/term_miner.md"
+    query_variant_generator: "prompts/retrieval/query_variant_generator.md"

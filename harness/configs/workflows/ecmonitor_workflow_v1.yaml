@@ -1,0 +1,72 @@
+workflow_version: ecmonitor-workflow-v1.0-20260825
+control_mode: deterministic_orchestrator
+agents:
+  retrieval:
+    runtime: ecmonitor.retrieval_specialist
+    owns:
+      - query_planning
+      - metadata_retrieval
+      - normalization
+      - deduplication
+      - title_abstract_screening
+      - query_patch_evaluation
+      - download_outbox
+  download:
+    runtime: ecmonitor.download_specialist
+    owns:
+      - local_inventory_lookup
+      - authorized_acquisition_routes
+      - artifact_validation
+      - acquisition_manifest
+  extraction:
+    runtime: ecmonitor.fulltext_extraction
+    owns:
+      - pdf_or_html_parsing
+      - table_and_chunk_selection
+      - candidate_observation_generation
+      - targeted_reextraction
+  validation:
+    runtime: ecmonitor.validation_specialist
+    owns:
+      - independent_evidence_validation
+      - deterministic_terminal_disposition
+      - human_review_escalation
+orchestrator:
+  runtime: ecmonitor.orchestration
+  scientific_decision_authority: false
+  owns:
+    - task_routing
+    - legal_state_transitions
+    - checkpoint_and_resume
+    - idempotency
+    - leases
+    - retry_budgets
+    - audit_events
+    - human_review_pause
+state_sequence:
+  - created
+  - retrieving
+  - screening
+  - download_queued
+  - downloading
+  - extracting
+  - validating
+  - committing
+  - completed
+feedback:
+  deferred_identity_evidence: download
+  deferred_source_binding: extraction_then_human
+  deferred_matrix_binding: extraction_then_human
+  deferred_geographic_conflict: human_review
+  systematic_retrieval_gap: versioned_query_patch
+budgets:
+  maximum_targeted_extraction_attempts: 2
+  maximum_same_route_model_attempts: 1
+  maximum_download_route_attempts_per_document: 6
+  browser_route_concurrency: 1
+persistence:
+  authoritative_active_state: sqlite_or_postgresql
+  outbox_required: true
+  immutable_audit_events: true
+  document_level_commit: true
+  resume_requires_matching_input_signature: true

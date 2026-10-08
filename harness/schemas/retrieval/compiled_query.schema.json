@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CompiledQuery",
+  "type": "object",
+  "required": ["canonical_query_id", "source_name", "compiled_query", "compiler_version", "compiled_at"],
+  "properties": {
+    "canonical_query_id": {"type": "string"},
+    "source_name": {"type": "string"},
+    "compiled_query": {"type": "string"},
+    "supported_features": {"type": "array", "items": {"type": "string"}},
+    "unsupported_features": {"type": "array", "items": {"type": "string"}},
+    "downgraded_behavior": {"type": "array", "items": {"type": "string"}},
+    "ignored_fields": {"type": "array", "items": {"type": "string"}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "compiler_version": {"type": "string"},
+    "compiled_at": {"type": "string"}
+  }
+}

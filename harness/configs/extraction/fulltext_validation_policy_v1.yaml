@@ -1,0 +1,187 @@
+policy_version: fulltext-validation-policy-v1.0-20260825
+scope:
+  main_matrix: surface_water
+  accepted_surface_water_examples:
+    - river_water
+    - lake_water
+    - stream_water
+    - reservoir_water
+    - estuarine_water
+    - coastal_or_marine_surface_water
+  excluded_matrices:
+    - wastewater_influent
+    - wastewater_effluent
+    - reclaimed_water
+    - groundwater
+    - drinking_water
+    - sediment
+    - soil
+    - air
+    - biota_or_tissue
+    - laboratory_or_synthetic_water
+  microplastics:
+    bulk_surface_water_abundance: accepted_separate_stream
+    bulk_surface_water_mass_concentration: accepted_separate_stream
+    attached_chemical_or_metal_on_particle: rejected_scope
+    require_cas: false
+    output_stream: microplastic_surface_water_observations
+
+chemical_identity:
+  source_priority:
+    - current_paper_analyte_list_or_definition
+    - current_paper_table_header_footnote_or_structure
+    - current_paper_supplementary_information
+    - validated_global_registry
+    - pubchem
+    - comptox_dsstox
+    - chebi
+  name_fields:
+    canonical_name: unified_preferred_name
+    reported_name: exact_paper_name
+    replacement_name: reported_alias_replaced_by_canonical_name
+  strict_individual_stream_requires:
+    - unique_entity_or_structure
+    - no_unresolved_isomer_or_position
+    - no_forced_cas_cid_or_smiles
+  technical_mixture_or_undetermined_isomer:
+    terminal_status: rejected_non_individual
+    retain_audit: true
+  tentative_level_2_or_3:
+    terminal_status: accepted_tentative
+    require_explicit_identification_level: true
+    require_semi_quantitative_flag: true
+    unverified_identifiers_must_be_null: true
+  unresolved_missing_si:
+    terminal_status: deferred_identity_evidence
+    blocks_document_commit: false
+    automatic_reextract_same_text: false
+  transformation_products:
+    specifically_named_product: retain
+    require_parent_annotation_when_reported: true
+    unspecified_metabolite_or_total_tp: rejected_non_individual
+  isomer_rule:
+    alpha_beta_gamma_delta_hch_are_separate: true
+
+results:
+  one_record_one_statistic: true
+  exact_observation_stream: accepted_observations
+  left_censoring:
+    nd_or_nq:
+      exact_numeric_stream: false
+      replace_with_zero_or_lod_fraction: prohibited
+      retain_qualitative_audit: true
+    less_than_numeric:
+      terminal_status: accepted_censored
+      output_stream: censored_observations
+      preserve:
+        - reported_raw_value
+        - qualifier
+        - is_censored
+        - censoring_limit
+        - raw_unit
+        - normalized_unit
+  method_detection_limit:
+    purpose: annotate_censored_results_only
+    standalone_observation: false
+  reject_non_concentrations:
+    - detection_frequency
+    - removal_rate
+    - exceedance_multiple
+    - risk_threshold
+    - hydrological_or_morphometric_metric
+    - microplastic_material_composition_percentage
+    - microplastic_particle_morphology
+
+provenance:
+  current_paper_primary_observation_required: true
+  reject_secondary_cited_values: true
+  reject_treatment_or_spiked_experiment_values: true
+  evidence_anchor_required: true
+  source_conflict_terminal_status: rejected_source_conflict
+
+sampling_time:
+  prefer_methods_reported_sampling_time: true
+  publication_year_fallback:
+    allowed: true
+    basis: publication_year_fallback
+    approximate_must_be_true: true
+
+geography:
+  approximate_coordinate_levels:
+    - city
+    - admin1
+    - country
+  administrative_hierarchy_validation_required: true
+  conflict_terminal_status: deferred_geographic_conflict
+  coordinates_may_not_override_conflicting_text: true
+
+terminal_states:
+  accepted:
+    - accepted_main
+    - accepted_censored
+    - accepted_tentative
+    - accepted_microplastic_surface_water
+  rejected:
+    - rejected_scope
+    - rejected_secondary_source
+    - rejected_treatment_experiment
+    - rejected_non_observation
+    - rejected_non_individual
+    - rejected_source_conflict
+    - rejected_duplicate
+  deferred_nonblocking:
+    - deferred_identity_evidence
+    - deferred_source_binding
+    - deferred_matrix_binding
+    - deferred_geographic_conflict
+  run_outcomes:
+    - model_failure
+    - parser_failure
+    - validator_failure
+    - invalid_model_output
+    - completed_zero_in_scope_records
+
+human_review:
+  required_when:
+    - source_relation_remains_ambiguous_after_bounded_context_retry
+    - matrix_or_location_binding_remains_ambiguous
+    - administrative_hierarchy_conflicts
+    - unit_or_basis_interpretation_changes_scientific_meaning
+    - extractor_validator_disagreement_after_source_recheck
+    - parser_layout_changes_analyte_value_binding
+  not_required_when:
+    - deterministic_scope_rejection
+    - deterministic_secondary_source_rejection
+    - deterministic_treatment_experiment_rejection
+    - deterministic_non_individual_rejection
+    - missing_si_identity_deferred_to_evidence_queue
+    - nd_or_nq_qualitative_censoring
+    - detection_frequency_or_exceedance_ratio
+  learning_loop:
+    persist_human_decision: true
+    summarize_rule_and_case: true
+    inject_signed_examples_into_later_fresh_document_sessions: true
+    global_dictionary_promotion_requires_validation: true
+
+retry_and_model_fallback:
+  extraction_retry_only_if_same_source_can_repair: true
+  identity_lookup_failure_does_not_trigger_reextraction: true
+  per_document_context_reset: true
+  document_commit_not_blocked_by_deferred_identity: true
+  model_failure_is_not_zero_records: true
+  preferred_sequence:
+    - direct_pdf_multimodal_model
+    - direct_pdf_alternate_model
+    - existing_pymupdf_whole_document_text
+    - selected_layout_aware_chunks
+    - alternate_parser_or_ocr_for_failed_regions
+  gateway_failure_sequence:
+    - retry_same_model_once_for_transient_timeout_or_empty_message
+    - switch_to_configured_backup_model
+    - switch_from_direct_pdf_to_existing_text_pipeline
+    - use_targeted_chunks_only_when_document_or_context_limit_requires_it
+    - record_failure_terminal_status_and_continue_next_document
+  finite_limits:
+    model_transport_retries_per_route: 1
+    semantic_reextract_attempts_per_candidate: 3
+    parser_attempts_per_region: 3

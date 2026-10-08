@@ -1,0 +1,17 @@
+include:
+  I_SURFACE_WATER_CONCENTRATION: "Eligible surface-water monitoring with quantitative or semiquantitative concentration evidence."
+  I_EXTRACTABLE_SURFACE_WATER_IN_MIXED_MATRIX: "Mixed-matrix study is eligible because title/abstract indicates direct, extractable natural surface-water occurrence or concentration data."
+defer:
+  D_AMBIGUOUS_CONCENTRATION: "Concentration evidence is ambiguous from title/abstract metadata."
+  D_AMBIGUOUS_SURFACE_WATER_EXTRACTABILITY: "Mixed matrices are present and title/abstract does not establish whether natural surface-water data are separately extractable."
+  D_METADATA_MISSING: "Important title/abstract or matrix metadata is missing."
+  D_DEFER_NOT_DOWNLOADED: "Record remains unresolved after metadata enrichment; no PDF is downloaded in this phase."
+exclude:
+  E_MIXED_MATRIX: "Study includes eligible surface water plus ineligible direct sample matrices."
+  E_GROUNDWATER: "Study samples groundwater."
+  E_WATER_PLANT: "Study samples drinking-water, wastewater, or other treatment plant/process water."
+  E_LAB_STUDY: "Study is a laboratory degradation, toxicity, adsorption, transformation, or simulation study."
+  E_NO_FIELD_SAMPLE: "No real environmental field sample is present."
+  E_NO_CONCENTRATION: "No quantitative or semiquantitative concentration evidence is present."
+  E_REVIEW: "Publication type is review or another excluded type."
+  E_REVIEW_OR_ARTIFACT: "Title, metadata, or publication type indicates a review, preface, editorial, or other non-primary publication artifact."

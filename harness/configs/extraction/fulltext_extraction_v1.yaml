@@ -1,0 +1,516 @@
+config_version: fulltext-extraction-v1.3-validation-v1
+status: pilot_only
+
+library:
+  root: sources/library
+  pdf_dir: sources/library/pdf
+  manifest_csv: sources/library/manifest/downloaded_pdf_manifest.csv
+  manifest_jsonl: sources/library/manifest/downloaded_pdf_manifest.jsonl
+  summary_json: sources/library/manifest/library_summary.json
+  not_downloaded_dois: sources/library/manifest/not_downloaded_dois.txt
+  manifest_asset_count: 2176
+  observed_regular_pdf_count: 2175
+  inventory_snapshot_date: '2026-08-09'
+  supplementary_material_policy: inventory_and_link_separately
+  known_anomalies:
+    - anomaly_id: windows_ads_colon_filename_10_47874_2022_pp21_26
+      doi: '10.47874/2022:pp21-26'
+      base_file: 'pdf\10.47874_2022'
+      alternate_data_stream: 'pp21-26.pdf'
+      stream_bytes: 578891
+      signature: '%PDF-1.6'
+      required_action: materialize_sanitized_regular_pdf_and_record_repair_lineage
+
+persistence:
+  authority: sqlite
+  database_path: state/fulltext_extraction_control.sqlite3
+  immutable_event_log: true
+  jsonl_audit_mirror: true
+  csv_validation_exports: true
+  parquet_analytics_export: true
+  outbox_enabled: true
+  commit_scope: one_primary_document_plus_linked_supplementary_assets
+  commit_after_every_document: true
+  require_integrity_check_before_document_committed: true
+  human_review_completion_required_before_document_commit: false
+  pending_human_review_package_must_be_self_contained: true
+  persist_dictionary_observations_with_document: true
+  dictionary_promotion_is_separate_atomic_transaction: true
+  cleanup_may_not_delete_source_assets: true
+  idempotency_scope:
+    - document_asset
+    - parser_attempt
+    - chunk_version
+    - candidate_version
+    - validation_attempt
+    - accepted_record_version
+
+
+processing_isolation:
+  boundary: document
+  new_document_session_id_per_document: true
+  fresh_extractor_request_per_document: true
+  fresh_validator_request_per_document: true
+  prior_document_conversation_allowed: false
+  prior_document_summary_allowed: false
+  static_prompt_and_schema_cache_allowed: true
+  document_content_prompt_cache_allowed: false
+  preferred_worker_lifecycle: short_lived_subprocess_per_document
+  next_document_lease_requires:
+    - prior_document_committed
+    - prior_document_outbox_persisted
+    - disposable_resources_released
+  release_after_commit:
+    - model_sessions
+    - prompt_context_containing_document_content
+    - parser_objects
+    - open_pdf_handles
+    - ocr_page_images
+    - temporary_table_images
+    - gpu_tensors
+    - document_scoped_caches
+    - temporary_work_directory
+  retain_after_commit:
+    - source_pdf
+    - source_sha256
+    - evidence_anchors
+    - accepted_and_rejected_candidate_lineage
+    - parser_quality_metadata
+    - document_completeness_state
+    - dictionary_observations_and_proposals
+    - checksummed_reproducibility_artifacts
+  parsed_artifact_retention: compressed_per_document
+  cleanup_failure_action: retry_cleanup_without_rolling_back_committed_document
+  resource_telemetry_required_before_next_lease: true
+
+pilot:
+  enabled: true
+  minimum_documents: 30
+  target_documents: 50
+  require_human_gold_set: true
+  require_human_signoff_for_all_accepts: true
+  strata:
+    - native_text
+    - scanned
+    - double_column
+    - complex_table
+    - multi_page_table
+    - supplementary_table
+    - multi_analyte
+    - multi_matrix
+    - multi_site
+    - ambiguous_abbreviation
+    - relevant_without_extractable_field_results
+    - method_validation_negative
+    - toxicology_negative
+    - review_article_negative
+
+inventory:
+  calculate_sha256: true
+  calculate_page_count: true
+  verify_pdf_signature: true
+  detect_encryption: true
+  detect_duplicate_hashes: true
+  check_doi_sources:
+    - manifest
+    - filename
+    - pdf_metadata
+    - first_page
+    - crossref
+  do_not_mutate_source_manifest: true
+
+parsing:
+  adapter_contract_version: parsed-document-v1
+  benchmark_before_default_selection: true
+  baseline_adapter: pymupdf
+  preferred_candidates:
+    - pymupdf
+    - docling
+    - grobid
+    - mineru
+  parser_roles:
+    pymupdf: fast_native_text_blocks_and_coordinates
+    docling: layout_tables_and_ocr_candidate
+    grobid: scholarly_metadata_sections_references_tei
+    mineru: benchmark_complex_layout_candidate
+  ocr_fallback_candidates:
+    - ocrmypdf_tesseract
+    - docling_ocr
+    - configured_local_ocr
+  parser_fusion_enabled: false
+  retain:
+    pages: true
+    reading_order: true
+    headings: true
+    sections: true
+    tables: true
+    table_cells: true
+    captions: true
+    footnotes: true
+    coordinates: true
+    character_offsets: true
+    parser_warnings: true
+  quality_gates:
+    maximum_zero_text_page_fraction: 0.20
+    minimum_printable_character_fraction: 0.90
+    require_table_structure_when_tables_detected: true
+    low_quality_action: alternate_parser_then_ocr
+
+chunking:
+  policy_version: layout-aware-v1
+  fixed_token_only: false
+  structural_types:
+    - section_text
+    - table
+    - figure_caption
+    - method_block
+    - location_block
+    - supplementary_table
+  table_policy:
+    preserve_whole_table_when_possible: true
+    repeat_headers_on_split: true
+    repeat_caption_and_footnotes_on_split: true
+    retain_cell_coordinates: true
+  text_policy:
+    target_tokens: 1800
+    maximum_tokens: 3200
+    overlap_tokens_within_structural_unit: 180
+  context_expansion:
+    maximum_neighbor_chunks: 3
+    include_section_heading_path: true
+    include_table_caption_and_footnotes: true
+
+candidate_selection:
+  document_relevance_gate: true
+  chunk_relevance_gate: true
+  allowed_document_types_for_extraction:
+    - field_monitoring_with_quantitative_results
+    - uncertain
+  prioritize_sections:
+    - results
+    - occurrence
+    - monitoring
+    - materials_and_methods
+    - sampling
+    - supplementary_information
+  prioritize_structures:
+    - table
+    - supplementary_table
+    - section_text
+  retain_rejected_candidates_for_audit: true
+
+agents:
+  direct_database_write_allowed: false
+  global_free_form_memory_allowed: false
+  global_versioned_services_allowed:
+    - validated_chemical_registry
+    - unit_registry
+    - controlled_vocabularies
+  hard_reset_between_documents: true
+  extractor:
+    contract: prompts/extraction/occurrence_extractor.md
+    prompt_version: occurrence-extractor-v2.0
+    model: configured_at_runtime
+    structured_output_schema: schemas/extraction/occurrence_observation.schema.json
+    may_propose_identifiers: true
+    identifiers_are_untrusted_hints: true
+    require_evidence_for_each_observation: true
+  validator:
+    contract: prompts/extraction/evidence_validator.md
+    prompt_version: evidence-validator-v2.0
+    model: configured_at_runtime
+    prefer_model_independent_from_extractor: true
+    validate_candidate_json_only: false
+    require_source_evidence: true
+    require_field_level_checks:
+      - /analyte/raw_name
+      - /analyte/canonical_name
+      - /analyte/matched_alias
+      - /analyte/specificity_status
+      - /analyte/is_individual_chemical
+      - /result/raw_value_text
+      - /result/raw_unit
+      - /result/qualifier
+      - /result/basis
+      - /sample/matrix
+      - /location/raw_text
+      - /sampling_time
+      - /observation_type
+    decisions:
+      - accept
+      - retry
+      - escalate
+      - reject
+
+chemical_resolution:
+  registry_version: chem-registry-pilot-v1.1
+  append_only_alias_events: true
+  read_latest_committed_snapshot_at_document_start: true
+  allow_uncommitted_aliases_across_documents: false
+  tiers:
+    document_local:
+      visible_to: current_document_only
+    proposed:
+      visible_to: resolver_and_validation_queue
+    validated:
+      visible_to: subsequent_documents
+    deprecated_or_conflicted:
+      visible_to: audit_only
+  promotion:
+    run_at_document_commit: true
+    atomic_registry_version_increment: true
+    automatic_requirements:
+      - one_to_one_identifier_or_structure_crosscheck
+      - validator_confirms_individual_chemical
+      - no_identifier_conflict
+      - no_class_sum_mixture_or_polymer_semantics
+    otherwise: human_review
+  human_review_may_complete_after_document_commit: true
+  pending_aliases_visible_to_subsequent_documents: false
+  on_registry_version_change:
+    enqueue_targeted_reresolution_for_affected_prior_mentions: true
+    silently_mutate_prior_observations: false
+    accepted_corrections_create_superseding_versions: true
+  source_priority:
+    - local_validated_alias_registry
+    - document_local_definition
+    - pubchem
+    - epa_comptox_dsstox
+    - chebi
+  store:
+    - raw_name
+    - canonical_name
+    - matched_alias
+    - alias_type
+    - validated_aliases
+    - alias_registry_status
+    - specificity_status
+    - is_individual_chemical
+    - entity_type
+    - pubchem_cid
+    - inchikey
+    - canonical_smiles
+    - cas_rn
+    - cas_source
+    - dtxsid
+    - chebi_id
+    - candidates
+    - match_method
+    - provenance
+    - conflicts
+  never_force_single_compound_for:
+    - class
+    - sum_parameter
+    - mixture
+    - polymer
+    - unspecified_metabolite
+  general_term_policy:
+    unambiguous_general_term: route_to_aggregate_output_or_deterministic_reject
+    individual_vs_general_ambiguous: human_review
+  unresolved_action: deferred_identity_evidence_nonblocking
+  external_lookup_cache: true
+  external_lookup_rate_limit_per_second: 4
+
+numeric_and_units:
+  registry_version: unit-registry-v1
+  preserve_raw_value_and_unit: true
+  vocabulary_alignment:
+    - ucum
+    - qudt
+  parser_library_candidate: pint
+  preserve_censoring: true
+  preserve_ranges: true
+  preserve_statistics: true
+  allow_conversion_only_when_dimension_and_basis_known: true
+  prohibited_implicit_conversions:
+    - dry_weight_to_wet_weight
+    - wet_weight_to_dry_weight
+    - dissolved_to_whole_sample
+    - whole_sample_to_dissolved
+    - mass_concentration_to_molar_without_molar_mass
+    - volume_to_mass_without_density
+  supported_initial_dimensions:
+    - mass_per_volume
+    - mass_per_mass
+    - amount_per_volume
+    - count_per_volume
+  capture_limits:
+    - LOD
+    - LOQ
+    - MDL
+    - MQL
+    - reporting_limit
+
+validation:
+  json_schema_draft: '2020-12'
+  schema_path: schemas/extraction/occurrence_observation.schema.json
+  hard_gates:
+    - schema_valid
+    - source_asset_hash_present
+    - evidence_anchor_exists
+    - concentration_evidence_present
+    - evidence_quote_matches_source
+    - relation_binding_supported
+    - numeric_unit_consistent
+    - field_measurement_not_validation_or_exposure
+    - individual_chemical_specificity_confirmed
+    - canonical_and_reported_names_preserved
+    - cross_document_alias_is_validated
+    - chemical_identifier_conflicts_resolved_or_flagged
+    - duplicate_policy_passed
+    - lineage_complete
+  deterministic_repairs_only:
+    - whitespace_normalization
+    - unicode_unit_normalization
+    - json_type_coercion_when_lossless
+  scientific_content_repair_by_string_rule: false
+
+retry:
+  maximum_semantic_attempts_per_candidate: 3
+  maximum_parser_attempts_per_region: 3
+  whole_document_reextract_allowed: false
+  whole_document_reextract_exception: document_completeness_audit
+  classes:
+    deterministic_repair:
+      consumes_semantic_attempt: false
+    targeted_field_retry:
+      consumes_semantic_attempt: true
+    expanded_context_retry:
+      consumes_semantic_attempt: true
+    alternate_parser_retry:
+      consumes_semantic_attempt: false
+    ocr_retry:
+      consumes_semantic_attempt: false
+    chemical_resolution_retry:
+      consumes_semantic_attempt: false
+    human_review:
+      terminal_for_automation: true
+  retry_payload_requires:
+    - reason_codes
+    - failed_json_pointers
+    - requested_context
+    - prior_candidate_id
+
+human_review:
+  mandatory_after_bounded_retry:
+    - chemical_identity_multiple_candidates
+    - chemical_identifier_source_conflict
+    - individual_vs_general_term_ambiguous
+    - novel_global_alias_without_authoritative_crosscheck
+    - trade_name_or_unknown_mixture_requires_component_interpretation
+    - parser_or_ocr_changes_analyte_value_binding
+    - relation_binding_ambiguous
+    - unit_or_basis_interpretation_material
+    - extractor_validator_disagreement
+    - accepted_record_or_alias_conflict
+    - likely_result_bearing_supplement_missing
+    - material_extreme_value_remains_suspicious_after_recheck
+  deterministic_no_human_paths:
+    - lossless_format_repair
+    - optional_field_genuinely_not_reported
+    - clear_non_field_measurement_reject
+    - unambiguous_excluded_general_term
+  random_quality_control_sample_rate_after_pilot: 0.05
+  pilot_all_accepts_require_human: true
+  decisions_are_immutable_events: true
+  corrections_create_superseding_versions: true
+  dictionary_actions:
+    - promote_alias
+    - deprecate_alias
+    - mark_alias_conflicted
+    - leave_alias_proposed
+
+acceptance:
+  policy_version: high-precision-pilot-v1.1
+  automatic_accept_enabled: false
+  automatic_accept_requires_calibrated_gold_set: true
+  permitted_observation_types:
+    - field_measurement
+  require_individual_chemical: true
+  microplastic_surface_water_exception_stream: microplastic_surface_water_observations
+  excluded_specificity_statuses:
+    - class_or_family
+    - sum_or_total_parameter
+    - mixture_or_product
+    - polymer_or_particle_category
+    - unspecified_metabolite
+    - ambiguous
+    - unknown
+  cross_document_alias_status_required: validated
+  mandatory_human_review_must_be_resolved: true
+  confidence_score_alone_sufficient: false
+  validator_accept_alone_sufficient: false
+  deterministic_hard_gates_required: true
+  duplicate_check_required: true
+  human_signoff_required_during_pilot: true
+
+exports:
+  canonical_observation_fields:
+    - canonical_name
+    - reported_name
+    - matched_alias
+    - alias_type
+    - validated_aliases
+    - chemical_registry_version
+    - pubchem_cid
+    - cas_rn
+    - dtxsid
+  reported_name_source: /analyte/raw_name
+  validated_aliases_source: versioned_chemical_registry_join
+  preserve_original_and_normalized_values: true
+
+completeness_audit:
+  enabled: true
+  compare_candidate_tables_to_evidence_coverage: true
+  compare_method_analyte_list_to_result_analytes: true
+  compare_site_list_to_observation_sites: true
+  flag_missing_supplementary_material: true
+  separate_record_complete_and_document_complete: true
+
+monitoring:
+  metrics:
+    - document_relevance_precision
+    - document_relevance_recall
+    - analyte_entity_f1
+    - chemical_resolution_accuracy
+    - numeric_unit_qualifier_accuracy
+    - relation_binding_accuracy
+    - evidence_anchor_accuracy
+    - record_precision
+    - record_recall
+    - document_omission_rate
+    - automatic_accept_precision
+    - parser_failure_rate
+    - ocr_rate
+    - retry_rate
+    - human_review_rate
+    - mandatory_human_review_rate
+    - sampled_human_review_rate
+    - alias_proposal_rate
+    - alias_promotion_rate
+    - alias_conflict_rate
+    - document_commit_latency
+    - cleanup_failure_rate
+    - worker_memory_after_cleanup
+    - worker_gpu_memory_after_cleanup
+    - temporary_disk_bytes_after_cleanup
+    - throughput_documents_per_hour
+    - cost_per_accepted_observation
+
+
+validation_policy:
+  machine_readable_contract: configs/extraction/fulltext_validation_policy_v1.yaml
+  policy_version: fulltext-validation-policy-v1.0-20260825
+  terminal_status_module: src/ecmonitor/fulltext_extraction/policy.py
+  deferred_identity_blocks_document_commit: false
+  model_failure_must_not_be_materialized_as_zero_records: true
+
+model_and_parser_fallback:
+  order:
+    - direct_pdf_multimodal_primary_model
+    - direct_pdf_configured_backup_model
+    - pymupdf_whole_document_text
+    - layout_aware_selected_chunks
+    - alternate_parser_or_ocr_failed_regions
+  reset_context_between_documents: true
+  release_document_resources_after_commit: true

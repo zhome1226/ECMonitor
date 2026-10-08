@@ -1,0 +1,33 @@
+{
+  "document_id": "demo_surface_water_001",
+  "doi": "10.0000/example.surfacewater.001",
+  "pdf_path": "${EC_MONITOR_PDF_ROOT}/demo_surface_water_001.pdf",
+  "document_context_policy": "fresh_context_per_document",
+  "target_scope": {
+    "matrix": "surface_water",
+    "current_study_only": true,
+    "one_statistic_per_record": true
+  },
+  "parser_route": {
+    "primary": "direct_pdf_multimodal_if_supported",
+    "fallback": [
+      "pymupdf_whole_document_text",
+      "layout_aware_selected_chunks",
+      "alternate_parser_or_ocr_failed_regions"
+    ]
+  },
+  "requested_fields": [
+    "reported_name",
+    "canonical_name",
+    "replacement_name",
+    "concentration",
+    "unit",
+    "statistic",
+    "matrix",
+    "location",
+    "sampling_time",
+    "analytical_method",
+    "doi",
+    "evidence"
+  ]
+}

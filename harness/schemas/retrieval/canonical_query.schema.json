@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CanonicalQuery",
+  "type": "object",
+  "required": [
+    "query_id",
+    "iteration",
+    "date_from",
+    "date_to",
+    "emerging_contaminant_terms",
+    "surface_water_terms",
+    "monitoring_and_concentration_terms",
+    "query_schema_version",
+    "created_at"
+  ],
+  "properties": {
+    "query_id": {"type": "string"},
+    "parent_query_id": {"type": ["string", "null"]},
+    "iteration": {"type": "integer", "minimum": 0},
+    "date_from": {"type": "string"},
+    "date_to": {"type": "string"},
+    "document_types": {"type": "array", "items": {"type": "string"}},
+    "emerging_contaminant_terms": {"type": "array", "items": {"type": "string"}},
+    "surface_water_terms": {"type": "array", "items": {"type": "string"}},
+    "monitoring_and_concentration_terms": {"type": "array", "items": {"type": "string"}},
+    "candidate_expansion_terms": {"type": "array", "items": {"type": "string"}},
+    "optional_context_terms": {"type": "array", "items": {"type": "string"}},
+    "prohibited_or_rejected_terms": {"type": "array", "items": {"type": "string"}},
+    "added_terms": {"type": "array", "items": {"type": "string"}},
+    "removed_terms": {"type": "array", "items": {"type": "string"}},
+    "modified_concept_blocks": {"type": "array", "items": {"type": "string"}},
+    "change_rationale": {"type": "string"},
+    "evidence_for_change": {"type": "array", "items": {"type": "string"}},
+    "expected_effect": {"type": "string"},
+    "query_schema_version": {"type": "string"},
+    "created_at": {"type": "string"}
+  }
+}

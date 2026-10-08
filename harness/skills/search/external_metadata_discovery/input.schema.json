@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "run_id": {"type": "string"},
+    "query_id": {"type": "string"},
+    "iteration": {"minimum": 1, "type": "integer"},
+    "skill_id": {"const": "external_metadata_discovery_v1", "type": "string"},
+    "canonical_query": {"type": "object"},
+    "date_from": {"type": "string"},
+    "date_to": {"type": "string"},
+    "document_types": {
+      "items": {"type": "string"},
+      "type": "array"
+    },
+    "queries_ref": {"type": "string"},
+    "compiled_query_ref": {"type": "string"},
+    "output_root": {"type": "string"},
+    "expected_output_ref": {"type": "string"},
+    "providers": {
+      "items": {
+        "enum": ["crossref", "openalex", "semantic_scholar", "pubmed"],
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "max_results_per_query": {"minimum": 1, "type": "integer"},
+    "max_candidates": {"minimum": 1, "type": "integer"},
+    "page_size": {"minimum": 1, "type": "integer"},
+    "max_scan_depth_per_provider": {"minimum": 1, "type": "integer"},
+    "resume_state_ref": {"type": "string"},
+    "config_ref": {"type": "string"}
+  },
+  "required": ["queries_ref", "max_candidates", "page_size"],
+  "type": "object"
+}

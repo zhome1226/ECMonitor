@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DownloadResult",
+  "type": "object",
+  "required": [
+    "event_id",
+    "idempotency_key",
+    "global_record_id",
+    "download_job_id",
+    "final_status",
+    "local_inventory_record_id",
+    "PDF_SHA256",
+    "failure_reason",
+    "completed_at"
+  ],
+  "properties": {
+    "event_id": {"type": "string"},
+    "idempotency_key": {"type": "string"},
+    "global_record_id": {"type": "string"},
+    "download_job_id": {"type": "string"},
+    "final_status": {"type": "string"},
+    "local_inventory_record_id": {"type": ["string", "null"]},
+    "PDF_SHA256": {"type": ["string", "null"]},
+    "failure_reason": {"type": ["string", "null"]},
+    "completed_at": {"type": ["string", "null"]}
+  }
+}

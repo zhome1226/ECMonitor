@@ -1,0 +1,75 @@
+protocol_version: "0.1.0"
+date_range:
+  date_from: "2006-01-01"
+  date_to_runtime_required: true
+language:
+  restriction: none
+publication_type:
+  prefer:
+    - journal article
+    - research article
+  exclude:
+    - review
+    - systematic review
+    - editorial
+    - commentary
+    - perspective
+    - conference abstract
+    - conference paper
+    - book chapter
+    - correction
+    - letter
+scie:
+  registry_path: "registry/scie_journals.csv"
+  status_if_missing: unknown
+emerging_contaminant_terms:
+  - "emerging contaminant*"
+  - "contaminants of emerging concern"
+  - "contaminant* of emerging concern"
+  - "CEC"
+  - "CECs"
+  - "emerging pollutant*"
+  - "emerging chemical*"
+  - "emerging substance*"
+  - "emerging environmental contaminant*"
+  - "micropollutant*"
+  - "organic micropollutant*"
+  - "trace organic contaminant*"
+  - "anthropogenic contaminant*"
+surface_water_terms:
+  - ambient surface water
+  - surface water
+  - river
+  - stream
+  - creek
+  - lake
+  - reservoir
+  - estuary
+  - wetland
+  - canal
+  - coastal water
+  - seawater
+  - marine water
+  - bay
+  - lagoon
+  - pond
+monitoring_and_concentration_terms:
+  - monitoring
+  - occurrence
+  - distribution
+  - concentration
+  - measured concentration
+  - field monitoring
+  - field sampling
+  - environmental monitoring
+  - quantification
+  - quantitative
+  - semiquantitative
+ineligible_matrices:
+  registry_path: "registry/excluded_matrices.yaml"
+screening:
+  mixed_ineligible_matrix_excludes: false
+  include_extractable_surface_water_in_mixed_matrix: true
+  downstream_receiving_water_not_auto_excluded: true
+  no_concentration_evidence_decision: exclude
+  ambiguous_concentration_evidence_decision: defer_metadata

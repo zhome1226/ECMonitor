@@ -1,0 +1,19 @@
+eligible_surface_water:
+  - ocean
+  - open ocean
+  - sea
+  - seawater
+  - marine water
+  - coastal water
+  - estuary
+  - bay
+  - lagoon
+  - river
+  - stream
+  - creek
+  - lake
+  - pond
+  - reservoir
+  - wetland
+  - canal
+  - ambient surface water

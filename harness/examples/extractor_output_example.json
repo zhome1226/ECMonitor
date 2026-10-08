@@ -1,0 +1,44 @@
+{
+  "candidate_id": "demo_surface_water_001:candidate:0001",
+  "observation_type": "field_measurement",
+  "analyte": {
+    "raw_name": "PFOA",
+    "reported_name": "PFOA",
+    "proposed_canonical_name": "Perfluorooctanoic acid",
+    "matched_alias": "PFOA",
+    "alias_type": "abbreviation",
+    "specificity_status": "individual_chemical",
+    "is_individual_chemical": true,
+    "canonical_name": "Perfluorooctanoic acid",
+    "replacement_name": "Perfluorooctanoic acid"
+  },
+  "result": {
+    "raw_value": "12",
+    "raw_unit": "ng/L",
+    "value_numeric": 12.0,
+    "qualifier": "exact",
+    "statistic": "single"
+  },
+  "sample": {
+    "matrix_raw": "river water",
+    "matrix_normalized": "surface_water"
+  },
+  "location": {
+    "waterbody": "Example River",
+    "country": "Exampleland"
+  },
+  "sampling_time": {
+    "year": 2020,
+    "basis": "reported",
+    "approximate": false
+  },
+  "analytical_method": {
+    "method_name": "LC-MS/MS"
+  },
+  "evidence": {
+    "quote": "PFOA was measured at 12 ng/L in Example River.",
+    "page_start": 7,
+    "page_end": 7,
+    "table_id": "Table 2"
+  }
+}

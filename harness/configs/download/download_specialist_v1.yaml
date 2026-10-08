@@ -1,0 +1,31 @@
+config_version: download-specialist-v1.0-20260825
+route_order:
+  - local_inventory
+  - lawful_open_access
+  - publisher_identity_resolution
+  - authorized_publisher_api
+  - institution_authenticated_browser
+validation:
+  minimum_bytes: 1024
+  minimum_pages: 1
+  require_readable_pdf_parser: true
+  reject_html_renamed_as_pdf: true
+  reject_encrypted_pdf: true
+  reject_known_preview_or_placeholder: true
+  calculate_sha256: true
+browser:
+  concurrency: 1
+  interactive_authentication_is_user_controlled: true
+  automate_credentials_mfa_captcha_or_sso: false
+retry:
+  bounded: true
+  honor_retry_after: true
+  terminal_statuses:
+    - no_institutional_entitlement
+    - permanent_skip_no_authorized_access
+storage:
+  commit_fulltext_to_git: false
+  persist_private_manifest: true
+  accepted_formats:
+    - pdf
+    - normalized_html

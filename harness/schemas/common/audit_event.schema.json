@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ecmonitor.local/schemas/common/audit_event.schema.json",
+  "title": "ECMonitor Audit Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "workflow_run_id", "event_type", "actor", "occurred_at", "payload"],
+  "properties": {
+    "schema_version": {"type": "string", "minLength": 1},
+    "event_id": {"type": "string", "minLength": 1},
+    "workflow_run_id": {"type": "string", "minLength": 1},
+    "document_id": {"type": ["string", "null"]},
+    "event_type": {"type": "string", "minLength": 1},
+    "actor": {"type": "string", "minLength": 1},
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "causation_id": {"type": ["string", "null"]},
+    "payload": {"type": "object"}
+  }
+}

@@ -1,0 +1,20 @@
+logging_version: "0.1.0"
+level: INFO
+redact_environment_variables:
+  - CROSSREF_MAILTO
+  - OPENALEX_MAILTO
+  - SEMANTIC_SCHOLAR_API_KEY
+  - NCBI_EMAIL
+  - NCBI_API_KEY
+  - OPENAI_API_KEY
+logs:
+  - query_history.jsonl
+  - tool_call_log.jsonl
+  - API_request_log.jsonl
+  - retry_log.jsonl
+  - screening_decisions.jsonl
+  - decision_log.jsonl
+  - state_transition_log.jsonl
+  - error_log.jsonl
+  - override_log.jsonl
+  - commit_log.jsonl

@@ -1,0 +1,14 @@
+prefer:
+  - journal article
+  - research article
+exclude:
+  - review
+  - systematic review
+  - editorial
+  - commentary
+  - perspective
+  - conference abstract
+  - conference paper
+  - book chapter
+  - correction
+  - letter

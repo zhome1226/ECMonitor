@@ -1,0 +1,23 @@
+stopping_version: "0.1.0"
+evaluation:
+  target_novel_records_total: 20
+  target_novel_records_per_source: 5
+  max_scan_depth_per_source: 200
+  candidate_evaluation_target_novel_records: 20
+  candidate_evaluation_loss_audit_records: 50
+  minimum_records_for_precision: 5
+  novelty_rate_saturation_threshold: 0.05
+  saturation_rounds: 4
+  high_recall_minimum_gain_include_for_continuation: 1
+  high_recall_stop_after_no_positive_utility_rounds: 4
+iterations:
+  max_iterations: 5
+saturation_triggers:
+  minimum_novel_records_within_scan_depth: true
+  low_novelty_rate_consecutive_rounds: true
+  low_novel_eligible_yield_consecutive_rounds: true
+  low_score_improvement_consecutive_rounds: true
+  no_effective_candidate_terms_consecutive_rounds: true
+  known_ineligible_dominance: true
+  max_iteration_count: true
+  budget_limit: true
