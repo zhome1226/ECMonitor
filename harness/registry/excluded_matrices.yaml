@@ -1,0 +1,19 @@
+ineligible_matrices:
+  - groundwater
+  - wastewater
+  - sewage
+  - sludge
+  - drinking water
+  - tap water
+  - bottled water
+  - reclaimed water
+  - wastewater treatment plants
+  - sewage treatment plants
+  - drinking-water treatment plants
+  - water treatment plants
+  - industrial treatment facilities
+  - treatment-process units
+  - influent
+  - effluent
+  - treatment intermediates
+  - plant process water

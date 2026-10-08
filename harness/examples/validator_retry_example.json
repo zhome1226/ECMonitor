@@ -1,0 +1,35 @@
+{
+  "document_id": "demo_rotated_table_020",
+  "candidate_id": "demo_rotated_table_020:candidate:0048",
+  "validation_action": "retry_extraction",
+  "reason_codes": [
+    "table_caption_statistic_mismatch",
+    "table_cell_binding_error"
+  ],
+  "do_not_accept_current_candidate": true,
+  "retry_scope": {
+    "mode": "targeted_region",
+    "pages": [20],
+    "table": "Example Table A",
+    "required_context": [
+      "table_caption",
+      "row_headers",
+      "column_headers",
+      "footnotes",
+      "two_dimensional_layout"
+    ],
+    "expand_to_current_study_row_if_column_shift_detected": true
+  },
+  "preserve_from_previous_attempt": [
+    "document_id",
+    "doi",
+    "page_reference"
+  ],
+  "discard_from_previous_attempt": [
+    "analyte_value_binding",
+    "statistic_binding",
+    "unit_binding"
+  ],
+  "max_targeted_retries": 2,
+  "on_repeated_failure": "deferred_source_binding"
+}

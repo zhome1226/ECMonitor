@@ -1,0 +1,37 @@
+sources_version: "0.1.0"
+sources:
+  crossref:
+    enabled: false
+    phase: 2
+    base_url: "https://api.crossref.org"
+    rate_limit_per_second: 1
+    contact_env: CROSSREF_MAILTO
+  openalex:
+    enabled: false
+    phase: 2
+    base_url: "https://api.openalex.org"
+    rate_limit_per_second: 1
+    contact_env: OPENALEX_MAILTO
+  semantic_scholar:
+    enabled: false
+    phase: 2
+    base_url: "https://api.semanticscholar.org"
+    rate_limit_per_second: 1
+    api_key_env: SEMANTIC_SCHOLAR_API_KEY
+  pubmed:
+    enabled: false
+    phase: 2
+    base_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+    rate_limit_per_second: 1
+    email_env: NCBI_EMAIL
+    api_key_env: NCBI_API_KEY
+mock_sources:
+  enabled: true
+  fixture_path: "tests/fixtures/mock_records.json"
+external_metadata_discovery:
+  skill_id: external_metadata_discovery_v1
+  invocation_owner: Retrieval Specialist
+  optional_local_path_env: ECFINDER_METADATA_SKILL_PATH
+  adapter_contract: "query_and_metadata_refs_only"
+  phase: 2
+  reuse_policy: "Invoke the ECfinder skill runner boundary for provider retrieval; do not create a second retrieval agent and do not download full text."

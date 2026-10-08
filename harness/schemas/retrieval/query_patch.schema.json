@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "query_patch_schema_version": {"const": "1.0.0"},
+    "patch_id": {"minLength": 1, "type": "string"},
+    "parent_query_id": {"minLength": 1, "type": "string"},
+    "target_concept_block": {
+      "enum": [
+        "emerging_contaminant_terms",
+        "surface_water_terms",
+        "monitoring_and_concentration_terms",
+        "optional_context_terms",
+        "prohibited_or_rejected_terms"
+      ],
+      "type": "string"
+    },
+    "operation": {"enum": ["add", "remove", "replace"], "type": "string"},
+    "terms_added": {"items": {"type": "string"}, "type": "array"},
+    "terms_removed": {"items": {"type": "string"}, "type": "array"},
+    "evidence_document_ids": {"items": {"type": "string"}, "type": "array"},
+    "rationale": {"minLength": 1, "type": "string"},
+    "expected_effect": {"minLength": 1, "type": "string"},
+    "possible_drift_risk": {"minLength": 1, "type": "string"}
+  },
+  "required": [
+    "query_patch_schema_version",
+    "patch_id",
+    "parent_query_id",
+    "target_concept_block",
+    "operation",
+    "terms_added",
+    "terms_removed",
+    "evidence_document_ids",
+    "rationale",
+    "expected_effect",
+    "possible_drift_risk"
+  ],
+  "type": "object"
+}

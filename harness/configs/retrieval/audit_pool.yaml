@@ -1,0 +1,5 @@
+audit_pool_version: 1
+description: >
+  Optional audit entries for a local retrieval run. Add only records that your
+  project is authorized to use; no study-specific audit set is distributed.
+entries: []

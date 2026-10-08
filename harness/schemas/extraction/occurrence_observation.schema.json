@@ -1,0 +1,1771 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ecmonitor.local/schemas/extraction/occurrence_observation.schema.json",
+  "title": "ECMonitor Occurrence Observation v1.3 Validation-v1",
+  "description": "Evidence-backed environmental occurrence observation with deterministic terminal status and output-stream routing.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "record_version",
+    "record_status",
+    "supersedes_record_id",
+    "policy_rule_id",
+    "output_stream",
+    "terminal_status",
+    "observation_type",
+    "document",
+    "analyte",
+    "result",
+    "sample",
+    "location",
+    "sampling_time",
+    "analytical_method",
+    "evidence",
+    "normalization",
+    "validation",
+    "lineage"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.3.0-validation-v1"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "record_status": {
+      "enum": [
+        "candidate",
+        "accepted",
+        "rejected",
+        "human_review",
+        "superseded",
+        "retracted"
+      ]
+    },
+    "supersedes_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "observation_type": {
+      "enum": [
+        "field_measurement",
+        "laboratory_measurement",
+        "method_validation",
+        "toxicology_exposure",
+        "modeled_value",
+        "risk_threshold",
+        "literature_summary",
+        "unknown"
+      ]
+    },
+    "document": {
+      "$ref": "#/$defs/document"
+    },
+    "analyte": {
+      "$ref": "#/$defs/analyte"
+    },
+    "result": {
+      "$ref": "#/$defs/result"
+    },
+    "sample": {
+      "$ref": "#/$defs/sample"
+    },
+    "location": {
+      "$ref": "#/$defs/location"
+    },
+    "sampling_time": {
+      "$ref": "#/$defs/samplingTime"
+    },
+    "analytical_method": {
+      "$ref": "#/$defs/analyticalMethod"
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/evidenceAnchor"
+      },
+      "contains": {
+        "type": "object",
+        "properties": {
+          "evidence_role": {
+            "const": "concentration"
+          }
+        },
+        "required": [
+          "evidence_role"
+        ]
+      },
+      "minContains": 1
+    },
+    "normalization": {
+      "$ref": "#/$defs/normalization"
+    },
+    "validation": {
+      "$ref": "#/$defs/validation"
+    },
+    "lineage": {
+      "$ref": "#/$defs/lineage"
+    },
+    "terminal_status": {
+      "enum": [
+        "accepted_main",
+        "accepted_censored",
+        "accepted_tentative",
+        "accepted_microplastic_surface_water",
+        "rejected_scope",
+        "rejected_secondary_source",
+        "rejected_treatment_experiment",
+        "rejected_non_observation",
+        "rejected_non_individual",
+        "rejected_source_conflict",
+        "rejected_duplicate",
+        "deferred_identity_evidence",
+        "deferred_source_binding",
+        "deferred_matrix_binding",
+        "deferred_geographic_conflict",
+        "model_failure",
+        "parser_failure",
+        "validator_failure",
+        "invalid_model_output",
+        "completed_zero_in_scope_records"
+      ]
+    },
+    "output_stream": {
+      "enum": [
+        "accepted_observations",
+        "censored_observations",
+        "tentative_observations",
+        "microplastic_surface_water_observations",
+        "rejected_audit",
+        "deferred_evidence",
+        "run_failures",
+        "zero_record_documents"
+      ]
+    },
+    "policy_rule_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "record_status": {
+            "const": "accepted"
+          }
+        },
+        "required": [
+          "record_status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "observation_type": {
+            "const": "field_measurement"
+          },
+          "validation": {
+            "properties": {
+              "decision": {
+                "const": "accept"
+              }
+            },
+            "required": [
+              "decision"
+            ],
+            "allOf": [
+              {
+                "oneOf": [
+                  {
+                    "properties": {
+                      "human_review_required": {
+                        "const": false
+                      },
+                      "human_review_status": {
+                        "const": "not_required"
+                      }
+                    },
+                    "required": [
+                      "human_review_required",
+                      "human_review_status"
+                    ]
+                  },
+                  {
+                    "properties": {
+                      "human_review_required": {
+                        "const": true
+                      },
+                      "human_review_status": {
+                        "const": "approved"
+                      }
+                    },
+                    "required": [
+                      "human_review_required",
+                      "human_review_status"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "supersedes_record_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "supersedes_record_id"
+        ]
+      },
+      "then": {
+        "properties": {
+          "record_version": {
+            "minimum": 2
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "doi",
+        "title",
+        "asset_id",
+        "asset_role",
+        "pdf_sha256"
+      ],
+      "properties": {
+        "document_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "doi": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^10\\.[0-9]{4,9}/\\S+$"
+        },
+        "title": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "asset_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "asset_role": {
+          "enum": [
+            "primary_pdf",
+            "supplementary_pdf",
+            "supplementary_table",
+            "other"
+          ]
+        },
+        "pdf_sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        }
+      }
+    },
+    "resolutionCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "identifier",
+        "name",
+        "score",
+        "match_method"
+      ],
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "identifier": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "match_method": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    },
+    "analyte": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_name",
+        "canonical_name",
+        "matched_alias",
+        "alias_type",
+        "validated_aliases",
+        "alias_registry_status",
+        "specificity_status",
+        "is_individual_chemical",
+        "entity_type",
+        "pubchem_cid",
+        "inchikey",
+        "canonical_smiles",
+        "cas_rn",
+        "cas_source",
+        "dtxsid",
+        "chebi_id",
+        "resolution_status",
+        "resolution_candidates"
+      ],
+      "properties": {
+        "raw_name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "canonical_name": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "matched_alias": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alias_type": {
+          "enum": [
+            "exact_canonical",
+            "abbreviation",
+            "synonym",
+            "translated_name",
+            "spelling_variant",
+            "trade_name",
+            "formula",
+            "other",
+            "not_applicable"
+          ]
+        },
+        "validated_aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "alias_registry_status": {
+          "enum": [
+            "document_local",
+            "proposed",
+            "validated",
+            "deprecated_or_conflicted",
+            "not_applicable"
+          ]
+        },
+        "specificity_status": {
+          "enum": [
+            "individual_substance",
+            "defined_salt",
+            "defined_isomer",
+            "defined_transformation_product",
+            "class_or_family",
+            "sum_or_total_parameter",
+            "mixture_or_product",
+            "polymer_or_particle_category",
+            "unspecified_metabolite",
+            "ambiguous",
+            "unknown"
+          ]
+        },
+        "is_individual_chemical": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "entity_type": {
+          "enum": [
+            "single_substance",
+            "salt",
+            "isomer",
+            "mixture",
+            "class",
+            "sum_parameter",
+            "transformation_product",
+            "polymer",
+            "unknown"
+          ]
+        },
+        "pubchem_cid": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "inchikey": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{14}-[A-Z]{10}-[A-Z]$"
+        },
+        "canonical_smiles": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "cas_rn": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]{2,7}-[0-9]{2}-[0-9]$"
+        },
+        "cas_source": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "dtxsid": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^DTXSID[0-9]{7,}$"
+        },
+        "chebi_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^CHEBI:[0-9]+$"
+        },
+        "resolution_status": {
+          "enum": [
+            "resolved",
+            "provisional",
+            "ambiguous",
+            "unresolved",
+            "not_applicable"
+          ]
+        },
+        "resolution_candidates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/resolutionCandidate"
+          }
+        },
+        "transformation_product_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Parent emerging contaminant this analyte is a transformation/intermediate/metabolite product of. Null for parent compounds and non-transformation analytes."
+        },
+        "reported_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "replacement_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identification_level": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_tentative": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "cas_rn": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "cas_rn"
+            ]
+          },
+          "then": {
+            "properties": {
+              "cas_source": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_type": {
+                "enum": [
+                  "class",
+                  "sum_parameter",
+                  "mixture",
+                  "polymer"
+                ]
+              }
+            },
+            "required": [
+              "entity_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "pubchem_cid": {
+                "type": "null"
+              },
+              "inchikey": {
+                "type": "null"
+              },
+              "canonical_smiles": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_type": {
+                "enum": [
+                  "class",
+                  "sum_parameter",
+                  "mixture",
+                  "polymer"
+                ]
+              }
+            },
+            "required": [
+              "entity_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "is_individual_chemical": {
+                "const": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "is_individual_chemical": {
+                "const": true
+              }
+            },
+            "required": [
+              "is_individual_chemical"
+            ]
+          },
+          "then": {
+            "properties": {
+              "specificity_status": {
+                "enum": [
+                  "individual_substance",
+                  "defined_salt",
+                  "defined_isomer",
+                  "defined_transformation_product"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_type": {
+                "const": "class"
+              }
+            },
+            "required": [
+              "entity_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "specificity_status": {
+                "const": "class_or_family"
+              },
+              "is_individual_chemical": {
+                "const": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_type": {
+                "const": "sum_parameter"
+              }
+            },
+            "required": [
+              "entity_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "specificity_status": {
+                "const": "sum_or_total_parameter"
+              },
+              "is_individual_chemical": {
+                "const": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_type": {
+                "const": "mixture"
+              }
+            },
+            "required": [
+              "entity_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "specificity_status": {
+                "const": "mixture_or_product"
+              },
+              "is_individual_chemical": {
+                "const": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "entity_type": {
+                "const": "polymer"
+              }
+            },
+            "required": [
+              "entity_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "specificity_status": {
+                "const": "polymer_or_particle_category"
+              },
+              "is_individual_chemical": {
+                "const": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    "detectionLimit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "limit_type",
+        "raw_text",
+        "value",
+        "unit",
+        "basis"
+      ],
+      "properties": {
+        "limit_type": {
+          "enum": [
+            "LOD",
+            "LOQ",
+            "MDL",
+            "MQL",
+            "reporting_limit",
+            "other"
+          ]
+        },
+        "raw_text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "basis": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "detectionFrequency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "value",
+        "unit",
+        "detected_count",
+        "total_count"
+      ],
+      "properties": {
+        "raw_text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unit": {
+          "enum": [
+            "percent",
+            "fraction",
+            "count",
+            "unknown"
+          ]
+        },
+        "detected_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "total_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "type",
+        "value",
+        "lower",
+        "upper",
+        "unit",
+        "confidence_level"
+      ],
+      "properties": {
+        "raw_text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "type": {
+          "enum": [
+            "SD",
+            "SE",
+            "CI",
+            "IQR",
+            "range",
+            "other"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "lower": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "upper": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "confidence_level": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_value_text",
+        "value_type",
+        "qualifier",
+        "value",
+        "min_value",
+        "max_value",
+        "raw_unit",
+        "normalized_unit",
+        "quantity_dimension",
+        "basis",
+        "normalized_value",
+        "normalized_min_value",
+        "normalized_max_value",
+        "conversion_status",
+        "conversion_rule_id",
+        "limits",
+        "sample_count",
+        "detection_frequency",
+        "uncertainty"
+      ],
+      "properties": {
+        "raw_value_text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "value_type": {
+          "enum": [
+            "single",
+            "range",
+            "mean",
+            "median",
+            "minimum",
+            "maximum",
+            "percentile",
+            "geometric_mean",
+            "other_statistic",
+            "not_reported"
+          ]
+        },
+        "qualifier": {
+          "enum": [
+            "exact",
+            "less_than",
+            "less_than_or_equal",
+            "greater_than",
+            "greater_than_or_equal",
+            "not_detected",
+            "detected_not_quantified",
+            "estimated",
+            "partially_left_censored",
+            "unknown"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "min_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "max_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "raw_unit": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "normalized_unit": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "quantity_dimension": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "basis": {
+          "enum": [
+            "water_volume",
+            "dry_mass",
+            "wet_mass",
+            "lipid_mass",
+            "organism_mass",
+            "sediment_mass_unspecified",
+            "particle_count",
+            "sample_volume",
+            "unspecified",
+            "other"
+          ]
+        },
+        "normalized_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "normalized_min_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "normalized_max_value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "conversion_status": {
+          "enum": [
+            "not_needed",
+            "converted",
+            "not_convertible",
+            "basis_missing",
+            "unit_ambiguous",
+            "not_attempted"
+          ]
+        },
+        "conversion_rule_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/detectionLimit"
+          }
+        },
+        "sample_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "detection_frequency": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/detectionFrequency"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "uncertainty": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/uncertainty"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reported_raw_value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_censored": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "censoring_limit": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "censoring_limit_unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numeric_value_available": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "not_a_zero_concentration": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "semi_quantitative": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "value_type": {
+                "const": "range"
+              }
+            },
+            "required": [
+              "value_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "min_value": {
+                "type": "number"
+              },
+              "max_value": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "conversion_status": {
+                "const": "converted"
+              }
+            },
+            "required": [
+              "conversion_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "normalized_unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "conversion_rule_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sample_id_raw",
+        "environmental_medium",
+        "matrix",
+        "phase_fraction",
+        "sample_type",
+        "depth_raw",
+        "preservation"
+      ],
+      "properties": {
+        "sample_id_raw": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "environmental_medium": {
+          "enum": [
+            "water",
+            "sediment",
+            "soil",
+            "biota",
+            "air",
+            "sludge",
+            "wastewater",
+            "particulate",
+            "other",
+            "unknown"
+          ]
+        },
+        "matrix": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "phase_fraction": {
+          "enum": [
+            "whole",
+            "dissolved",
+            "particulate",
+            "filtered_unspecified",
+            "unfiltered",
+            "other",
+            "unknown"
+          ]
+        },
+        "sample_type": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "depth_raw": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "preservation": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "country",
+        "admin1",
+        "water_body",
+        "site_name",
+        "latitude",
+        "longitude",
+        "coordinate_source",
+        "spatial_precision"
+      ],
+      "properties": {
+        "raw_text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "country": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "admin1": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "water_body": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "site_name": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "latitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
+        },
+        "coordinate_source": {
+          "enum": [
+            "reported",
+            "geocoded",
+            "centroid",
+            "inferred",
+            "not_available"
+          ]
+        },
+        "spatial_precision": {
+          "enum": [
+            "exact_coordinate",
+            "site",
+            "water_body",
+            "city",
+            "admin1",
+            "country",
+            "unknown"
+          ]
+        },
+        "country_iso2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2}$"
+        },
+        "geocode_country_iso2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2}$"
+        },
+        "admin_hierarchy_validated": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "admin_hierarchy_consistent": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "admin_hierarchy_conflicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "latitude": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "latitude"
+            ]
+          },
+          "then": {
+            "properties": {
+              "longitude": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "longitude": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "longitude"
+            ]
+          },
+          "then": {
+            "properties": {
+              "latitude": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "samplingTime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "start_date",
+        "end_date",
+        "year",
+        "season",
+        "campaign",
+        "temporal_precision"
+      ],
+      "properties": {
+        "raw_text": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "start_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "end_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2200
+        },
+        "season": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "campaign": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "temporal_precision": {
+          "enum": [
+            "day",
+            "month",
+            "season",
+            "year",
+            "range",
+            "campaign",
+            "not_reported"
+          ]
+        }
+      }
+    },
+    "qaQc": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "blanks": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "recoveries": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "matrix_effects": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "replicates": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "internal_standards": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "acceptance_criteria": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "analyticalMethod": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method_id",
+        "raw_method_text",
+        "sample_preparation",
+        "instrument",
+        "chromatography",
+        "mass_spectrometry",
+        "analysis_scope",
+        "quantification_method",
+        "standard_method_id",
+        "qa_qc"
+      ],
+      "properties": {
+        "method_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "raw_method_text": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "sample_preparation": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "instrument": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "chromatography": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "mass_spectrometry": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "analysis_scope": {
+          "enum": [
+            "target",
+            "suspect",
+            "non_target",
+            "screening",
+            "other",
+            "unknown"
+          ]
+        },
+        "quantification_method": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "standard_method_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "qa_qc": {
+          "$ref": "#/$defs/qaQc"
+        }
+      }
+    },
+    "evidenceAnchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id",
+        "evidence_role",
+        "chunk_id",
+        "page_start",
+        "page_end",
+        "section_path",
+        "table_id",
+        "cell_refs",
+        "quote",
+        "bbox",
+        "char_start",
+        "char_end"
+      ],
+      "properties": {
+        "evidence_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "evidence_role": {
+          "enum": [
+            "concentration",
+            "analyte",
+            "unit",
+            "matrix",
+            "location",
+            "sampling_time",
+            "method",
+            "qualifier",
+            "context"
+          ]
+        },
+        "chunk_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "page_start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "page_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "section_path": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "table_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "cell_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quote": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "bbox": {
+          "oneOf": [
+            {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "minItems": 4,
+              "maxItems": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "char_start": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "char_end": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "normalization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chemical_registry_version",
+        "unit_registry_version",
+        "normalization_warnings"
+      ],
+      "properties": {
+        "chemical_registry_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "unit_registry_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "normalization_warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "fieldCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "evidence_ids",
+        "reason_codes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "entailed",
+            "contradicted",
+            "not_found",
+            "ambiguous",
+            "not_applicable"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason_codes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision",
+        "field_checks",
+        "reason_codes",
+        "requested_context",
+        "attempt",
+        "validated_at",
+        "human_review_required",
+        "human_review_triggers",
+        "human_review_status"
+      ],
+      "properties": {
+        "decision": {
+          "enum": [
+            "pending",
+            "accept",
+            "retry",
+            "escalate",
+            "reject"
+          ]
+        },
+        "field_checks": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/fieldCheck"
+          }
+        },
+        "reason_codes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "requested_context": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "attempt": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "validated_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "human_review_required": {
+          "type": "boolean"
+        },
+        "human_review_triggers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "human_review_status": {
+          "enum": [
+            "not_required",
+            "pending",
+            "approved",
+            "rejected",
+            "needs_correction"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "human_review_required": {
+                "const": true
+              }
+            },
+            "required": [
+              "human_review_required"
+            ]
+          },
+          "then": {
+            "properties": {
+              "human_review_triggers": {
+                "minItems": 1
+              },
+              "human_review_status": {
+                "enum": [
+                  "pending",
+                  "approved",
+                  "rejected",
+                  "needs_correction"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chemical_registry_snapshot_version",
+        "document_isolation_policy_version",
+        "document_session_id",
+        "parser_name",
+        "parser_version",
+        "ocr_name",
+        "ocr_version",
+        "chunker_version",
+        "extractor_prompt_version",
+        "extractor_model",
+        "validator_prompt_version",
+        "validator_model",
+        "schema_version",
+        "created_at"
+      ],
+      "properties": {
+        "document_session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "document_isolation_policy_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chemical_registry_snapshot_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parser_name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "parser_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "ocr_name": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "ocr_version": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "chunker_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "extractor_prompt_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "extractor_model": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "validator_prompt_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "validator_model": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "schema_version": {
+          "const": "1.3.0-validation-v1"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

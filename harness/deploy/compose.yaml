@@ -1,0 +1,26 @@
+services:
+  worker:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    command: ["ecmonitor-workflow", "worker"]
+    restart: unless-stopped
+    env_file:
+      - ../.env
+    environment:
+      ECMONITOR_ENVIRONMENT: staging
+      ECMONITOR_DATA_ROOT: /data
+      ECMONITOR_SOURCE_ROOT: /sources
+    volumes:
+      - workflow-data:/data
+      - ../sources:/sources:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    stop_grace_period: 30s
+volumes:
+  workflow-data:

@@ -1,0 +1,46 @@
+name: Source release checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: harness
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: harness/requirements-lock.txt
+      - name: Install release dependencies
+        run: |
+          python -m pip install -r requirements-lock.txt
+          python -m pip install --no-deps -e .
+      - name: Check schemas and publication boundary
+        run: |
+          python scripts/validate_schemas.py
+          python scripts/release_bundle.py
+      - name: Check code
+        run: |
+          python -m compileall -q src tests scripts
+          python -m ruff check src tests scripts
+          python -m mypy src
+      - name: Run tests
+        run: python -m pytest -q
+        env:
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
+      - name: Build and smoke-test container
+        working-directory: .
+        run: |
+          docker build -f harness/deploy/Dockerfile -t ecmonitor-rc1 harness
+          docker run --rm ecmonitor-rc1 ecmonitor-workflow validate-layout

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ecmonitor.local/schemas/validation/validation_outcome.schema.json",
+  "title": "Validation Outcome",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidate", "terminal_status", "coarse_disposition", "output_stream", "policy_rule_id", "reason_codes", "human_review_required"],
+  "properties": {
+    "candidate": {"type": "object"},
+    "terminal_status": {"type": "string"},
+    "coarse_disposition": {"enum": ["accepted", "rejected", "pending_human_review"]},
+    "output_stream": {"type": "string"},
+    "policy_rule_id": {"type": "string"},
+    "reason_codes": {"type": "array", "items": {"type": "string"}},
+    "human_review_required": {"type": "boolean"}
+  }
+}

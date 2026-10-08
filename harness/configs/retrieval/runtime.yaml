@@ -1,0 +1,25 @@
+runtime_version: "0.1.0"
+runtime:
+  retrieval_page_size: 20
+  normalization_batch_size: 20
+  deduplication_batch_size: 20
+  screening_batch_size: 1
+  enrichment_batch_size: 1
+  export_batch_size: 1000
+  release_memory_after_batch: true
+  release_memory_after_iteration: true
+  soft_memory_limit_mb: null
+  hard_memory_limit_mb: null
+  pause_on_soft_limit: true
+  fail_safely_on_hard_limit: true
+  memory_growth_tolerance_mb: 100
+  memory_recovery_threshold_mb: null
+  default_mock_iterations: 5
+handoff:
+  enabled: true
+  emit_after_each_screening_batch: true
+  max_pending_jobs_soft: 500
+  max_pending_jobs_hard: 2000
+  pause_retrieval_at_iteration_boundary: true
+  continue_if_downloader_offline: true
+  dead_letter_after_attempts: 5

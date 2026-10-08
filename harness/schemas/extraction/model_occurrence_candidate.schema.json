@@ -1,0 +1,588 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ecmonitor.local/schemas/extraction/model_occurrence_candidate.schema.json",
+  "title": "ECMonitor Model Occurrence Candidate v2",
+  "description": "Compact evidence-backed candidate emitted by extractor v2. The harness adds lineage, policy terminal states, geocoding validation, and chemical registry results deterministically.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observation_type",
+    "analyte",
+    "result",
+    "sample",
+    "location",
+    "sampling_time",
+    "analytical_method",
+    "evidence"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "observation_type": {
+      "enum": [
+        "field_measurement",
+        "laboratory_measurement",
+        "method_validation",
+        "toxicology_exposure",
+        "modeled_value",
+        "risk_threshold",
+        "literature_summary",
+        "unknown"
+      ]
+    },
+    "analyte": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_name",
+        "specificity_status",
+        "is_individual_chemical"
+      ],
+      "properties": {
+        "raw_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "proposed_canonical_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "matched_alias": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alias_type": {
+          "enum": [
+            "preferred",
+            "synonym",
+            "abbreviation",
+            "trade_name",
+            "document_local",
+            "proposed",
+            "unknown",
+            null
+          ]
+        },
+        "specificity_status": {
+          "enum": [
+            "individual_chemical",
+            "class_or_family",
+            "sum_or_total_parameter",
+            "mixture_or_product",
+            "polymer_or_particle_category",
+            "unspecified_metabolite",
+            "ambiguous",
+            "unknown"
+          ]
+        },
+        "transformation_product_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Parent emerging contaminant this analyte is a transformation/intermediate/metabolite product of. Null for parent compounds and non-transformation analytes."
+        },
+        "is_individual_chemical": {
+          "type": "boolean"
+        },
+        "identification_level": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_tentative": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "canonical_name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Unified preferred display name when supported; never guessed."
+        },
+        "replacement_name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Canonical display name replacing the reported abbreviation/synonym when validated."
+        }
+      }
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_value",
+        "raw_unit",
+        "qualifier",
+        "statistic"
+      ],
+      "properties": {
+        "raw_value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw_unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "range_low": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "range_high": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "qualifier": {
+          "enum": [
+            "exact",
+            "less_than",
+            "less_than_or_equal",
+            "greater_than",
+            "not_detected",
+            "not_quantified",
+            "range",
+            "unknown"
+          ]
+        },
+        "statistic": {
+          "enum": [
+            "single",
+            "mean",
+            "median",
+            "minimum",
+            "maximum",
+            "range",
+            "percentile",
+            "frequency",
+            "unknown"
+          ]
+        },
+        "uncertainty_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basis_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "detection_frequency_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reported_raw_value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Exact source value before deterministic censoring materialization."
+        },
+        "is_censored": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "censoring_limit": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "censoring_limit_unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numeric_value_available": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "not_a_zero_concentration": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "semi_quantitative": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "sample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "matrix_raw"
+      ],
+      "properties": {
+        "matrix_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "matrix_normalized": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "phase_or_fraction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sample_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "species_or_tissue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "site_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "waterbody": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "city": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "admin1": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "country": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
+        },
+        "location_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "geocode_source": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "city",
+            "admin1",
+            "country",
+            null
+          ]
+        },
+        "geocode_matched_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "country_iso2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2}$"
+        },
+        "geocode_country_iso2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Z]{2}$"
+        },
+        "admin_hierarchy_validated": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "admin_hierarchy_consistent": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "admin_hierarchy_conflicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "sampling_time": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "raw_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2100
+        },
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "reported",
+            "publication_year_fallback",
+            "unknown",
+            null
+          ]
+        },
+        "approximate": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "analytical_method": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "method_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sample_preparation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extraction_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "separation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "instrument": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "detection_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lod_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "loq_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quote"
+      ],
+      "properties": {
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200
+        },
+        "chunk_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "page_start": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "page_end": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "table_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "table_caption": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "row_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "column_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relation_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "quality_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

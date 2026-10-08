@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ecmonitor.local/schemas/common/task_envelope.schema.json",
+  "title": "ECMonitor Task Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "task_id", "workflow_run_id", "document_id",
+    "from_agent", "to_agent", "task_type", "idempotency_key",
+    "attempt", "created_at", "status", "correlation_id", "causation_id",
+    "priority", "payload", "artifact_refs", "policy_version"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "minLength": 1},
+    "workflow_run_id": {"type": "string", "minLength": 1},
+    "document_id": {"type": ["string", "null"]},
+    "from_agent": {"enum": ["retrieval", "download", "extraction", "validation", "orchestrator", "human"]},
+    "to_agent": {"enum": ["retrieval", "download", "extraction", "validation", "orchestrator", "human"]},
+    "task_type": {"type": "string", "minLength": 1},
+    "idempotency_key": {"type": "string", "minLength": 1},
+    "attempt": {"type": "integer", "minimum": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["pending", "leased", "running", "completed", "failed_retryable", "failed_terminal", "cancelled"]},
+    "correlation_id": {"type": ["string", "null"]},
+    "causation_id": {"type": ["string", "null"]},
+    "priority": {"type": "integer", "minimum": 0},
+    "payload": {"type": "object"},
+    "artifact_refs": {"type": "array", "items": {"type": "string"}},
+    "policy_version": {"type": ["string", "null"]}
+  }
+}
