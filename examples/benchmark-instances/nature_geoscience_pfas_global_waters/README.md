@@ -1,53 +1,15 @@
-# Nature Geoscience PFAS Global Waters Example
+# PFAS in Global Surface Waters and Groundwaters
 
-## Benchmark source
+## Publication
 
-- Benchmark family: `Nature2024`
-- Benchmark paper:
-  - `Underestimated burden of per- and polyfluoroalkyl substances in global surface waters and groundwaters`
-  - DOI: `10.1038/s41561-024-01402-8`
-- Extraction style: record-level or observation-level reconstruction
-- Example literature paper used here:
-  - `Pilot Investigation of Perfluorinated Compounds in River Water, Sediment, Soil and Fish in Tianjin, China`
-  - DOI: `10.1007/s00128-011-0313-0`
+Ackerman Grunfeld, D., Gilbert, D., Hou, J. et al. (2024). [“Underestimated burden of per- and polyfluoroalkyl substances in global surface waters and groundwaters.”](https://doi.org/10.1038/s41561-024-01402-8) *Nature Geoscience* 17, 340–346. DOI: `10.1038/s41561-024-01402-8`.
 
-## Why this example was chosen
+## Published scope
 
-The benchmark paper collates PFAS occurrence data from global surface-water and groundwater literature. The worked example in this folder uses one source paper from that reconstructed literature set because it clearly shows how a single paper expands into many record-level rows.
+The study collates PFAS concentration measurements from published surface-water and groundwater studies worldwide. It examines their distribution and compares reported concentrations with selected drinking-water guidance values. The authors also discuss how the limited range of PFAS commonly measured can affect estimates of environmental burden.
 
-This source paper is a strong Nature-style example because it contains dense tabular monitoring data across multiple media:
+## Why it appears here
 
-- river water
-- soil
-- sediment
-- fish
+This publication illustrates literature data with measurements reported across multiple chemicals, locations, sampling times, and water types. A cited source study, [“Pilot Investigation of Perfluorinated Compounds in River Water, Sediment, Soil and Fish in Tianjin, China”](https://doi.org/10.1007/s00128-011-0313-0), is used in the illustrative JSON file to show why the environmental matrix must remain attached to each value.
 
-It demonstrates why Nature-style extraction needs very fine row splitting:
-
-- one pollutant
-- one matrix
-- one location
-- one sampling slice
-- one reported value
-
-## What the study is about
-
-The study investigates perfluorinated compounds in multiple environmental media in Tianjin, China. It reports measured concentrations across site-level monitoring tables and can be reconstructed into hundreds of record-level rows.
-
-## Demonstration scope
-
-This example is drawn from the full Nature-style database rebuild for the Nature Geoscience PFAS benchmark, which currently contains:
-
-- `327` source papers
-- `1055` extracted records
-
-The sample file in this folder shows just a few rows from one high-quality paper so the extraction shape is easy to inspect.
-
-## Included files
-
-- `prompt.md`
-- `sample_records.json`
-
-## Local source used for the sample
-
-- `/mnt/d/paper_data/pdf/Nature/extracted_json/10.1007_s00128-011-0313-0.json`
+The accompanying `prompt.md` and `sample_records.json` are examples for inspecting a possible record format. They are not the publication's complete dataset or a report of ECMonitor benchmark performance. Consult the original articles for authoritative measurements.
