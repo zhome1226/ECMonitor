@@ -7,13 +7,13 @@ Primary objective:
 
 - preserve every monitoring row from the benchmark table
 - resolve each short reference to the best available full reference
-- backfill DOI and URL from the mapping document first
+- verify source DOIs and URLs against the cited literature and public bibliographic records
 
 Rules:
 
 - the benchmark article DOI must never be reused as a source DOI
 - source-table values are authoritative over narrative descriptions
-- if the mapping document has no DOI, leave DOI blank
+- if a source DOI cannot be verified, leave it blank
 - unresolved or ambiguous references must be carried into a separate unresolved output
 
 Always preserve:
