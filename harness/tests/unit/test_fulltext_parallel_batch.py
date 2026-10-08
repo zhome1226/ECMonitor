@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import threading
 from pathlib import Path
 from typing import Any
 
@@ -191,26 +192,36 @@ def test_concurrency_governor_validation() -> None:
 
 
 class StrainHarness:
-    """Fails the first ``n`` documents with transport errors, then succeeds."""
+    """Fail the first attempt for ``n`` distinct documents, then succeed."""
 
     def __init__(self, control_plane: FakeControlPlane, strain_count: int) -> None:
         self.control_plane = control_plane
         self.strain_count = strain_count
         self.calls: list[Path] = []
         self.attempts = 0
+        self._strained_paths: set[Path] = set()
+        self._lock = threading.Lock()
 
     def run_document(
         self, pdf_path: Path, *, bibliographic_metadata: dict[str, Any] | None = None
     ) -> DocumentRunReport:
         resolved = pdf_path.resolve()
-        self.calls.append(resolved)
-        if len(self.calls) <= self.strain_count:
-            self.attempts += 1
+        with self._lock:
+            self.calls.append(resolved)
+            session_number = len(self.calls)
+            should_strain = (
+                resolved not in self._strained_paths
+                and len(self._strained_paths) < self.strain_count
+            )
+            if should_strain:
+                self._strained_paths.add(resolved)
+                self.attempts += 1
+        if should_strain:
             raise RuntimeError("model transport failed: read timed out")
         self.control_plane.committed.add(str(resolved))
         return DocumentRunReport(
             document_id=resolved.stem,
-            document_session_id=f"session-{len(self.calls)}",
+            document_session_id=f"session-{session_number}",
             source_path=str(resolved),
             source_sha256="sha256",
             registry_snapshot_version=0,
