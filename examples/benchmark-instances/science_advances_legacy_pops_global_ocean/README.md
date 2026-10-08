@@ -1,41 +1,15 @@
-# Science Advances Legacy POPs Global Ocean Example
+# Legacy POPs in the Global Ocean
 
-## Benchmark source
+## Publication
 
-- Benchmark family: `ScienceAdv2024`
-- Benchmark paper:
-  - `Exploring global oceanic persistence and ecological effects of legacy persistent organic pollutants across five decades`
-  - DOI: `10.1126/sciadv.ado5534`
-- Extraction style: synthesis-level region × period × pollutant-group reconstruction with ecological risk notes
+Zhang, X., Li, L., Xie, Z. et al. (2024). [“Exploring global oceanic persistence and ecological effects of legacy persistent organic pollutants across five decades.”](https://doi.org/10.1126/sciadv.ado5534) *Science Advances* 10(39), eado5534. DOI: `10.1126/sciadv.ado5534`.
 
-## Why this example was chosen
+## Published scope
 
-This paper is a strong Science-style benchmark for ECMonitor because it is not a single-site monitoring article. Instead, it synthesizes a very large global marine evidence base and turns it into temporal trend, spatial persistence, and ecological effect statements.
+This review compiles published measurements of legacy persistent organic pollutants (POPs) in marine environments from 1980 to 2023. It examines geographic and temporal patterns and discusses potential ecological effects. The measurement counts and trends described in the article belong to the cited study; they are not ECMonitor output.
 
-That makes it useful for testing the middle layer between raw observation extraction and benchmark-table rebuilding:
+## Why it appears here
 
-- study-level metadata still matters
-- pollutant-group identity matters
-- geographic scope and time windows matter
-- trend and risk statements must be preserved with figure-level provenance
+The article illustrates the distinction between source measurements and a paper's synthesis of those measurements. Geographic scope, time period, pollutant group, and the location of supporting evidence all matter when describing a synthesis statement.
 
-## What the benchmark is about
-
-The paper compiles more than `10,000` legacy POP measurements from global marine environments from `1980` to `2023`, examines long-term persistence across ocean regions, and highlights ecological implications where cumulative legacy POP risk remains elevated.
-
-## Demonstration scope
-
-This example focuses on synthesis rows rather than raw source-paper rows. The intended output shape is:
-
-- pollutant group
-- matrix or environmental compartment
-- geographic scope
-- temporal window
-- reported trend or summary signal
-- ecological risk note when explicit
-- figure or section provenance
-
-## Included files
-
-- `prompt.md`
-- `sample_results.json`
+The accompanying `prompt.md` and `sample_results.json` illustrate a possible structured summary format. They are not the article's complete dataset or a report of ECMonitor benchmark performance. Consult the article and its supplementary tables for the original data and interpretations.
