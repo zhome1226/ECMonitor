@@ -1,42 +1,15 @@
-# EST / TFA Reference-Rebuild Example
+# Trifluoroacetic Acid in the Environment
 
-## Benchmark source
+## Publication
 
-- Benchmark family: `EST / TFA`
-- Benchmark paper:
-  - `The global threat from the irreversible accumulation of trifluoroacetic acid (TFA)`
-  - DOI: `10.1021/acs.est.4c06189`
-- Extraction style: benchmark-table rebuild with reference resolution
+Arp, H. P. H., Gredelj, A., Glüge, J., Scheringer, M., and Cousins, I. T. (2024). [“The Global Threat from the Irreversible Accumulation of Trifluoroacetic Acid (TFA).”](https://doi.org/10.1021/acs.est.4c06189) *Environmental Science & Technology* 58(45), 19925–19935. DOI: `10.1021/acs.est.4c06189`.
 
-## Why this example was chosen
+## Published scope
 
-This case is structurally different from Nature and Science.
+This Perspective discusses sources, environmental persistence, increasing exposure, and potential effects of trifluoroacetic acid (TFA). Its public supporting information includes a collection of monitoring data from environmental media such as precipitation and water.
 
-Here, the row-level truth does not come from many PDFs directly. Instead:
+## Why it appears here
 
-- `Table S1` is the row source
-- the main paper reference list resolves short citations into fuller references
-- a separate mapping document resolves title, DOI, and URL
+The published supporting information illustrates literature data that link monitoring values with source references. Keeping the source article, environmental medium, reported statistic, and unit together is important for interpreting each entry.
 
-That makes it an ideal example for showing ECMonitor's reference-resolution mode.
-
-## What the benchmark is about
-
-The benchmark focuses on the environmental monitoring history of trifluoroacetic acid (TFA) across media such as precipitation and waters, while also preserving temporal grouping such as `pre_2010` and `post_2010`.
-
-## Demonstration scope
-
-This example comes from the completed EST / TFA rebuild, which currently contains:
-
-- `169` monitoring rows
-- `168` DOI backfills
-- `1` unresolved grey-literature record
-
-## Included files
-
-- `prompt.md`
-- `sample_rows.json`
-
-## Local source used for the sample
-
-- `/mnt/c/Users/Administrator/codex/projects/tfa_est_rebuild/tfa_literature_database_rebuilt.xlsx`
+The accompanying `prompt.md` and `sample_rows.json` illustrate a possible row format. They are not the article's complete supporting dataset or a report of ECMonitor benchmark performance. Consult the publication and its supporting information for original values and references.
