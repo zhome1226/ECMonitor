@@ -1,0 +1,62 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 4689,
+    "sha256": "6a57133c4706e886730a78506f8e8f284f10524dcabce5cd5db8989d296d161a"
+  },
+  {
+    "path": "analysis/input/chemical_identity_model_input.csv",
+    "bytes": 40527,
+    "sha256": "d0d4fe306b372022eb529a9f48490b8210f396685f591a82c7f854aa82905f38"
+  },
+  {
+    "path": "analysis/recognition_study_count.py",
+    "bytes": 8728,
+    "sha256": "1e2dfbcf24ccc712a640f39650d865a755d678728279ded4446ad12be70d843f"
+  },
+  {
+    "path": "analysis/reference_results/model_results.json",
+    "bytes": 12160,
+    "sha256": "4f7541e81552c0486591823cb11f98a5babbef7a74a4126d20e65976cccac55e"
+  },
+  {
+    "path": "analysis/reference_results/posterior_rate_ratio_draws.npz",
+    "bytes": 1066008,
+    "sha256": "801db53e408df237b67f22eb48d61c36d9d75b0a5e8371c316fcc9f029570516"
+  },
+  {
+    "path": "analysis/reference_results/table_s6.csv",
+    "bytes": 5333,
+    "sha256": "457f5a2cf3e34e47d3f793ae6978969a702bc80c93ec9cb50d4d6e1ebacc3d24"
+  },
+  {
+    "path": "analysis/verify_results.py",
+    "bytes": 1398,
+    "sha256": "f2c01889d76f4a01201c070f4a6cb9e9bdf02a6bf0fd834cabe82754ad28be54"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 27,
+    "sha256": "6e69ffe6f7841e5d8aea3f05a4bf77c60055d3b0717fcccbb31fd19647e07b7b"
+  },
+  {
+    "path": "retrieval/executed_queries.csv",
+    "bytes": 7545,
+    "sha256": "34d6c7ea400f4440e8873e6b6460a588ea6ba5b57f8a23d55c619b88c22632a3"
+  },
+  {
+    "path": "retrieval/executed_queries.json",
+    "bytes": 12502,
+    "sha256": "756ada7169ec9b2034b452a302bd602486d5e476cd8fe244ad38647bbeef48c1"
+  },
+  {
+    "path": "retrieval/executed_queries.md",
+    "bytes": 6215,
+    "sha256": "12448496c61d104463eed51f8606b118c8f4420105a3dbad901b945ab6ddb750"
+  },
+  {
+    "path": "verification.json",
+    "bytes": 493,
+    "sha256": "a4f6913eae35de928005c4ec220889ed994eb44a2432b034bd705cedcc62e529"
+  }
+]

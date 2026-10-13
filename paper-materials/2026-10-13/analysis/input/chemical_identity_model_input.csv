@@ -1,0 +1,387 @@
+row_order,chemical_id,canonical_name,n_studies,external_recognition_status,group_code,display_category,broad_category
+1,SUPPCHEM001,"(2,4-Dichlorophenoxy)Acetic Acid",1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+2,CHEM0001,"(3-((6-Chloropyridin-3-yl)methyl)-1,3-thiazolidin-2-ylidene)cyanamide",2,no_identified_list_coverage,4,Plant protection products,Plant protection products
+3,SUPPCHEM002,(4-chloro-2-Methylphenoxy)acetic acid,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+4,CHEM0002,(Aminomethyl)phosphonic acid,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+5,CHEM0003,"1,1,2,2-Tetrahydroperfluoro-1-decanol",1,formally_listed_or_prioritized,0,Multiple categories,Other
+6,CHEM0004,"1-Propanol, 3-chloro-, phosphate (3:1)",1,no_identified_list_coverage,4,Unclassified,Other
+7,CHEM0005,"10,11-Dihydroxycarbamazepine",1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+8,CHEM0006,102Fta,2,formally_listed_or_prioritized,0,Multiple categories,Other
+9,CHEM0007,11-Chloroperfluoro-3-oxaundecanesulfonic acid,3,drinking_water_candidate_or_monitoring_concern,2,PFAS,PFAS
+10,CHEM0008,16-Hydroxyhexadecanoic acid,1,no_identified_list_coverage,4,Unclassified,Other
+11,CHEM0009,17α-Ethinylestradiol,3,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+12,CHEM0010,17β-Estradiol,6,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+13,CHEM0011,1H-Benzotriazole,6,supporting_ecotoxicity_evidence_only,3,Industrial chemicals,Industrial chemicals
+14,CHEM0012,"2,2,3,3-Tetrafluoro-3-(trifluoromethoxy)propanoic acid",1,drinking_water_candidate_or_monitoring_concern,2,PFAS,PFAS
+15,CHEM0013,"2,3,3,3-Tetrafluoro-2-(heptafluoropropoxy)propionic acid",4,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+16,SUPPCHEM003,"2,3,5,6-Tetrachloroaniline",1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+17,CHEM0014,"2,4-Dinitrophenol",1,formally_listed_or_prioritized,0,Multiple categories,Other
+18,CHEM0015,"2-((6-Chloro-1,1,2,2,3,3,4,4,5,5,6,6-dodecafluorohexyl)oxy)-1,1,2,2-tetrafluoroethanesulfonic acid",6,drinking_water_candidate_or_monitoring_concern,2,PFAS,PFAS
+19,CHEM0016,"2-(Tert-butylimino)-5-phenyl-3-(propan-2-yl)-1,3,5-thiadiazinan-4-one",1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+20,CHEM0017,2-Aminobenzimidazole,2,no_identified_list_coverage,4,Plant protection products,Plant protection products
+21,CHEM0018,2-Dodecylbenzenesulfonic acid,1,no_identified_list_coverage,4,Unclassified,Other
+22,CHEM0019,2-Ethylhexyl diphenyl phosphate,1,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+23,SUPPCHEM004,2-Hydroxy-4-methoxybenzophenone,1,surface_water_monitoring_concern,1,Personal care products,Other
+24,CHEM0020,2-Hydroxyatrazine,1,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+25,CHEM0021,2-Hydroxypropazine,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+26,CHEM0022,2-Methylnaphthalene,1,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+27,SUPPCHEM005,2-Phenylphenol,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+28,CHEM0023,"3'-Hydroxycotinine, trans-",1,no_identified_list_coverage,4,Unclassified,Other
+29,CHEM0024,"3,3,4,4,5,5,6,6,7,7,8,8,8-Tridecafluorooctan-1-ol",1,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+30,CHEM0025,"3,3,4,4,5,5,6,6,7,7,8,8,8-Tridecafluorooctanoic acid",3,no_identified_list_coverage,4,Multiple categories,Other
+31,CHEM0026,4-(Formylamino)antipyrine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+32,CHEM0027,"4-(Perfluoro(2,2-bis(1-methylethyl)(1-methyl)ethen-1-yloxy))benzenesulfonic acid",1,no_identified_list_coverage,4,PFAS,PFAS
+33,CHEM0028,4-Acetylaminoantipyrine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+34,CHEM0029,4-Amino-N-((1-ethyl-1-oxido-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-2-methoxybenzamide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+35,SUPPCHEM006,4-Chloroaniline,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+36,CHEM0030,4-Chlorophenol,1,no_identified_list_coverage,4,Multiple categories,Other
+37,CHEM0031,4-Nonylphenol,2,formally_listed_or_prioritized,0,Industrial chemicals,Industrial chemicals
+38,CHEM0032,4-n-Octylphenol,1,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+39,CHEM0033,4:2 Fluorotelomer sulfonate,1,no_identified_list_coverage,4,Unclassified,Other
+40,CHEM0034,4:2 fluorotelomer sulfonic acid,1,drinking_water_candidate_or_monitoring_concern,2,PFAS,PFAS
+41,SUPPCHEM007,5-Methyl-1H-benzotriazole,1,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+42,CHEM0035,6:2 diPAP,1,no_identified_list_coverage,4,Multiple categories,Other
+43,CHEM0036,6:2 fluorotelomer sulfonic acid,8,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+44,CHEM0037,8:2 Fluorotelomer carboxylic acid,1,formally_listed_or_prioritized,0,Multiple categories,Other
+45,CHEM0038,8:2 Fluorotelomer phosphate diester,1,formally_listed_or_prioritized,0,Multiple categories,Other
+46,CHEM0039,8:2 Fluorotelomer phosphate monoester,1,formally_listed_or_prioritized,0,Multiple categories,Other
+47,CHEM0040,ADONA,1,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+48,CHEM0041,Acesulfame,1,supporting_ecotoxicity_evidence_only,3,Food additives,Other
+49,CHEM0042,Acetaminophen,7,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+50,CHEM0043,Acetochlor,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+51,CHEM0044,Acetylsalicylic acid,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+52,SUPPCHEM008,Alachlor,1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+53,SUPPCHEM009,Alpha-Cypermethrin,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+54,CHEM0045,Amantadine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+55,SUPPCHEM010,Ametryne,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+56,SUPPCHEM011,Amlodipine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+57,CHEM0046,"Perfluoro-2,5-dimethyl-3,6-dioxanonanoic acid",4,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+58,CHEM0047,Amoxicillin,3,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+59,CHEM0048,Androstenedione,1,no_identified_list_coverage,4,Steroids and hormones,Other
+60,CHEM0049,Anhydroerythromycin,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+61,SUPPCHEM012,Anthraquinone,1,drinking_water_candidate_or_monitoring_concern,2,Industrial chemicals,Industrial chemicals
+62,CHEM0050,Antipyrine,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+63,CHEM0051,Atenolol,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+64,SUPPCHEM013,Atenolol acid,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+65,SUPPCHEM014,Atorvastatin,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+66,CHEM0052,Atrazine,6,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+67,CHEM0053,Azithromycin,3,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+68,CHEM0054,Azoxystrobin,4,surface_water_monitoring_concern,1,Multiple categories,Other
+69,CHEM0055,Azoxystrobin acid,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+70,CHEM0056,Benomyl,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+71,CHEM0057,Bentazon,2,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+72,CHEM0058,Benzo(d)thiazol-2-amine,1,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+73,CHEM0059,Benzoic Acid,1,no_identified_list_coverage,4,Multiple categories,Other
+74,CHEM0060,Benzophenone,1,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+75,SUPPCHEM015,Benzoylecgonine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+76,CHEM0061,Bis(2-butoxyethyl) phthalate,1,no_identified_list_coverage,4,Multiple categories,Other
+77,CHEM0062,Bis(2-methoxyethyl) Phthalate,1,no_identified_list_coverage,4,Multiple categories,Other
+78,CHEM0063,Bis(4-hydroxyphenyl)methane,1,supporting_ecotoxicity_evidence_only,3,Industrial chemicals,Industrial chemicals
+79,CHEM0064,Bisoprolol,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+80,CHEM0065,Bisphenol A,12,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+81,SUPPCHEM016,Boscalid,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+82,SUPPCHEM017,Bromacil,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+83,SUPPCHEM018,Bromopropylate,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+84,SUPPCHEM019,Bromoxynil,1,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+85,SUPPCHEM020,Bupirimate,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+86,CHEM0066,Butyl Benzyl Phthalate,4,formally_listed_or_prioritized,0,Multiple categories,Other
+87,CHEM0067,Caffeine,9,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+88,CHEM0068,Captafol,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+89,CHEM0069,Carbamazepine,9,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+90,SUPPCHEM021,Carbamazepine epoxide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+91,CHEM0070,Carbaryl,3,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+92,CHEM0071,Carbendazim,5,no_identified_list_coverage,4,Multiple categories,Other
+93,CHEM0072,Chloramphenicol,3,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+94,CHEM0073,Chlorantraniliprole,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+95,SUPPCHEM022,Chlorfenapyr,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+96,SUPPCHEM023,Chloroneb,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+97,CHEM0074,Chlorothalonil,2,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+98,CHEM0075,Chlorpyrifos,7,formally_listed_or_prioritized,0,Multiple categories,Other
+99,CHEM0076,Cimetidine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+100,CHEM0077,Ciprofloxacin,5,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+101,CHEM0078,Citalopram,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+102,CHEM0079,Clarithromycin,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+103,CHEM0080,Climbazole,1,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+104,CHEM0081,Clindamycin,1,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+105,SUPPCHEM024,Clothianidin,2,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+106,SUPPCHEM025,Clotrimazole,1,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+107,SUPPCHEM026,Codeine,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+108,CHEM0082,Cotinine,3,supporting_ecotoxicity_evidence_only,3,Stimulants,Other
+109,CHEM0083,Cresyl diphenyl phosphate,2,no_identified_list_coverage,4,Unclassified,Other
+110,CHEM0084,Cymoxanil,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+111,CHEM0085,Cypermethrin,4,formally_listed_or_prioritized,0,Multiple categories,Other
+112,SUPPCHEM027,Cyprodinil,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+113,CHEM0086,Deethylatrazine,2,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+114,CHEM0087,Deisopropylatrazine,1,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+115,CHEM0088,Deltamethrin,1,no_identified_list_coverage,4,Multiple categories,Other
+116,CHEM0089,Desaminometamitron,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+117,CHEM0090,Desethylterbuthylazine,2,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+118,CHEM0091,Dextromethorphan,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+119,CHEM0092,Di(2-ethylhexyl) phthalate,9,formally_listed_or_prioritized,0,Multiple categories,Other
+120,CHEM0093,Diallyl Phthalate,1,no_identified_list_coverage,4,Plasticisers,Other
+121,SUPPCHEM028,Diazepam,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+122,SUPPCHEM029,Diazinon,2,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+123,CHEM0094,Dibenzyl Phthalate,1,no_identified_list_coverage,4,Unclassified,Other
+124,CHEM0095,Dibutyl Phthalate,10,formally_listed_or_prioritized,0,Multiple categories,Other
+125,CHEM0096,Diclofenac,3,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+126,SUPPCHEM030,Diclofenac sodium,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+127,SUPPCHEM031,Dieldrin,2,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+128,CHEM0097,Diethofencarb,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+129,CHEM0098,Diethyl Phthalate,8,formally_listed_or_prioritized,0,Multiple categories,Other
+130,SUPPCHEM032,Difenoconazole,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+131,CHEM0099,Difloxacin,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+132,CHEM0100,Dihexyl Phthalate,1,no_identified_list_coverage,4,Multiple categories,Other
+133,CHEM0101,Diisobutyl phthalate,5,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+134,CHEM0102,Diisononyl phthalate,1,no_identified_list_coverage,4,Plasticisers,Other
+135,CHEM0103,Diisopropyl Phthalate,1,no_identified_list_coverage,4,Multiple categories,Other
+136,CHEM0104,Dimethenamid,2,no_identified_list_coverage,4,Plant protection products,Plant protection products
+137,CHEM0105,Dimethoate,2,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+138,CHEM0106,Dimethyl Phthalate,6,formally_listed_or_prioritized,0,Multiple categories,Other
+139,CHEM0107,Dimoxystrobin,1,surface_water_monitoring_concern,1,Plant protection products,Plant protection products
+140,CHEM0108,Dinoterb,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+141,CHEM0109,Dipentyl Phthalate,1,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+142,CHEM0110,Diphenhydramine,3,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+143,CHEM0111,Diphenyl Phthalate,1,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+144,CHEM0112,Diuron,2,formally_listed_or_prioritized,0,Multiple categories,Other
+145,CHEM0113,Doxycycline,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+146,SUPPCHEM034,Efavirenz,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+147,SUPPCHEM035,Emtricitabine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+148,SUPPCHEM036,Enalapril,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+149,SUPPCHEM037,Endosulfan sulfate,1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+150,SUPPCHEM038,Endrin,1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+151,CHEM0114,Enoxacin,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+152,CHEM0115,Enrofloxacin,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+153,CHEM0116,Erythromycin,5,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+154,SUPPCHEM039,Erythromycin hydrate,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+155,CHEM0117,Escitalopram,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+156,CHEM0118,Esmolol,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+157,CHEM0119,Estradiol Hemihydrate,1,no_identified_list_coverage,4,Unclassified,Other
+158,CHEM0120,Estriol,3,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+159,CHEM0121,Estrone,7,no_identified_list_coverage,4,Multiple categories,Other
+160,SUPPCHEM040,Ethion,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+161,SUPPCHEM041,Ethoprophos,1,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+162,SUPPCHEM042,Fenamiphos,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+163,CHEM0122,Fenarimol,2,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+164,SUPPCHEM043,Fenitrothion,2,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+165,CHEM0123,Fenvalerate,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+166,CHEM0124,Fexofenadine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+167,CHEM0125,Fipronil,3,surface_water_monitoring_concern,1,Multiple categories,Other
+168,CHEM0126,Florfenicol,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+169,CHEM0127,Fluconazole,1,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+170,CHEM0128,Fludioxonil,2,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+171,CHEM0129,Flumequine,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+172,SUPPCHEM044,Fluopyram,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+173,CHEM0130,Fluoxastrobin,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+174,CHEM0131,Fluridone,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+175,SUPPCHEM045,Flusilazole,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+176,CHEM0132,Flutolanil,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+177,SUPPCHEM046,Flutriafol,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+178,SUPPCHEM047,Fluxapyroxad,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+179,SUPPCHEM048,Furosemide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+180,CHEM0133,Gabapentin,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+181,SUPPCHEM049,Galaxolide,1,supporting_ecotoxicity_evidence_only,3,Industrial chemicals,Industrial chemicals
+182,CHEM0134,Gemfibrozil,3,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+183,SUPPCHEM050,Glyburide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+184,CHEM0135,Glyphosate,3,no_identified_list_coverage,4,Plant protection products,Plant protection products
+185,CHEM0136,Griseofulvin,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+186,CHEM0137,Halosulfuron-methyl,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+187,SUPPCHEM051,Hexachlorobenzene,1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+188,SUPPCHEM052,Hydrocortisone,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+189,CHEM0138,Hydroxysimazine,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+190,CHEM0139,"Ibuprofen, (+-)-",5,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+191,CHEM0140,Imazapyr,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+192,CHEM0141,Imidacloprid,6,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+193,CHEM0142,Indoxacarb,1,no_identified_list_coverage,4,Multiple categories,Other
+194,SUPPCHEM054,Iprovalicarb,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+195,CHEM0143,Irbesartan,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+196,CHEM0144,Ketoconazole,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+197,SUPPCHEM055,Ketoprofen,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+198,CHEM0145,Lamotrigine,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+199,CHEM0146,Lignocaine N-oxide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+200,CHEM0147,Lincomycin,3,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+201,CHEM0148,Lomefloxacin,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+202,CHEM0149,Lopinavir,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+203,SUPPCHEM056,Lorazepam,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+204,CHEM0150,Losartan,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+205,CHEM0151,Malathion,5,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+206,SUPPCHEM057,Meclofenamic acid,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+207,CHEM0152,Mefenamic Acid,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+208,SUPPCHEM058,Mefloquine hydrochloride,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+209,CHEM0153,Meperidine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+210,CHEM0154,Metalaxyl,4,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+211,CHEM0155,Metazachlor,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+212,CHEM0156,Metformin,5,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+213,SUPPCHEM059,Methocarbamol,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+214,CHEM0157,Methomyl,1,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+215,CHEM0158,Methoxychlor,1,formally_listed_or_prioritized,0,Multiple categories,Other
+216,CHEM0159,Methyl Parathion,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+217,CHEM0160,Methyldesphenylchloridazon,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+218,CHEM0161,Metolachlor,5,no_identified_list_coverage,4,Plant protection products,Plant protection products
+219,CHEM0162,Metolachlor ethanesulfonic acid,2,no_identified_list_coverage,4,Plant protection products,Plant protection products
+220,CHEM0163,Metolachlor morpholinone,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+221,CHEM0164,Metoprolol,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+222,CHEM0165,Metribuzin,3,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+223,SUPPCHEM060,Metronidazole,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+224,CHEM0166,Miconazole,1,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+225,CHEM0167,Mono[2-(perfluorohexyl)ethyl] phosphate,1,no_identified_list_coverage,4,Multiple categories,Other
+226,CHEM0168,Monobenzyl phthalate,1,no_identified_list_coverage,4,Plasticiser transformation products,Other
+227,SUPPCHEM061,Musk ketone,1,supporting_ecotoxicity_evidence_only,3,Personal care products,Other
+228,SUPPCHEM062,Myclobutanil,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+229,CHEM0169,"N,N-Didesmethylvenlafaxine",1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+230,CHEM0170,"N,N-diethyl-m-toluamide",8,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+231,CHEM0171,N-Methyl-N-((perfluorobutyl)sulfonyl)glycine,2,no_identified_list_coverage,4,Multiple categories,Other
+232,CHEM0172,N-Nitrosodimethylamine,2,formally_listed_or_prioritized,0,Disinfection by-products,Other
+233,SUPPCHEM063,N4-acetylsulfamethoxazole,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+234,CHEM0173,Naproxen,3,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+235,CHEM0174,"Naproxen, (-)-",1,no_identified_list_coverage,4,Unclassified,Other
+236,SUPPCHEM064,Nevirapine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+237,CHEM0175,Nicosulfuron,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+238,SUPPCHEM065,Nicotine,2,no_identified_list_coverage,4,Drugs of abuse,Other
+239,SUPPCHEM066,Nitrofen,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+240,CHEM0176,Nonylphenol,4,drinking_water_candidate_or_monitoring_concern,2,Unclassified,Other
+241,CHEM0177,Nonylphenol monocarboxylate,1,no_identified_list_coverage,4,Unclassified,Other
+242,CHEM0178,Norfloxacin,3,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+243,CHEM0179,O-Cresol,1,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+244,CHEM0180,Ofloxacin,5,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+245,SUPPCHEM067,Omeprazole,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+246,CHEM0181,Omethoate,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+247,CHEM0182,Oxadiazon,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+248,CHEM0183,Oxazepam,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+249,CHEM0184,Oxcarbazepine,3,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+250,CHEM0185,Oxolinic Acid,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+251,CHEM0186,Oxycodone,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+252,CHEM0187,Oxytetracycline,3,no_identified_list_coverage,4,Unclassified,Other
+253,CHEM0188,Paraxanthine,3,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+254,CHEM0189,Penconazole,2,surface_water_monitoring_concern,1,Plant protection products,Plant protection products
+255,SUPPCHEM068,Pendimethalin,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+256,SUPPCHEM069,Pentachloroaniline,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+257,SUPPCHEM070,Pentachloroanisole,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+258,SUPPCHEM071,Pentachlorobenzene,1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+259,SUPPCHEM072,Pentachlorobenzonitrile,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+260,SUPPCHEM073,Pentachlorothioanisole,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+261,CHEM0190,Pentafluoropropionic acid,1,supporting_ecotoxicity_evidence_only,3,PFAS,PFAS
+262,CHEM0191,Pentoxifylline,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+263,CHEM0192,Perfluoro-2-methoxyacetic acid,1,no_identified_list_coverage,4,PFAS,PFAS
+264,CHEM0193,"Perfluoro-3,5,7-trioxaoctanoic acid",1,supporting_ecotoxicity_evidence_only,3,PFAS,PFAS
+265,CHEM0194,"Perfluoro-3,5-dioxahexanoic acid",1,supporting_ecotoxicity_evidence_only,3,PFAS,PFAS
+266,CHEM0195,Perfluoro-4-ethylcyclohexane,3,no_identified_list_coverage,4,PFAS,PFAS
+267,CHEM0196,Perfluoro-4-methoxybutanoic acid,1,drinking_water_candidate_or_monitoring_concern,2,PFAS,PFAS
+268,CHEM0197,Perfluorobutane sulfonamide,4,no_identified_list_coverage,4,Multiple categories,Other
+269,CHEM0198,Perfluorobutanesulfonic acid,17,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+270,CHEM0199,Perfluorobutanoic acid,19,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+271,CHEM0200,Perfluorodecanesulfonic acid,3,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+272,CHEM0201,Perfluorodecanoic acid,7,formally_listed_or_prioritized,0,Multiple categories,Other
+273,CHEM0202,Perfluorododecanoic acid,8,formally_listed_or_prioritized,0,Multiple categories,Other
+274,CHEM0203,Perfluoroheptanesulfonic acid,4,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+275,CHEM0204,Perfluoroheptanoic acid,10,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+276,CHEM0205,Perfluorohexadecanoic acid,3,formally_listed_or_prioritized,0,Multiple categories,Other
+277,CHEM0206,Perfluorohexanesulfonamide,4,formally_listed_or_prioritized,0,PFAS,PFAS
+278,CHEM0207,Perfluorohexanesulfonic Acid,10,formally_listed_or_prioritized,0,Multiple categories,Other
+279,CHEM0208,Perfluorohexanoic Acid,15,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+280,CHEM0209,Perfluorononanesulfonic acid,1,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+281,CHEM0210,Perfluorononanoic acid,8,formally_listed_or_prioritized,0,Multiple categories,Other
+282,CHEM0211,Perfluorooctadecanoic acid,1,formally_listed_or_prioritized,0,Multiple categories,Other
+283,CHEM0212,Perfluorooctane sulfonamidoacetic acid,1,supporting_ecotoxicity_evidence_only,3,PFAS,PFAS
+284,CHEM0213,Perfluorooctanesulfonamide,5,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+285,CHEM0214,Perfluorooctanesulfonic acid,16,formally_listed_or_prioritized,0,Multiple categories,Other
+286,CHEM0215,Perfluorooctanoic acid,23,formally_listed_or_prioritized,0,Multiple categories,Other
+287,CHEM0216,Perfluoropentanesulfonic acid,5,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+288,CHEM0217,Perfluoropentanoic acid,10,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+289,CHEM0218,Perfluoropropane sulfonate,1,no_identified_list_coverage,4,Unclassified,Other
+290,CHEM0219,Perfluorotetradecanoic acid,2,formally_listed_or_prioritized,0,Multiple categories,Other
+291,CHEM0220,Perfluorotridecanoic acid,2,formally_listed_or_prioritized,0,Multiple categories,Other
+292,CHEM0221,Perfluoroundecanoic acid,7,formally_listed_or_prioritized,0,Multiple categories,Other
+293,CHEM0222,Pheniramine N-oxide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+294,CHEM0223,Phenol,1,formally_listed_or_prioritized,0,Multiple categories,Other
+295,CHEM0224,Phenylpropanolamine,1,no_identified_list_coverage,4,Unclassified,Other
+296,SUPPCHEM074,Phthalimide,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+297,SUPPCHEM075,Piperonyl butoxide,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+298,SUPPCHEM076,Pirimiphos-methyl,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+299,CHEM0225,Prednisolone,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+300,SUPPCHEM077,Prochloraz,1,surface_water_monitoring_concern,1,Plant protection products,Plant protection products
+301,CHEM0226,Procymidone,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+302,CHEM0227,Profenofos,1,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+303,CHEM0228,Prometon,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+304,CHEM0229,Prometryn,1,no_identified_list_coverage,4,Multiple categories,Other
+305,SUPPCHEM078,Propamocarb,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+306,CHEM0230,Propiconazole,2,no_identified_list_coverage,4,Multiple categories,Other
+307,SUPPCHEM079,Propranolol,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+308,CHEM0231,Propylparaben,1,no_identified_list_coverage,4,Personal care products,Other
+309,CHEM0232,Propyzamide,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+310,SUPPCHEM080,Pyraclostrobin,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+311,CHEM0233,Pyrimethanil,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+312,SUPPCHEM081,Quinalphos,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+313,CHEM0234,Quinclorac,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+314,SUPPCHEM082,Quintozene,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+315,SUPPCHEM083,Ramipril,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+316,CHEM0235,Rimsulfuron,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+317,CHEM0236,Ritonavir,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+318,CHEM0237,Rosuvastatin,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+319,CHEM0238,Roxithromycin,3,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+320,SUPPCHEM084,Salbutamol,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+321,CHEM0239,Salicylic Acid,2,no_identified_list_coverage,4,Multiple categories,Other
+322,CHEM0240,Sertraline,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+323,CHEM0241,Simazine,4,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+324,CHEM0242,Sparfloxacin,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+325,CHEM0243,Sucralose,2,supporting_ecotoxicity_evidence_only,3,Food additives,Other
+326,CHEM0244,Sulfachlorpyridazine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+327,CHEM0245,Sulfadiazine,4,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+328,CHEM0246,Sulfamerazine,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+329,CHEM0247,Sulfamethazine,4,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+330,CHEM0248,Sulfamethoxazole,9,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+331,CHEM0249,Sulfamonomethoxine,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+332,CHEM0250,Sulfapyridine,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+333,CHEM0251,Sulfathiazole,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+334,CHEM0252,Tebuconazole,2,surface_water_monitoring_concern,1,Multiple categories,Other
+335,SUPPCHEM085,Tebufenpyrad,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+336,CHEM0253,Telmisartan,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+337,CHEM0254,Terbuthylazine,4,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+338,CHEM0255,Terbutryn,1,formally_listed_or_prioritized,0,Multiple categories,Other
+339,SUPPCHEM086,Testosterone,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+340,CHEM0256,Tetracycline,2,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+341,CHEM0257,Tetracycline hydrochloride,1,no_identified_list_coverage,4,Unclassified,Other
+342,SUPPCHEM087,Tetradifon,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+343,CHEM0258,Theobromine,1,no_identified_list_coverage,4,Multiple categories,Other
+344,CHEM0259,Theophylline,1,no_identified_list_coverage,4,Multiple categories,Other
+345,SUPPCHEM088,Thiabendazole,1,supporting_ecotoxicity_evidence_only,3,Pharmaceuticals,Pharmaceuticals
+346,CHEM0260,Thiamethoxam,4,drinking_water_candidate_or_monitoring_concern,2,Plant protection products,Plant protection products
+347,CHEM0261,Thiencarbazone-methyl,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+348,CHEM0262,Thiophanate-Methyl,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+349,SUPPCHEM089,Thyroxine,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+350,CHEM0263,Tolyltriazole,1,supporting_ecotoxicity_evidence_only,3,Industrial chemicals,Industrial chemicals
+351,SUPPCHEM090,Tonalide,1,supporting_ecotoxicity_evidence_only,3,Personal care products,Other
+352,CHEM0264,Tramadol,2,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+353,CHEM0265,Trenbolone,1,no_identified_list_coverage,4,Steroids and hormones,Other
+354,CHEM0266,Tri-n-butyl phosphate,9,drinking_water_candidate_or_monitoring_concern,2,Multiple categories,Other
+355,CHEM0267,Tri-p-cresyl phosphate,1,no_identified_list_coverage,4,Unclassified,Other
+356,CHEM0268,Triadimefon,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+357,SUPPCHEM091,Triazophos,1,supporting_ecotoxicity_evidence_only,3,Plant protection products,Plant protection products
+358,CHEM0269,Triclosan,3,no_identified_list_coverage,4,Multiple categories,Other
+359,CHEM0270,Triethyl Phosphate,6,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+360,CHEM0271,Triisobutyl phosphate,3,no_identified_list_coverage,4,Multiple categories,Other
+361,CHEM0272,Trimethoprim,7,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+362,CHEM0273,Trimethyl Phosphate,2,no_identified_list_coverage,4,Flame retardants,Other
+363,CHEM0274,Triphenyl Phosphate,7,no_identified_list_coverage,4,Multiple categories,Other
+364,CHEM0275,Triphenylphosphine Oxide,2,no_identified_list_coverage,4,Industrial chemicals,Industrial chemicals
+365,CHEM0276,Tripropyl phosphate,2,no_identified_list_coverage,4,Multiple categories,Other
+366,CHEM0277,"Tris(1,3-dichloro-2-propyl) phosphate",4,supporting_ecotoxicity_evidence_only,3,Flame retardants,Other
+367,CHEM0278,Tris(2-butoxyethyl) phosphate,8,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+368,CHEM0279,Tris(2-chloroethyl) phosphate,3,no_identified_list_coverage,4,Flame retardants,Other
+369,CHEM0280,Tris(2-chloroisopropyl) phosphate,5,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+370,CHEM0281,Tris(2-ethylhexyl) phosphate,4,supporting_ecotoxicity_evidence_only,3,Multiple categories,Other
+371,CHEM0282,Tris(pentafluoroethyl)trifluorophosphate,1,no_identified_list_coverage,4,Unclassified,Other
+372,CHEM0283,Tylosin,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+373,CHEM0284,Valsartan,4,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+374,CHEM0285,Venlafaxine,3,surface_water_monitoring_concern,1,Pharmaceuticals,Pharmaceuticals
+375,SUPPCHEM092,Venlafaxine Hydrochloride,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+376,CHEM0286,Venlafaxine N-Oxide,1,no_identified_list_coverage,4,Pharmaceuticals,Pharmaceuticals
+377,CHEM0287,Vinclozolin,1,no_identified_list_coverage,4,Plant protection products,Plant protection products
+378,CHEM0288,alpha-Hexachlorocyclohexane,2,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+379,CHEM0289,di-N-Octyl Phthalate,3,formally_listed_or_prioritized,0,Multiple categories,Other
+380,CHEM0290,gamma-Hexachlorocyclohexane (Lindane),1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+381,CHEM0291,lambda-Cyhalothrin,3,no_identified_list_coverage,4,Plant protection products,Plant protection products
+382,CHEM0292,n-Octylphenol,2,no_identified_list_coverage,4,Unclassified,Other
+383,SUPPCHEM093,"p,p'-DDD",1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+384,SUPPCHEM094,"p,p'-DDE",1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+385,SUPPCHEM095,"p,p'-DDT",1,formally_listed_or_prioritized,0,Plant protection products,Plant protection products
+386,CHEM0293,tri-m-cresyl phosphate,1,no_identified_list_coverage,4,Unclassified,Other

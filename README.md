@@ -4,7 +4,7 @@ ECMonitor is an auditable literature-to-evidence workflow for emerging-contamina
 
 **[ECMonitor website](https://eco-website.pages.dev/)** · [Website methodology](https://eco-website.pages.dev/methodology/) · [Runnable harness](harness/) · [Published-literature examples](examples/benchmark-instances/)
 
-The website is the live data-browsing entry point. Its records and totals can change over time; the files in this repository are not a copy of the live database. See [how the repository and website relate](docs/data-portal.md).
+The website is the live data-browsing entry point. Its records and totals can change over time; the files in this repository are not a copy of the live database. See [how the repository and website relate](docs/data-portal.md). Manuscript-related retrieval records, model inputs and analysis code are archived under [manuscript materials](paper-materials/).
 
 ## Current release
 
@@ -32,4 +32,4 @@ For setup, commands, and operational limits, begin with the [harness README](har
 
 ## Public-source boundary
 
-This repository contains no article PDFs, raw run logs, private credentials, signed examples, research databases, or unpublished evaluation tables. Its synthetic examples are for understanding file shapes and contracts. Code and documentation are released under the [MIT License](LICENSE); rights to cited publications and their supporting information remain with their respective owners.
+Article PDFs, private credentials, signed examples and private operating logs are not included. Dated manuscript-related data and analysis materials are listed under [manuscript materials](paper-materials/). Its synthetic examples are for understanding file shapes and contracts. Code and documentation are released under the [MIT License](LICENSE); rights to cited publications and their supporting information remain with their respective owners.

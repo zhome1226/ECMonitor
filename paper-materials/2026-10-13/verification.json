@@ -1,0 +1,20 @@
+{
+  "performed_on": "2026-10-13",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "identities": 386,
+  "group_counts": [
+    45,
+    16,
+    32,
+    112,
+    181
+  ],
+  "current_table_s5_input_fields_and_order_match": true,
+  "numeric_functions_identical_to_analysis": true,
+  "all_model_summary_values_exactly_match": true,
+  "all_posterior_rate_ratio_draws_exactly_match": true,
+  "table_s6_rows_matching_reported_precision": 35,
+  "table_s6_acceptance_rates_matching": 6
+}
